@@ -1,1 +1,45 @@
-{}
+{
+"department of food science and human nutrition, fort collins, colorado|us": null,
+"department of food science and human nutrition|us": null,
+"department of molecular & cellular biology, guelph, ontario|ca": null,
+"department of molecular & cellular biology|ca": null,
+"fort collins, colorado, united states|us": {
+"lat": 40.58718,
+"lon": -105.07701
+},
+"guelph, ontario, canada|ca": {
+"lat": 43.54605,
+"lon": -80.24933
+},
+"hong kong|hk": null,
+"isb, seattle, washington state|us": null,
+"isb|us": {
+"lat": 45.48999,
+"lon": -122.86117
+},
+"luxembourg|lu": {
+"lat": 49.81587,
+"lon": 6.12968
+},
+"mcgill university, faculty of medicine and health sciences, department of biomedical engineering, montréal, quebec|ca": null,
+"mcgill university, faculty of medicine and health sciences, department of biomedical engineering|ca": null,
+"mohamed bin zayed university of artificial intelligence|ae": {
+"lat": 24.43249,
+"lon": 54.61838
+},
+"mohammed vi polytechnic university|ma": {
+"lat": 32.21865,
+"lon": -7.93633
+},
+"montréal, quebec, canada|ca": {
+"lat": 45.50318,
+"lon": -73.56981
+},
+"the university of luxembourg|lu": null,
+"university of hong kong|hk": null,
+"university of virginia, charlottesville, indiana|us": null,
+"university of virginia|us": {
+"lat": 38.04106,
+"lon": -78.50551
+}
+}

@@ -1,12 +1,12 @@
 {
- "generated_at": null,
- "today": null,
- "repo": "",
- "site_url": "",
+ "generated_at": "2026-10-22T22:54:03+00:00",
+ "today": "2026-10-22",
+ "repo": "callaband/microbiome-faculty-jobs",
+ "site_url": "https://callaband.github.io/microbiome-faculty-jobs/",
  "counts": {
-  "open": 0,
-  "closed": 0,
-  "new_this_run": 0
+  "open": 75,
+  "closed": 2,
+  "new_this_run": 77
  },
  "domains": {
   "human_health": {
@@ -54,6 +54,88 @@
    "color": "#475569"
   }
  },
- "sources": [],
- "rejected_submissions": []
+ "sources": [
+  {
+   "id": "sciencecareers",
+   "name": "Science Careers (AAAS)",
+   "ok": true,
+   "listed": 29,
+   "new_matches": 18,
+   "error": null,
+   "checked_at": "2026-10-22T22:29:35+00:00",
+   "seconds": 51.7
+  },
+  {
+   "id": "naturecareers",
+   "name": "Nature Careers",
+   "ok": false,
+   "listed": 0,
+   "new_matches": 0,
+   "error": "robots.txt disallows https://www.nature.com/naturecareers/jobsrss/?keywords=microbiome",
+   "checked_at": "2026-10-22T22:30:27+00:00"
+  },
+  {
+   "id": "chronicle",
+   "name": "The Chronicle of Higher Education Jobs",
+   "ok": true,
+   "listed": 114,
+   "new_matches": 43,
+   "error": null,
+   "checked_at": "2026-10-22T22:30:27+00:00",
+   "seconds": 144.5
+  },
+  {
+   "id": "insidehighered",
+   "name": "Inside Higher Ed Careers",
+   "ok": true,
+   "listed": 96,
+   "new_matches": 16,
+   "error": null,
+   "checked_at": "2026-10-22T22:32:52+00:00",
+   "seconds": 81.6
+  },
+  {
+   "id": "the_unijobs",
+   "name": "Times Higher Education Unijobs",
+   "ok": true,
+   "listed": 0,
+   "new_matches": 0,
+   "error": null,
+   "checked_at": "2026-10-22T22:34:13+00:00",
+   "seconds": 10.9
+  },
+  {
+   "id": "higheredjobs",
+   "name": "HigherEdJobs",
+   "ok": true,
+   "listed": 1602,
+   "new_matches": 0,
+   "error": null,
+   "checked_at": "2026-10-22T22:34:24+00:00",
+   "seconds": 1158.3
+  }
+ ],
+ "rejected_submissions": [],
+ "institution_directory": "IPEDS HD2024",
+ "inst_type_labels": {
+  "r1": "R1",
+  "r2": "R2",
+  "doctoral": "Doctoral/professional",
+  "masters": "PUI – master's",
+  "baccalaureate": "PUI – baccalaureate",
+  "medical": "Medical school/center",
+  "special": "Special-focus institution",
+  "associate": "Community/two-year college",
+  "ivy": "Ivy League",
+  "hbcu": "HBCU",
+  "womens": "Women's/historically women's college",
+  "tribal": "Tribal college",
+  "landgrant": "Land-grant",
+  "med_school": "Has a medical school",
+  "institute": "Research institute/hospital",
+  "international": "Outside the US",
+  "unknown": "Type not identified"
+ },
+ "requests_made": 963,
+ "geocode_lookups": 19
 }

@@ -1,1 +1,5535 @@
-[]
+[
+ {
+  "id": "c37f961259",
+  "title": "Microbiology & Immunology/HCI Asst, Assoc, Professor - Rank Dependent on Qualifications",
+  "institution": "University of Utah Department of Pathology",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680081/microbiology-and-immunology-hci-asst-assoc-professor-rank-dependent-on-qualifications/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680081/microbiology-and-immunology-hci-asst-assoc-professor-rank-dependent-on-qualifications/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "commensal bacterial",
+   "metagenomics",
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-09-09",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-08",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Other",
+  "salary": "Commensurate with education and experience",
+  "board_job_type": "Faculty",
+  "summary": "The Division of Microbiology and Immunology (M&I) in the University of Utah’s Department of Pathology and the Huntsman Cancer Institute (HCI) invite applications for a new tenure-track faculty position at any level that focuses on microbiome science with relevance to cancer biology, prevention, progression, or treatment. While the research should have the potential to advance our understanding of cancer, candidates…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "f77e9b488a",
+  "title": "Assistant Professor of Plant Pathology",
+  "institution": "University of California, Davis",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of California-Davis",
+  "location": {
+   "city": "Davis",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.53967,
+   "lon": -121.74957,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680459/assistant-professor-of-plant-pathology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680459/assistant-professor-of-plant-pathology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "plant",
+   "agriculture",
+   "environment"
+  ],
+  "microbiome_terms": [
+   "host-microbiome",
+   "microbial communities",
+   "microbial ecology",
+   "microbiomes"
+  ],
+  "date_posted": "2026-09-30",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-30",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "See job description.",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor of Plant Pathology Position Overview: The salary range for this position is $106,800 - $130,700 (annual). \"Off-scale salaries\" and other components of pay, i.e., a salary that is higher than the published system-wide salary at the designated rank and step, are offered when necessary to meet competitive conditions, qualifications, and experience. The Department of Plant Pathology in the College of…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "03bf57981b",
+  "title": "Associate Professor Or Assistant Professor in Clinical Microbiology",
+  "institution": "The University of Luxembourg",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "LU",
+   "country": "Luxembourg",
+   "world_region": "Europe",
+   "lat": 49.81587,
+   "lon": 6.12968,
+   "precision": "country"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680267/associate-professor-or-assistant-professor-in-clinical-microbiology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680267/associate-professor-or-assistant-professor-in-clinical-microbiology/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenured"
+  ],
+  "tenure_label": "Tenured",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-21",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-29",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "TBC",
+  "board_job_type": "Faculty",
+  "summary": "Your role The position focuses on innovative, interdisciplinary teaching in clinical microbiology at the bachelor’s level and within medical specialization programmes. The recruited professor will play a central role in establishing teaching and research expertise in areas such as infectious diseases, antimicrobial resistance, and diagnostic microbiology. The successful candidate will lead the development and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "e3698533e1",
+  "title": "Assistant Professor - Chemistry for Sustainable/Healthy Foods, Tenure-track",
+  "institution": "Cornell University",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Cornell University",
+  "location": {
+   "city": "Ithaca",
+   "region": "New York",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 42.4472,
+   "lon": -76.48308,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680664/assistant-professor-chemistry-for-sustainable-healthy-foods-tenure-track/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680664/assistant-professor-chemistry-for-sustainable-healthy-foods-tenure-track/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38049390/assistant-professor-chemistry-for-sustainable-healthy-foods-tenure-track/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "food",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-08",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-25",
+  "review_text": "Applications received by October 25, 2026 will be given full consideration.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-07",
+  "until_filled": true,
+  "effort": {
+   "research": 50,
+   "teaching": 50
+  },
+  "effort_label": "50% research · 50% teaching",
+  "effort_text": "This position has a balanced effort between research (50%) and teaching (50%) on a 9-month academic year basis.",
+  "effort_focus": "balanced",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "competitive",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor - Chemistry for Sustainable/Healthy Foods, Tenure-track Department of Food Science Cornell University Ithaca, NY The academic home for this position is the Department of Food Science in the College of Agriculture and Life Sciences. The Department of Food Science at Cornell University invites candidates for a 9-month, full-time, tenure-track assistant professor position to develop a research and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Oct 25, 2026"
+ },
+ {
+  "id": "fc1e950efb",
+  "title": "Assistant Professor of Microbiology in Biological Sciences",
+  "institution": "University of Alabama",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "The University of Alabama",
+  "location": {
+   "city": "",
+   "region": "Alabama",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 33.21187,
+   "lon": -87.54598,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680123/assistant-professor-of-microbiology-in-biological-sciences/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680123/assistant-professor-of-microbiology-in-biological-sciences/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3549367/bcas-assistant-professor-of-microbiology-in-biological-sciences-530532/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "fundamental"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-09-11",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-16",
+  "review_text": "The review of applications will begin November 16, 2026, and the review will continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-10",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Contractor",
+  "salary": "Competitive",
+  "board_job_type": "Faculty ,\n Postdoc",
+  "summary": "The department of Biological Sciences at The University of Alabama invites applications for two tenure-track positions at the Assistant Professor level in Microbiology, as part of a microbiology focused cluster hire. The appointments will begin on August 16, 2027. Detailed Position Information The successful candidates for the positions will be expected to establish and lead a research program focused on…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "2a5ac58571",
+  "title": "Assistant Professor (Tenure-Track) in Biosensing",
+  "institution": "McGill University, Faculty of Medicine and Health Sciences, Department of Biomedical Engineering",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Montréal",
+   "region": "Quebec",
+   "country_code": "CA",
+   "country": "Canada",
+   "world_region": "North America",
+   "lat": 45.50318,
+   "lon": -73.56981,
+   "precision": "city"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680529/assistant-professor-tenure-track-in-biosensing/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680529/assistant-professor-tenure-track-in-biosensing/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-02",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2027-07-01",
+  "deadline_text": "The successful candidate will be required to begin a full-time tenure-track appointment at the rank of Assistant Professor no later than July 1, 2027, in the Department of Biomedical Engineering.",
+  "listing_expires": "2026-11-01",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary will be commensurate with qualifications and experience.",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor (Tenure-Track) in Biosensing, Canada Impact+ Emerging Leaders Program, Department of Biomedical Engineering, RL#L001829 Program Description The Canada Impact+ Emerging Leaders program is a one-time initiative designed to support institutions in recruiting internationally based Early Career Researchers to Canada. Emerging Leaders will receive research funding and institutional support to advance…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "3234dac6d4",
+  "title": "Assistant Professor (Canada Impact+ Emerging Leader)",
+  "institution": "Department of Molecular & Cellular Biology",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Guelph",
+   "region": "Ontario",
+   "country_code": "CA",
+   "country": "Canada",
+   "world_region": "North America",
+   "lat": 43.54605,
+   "lon": -80.24933,
+   "precision": "city"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680355/assistant-professor-canada-impact-emerging-leader-/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680355/assistant-professor-canada-impact-emerging-leader-/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-24",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-23",
+  "deadline_text": "Deadline: 10/23/2026 or until a suitable candidate is found.",
+  "listing_expires": "2026-10-24",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "to be determined",
+  "board_job_type": "Faculty",
+  "summary": "Position Description: The Department of Molecular and Cellular Biology at the University of Guelph invites applications for a tenure-track position at the rank of Assistant Professor through the Canada Impact+ Emerging Leaders program. This prestigious federal initiative provides $100,000 per year for six years to support the successful candidates salary and research program (with the possibility of a further…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 23, 2026"
+ },
+ {
+  "id": "df7fb2f8fb",
+  "title": "Assistant, Associate, or Full Professor, Ludwig Princeton Branch",
+  "institution": "Princeton University - Ludwig Princeton Branch",
+  "inst_types": [
+   "r1",
+   "ivy"
+  ],
+  "inst_type_label": "R1 · Ivy League",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Princeton University",
+  "location": {
+   "city": "Princeton",
+   "region": "New Jersey",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.34873,
+   "lon": -74.65936,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/679902/assistant-associate-or-full-professor-ludwig-princeton-branch/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/679902/assistant-associate-or-full-professor-ludwig-princeton-branch/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-08-28",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-11-01",
+  "deadline_text": "For fullest consideration please apply by November 1, 2026.",
+  "listing_expires": "2026-10-27",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Ranges provided in ad",
+  "board_job_type": "Faculty",
+  "summary": "Princeton University seeks applications for an assistant, associate, or full professor to contribute to a major initiative at the interface between cancer, immunity, and metabolism (Ludwig Princeton Branch). We welcome applications from candidates using biological, chemical, physical, engineering and/or computational approaches to tackle questions at this interface. We are particularly interested in candidates with…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Deadline Nov 1, 2026"
+ },
+ {
+  "id": "244107f06f",
+  "title": "Tenure-Track Assistant Professor in Plant Sciences",
+  "institution": "Purdue University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "location": {
+   "city": "Indianapolis",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680484/tenure-track-assistant-professor-in-plant-sciences/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680484/tenure-track-assistant-professor-in-plant-sciences/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "plant",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-01",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-01",
+  "review_text": "Review of applications will begin on November 1, 2026 and continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-31",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Full-Time",
+  "board_job_type": "Faculty",
+  "summary": "Strategic Faculty Recruitment Initiative in One Health - Healthy and Resilient Living Systems - College of Agriculture Plant Sciences Purdue University Main Campus | Indianapolis and West Lafayette, IN Tenure-Track Assistant Faculty Position in Plant Sciences As part of a transformative, university-wide initiative in One Health – Healthy and Resilient Living Systems, the College of Agriculture invites applications…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 1, 2026"
+ },
+ {
+  "id": "41477342f1",
+  "title": "Assistant or Associate Professor of Microbiology",
+  "institution": "University of Illinois",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Illinois Urbana-Champaign",
+  "location": {
+   "city": "Urbana",
+   "region": "Illinois",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.10472,
+   "lon": -88.22911,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/679884/assistant-or-associate-professor-of-microbiology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/679884/assistant-or-associate-professor-of-microbiology/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38031233/assistant-or-associate-professor-of-microbiology-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-08-27",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-30",
+  "review_text": "For full consideration, the information above should be submitted by 6 pm CST on October 30, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-26",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Assistant Professor: $90,000–$95,000; Associate Professor: $105,000–$120,000 (9-month salary, paid over 12 months)",
+  "board_job_type": "Faculty",
+  "summary": "Assistant or Associate Professor Department of Microbiology School of Molecular and Cellular Biology College of Liberal Arts & Sciences University of Illinois at Urbana-Champaign The Department of Microbiology in the School of Molecular and Cellular Biology (https://mcb.illinois.edu/departments/microbiology/) at the University of Illinois at Urbana-Champaign seeks applicants for a full-time tenure track position at…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Oct 30, 2026"
+ },
+ {
+  "id": "ad2e8dbbd1",
+  "title": "Chemical Engineering, Environmental Engineering and Materials Science and Engineering Assistant/Asso",
+  "institution": "Brown University - School of Engineering",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Brown University",
+  "location": {
+   "city": "Providence",
+   "region": "Rhode Island",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 41.82617,
+   "lon": -71.40385,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/679539/chemical-engineering-environmental-engineering-and-materials-science-and-engineering-assistant-asso/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/679539/chemical-engineering-environmental-engineering-and-materials-science-and-engineering-assistant-asso/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "ocean",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics",
+   "microbial communities"
+  ],
+  "date_posted": "2026-07-31",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-15",
+  "review_text": "Review of applications will begin on October 15, 2026 and will continue until the positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-29",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salaries are set based on years of post Phd experience and level of appointment",
+  "board_job_type": "Faculty",
+  "summary": "Location: Providence, Rhode Island Position Type: Full-time, Tenure-Track Rank: Assistant Professor or Associate Professor Expected Start Date: July 1, 2027 Position Description The School of Engineering at Brown University invites applications for several full-time faculty positions at the Assistant or Associate Professor level (pre-tenure), with an expected start date of July 1, 2027. We seek visionary researchers…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+ },
+ {
+  "id": "40181407e4",
+  "title": "Assistant Professor of Food Microbiology",
+  "institution": "University of California, Davis",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of California-Davis",
+  "location": {
+   "city": "Davis",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.53967,
+   "lon": -121.74957,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680706/assistant-professor-of-food-microbiology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680706/assistant-professor-of-food-microbiology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "agriculture",
+   "food",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomic",
+   "microbial communities"
+  ],
+  "date_posted": "2026-10-13",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-12",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "See job description.",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor of Food Microbiology Position Overview: The salary range for this position is $106,800 - $130,700 (annual). \"Off-scale salaries\" and other components of pay, i.e., a salary that is higher than the published system-wide salary at the designated rank and step, are offered when necessary to meet competitive conditions, qualifications, and experience. The Department of Food Science and Technology in…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "3c670379d8",
+  "title": "Assistant Professor – Immunology/Cell Biology",
+  "institution": "CBMG Department - University of Maryland",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Maryland-College Park",
+  "location": {
+   "city": "College Park",
+   "region": "Maryland",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.98818,
+   "lon": -76.94472,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680843/assistant-professor-immunology-cell-biology-/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680843/assistant-professor-immunology-cell-biology-/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-10-20",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-19",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Up to $103,000 per year plus benefits",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor Tenure-track Faculty Position – Immunology/Cell Biology The Department of Cell Biology and Molecular Genetics at the University of Maryland, College Park, invites applications for a tenure-track faculty position in Immunology, with a strong emphasis on cell biology and cell-based approaches. The appointment is anticipated at the Assistant Professor level, commensurate with the candidate’s…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "179a6514cb",
+  "title": "Tenure-Track Molecular MIcrobiologists",
+  "institution": "Virginia Tech - Biological Sciences",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Virginia Polytechnic Institute and State University",
+  "location": {
+   "city": "Blacksburg",
+   "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.22901,
+   "lon": -80.42368,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680351/tenure-track-molecular-microbiologists/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680351/tenure-track-molecular-microbiologists/"
+   }
+  ],
+  "ranks": [
+   "associate"
+  ],
+  "rank_label": "Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-24",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-01",
+  "review_text": "Review of Applications will begin November 1, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-24",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with experience",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Biological Sciences in the College of Science at Virginia Tech seeks applicants for two (2) tenure-track research and teaching positions at the Assistant/Associate Professor levels in the area of Molecular Microbiology. We seek microbiologists who employ molecular techniques to study and modify microorganisms, with special emphasis on bacteria, fungi, and/or their viruses. The ideal candidates’…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 1, 2026"
+ },
+ {
+  "id": "765b694aae",
+  "title": "Assistant Professor in Metabolism Research",
+  "institution": "Morgridge Institute for Research",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Wisconsin-Madison",
+  "location": {
+   "city": "Madison",
+   "region": "Wisconsin",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 43.07541,
+   "lon": -89.4041,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680012/assistant-professor-in-metabolism-research/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680012/assistant-professor-in-metabolism-research/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-04",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-01",
+  "review_text": "To ensure full consideration, applications should be received by November 1, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-03",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "The Morgridge Institute provides competitive salary and comprehensive benefit programs as a reflection of our commitment to our employees.",
+  "board_job_type": "Group Leader/Principal Investigator",
+  "summary": "The Morgridge Institute for Research, in partnership with the University of Wisconsin-Madison, seeks a joint tenure track assistant professor to lead a vibrant metabolism-focused research program. We are particularly interested in interdisciplinary and collaborative-minded scientists passionate about mechanistic understanding of metabolism and metabolic regulation, its connections with core biological processes, and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 1, 2026"
+ },
+ {
+  "id": "bbc90521e0",
+  "title": "Open Rank Professor of Virology, Tenured/Tenure-Eligible",
+  "institution": "UVA School of Medicine",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Virginia-Main Campus",
+  "location": {
+   "city": "Charlottesville",
+   "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.03567,
+   "lon": -78.50343,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680104/open-rank-professor-of-virology-tenured-tenure-eligible/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680104/open-rank-professor-of-virology-tenured-tenure-eligible/"
+   }
+  ],
+  "ranks": [
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-10",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-31",
+  "deadline_text": "Applications must be received not later than October 31, 2026.",
+  "listing_expires": "2026-11-09",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with Experience",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Microbiology, Immunology and Cancer Biology (MIC) (https://med.virginia.edu/mic/) at the University of Virginia School of Medicine in Charlottesville, Virginia, seeks outstanding applicants in the field of Virology at the Assistant Professor (tenure-eligible), Associate Professor or Full Professor (tenured or tenure-eligible) level. Qualified applicants focusing on any area of virology are…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 31, 2026"
+ },
+ {
+  "id": "b67a95a838",
+  "title": "Assistant Professor in Tropical Medicine",
+  "institution": "University of Hawaii John A Burns School of Medicine",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Hawaii at Manoa",
+  "location": {
+   "city": "",
+   "region": "Hawaii",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 21.2986,
+   "lon": -157.81898,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680485/assistant-professor-in-tropical-medicine/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680485/assistant-professor-in-tropical-medicine/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "animal_health"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-10-01",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-30",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with experience",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Tropical Medicine, Medical Microbiology and Pharmacology, John A. Burns School of Medicine (JABSOM), University of Hawaii at Manoa (UHM), seeks an early stage (Assistant Professor) investigator in Tropical Medicine to lead and support the Department’s basic sciences, clinical and translational research in emerging and re-emerging infectious diseases, and to support the teaching/mentoring mission of…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "54afe7ef1c",
+  "title": "Department Chair - College of Sciences, Molecular Microbiology & Immunology",
+  "institution": "The University of Texas at San Antonio",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "The University of Texas at San Antonio",
+  "location": {
+   "city": "San Antonio",
+   "region": "Texas",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 29.58371,
+   "lon": -98.62066,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680872/department-chair-college-of-sciences-molecular-microbiology-and-immunology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680872/department-chair-college-of-sciences-molecular-microbiology-and-immunology/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38054249/department-chair-college-of-sciences-molecular-microbiology/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host microbe"
+  ],
+  "date_posted": "2026-10-22",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-12-01",
+  "review_text": "To ensure full consideration, please apply by December 1, 2026.",
+  "deadline": "2026-12-01",
+  "deadline_text": "consideration, please apply by December 1, 2026.",
+  "listing_expires": "2026-12-21",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "See job description.",
+  "board_job_type": "Faculty",
+  "summary": "Department Chair - College of Sciences, Molecular Microbiology & Immunology Location: San Antonio, TX Regular/Temporary: Regular Job ID: 16580 Full/Part Time: Full Time Position Information Department Chair The University of Texas at San Antonio, College of Sciences, invites applications for the position of Professor and Chair of the Department of Molecular Microbiology and Immunology. The University of Texas at San…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "ac16161b0b",
+  "title": "Assistant Professor in Artificial Intelligence for Animal Improvement",
+  "institution": "Department of Animal Sciences",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "location": {
+   "city": "Indianapolis",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38054564/assistant-professor-in-artificial-intelligence-for-animal-improvement/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38054564/assistant-professor-in-artificial-intelligence-for-animal-improvement/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "aquaculture",
+   "plant",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-21",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-21",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary, startup support, and resources will be competitive and commensurate with qualifications and experience.",
+  "board_job_type": "",
+  "summary": "Artificial Intelligence | Genomics | Biotechnology | Precision Animal Systems Develop the next generation of data analytics and AI-enabled methods for selecting animals, deriving novel phenotypes, and implementing precision management or interventions to improve animal production systems. Position Purdue University invites applications for a tenure-track assistant professor position focused on data analytics and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "825e99b176",
+  "title": "Physician-Scientist - Microbiome/Mucosal Immunology Gastroenterologist",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037714/physician-scientist-microbiome-mucosal-immunology-gastroenterologist/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037714/physician-scientist-microbiome-mucosal-immunology-gastroenterologist/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "metagenomics",
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Physician-Scientist - Microbiome/Mucosal Immunology Gastroenterologist Details The Division of Gastroenterology within the University of Utah's Department of Internal Medicine announces a new tenure-track physician-scientist faculty position in the field of the Microbiota and Mucosal Immunology. Particular areas of interest include microbiota-immune interactions, mucosal immune pathways that promote health, dietary…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "63800794cc",
+  "title": "Assistant Professor, Nutrition Science",
+  "institution": "Department of Food Science and Human Nutrition",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Fort Collins",
+   "region": "Colorado",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.58718,
+   "lon": -105.07701,
+   "precision": "city"
+  },
+  "url": "https://jobs.chronicle.com/job/38051514/assistant-professor-nutrition-science/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38051514/assistant-professor-nutrition-science/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "food"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-08",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "$75,000-$85,000",
+  "board_job_type": "",
+  "summary": "The Department of Food Science and Human Nutrition (FSHN) is seeking applications for 1-2 Assistant Professors in the area of Nutrition Science. The 9-month tenure/tenure track appointments will begin August 16th, 2027. We are particularly seeking applicants who can complement our current faculty research focused on cardiometabolic health, obesity, gut health and the microbiome, and functional foods. Examples of…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "57266c1296",
+  "title": "HKU Professoriate Recruitment (Dentistry)",
+  "institution": "University of Hong Kong",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "HK",
+   "country": "Hong Kong",
+   "world_region": "Asia"
+  },
+  "url": "https://jobs.chronicle.com/job/298919/hku-professoriate-recruitment-dentistry-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/298919/hku-professoriate-recruitment-dentistry-/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2020-11-06",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "The University of Hong Kong (HKU) is pleased to invite outstanding scholars to contribute to our thriving research agenda as well as to Hong Kong’s leading position in the region and beyond. We will recruit 100 outstanding academics in emerging fields with potential for scientific and scholarly breakthroughs—above and beyond our existing recruitment programme—to join HKU as assistant, associate, or full professors…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "e4a5eca440",
+  "title": "Assistant Professor of BioSciences",
+  "institution": "Rice University",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Rice University",
+  "location": {
+   "city": "Houston",
+   "region": "Texas",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 29.7179,
+   "lon": -95.40203,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38028428/assistant-professor-of-biosciences/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38028428/assistant-professor-of-biosciences/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbiome",
+   "microbiome"
+  ],
+  "date_posted": "2026-08-20",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "The Department of BioSciences at Rice University ( biosciences.rice.edu ) invites applications for two assistant professor positions to begin July 1, 2027. Located in the heart of Houston, Texas, Rice University is a private, top-tier research institution. As a member of the Texas Medical Center, the world’s highest density of clinical facilities for patient care and biomedical research, Rice University represents a…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "6019b24b09",
+  "title": "Tenure-Track Assistant Professor in Molecular and Cellular Biology in the School of Biological",
+  "institution": "University of Hong Kong",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "HK",
+   "country": "Hong Kong",
+   "world_region": "Asia"
+  },
+  "url": "https://jobs.chronicle.com/job/38041342/tenure-track-assistant-professor-in-molecular-and-cellular-biology-in-the-school-of-biological/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38041342/tenure-track-assistant-professor-in-molecular-and-cellular-biology-in-the-school-of-biological/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-18",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Tenure-Track Assistant Professor in Molecular and Cellular Biology in the School of Biological Sciences, The University of Hong Kong Applications are invited for appointment as Assistant Professor in the broad area of the Molecular and Cell Biology Area, School of Biological Sciences, The University of Hong Kong (Ref.:537378), to commence as soon as possible, on a three-year fixed-term basis, with the possibility of…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "f48a0a84ba",
+  "title": "Assistant Professor, CE or Tenure Track, Division of GI, Hepatology and Nutrition",
+  "institution": "University of Pennsylvania",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "University of Pennsylvania",
+  "location": {
+   "city": "United",
+   "region": "Pennsylvania",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.95093,
+   "lon": -75.19391,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037277/assistant-professor-ce-or-tenure-track-division-of-gi-hepatology-and-nutrition/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037277/assistant-professor-ce-or-tenure-track-division-of-gi-hepatology-and-nutrition/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037316/associate-or-full-professor-ce-and-or-tenure-track-division-of-gi-hepatology-and-nutrition/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3361221/assistant-professor-ce-or-tenure-track-division-of-gi-hepatology-and-nutrition/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3550047/assistant-professor-ce-or-tenure-track-division-of-gi-hepatology-and-nutrition/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3361219/associate-or-full-professor-ce-and-or-tenure-track-division-of-gi-hepatology-and-nutrition/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3550061/associate-or-full-professor-ce-and-or-tenure-track-division-of-gi-hepatology-and-nutrition/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-11",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2027-06-16",
+  "deadline_text": "Deadline: Jun 16, 2027 at 11:59 PM Eastern Time",
+  "listing_expires": "2026-11-10",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor, CE or Tenure Track, Division of GI, Hepatology and Nutrition Location: Philadelphia, PA Open Date: Jun 16, 2025 Deadline: Jun 16, 2027 at 11:59 PM Eastern Time Children's Hospital of Philadelphia and the Division of Gastroenterology, Hepatology and Nutrition in the Department of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania seek candidates for several Assistant…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "493002feb9",
+  "title": "Gastroenterology Physician Scientist",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38048490/gastroenterology-physician-scientist/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38048490/gastroenterology-physician-scientist/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-06",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-05",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Gastroenterology Physician Scientist Details The Division of Gastroenterology, Hepatology, and Nutrition in the Department of Internal Medicine at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a physician-scientist faculty position at the Assistant, Associate, or Professor rank, commensurate with qualifications and experience. We seek outstanding candidates who have…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "3e7447add6",
+  "title": "Assistant/Associate Professor in Clinical Nutrition (9 Month Salary)",
+  "institution": "Florida State University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Florida State University",
+  "location": {
+   "city": "Tallahassee",
+   "region": "Florida",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 30.44315,
+   "lon": -84.29506,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38033776/assistant-associate-professor-in-clinical-nutrition-9-month-salary-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38033776/assistant-associate-professor-in-clinical-nutrition-9-month-salary-/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38034168/assistant-or-associate-professor-in-clinical-exercise-physiology-9-month-salary-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "food"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "microbiome"
+  ],
+  "date_posted": "2026-09-04",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-09-15",
+  "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-04",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive",
+  "board_job_type": "",
+  "summary": "Assistant/Associate Professor in Clinical Nutrition (9 Month Salary) Department of Health, Nutrition, and Food Sciences Anne Spencer Daves College of Education, Health, and Human Sciences Department Florida State University invites applications for a tenure-track faculty position in Clinical Nutrition at the Assistant or Associate Professor level. We seek scholars with strong research programs that complement the…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Sep 15, 2026 — application may be too late"
+ },
+ {
+  "id": "226f858463",
+  "title": "Assistant Professor, Associate Professor or Professor (DOQ)",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037789/assistant-professor-associate-professor-or-professor-doq-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037789/assistant-professor-associate-professor-or-professor-doq-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor, Associate Professor or Professor (DOQ) Details The Department of Dermatology at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a new tenure-track faculty position at any academic rank. We seek outstanding candidates pursuing innovative research in any area relevant to dermatology, including but not limited to: Cutaneous oncology, skin microbiome and host…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "f94fc4133a",
+  "title": "Assistant Professor, tenure-track",
+  "institution": "University of Texas at Austin",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "The University of Texas at Austin",
+  "location": {
+   "city": "Austin",
+   "region": "Texas",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 30.28282,
+   "lon": -97.73827,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38036482/assistant-professor-tenure-track/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38036482/assistant-professor-tenure-track/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-10",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-19",
+  "review_text": "Review of applications will begin on October 19,",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-09",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor, tenure-track College/School/Unit: College of Natural Sciences Department: Department of Molecular Biosciences Posted: Sep 8, 2026 Apply By: Open until filled Description The Department of Molecular Biosciences at the University of Texas at Austin invites applications for a tenure-track faculty position at the Assistant Professor level in the field of immunology. We welcome applications from…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+ },
+ {
+  "id": "19a7cb65ae",
+  "title": "Assistant Professor, Department of Microbiology & Immunology",
+  "institution": "The University of Toledo",
+  "inst_types": [
+   "r2",
+   "med_school"
+  ],
+  "inst_type_label": "R2 · Has a medical school",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "University of Toledo",
+  "location": {
+   "city": "Ottawa Hills",
+   "region": "Ohio",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 41.66057,
+   "lon": -83.61471,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/37695518/assistant-professor-department-of-microbiology-and-immunology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/37695518/assistant-professor-department-of-microbiology-and-immunology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2024-08-06",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Title: Assistant Professor, Department of Microbiology & Immunology Department Org: Med Microbio & Immunology - 107520 Employee Classification: A1 - Faculty Full Time 12 Mth HSC Bargaining Unit: Bargaining Unit Exempt Primary Location: HSC C Shift: 1 Start Time: 8:30 End Time: 5:00 Job Description: The Department of Medical Microbiology and Immunology at the University of Toledo College of Medicine and Life Sciences…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "2de0d3fb03",
+  "title": "Assistant or Associate Professor in Sensory Science",
+  "institution": "University of Missouri - Columbia",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Missouri-Columbia",
+  "location": {
+   "city": "Columbia",
+   "region": "Missouri",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.94531,
+   "lon": -92.32884,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/37965897/assistant-or-associate-professor-in-sensory-science/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/37965897/assistant-or-associate-professor-in-sensory-science/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "food",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-03-20",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-04-15",
+  "review_text": "Screening will begin April 15, 2026, but applications will be",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Job Description Position Description: The Division of Food, Nutrition, and Exercise Sciences (FNES) invites applications for a tenure-track (9-month) position at the level of Assistant or Associate Professor. This unique interdisciplinary position is funded through the College of Agriculture, Food & Natural Resources (CAFNR). As the University of Missouri is an AAU Research I institution, and one of the most…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Apr 15, 2026 — application may be too late"
+ },
+ {
+  "id": "b5e3db3d7c",
+  "title": "Assistant Professor of Biology - 2 Positions",
+  "institution": "Union College (NY)",
+  "inst_types": [
+   "baccalaureate"
+  ],
+  "inst_type_label": "PUI – baccalaureate",
+  "carnegie": "Baccalaureate college – arts & sciences",
+  "control": "Private nonprofit",
+  "matched_institution": "Union College",
+  "location": {
+   "city": "Schenectady",
+   "region": "New York",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 42.8181,
+   "lon": -73.92879,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38033458/assistant-professor-of-biology-2-positions/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38033458/assistant-professor-of-biology-2-positions/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-03",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-01",
+  "review_text": "Review of applications will begin on October 1, 2026 and continue",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Union College invites applications for two tenure-track positions: one in Microbiology and the other in Immunology, beginning September 1, 2027. Applicants must have a PhD in the respective field. Post-doctoral or comparable professional work is desirable. Review of applications will begin on October 1, 2026 and continue until the position is filled. Applications received by October 1, 2026 will receive priority…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 1, 2026 — application may be too late"
+ },
+ {
+  "id": "9145ade714",
+  "title": "Assistant or Associate Professor position, Environmental Health",
+  "institution": "Duke University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Duke University",
+  "location": {
+   "city": "Durham",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 36.00113,
+   "lon": -78.93762,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38035036/assistant-or-associate-professor-position-environmental-health/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38035036/assistant-or-associate-professor-position-environmental-health/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-10",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-10",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "DOE",
+  "board_job_type": "",
+  "summary": "Assistant or Associate Professor position, Environmental Health Nicholas School of the Environment, Duke University, Duke University, Durham NC Apply now: AcademicJobsOnline. See Job # 32513 Anticipated start: July 1, 2027 The Nicholas School of the Environment invites applications for a tenure-track position in Environmental Health with an emphasis on toxicology and pollutant effects. The successful candidate will…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "d2aeb95bd8",
+  "title": "Assistant Professor",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38030288/assistant-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38030288/assistant-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-08-26",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-25",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor Details The Department of Molecular Pharmaceutics at the University of Utah College of Pharmacy (https://pharmacy.utah.edu/pharmaceutics/ ) invites applications for a tenure track assistant professor faculty position. Potential areas of research interests include, but are not limited to gene and drug delivery, gene therapy & viral vector engineering, microbiome engineering, therapeutic protein…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "880b8680b7",
+  "title": "Assistant or Associate Professor of Anthropology",
+  "institution": "University of Alaska Anchorage",
+  "inst_types": [
+   "masters"
+  ],
+  "inst_type_label": "PUI – master's",
+  "carnegie": "Master's college/university (larger programs)",
+  "control": "Public",
+  "matched_institution": "University of Alaska Anchorage",
+  "location": {
+   "city": "Anchorage",
+   "region": "Alaska",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 61.19016,
+   "lon": -149.82619,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38029759/assistant-or-associate-professor-of-anthropology-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38029759/assistant-or-associate-professor-of-anthropology-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "ocean",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-08-25",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-09-24",
+  "review_text": "Application review will begin on September 24, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-25",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "UNAC Grade 30, Assistant $66,462 -$77,099, Associate $73,458 - $88,867",
+  "board_job_type": "",
+  "summary": "The Department of Anthropology and Geography at the University of Alaska Anchorage (UAA) invites applications for an Assistant or Associate Professor of Anthropology with a specialty in Biological Anthropology. The faculty member hired for this position will teach lower-division undergraduate courses in anthropology and biological anthropology, as well as upper-division and graduate courses aligned with their…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Sep 24, 2026 — application may be too late"
+ },
+ {
+  "id": "3a57433a33",
+  "title": "Assistant/Associate/Full Professor- GI Division, Luminal/IBD",
+  "institution": "University of Minnesota",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Minnesota-Twin Cities",
+  "location": {
+   "city": "Minneapolis",
+   "region": "Minnesota",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 44.97285,
+   "lon": -93.23546,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38054630/assistant-associate-full-professor-gi-division-luminal-ibd/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38054630/assistant-associate-full-professor-gi-division-luminal-ibd/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-10-20",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "About the Job The Department of Medicine at the University of Minnesota invites applications to join the Division of Gastroenterology, Hepatology and Nutrition Division at the academic rank of assistant, associate, or full professor on our Luminal GI team. Positions are available on the Academic or Clinician tracks. Our current strengths include microbiome science, inflammatory bowel disease, and use of artificial…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "6d84d09e28",
+  "title": "Assistant/Associate/Full Professor of Bioengineering: Synthetic Biology (2 positions)",
+  "institution": "University of Oregon",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Oregon",
+  "location": {
+   "city": "Eugene",
+   "region": "Oregon",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 44.04515,
+   "lon": -123.07579,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38051674/assistant-associate-full-professor-of-bioengineering-synthetic-biology-2-positions-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38051674/assistant-associate-full-professor-of-bioengineering-synthetic-biology-2-positions-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe",
+   "microbiome"
+  ],
+  "date_posted": "2026-10-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant/Associate/Full Professor of Bioengineering: Synthetic Biology (2 positions) Department: Knight Campus Department of Bioengineering Rank: Assistant/Associate/Full Professor (Open Rank) Annual Basis: 9 Month Positions Available: 2 Application Deadline October 31, 2026; position open until filled Required Application Materials To receive full consideration, applicants must submit a complete application…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "8f58945643",
+  "title": "Assistant Professor (Tenure Track)",
+  "institution": "University of Wisconsin-Madison",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Wisconsin-Madison",
+  "location": {
+   "city": "Madison",
+   "region": "Wisconsin",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 43.07541,
+   "lon": -89.4041,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38006687/assistant-professor-tenure-track-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38006687/assistant-professor-tenure-track-/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-06-25",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-15",
+  "review_text": "The deadline for assuring full consideration is October 15, 2026;",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Salary: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal application process. Job Category:Faculty Employment Type:Regular Job Profile:Assistant Professor Job Summary: We seek applicants at the Assistant Professor level to launch a research program in the New Bioeconomy. Applicants may be interested in a broad range of study…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+ },
+ {
+  "id": "ae50839458",
+  "title": "Assistant or Associate Professor in Biological Anthropology of Health and Human Variation",
+  "institution": "University of Georgia",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Georgia",
+  "location": {
+   "city": "Athens",
+   "region": "Georgia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 33.95626,
+   "lon": -83.37404,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38050289/assistant-or-associate-professor-in-biological-anthropology-of-health-and-human-variation/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38050289/assistant-or-associate-professor-in-biological-anthropology-of-health-and-human-variation/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3561396/assistant-or-associate-professor-in-biological-anthropology-of-health-and-human-variation/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-09",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-12-02",
+  "review_text": "Applications received by December 2, 2026, will receive full consideration and review will continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": true,
+  "effort": {
+   "research": 45,
+   "service": 5
+  },
+  "effort_label": "45% research · 5% service",
+  "effort_text": "instruction (12 credit hours), 45% research, and 5% service effort",
+  "effort_focus": "other",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Position Summary The Franklin College of Arts and Sciences at the University of Georgia ( UGA ) invites applications for a tenure-track Assistant or Associate Professor in Biological Anthropology of Health and Human Variation in the Department of Anthropology, beginning August 1, 2027. This position contributes to Franklin College’s interdisciplinary initiative in Applied Health Innovation for Societal Impact and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "6d45d904f6",
+  "title": "Assistant, Associate or Full Professor (Tenured or Tenure Track)",
+  "institution": "University of Wisconsin-Madison",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Wisconsin-Madison",
+  "location": {
+   "city": "Madison",
+   "region": "Wisconsin",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 43.07541,
+   "lon": -89.4041,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38007251/assistant-associate-or-full-professor-tenured-or-tenure-track-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38007251/assistant-associate-or-full-professor-tenured-or-tenure-track-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-06-26",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-01",
+  "review_text": "The deadline for assuring full consideration is October 1st, 2026;",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Salary: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal application process. Job Category:Faculty Employment Type:Regular Job Profile:Professor Job Summary: The Department of Bacteriology at the University of Wisconsin–Madison invites applications for an open rank faculty position in Systems and Synthetic Biology. While…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 1, 2026 — application may be too late"
+ },
+ {
+  "id": "f1163a503a",
+  "title": "Lecturer in Human Biology",
+  "institution": "Indiana University Bloomington Department of Human Biology",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Indiana University-Bloomington",
+  "location": {
+   "city": "Bloomington",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.16609,
+   "lon": -86.52656,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38048284/lecturer-in-human-biology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38048284/lecturer-in-human-biology/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38047215/lecturer-in-human-biology/"
+   }
+  ],
+  "ranks": [
+   "lecturer"
+  ],
+  "rank_label": "Lecturer / Reader",
+  "tenure": [
+   "permanent"
+  ],
+  "tenure_label": "Permanent / continuing",
+  "domains": [
+   "animal_health"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-06",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-19",
+  "review_text": "Review of applications will begin Oct. 19.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-06",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "$62,000-$66,000",
+  "board_job_type": "",
+  "summary": "The Human Biology Program in the College of Arts and Sciences https://humanbio.indiana.edu at Indiana University invites applications for a permanent full-time 10-month non-tenure-track position at the level of Lecturer. We seek applicants with expertise in microbiomes, evolutionary medicine and comparative approaches, human-wildlife interactions and One Health, and/or environmental health and health disparities and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+ },
+ {
+  "id": "5140c29a62",
+  "title": "Assistant Professor, Tenure Track, Infectious Diseases",
+  "institution": "University of Pennsylvania",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "University of Pennsylvania",
+  "location": {
+   "city": "United",
+   "region": "Pennsylvania",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.95093,
+   "lon": -75.19391,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037240/assistant-professor-tenure-track-infectious-diseases/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037240/assistant-professor-tenure-track-infectious-diseases/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3343070/assistant-professor-tenure-track-infectious-diseases/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3531234/assistant-professor-tenure-track-infectious-diseases/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "host-microbe",
+   "microbiome"
+  ],
+  "date_posted": "2026-09-11",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2027-05-01",
+  "deadline_text": "Deadline: May 01, 2027 at 11:59 PM Eastern Time",
+  "listing_expires": "2026-11-10",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor, Tenure Track, Infectious Diseases Location: Philadelphia, PA Open Date: May 01, 2025 Deadline: May 01, 2027 at 11:59 PM Eastern Time The Division of Infectious Diseases in the Department of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania seeks candidates for several Assistant Professor positions in the tenure track. Applicants must have an M.D./Ph.D. or equivalent…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "f3babe8586",
+  "title": "Assistant Professor Biomedical Sciences",
+  "institution": "Georgia Southern University",
+  "inst_types": [
+   "r2"
+  ],
+  "inst_type_label": "R2",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "Georgia Southern University",
+  "location": {
+   "city": "Statesboro",
+   "region": "Georgia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 32.42615,
+   "lon": -81.78405,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38052452/assistant-professor-biomedical-sciences/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38052452/assistant-professor-biomedical-sciences/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3563339/assistant-professor-biomedical-sciences/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome",
+   "mycobiome"
+  ],
+  "date_posted": "2026-10-15",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-13",
+  "review_text": "Screening of applications begins November 13, 2026 and continues",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-14",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor Biomedical Sciences Job ID: 304925 Location: Statesboro, Georgia Full/Part Time: Full Time Regular/Temporary: Regular About Us Georgia Southern University is the state's largest and most comprehensive center of higher learning south of Atlanta, and one of the most dynamic public universities in the Southeast. Founded in 1906, Georgia Southern has grown from a single-purpose college into a…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "a407c20b28",
+  "title": "Biological and Life Sciences Division - Open Rank Faculty Positions",
+  "institution": "Mohamed bin Zayed University of Artificial Intelligence",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "AE",
+   "country": "United Arab Emirates",
+   "world_region": "Middle East",
+   "lat": 24.43249,
+   "lon": 54.61838,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38012832/biological-and-life-sciences-division-open-rank-faculty-positions/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38012832/biological-and-life-sciences-division-open-rank-faculty-positions/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38047152/biological-and-life-sciences-division-open-rank-faculty-positions/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomics"
+  ],
+  "date_posted": "2026-07-09",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Description The Biological and Life Sciences Division at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi is at the forefront of research at the intersection of Genomics, Multi-Omics, Personalized Medicine, Precision Therapeutics, Epidemiology, and Artificial Intelligence (AI). A key initiative within the division is the Human Phenotype Project—a groundbreaking, large-scale longitudinal…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "ea2d1805a6",
+  "title": "Assistant Professor - Nutritional Physiology and Metabolism",
+  "institution": "Auburn University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Auburn University",
+  "location": {
+   "city": "Auburn",
+   "region": "Alabama",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 32.59938,
+   "lon": -85.48826,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38019319/assistant-professor-nutritional-physiology-and-metabolism/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38019319/assistant-professor-nutritional-physiology-and-metabolism/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-07-27",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2027-01-06",
+  "review_text": "Review of applications will begin on January 6, 2027, and continue",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": true,
+  "effort": {
+   "research": 60
+  },
+  "effort_label": "60% research",
+  "effort_text": "is a 9-month appointment with responsibilities in research (60%)",
+  "effort_focus": "research",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Job Description Overview Assistant Professor – Nutritional Physiology and Metabolism Position Description The Department of Animal Sciences in the College of Agriculture at Auburn University invites applications for a tenure-track Assistant Professor position in Nutritional Physiology and Metabolism. This is a 9-month appointment with responsibilities in research (60%) and teaching (40%). The anticipated start date…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "b927a88ed5",
+  "title": "Assistant Clinical Professor of Veterinary Nutrition",
+  "institution": "Auburn University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Auburn University",
+  "location": {
+   "city": "Auburn",
+   "region": "Alabama",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 32.59938,
+   "lon": -85.48826,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/37963107/assistant-clinical-professor-of-veterinary-nutrition/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/37963107/assistant-clinical-professor-of-veterinary-nutrition/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "non-tenure-track"
+  ],
+  "tenure_label": "Non-tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health"
+  ],
+  "microbiome_terms": [
+   "microbiomics"
+  ],
+  "date_posted": "2026-03-13",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-04-01",
+  "review_text": "Review of applications will begin 04/01/2026 and will continue",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": true,
+  "effort": {
+   "research": 60,
+   "service": 15
+  },
+  "effort_label": "60% research · 15% service",
+  "effort_text": "(clinical and didactic; 60%) research (25%), and service (15%).",
+  "effort_focus": "research",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Job Description Overview The Department of Anatomy, Physiology, and Pharmacology in the Auburn University College of Veterinary Medicine ( AUCVM ) invites applications for a full-time, 12-month faculty position in small animal nutrition at the rank of Assistant Clinical Professor with an anticipated start date of October 1, 2026. Interested candidates should submit 1) a cover letter (including information on…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Apr 1, 2026 — application may be too late"
+ },
+ {
+  "id": "0bbbd98c05",
+  "title": "Assistant / Associate Professor of Philosophy",
+  "institution": "Purdue University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "location": {
+   "city": "West Lafayette",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38048628/assistant-associate-professor-of-philosophy/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38048628/assistant-associate-professor-of-philosophy/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "animal_health",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-07",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-06",
+  "review_text": "Review of applications will begin on November 6, 2026 and continue until positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-07",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Negotiable",
+  "board_job_type": "",
+  "summary": "Job Title: Assistant / Associate Professor of Philosophy Job Summary As part of Purdue University’s strategic investment in One Health – Healthy and Resilient Living Systems, the Department of Philosophy within the College of Liberal Arts invites applications for a tenure-track or tenured faculty position at the Assistant or Associate Professor level. The Department of Philosophy seeks faculty who can contribute to…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "95f4905bb3",
+  "title": "Epidemiology Faculty in Infectious Disease Dynamics",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037709/epidemiology-faculty-in-infectious-disease-dynamics/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037709/epidemiology-faculty-in-infectious-disease-dynamics/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Epidemiology Faculty in Infectious Disease Dynamics Details The Division of Epidemiology at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a faculty position in the area of infectious disease modeling or computational epidemiology. We seek candidates whose expertise and research align with or complement the work of the University of Utah Infectious Disease Dynamics Group and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "229a155c18",
+  "title": "Tenure-Track/Tenured Faculty Position at Assistant or Associate Rank",
+  "institution": "Purdue University Main Campus",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "location": {
+   "city": "Indianapolis",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38054179/tenure-track-tenured-faculty-position-at-assistant-or-associate-rank/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38054179/tenure-track-tenured-faculty-position-at-assistant-or-associate-rank/"
+   }
+  ],
+  "ranks": [
+   "associate"
+  ],
+  "rank_label": "Associate",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-20",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-13",
+  "review_text": "Screening will begin November 13, 2026 and conclude when the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-20",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with Experience",
+  "board_job_type": "",
+  "summary": "Strategic Faculty Recruitment Initiative in One Health – Healthy and Resilient Living Systems - School of Engineering Technology, Purdue Polytechnic Institute Purdue University Main Campus | Indianapolis or West Lafayette, IN Tenure-Track/Tenured Faculty Position at Assistant or Associate Rank As part of a transformative, university-wide initiative in One Health - Healthy and Resilient Living Systems, the School of…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "bd6b29179a",
+  "title": "Assistant/Associate Professor- (One Health)- Healthy and Resilient Living Systems",
+  "institution": "Purdue University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "location": {
+   "city": "West Lafayette",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38048257/assistant-associate-professor-one-health-healthy-and-resilient-living-systems/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38048257/assistant-associate-professor-one-health-healthy-and-resilient-living-systems/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "plant",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-06",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-05",
+  "review_text": "Review of applications will begin on November 5, 2026 and continue until positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-06",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with experience",
+  "board_job_type": "",
+  "summary": "Strategic Faculty Recruitment Initiative in One Health - Healthy and Resilient Living Systems - College of Health and Human Sciences Purdue University Main Campus | Indianapolis and West Lafayette, IN Tenure-Track/Tenured Faculty Positions at Assistant and Associate Ranks As part of this strategic recruitment initiative, faculty are being recruited into the Departments of Psychological Sciences and Public Health in…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 5, 2026"
+ },
+ {
+  "id": "9953e1dc68",
+  "title": "Samuels Endowed Chair in Animal Nutrition",
+  "institution": "Virginia Tech",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Virginia Polytechnic Institute and State University",
+  "location": {
+   "city": "Blacksburg",
+   "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.22901,
+   "lon": -80.42368,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/37971270/samuels-endowed-chair-in-animal-nutrition/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/37971270/samuels-endowed-chair-in-animal-nutrition/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-04-02",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-05-31",
+  "review_text": "Review of applications will begin May 31, 2026, and continue until",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Job Description Virginia Tech invites applications for the Winston and Marilyn Samuels Endowed Chair in Animal Nutrition, a distinguished faculty position created to advance transformative research and graduate education in animal nutrition, metabolism, and livestock health. This prestigious appointment offers a unique opportunity for an accomplished scholar to shape the future of animal nutrition research at a…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began May 31, 2026 — application may be too late"
+ },
+ {
+  "id": "098c96dd5f",
+  "title": "Faculty-Assistant, Associate, or Full Professor",
+  "institution": "ISB",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Seattle",
+   "region": "Washington State",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 45.48999,
+   "lon": -122.86117,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38034762/faculty-assistant-associate-or-full-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38034762/faculty-assistant-associate-or-full-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics"
+  ],
+  "date_posted": "2026-09-09",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-09",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Expected range is $155-300k per year",
+  "board_job_type": "",
+  "summary": "The Institute for Systems Biology (ISB) seeks a highly motivated and talented Assistant, Associate, or Full Professor to join our faculty and lead transformative efforts in AI, machine learning, and computational biology to bridge the gap between basic science and next-generation medicine. The successful candidate will have a strong background in computational biology, statistics, machine learning/AI or a related…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "0038c30013",
+  "title": "TRIAD Director - Associate Professor or Full Professor",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037825/triad-director-associate-professor-or-full-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037825/triad-director-associate-professor-or-full-professor/"
+   }
+  ],
+  "ranks": [
+   "associate",
+   "full"
+  ],
+  "rank_label": "Associate / Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "TRIAD Director - Associate Professor or Full Professor Details The Division of Biostatistics in the Department of Population Health Sciences (PHS) at the University of Utah School of Medicine has an opening for an Associate or Full Professor-level faculty. We seek a candidate who will serve as the director of the University of Utah's Translational Research: Implementation, Analysis and Design (TRIAD) Team which…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "de6edb24ef",
+  "title": "Mid-Career Faculty, Biostatistics",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38035959/mid-career-faculty-biostatistics/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38035959/mid-career-faculty-biostatistics/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics"
+  ],
+  "date_posted": "2026-09-09",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-08",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Mid-Career Faculty, Biostatistics Details The Division of Biostatistics in the Department of Population Health Sciences (PHS) at the Spencer Fox Eccles School of Medicine at the University of Utah has openings for mid-career faculty members, who have a history of funded research as a PI/MPI and who work on the analysis of modern data sources and study designs, and expand the Division's methodological and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "7885ecb425",
+  "title": "Assistant Professor - Soil Microbial Ecology",
+  "institution": "University of Wyoming",
+  "inst_types": [
+   "r2",
+   "landgrant"
+  ],
+  "inst_type_label": "R2 · Land-grant",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "University of Wyoming",
+  "location": {
+   "city": "Laramie",
+   "region": "Wyoming",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 41.31177,
+   "lon": -105.57931,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38048996/assistant-professor-soil-microbial-ecology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38048996/assistant-professor-soil-microbial-ecology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "soil",
+   "agriculture"
+  ],
+  "microbiome_terms": [
+   "microbial ecology"
+  ],
+  "date_posted": "2026-10-07",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-06",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor - Soil Microbial Ecology Join Our Campus Community! Thank you for your interest in joining the University of Wyoming. Our community thrives on the contributions of talented and driven individuals who share in our mission, vision, and values. If your expertise and experience align with the goals of our institution, we would be thrilled to hear from you. We encourage you to apply and become a…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "d8e70268ce",
+  "title": "HKU Professoriate Recruitment (Science)",
+  "institution": "University of Hong Kong",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "HK",
+   "country": "Hong Kong",
+   "world_region": "Asia"
+  },
+  "url": "https://jobs.chronicle.com/job/298915/hku-professoriate-recruitment-science-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/298915/hku-professoriate-recruitment-science-/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "ocean",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbial ecology"
+  ],
+  "date_posted": "2020-11-06",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "The University of Hong Kong (HKU) is pleased to invite outstanding scholars to contribute to our thriving research agenda as well as to Hong Kong’s leading position in the region and beyond. We will recruit 100 outstanding academics in emerging fields with potential for scientific and scholarly breakthroughs—above and beyond our existing recruitment programme—to join HKU as assistant, associate, or full professors…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "b64a9bd44c",
+  "title": "Associate/Full Professor of Genetics/Genomics",
+  "institution": "University of Oregon",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Oregon",
+  "location": {
+   "city": "Eugene",
+   "region": "Oregon",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 44.04515,
+   "lon": -123.07579,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38053581/associate-full-professor-of-genetics-genomics/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38053581/associate-full-professor-of-genetics-genomics/"
+   }
+  ],
+  "ranks": [
+   "associate",
+   "full"
+  ],
+  "rank_label": "Associate / Full",
+  "tenure": [
+   "tenured"
+  ],
+  "tenure_label": "Tenured",
+  "domains": [
+   "human_health",
+   "ocean",
+   "aquaculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-10-19",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-18",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Associate/Full Professor of Genetics/Genomics Department: Biology Rank: Associate/Full Professor Annual Basis: 9 month Application Deadline November 30, 2026 Required Application Materials A complete application must include: • A letter of interest that outlines your qualifications for the role and that highlights your track record in growing and strengthening community through collaborative efforts and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "d770000675",
+  "title": "Assistant Professor - Harnessing the Power of Synthetic Biology, Tenure-track",
+  "institution": "Cornell University",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Cornell University",
+  "location": {
+   "city": "Ithaca",
+   "region": "New York",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 42.4472,
+   "lon": -76.48308,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38055340/assistant-professor-harnessing-the-power-of-synthetic-biology-tenure-track/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38055340/assistant-professor-harnessing-the-power-of-synthetic-biology-tenure-track/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbial communities"
+  ],
+  "date_posted": "2026-10-22",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {
+   "research": 50,
+   "teaching": 50
+  },
+  "effort_label": "50% research · 50% teaching",
+  "effort_text": "This position has a balanced effort between research (50%) and teaching (50%) on a 9-month academic year basis.",
+  "effort_focus": "balanced",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive",
+  "board_job_type": "",
+  "summary": "Assistant Professor - Harnessing the Power of Synthetic Biology, Tenure-track Cohort Hire: Harnessing the Power of Synthetic Biology (SynBio) Focus: Using bacteria to address 21st century challenges Department of Microbiology, Cornell University Location: Ithaca, NY. The academic home for this position is the Department of Microbiology, in the College of Agriculture and Life Sciences, housed on the Ithaca campus of…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "9e098589af",
+  "title": "Assistant/Associate Professor",
+  "institution": "Virginia Tech",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Virginia Polytechnic Institute and State University",
+  "location": {
+   "city": "Blacksburg",
+   "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.22901,
+   "lon": -80.42368,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38043362/assistant-associate-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38043362/assistant-associate-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "animal_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-23",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-22",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Job Description The Department of Biological Sciences in the College of Science at Virginia Tech seeks applicants for two (2) tenure-track research and teaching positions at the Assistant/Associate Professor levels in the area of Molecular Microbiology. We seek microbiologists who employ molecular techniques to study and modify microorganisms, with special emphasis on bacteria, fungi, and/or their viruses. The ideal…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "7d1d41397d",
+  "title": "Assistant Professor - Vegetable Production Systems",
+  "institution": "Cornell University",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Cornell University",
+  "location": {
+   "city": "Geneva",
+   "region": "New York",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 42.4472,
+   "lon": -76.48308,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38045296/assistant-professor-vegetable-production-systems/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38045296/assistant-professor-vegetable-production-systems/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "soil",
+   "plant",
+   "agriculture"
+  ],
+  "microbiome_terms": [
+   "rhizosphere"
+  ],
+  "date_posted": "2026-09-30",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-25",
+  "review_text": "Applications received by November 25, 2026, will be given full consideration.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-30",
+  "until_filled": true,
+  "effort": {
+   "research": 60,
+   "extension": 40
+  },
+  "effort_label": "60% research · 40% extension",
+  "effort_text": "Responsibilities: This position has an effort split of 60% research and 40% extension.",
+  "effort_focus": "research",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "$90,000 - $135,000",
+  "board_job_type": "",
+  "summary": "Vegetable Production Systems Focus: Vegetable Production School of Integrative Plant Science, Cornell University Position: Assistant Professor, Tenure-track Location: Cornell AgriTech in Geneva, NY. The academic home for this position is the School of Integrative Plant Science (SIPS) in the College of Agriculture and Life Sciences at Cornell University. The School of Integrative Plant Science (SIPS) in the College…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "b19586f2e7",
+  "title": "Senior Research Investigator",
+  "institution": "University of Pennsylvania",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "University of Pennsylvania",
+  "location": {
+   "city": "Philadelphia",
+   "region": "Pennsylvania",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.95093,
+   "lon": -75.19391,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3110172/senior-research-investigator/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3110172/senior-research-investigator/"
+   }
+  ],
+  "ranks": [
+   "investigator"
+  ],
+  "rank_label": "Investigator / Group leader",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "animal_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2024-03-24",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2036-03-25",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Senior Research Investigator University Overview The University of Pennsylvania, the largest private employer in Philadelphia, is a world-renowned leader in education, research, and innovation. This historic, Ivy League school consistently ranks among the top 10 universities in the annual U.S. News & World Report survey. Penn has 12 highly-regarded schools that provide opportunities for undergraduate, graduate and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "d87b944cc0",
+  "title": "Clinical Assistant Professor",
+  "institution": "University of Florida",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Florida",
+  "location": {
+   "city": "Gainesville",
+   "region": "Florida",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 29.64629,
+   "lon": -82.34791,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3517291/clinical-assistant-professor/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3517291/clinical-assistant-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "non-tenure-track"
+  ],
+  "tenure_label": "Non-tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-06-13",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2038-06-14",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Clinical Assistant Professor Job No: 540233 Work Type: Full Time Location: Main Campus (Gainesville, FL) Categories: Allied Health, Medicine/Physicians Department: 29340000 - MD-UROLOGY Job Description Classification Title: Clinical Assistant Professor Classification Minimum Requirements: M.D. or equivalent, Board certified/eligible, and a current valid Florida Medical License. Job Description: We are seeking a…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "cd1f9dbfb0",
+  "title": "Assistant/Associate Professor in Clinical Nutrition, 9 Month Salaried - Department of Health, N...",
+  "institution": "Florida State University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Florida State University",
+  "location": {
+   "city": "Tallahassee",
+   "region": "Florida",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 30.44315,
+   "lon": -84.29506,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3547613/assistant-associate-professor-in-clinical-nutrition-9-month-salaried-department-of-health-n-/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3547613/assistant-associate-professor-in-clinical-nutrition-9-month-salaried-department-of-health-n-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "food"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "microbiome"
+  ],
+  "date_posted": "2026-09-04",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-09-15",
+  "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-11",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Job Title: Assistant/Associate Professor in Clinical Nutrition, 9 Month Salaried - Department of Health, Nutrition, and Food Sciences - Anne Spencer Daves College of Education, Health, and Human Sciences Location: Tallahassee, FL Regular/Temporary: Regular Full/Part Time: Full-Time Job ID: 63440 Department Department of Health, Nutrition, and Food Science in the Anne Spencer Daves College Education, Health, and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Sep 15, 2026 — application may be too late"
+ },
+ {
+  "id": "4fd50b7e7c",
+  "title": "Assistant Professor of Microbiology & Immunology",
+  "institution": "Stanford University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Stanford University",
+  "location": {
+   "city": "Stanford",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.42943,
+   "lon": -122.16736,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3542481/assistant-professor-of-microbiology-and-immunology/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3542481/assistant-professor-of-microbiology-and-immunology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe",
+   "microbiome"
+  ],
+  "date_posted": "2026-08-20",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-02",
+  "review_text": "Applications will be reviewed beginning November 2nd, 2026, and accepted until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-03",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "The Department of Microbiology & Immunology at Stanford University seeks applications for a tenure-track faculty position at the Assistant Professor level in the University Tenure Line. We seek outstanding scientist with a doctoral degree whose research addresses fundamental and emerging questions in broadly defined areas of microbiology and/or immunology. We welcome applications spanning the full breadth of these…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 2, 2026"
+ },
+ {
+  "id": "adfd1501b4",
+  "title": "Assistant or Associate Professor in Clinical Exercise Physiology, 9 Month Salaried - Health, Nu...",
+  "institution": "Florida State University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Florida State University",
+  "location": {
+   "city": "Tallahassee",
+   "region": "Florida",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 30.44315,
+   "lon": -84.29506,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3547614/assistant-or-associate-professor-in-clinical-exercise-physiology-9-month-salaried-health-nu-/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3547614/assistant-or-associate-professor-in-clinical-exercise-physiology-9-month-salaried-health-nu-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "food"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "microbiome"
+  ],
+  "date_posted": "2026-09-04",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-15",
+  "review_text": "Review of candidates will begin 10/15/2026 and will continue until filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-11",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Job Title: Assistant or Associate Professor in Clinical Exercise Physiology, 9 Month Salaried - Health, Nutrition, and Food Sciences - Anne Spencer Daves College of Education, Health, Human Sciences Location: Tallahassee, FL Regular/Temporary: Regular Full/Part Time: Full-Time Job ID: 63441 Department Department of Health, Nutrition, and Food Science in the Anne Spencer Daves College Education, Health, and Human…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+ },
+ {
+  "id": "40fc56abdb",
+  "title": "Physician-Scientist or Scientist Faculty Scholars, Center for Pediatric IBD and Celiac Disease",
+  "institution": "Stanford University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Stanford University",
+  "location": {
+   "city": "Stanford",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.42943,
+   "lon": -122.16736,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3014549/physician-scientist-or-scientist-faculty-scholars-center-for-pediatric-ibd-and-celiac-disease/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3014549/physician-scientist-or-scientist-faculty-scholars-center-for-pediatric-ibd-and-celiac-disease/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbial",
+   "microbiome"
+  ],
+  "date_posted": "2023-10-28",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-04",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "The Division of Gastroenterology, Hepatology and Nutrition in the Department of Pediatrics at Stanford University seeks innovative and collaborative M.D., M.D./Ph.D., or Ph.D. scientists or physician-scientists to join the faculty as Assistant Professor or Associate Professor in the University Tenure Line, University Medical Line, or Non-Tenure Line (Research) and as Faculty Scholars within the Stanford Medicine…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "ab623dd263",
+  "title": "Assistant Professor - IBBI / MII Faculty",
+  "institution": "The Ohio State University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Ohio State University-Main Campus",
+  "location": {
+   "city": "Columbus",
+   "region": "Ohio",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.9998,
+   "lon": -83.00753,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3479535/assistant-professor-ibbi-mii-faculty/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3479535/assistant-professor-ibbi-mii-faculty/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-03-19",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-26",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Screen reader users may encounter difficulty with this site. For assistance with applying, please contact hr-accessibleapplication@osu.edu. If you have questions while submitting an application, please review these frequently asked questions. Current Employees and Students: If you are currently employed or enrolled as a student at The Ohio State University, please log in to Workday to use the internal application…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "492ed68ae5",
+  "title": "Open Rank Professor, tenure track (Nutrigenomics)",
+  "institution": "University of North Carolina at Chapel Hill",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of North Carolina at Chapel Hill",
+  "location": {
+   "city": "Chapel Hill",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 35.91177,
+   "lon": -79.05097,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3504241/open-rank-professor-tenure-track-nutrigenomics-/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3504241/open-rank-professor-tenure-track-nutrigenomics-/"
+   }
+  ],
+  "ranks": [
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured",
+   "permanent"
+  ],
+  "tenure_label": "Tenure-track or Tenured or Permanent / continuing",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-05-15",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-02",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Department: Nutrition - 466001 Posting Open Date: 05/16/2016 Open Until Filled: Yes Position Type: Permanent Faculty Working Title: Open Rank Professor, tenure track (Nutrigenomics) Appointment Type: Tenured/Tenure Track Vacancy ID: FAC0001656 Full-time/Part-time: Full-Time Permanent FTE: 1.0 Hiring Range: Dependent on Experience and Qualifications Proposed Start Date: 06/01/2023 Be a Tar Heel!: A global higher…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "3f181a1156",
+  "title": "ASSISTANT/ ASSOCIATE PROFESSOR IN KINESIOLOGY- HEALTH AND EXERCISE SCIENCE",
+  "institution": "The Ohio State University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Ohio State University-Main Campus",
+  "location": {
+   "city": "Columbus",
+   "region": "Ohio",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.9998,
+   "lon": -83.00753,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3565112/assistant-associate-professor-in-kinesiology-health-and-exercise-science/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3565112/assistant-associate-professor-in-kinesiology-health-and-exercise-science/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-21",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-20",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Screen reader users may encounter difficulty with this site. For assistance with applying, please contact hr-accessibleapplication@osu.edu. If you have questions while submitting an application, please review these frequently asked questions. Current Employees and Students: If you are currently employed or enrolled as a student at The Ohio State University, please log in to Workday to use the internal application…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "0df4f8db53",
+  "title": "Chair, Department of Pathology, Microbiology and Immunology",
+  "institution": "University of South Carolina",
+  "inst_types": [
+   "special",
+   "med_school"
+  ],
+  "inst_type_label": "Special-focus institution · Has a medical school",
+  "carnegie": "Special focus – engineering/technology",
+  "control": "Public",
+  "matched_institution": "Medical University of South Carolina",
+  "location": {
+   "city": "Columbia",
+   "region": "South Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 32.78436,
+   "lon": -79.94716,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3470339/chair-department-of-pathology-microbiology-and-immunology/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3470339/chair-department-of-pathology-microbiology-and-immunology/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "host-microbiota",
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-02-26",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-01",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Logo: Posting Number: FAC00271PO25 Advertised Title: Chair, Department of Pathology, Microbiology and Immunology Campus: Columbia College/Division: School of Medicine Columbia Department: SOMC Pathology, Microbiology, and Immunology Advertised Salary Range: Salary commensurate with education and experience Part/Full Time: Full Time Hours per Week: 37.5 Position Category: Full-time Equivalent (FTE) Basis : 12 months…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "c222ce8fb8",
+  "title": "Research Faculty - IM Immunology and Rheumatology - (Open Rank/Track Faculty)",
+  "institution": "The Ohio State University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Ohio State University-Main Campus",
+  "location": {
+   "city": "Columbus",
+   "region": "Ohio",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.9998,
+   "lon": -83.00753,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3152885/research-faculty-im-immunology-and-rheumatology-open-rank-track-faculty-/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3152885/research-faculty-im-immunology-and-rheumatology-open-rank-track-faculty-/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2024-05-27",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-26",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Screen reader users may encounter difficulty with this site. For assistance with applying, please contact hr-accessibleapplication@osu.edu. If you have questions while submitting an application, please review these frequently asked questions. Current Employees and Students: If you are currently employed or enrolled as a student at The Ohio State University, please log in to Workday to use the internal application…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "7077c0495a",
+  "title": "COLCOM - Professor in Bioinformatics",
+  "institution": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "MA",
+   "country": "Morocco",
+   "world_region": "Africa",
+   "lat": 32.21865,
+   "lon": -7.93633,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3564989/colcom-professor-in-bioinformatics/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3564989/colcom-professor-in-bioinformatics/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics"
+  ],
+  "date_posted": "2026-10-21",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-21",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "About UM6P and its College of Computing: Mohammed VI Polytechnic University (UM6P) is an internationally oriented institution of higher learning, that is committed to an educational system based on the highest standards of teaching and research in fields related to the sustainable economic development of Morocco and Africa. UM6P is an institution oriented towards applied research and innovation. On a specific focus…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "896bf34857",
+  "title": "Assistant Professor (Microbial Drivers of Chronic Disease), Department of Microbiology, Fall 2026",
+  "institution": "The University of Tennessee, Knoxville",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "The University of Tennessee-Knoxville",
+  "location": {
+   "city": "Knoxville",
+   "region": "Tennessee",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 35.95208,
+   "lon": -83.92585,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3401799/assistant-professor-microbial-drivers-of-chronic-disease-department-of-microbiology-fall-2026/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3401799/assistant-professor-microbial-drivers-of-chronic-disease-department-of-microbiology-fall-2026/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture"
+  ],
+  "microbiome_terms": [
+   "microbial ecology"
+  ],
+  "date_posted": "2025-09-17",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": "2025-11-21",
+  "review_text": "Review of applications will begin on November 21, 2025 and will continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-02",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Assistant Professor (Microbial Drivers of Chronic Disease), Department of Microbiology, Fall 2026 Location: UTK Open Date: Sep 15, 2025 Description: The Department of Microbiology at the University of Tennessee is seeking candidates for a tenure-track faculty appointment at the Assistant Professor level studying microbial drivers of inflammation and chronic disease. Specific areas of interest include, but are not…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Nov 21, 2025 — application may be too late"
+ },
+ {
+  "id": "a9ab281448",
+  "title": "Open Rank Tenure Track Faculty, Neuro-Oncology / CNS Malignancies",
+  "institution": "University of Virginia",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Charlottesville",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.04106,
+   "lon": -78.50551,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3538477/open-rank-tenure-track-faculty-neuro-oncology-cns-malignancies/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3538477/open-rank-tenure-track-faculty-neuro-oncology-cns-malignancies/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-08-11",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-31",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Description The Department of Microbiology, Immunology, and Cancer Biology (MIC) (https://med.virginia.edu/mic/) at the University of Virginia (UVA) School of Medicine in Charlottesville, Virginia, seeks outstanding applicants in the field of Neuro-Oncology / CNS Malignancies at the level of Assistant, Associate or Full Professor (all tenure-eligible). Applicants will perform laboratory research but can also be…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "d437273e98",
+  "title": "Open Rank Professor of Virology, Tenured/Tenure-Eligible",
+  "institution": "University of Virginia",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Virginia-Main Campus",
+  "location": {
+   "city": "",
+   "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.03567,
+   "lon": -78.50343,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3546910/open-rank-professor-of-virology-tenured-tenure-eligible/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3546910/open-rank-professor-of-virology-tenured-tenure-eligible/"
+   }
+  ],
+  "ranks": [
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-02",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-31",
+  "deadline_text": "Applications must be received no later than October 31, 2026.",
+  "listing_expires": "2026-11-01",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Description The Department of Microbiology, Immunology and Cancer Biology (MIC) (https://med.virginia.edu/mic/) at the University of Virginia School of Medicine in Charlottesville, Virginia, seeks outstanding applicants in the field of Virology at the Assistant Professor (tenure-eligible), Associate Professor or Full Professor (tenured or tenure-eligible) level. Qualified applicants focusing on any area of virology…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 31, 2026"
+ },
+ {
+  "id": "0be18e6344",
+  "title": "075-26 ASSISTANT PROFESSOR (MARINE MICROBIOLOGY)",
+  "institution": "University of Guam",
+  "inst_types": [
+   "masters",
+   "landgrant"
+  ],
+  "inst_type_label": "PUI – master's · Land-grant",
+  "carnegie": "Master's college/university (medium programs)",
+  "control": "Public",
+  "matched_institution": "University of Guam",
+  "location": {
+   "city": "Mangilao",
+   "region": "Guam",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 13.43305,
+   "lon": 144.80398,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38032809/075-26-assistant-professor-marine-microbiology-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38032809/075-26-assistant-professor-marine-microbiology-/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3547165/075-26-assistant-professor-marine-microbiology-/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "ocean",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-09-02",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-09",
+  "deadline_text": "Applications will be accepted no later than October 9, 2026 (Chamorro Standard Time/UTC+10).",
+  "listing_expires": "2026-11-02",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "$52,408 - $105,140 Per Academic Year",
+  "board_job_type": "",
+  "summary": "APPLICATION DEADLINE: Applications will be accepted no later than October 9, 2026 (Chamorro Standard Time/UTC+10). (Note to applicants in the mainland United States: Please be advised that Guam is a day ahead of the mainland United States.) For further information about the University of Guam, visit our Web Site at http://www.uog.edu. General information about Guam is available at http://www.visitguam.com. For local…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 9, 2026"
+ },
+ {
+  "id": "8b52a811a0",
+  "title": "Faculty Positions in Basic and Translational Cancer Research",
+  "institution": "University of North Carolina at Chapel Hill",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of North Carolina at Chapel Hill",
+  "location": {
+   "city": "Chapel Hill",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 35.91177,
+   "lon": -79.05097,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3504205/faculty-positions-in-basic-and-translational-cancer-research/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3504205/faculty-positions-in-basic-and-translational-cancer-research/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "permanent"
+  ],
+  "tenure_label": "Permanent / continuing",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-05-15",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2024-12-15",
+  "deadline_text": "We encourage all applications to be submitted by December 15th, 2024.",
+  "listing_expires": "2026-11-02",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Department: Lineberger Compr Cancer Center - 426801 Posting Open Date: 10/07/2024 Open Until Filled: Yes Position Type: Permanent Faculty Working Title: Faculty Positions in Basic and Translational Cancer Research Appointment Type: Open Rank Vacancy ID: FAC0005297 Full-time/Part-time: Full-Time Permanent Hours per week: 40 FTE: 1 Position Location: North Carolina, US Hiring Range: Dependent on…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "soon",
+  "priority_reason": "Deadline Dec 15, 2024"
+ }
+]
