@@ -1,0 +1,34 @@
+name: Report a problem with a listing
+description: Wrong rank, tenure, research area, dates, location — or a posting that shouldn't be here.
+labels: ["data problem"]
+body:
+  - type: input
+    id: posting
+    attributes:
+      label: Link to the listing on this site (or the original posting)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      multiple: true
+      options:
+        - Not a faculty position
+        - Not microbiome-related
+        - Rank is wrong
+        - Tenure status is wrong
+        - Research area is wrong
+        - Institution type is wrong
+        - Research/teaching effort is wrong
+        - Review date or deadline is wrong
+        - Location / map pin is wrong
+        - Posting has closed
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should it say? If the fix is a keyword, suggest it — rules live in config/taxonomy.yaml.

@@ -1,0 +1,27 @@
+name: Submit a position
+description: Add a microbiome faculty position the tracker has missed.
+title: "Position: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Paste the link to the official posting (the university's HR page or a job board).
+        A maintainer will review it; once accepted it's checked daily like every other listing.
+  - type: input
+    id: url
+    attributes:
+      label: Posting URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution and location
+      placeholder: University of ..., City, Country
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)
+      description: e.g. the review date if it's buried in a PDF.

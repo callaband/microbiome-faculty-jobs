@@ -1,0 +1,59 @@
+name: Daily update
+
+on:
+  schedule:
+    # Every day at 13:23 UTC (6:23 am Pacific in summer, 5:23 am in winter).
+    - cron: "23 13 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Run only these source ids (comma-separated, blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collector
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Collect postings
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+          # Optional: add a repository secret GEOCODER_EMAIL so OpenStreetMap can contact you if needed.
+          GEOCODER_EMAIL: ${{ secrets.GEOCODER_EMAIL }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            python -m collector.run --only "$ONLY"
+          else
+            python -m collector.run
+          fi
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data docs/feed.xml data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Daily update $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          fi

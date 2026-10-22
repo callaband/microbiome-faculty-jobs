@@ -1,0 +1,71 @@
+name: Accept submitted position
+
+# A maintainer adds the label "add-to-tracker" to a "Submit a position" issue.
+# This copies the posting URL into data/submitted_urls.txt, starts an update,
+# and closes the issue with a comment.
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  accept:
+    if: github.event.label.name == 'add-to-tracker'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add URL
+        id: add
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+          event = json.load(open(os.environ["GITHUB_EVENT_PATH"]))
+          body = event["issue"].get("body") or ""
+          m = re.search(r"https?://[^\s<>()\"']+", body)
+          path = "data/submitted_urls.txt"
+          existing = open(path, encoding="utf-8").read()
+          out = open(os.environ["GITHUB_OUTPUT"], "a")
+          if not m:
+              out.write("result=none\n")
+          elif m.group(0) in existing:
+              out.write("result=duplicate\n")
+          else:
+              with open(path, "a", encoding="utf-8") as fh:
+                  fh.write(("" if existing.endswith("\n") else "\n") + m.group(0) + "\n")
+              out.write("result=added\n")
+          PY
+
+      - name: Commit
+        if: steps.add.outputs.result == 'added'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/submitted_urls.txt
+          git commit -m "Add submitted position (#${{ github.event.issue.number }})"
+          git push
+
+      - name: Start an update
+        if: steps.add.outputs.result == 'added'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update.yml --repo "$GITHUB_REPOSITORY" -f only=submitted
+
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULT: ${{ steps.add.outputs.result }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          case "$RESULT" in
+            added)     msg="Thanks! The posting was added and an update has started. It appears on the site within a few minutes if it is a faculty position that mentions microbiome science; otherwise the reason is listed under rejected_submissions in docs/data/meta.json." ;;
+            duplicate) msg="This URL is already on the submission list." ;;
+            *)         msg="I couldn't find a link in this issue. Please edit it to include the posting's URL and re-apply the label." ;;
+          esac
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "$msg"
+          if [ "$RESULT" != "none" ]; then gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY"; fi
