@@ -23,7 +23,7 @@ Everything runs free on GitHub: a GitHub Action collects postings once a day and
 | Source | How it's read |
 |---|---|
 | Science Careers (AAAS) | keyword RSS search + the schema.org data on each job page |
-| Nature Careers | same |
+| Nature Careers | **off by default** — nature.com's robots.txt disallows its job feeds for automated tools |
 | The Chronicle of Higher Education Jobs | same |
 | Inside Higher Ed Careers | same |
 | Times Higher Education Unijobs | same |

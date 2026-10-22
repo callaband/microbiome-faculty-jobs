@@ -245,10 +245,11 @@ def write_outputs(jobs: list[dict], meta: dict) -> None:
     )
 
 
-def _merge_health(new: list[dict], old: list[dict]) -> list[dict]:
-    """Keep last-known status for sources not run this time (e.g. with --only)."""
+def _merge_health(new: list[dict], old: list[dict], enabled: set[str]) -> list[dict]:
+    """Keep last-known status for enabled sources not run this time (e.g. with --only);
+    drop sources that have been switched off."""
     seen = {s["id"] for s in new}
-    return new + [s for s in old if s.get("id") not in seen]
+    return new + [s for s in old if s.get("id") not in seen and s.get("id") in enabled]
 
 
 # ----------------------------------------------------------------------------- main
@@ -388,7 +389,8 @@ def run(argv: list[str] | None = None) -> int:
             "new_this_run": sum(s["new_matches"] for s in health),
         },
         "domains": {k: {"label": v["label"], "color": v["color"]} for k, v in tx["domains"].items()},
-        "sources": _merge_health(health, _load_json(META_FILE, {}).get("sources", [])),
+        "sources": _merge_health(health, _load_json(META_FILE, {}).get("sources", []),
+                                 {x["id"] for x in cfg.get("sources", []) if x.get("enabled", True)} | {"submitted"}),
         "rejected_submissions": rejected_submissions,
         "institution_directory": dir_info.get("source", "not available"),
         "inst_type_labels": TYPE_LABELS,
