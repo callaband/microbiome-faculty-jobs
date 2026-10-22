@@ -1,0 +1,59 @@
+{
+ "generated_at": null,
+ "today": null,
+ "repo": "",
+ "site_url": "",
+ "counts": {
+  "open": 0,
+  "closed": 0,
+  "new_this_run": 0
+ },
+ "domains": {
+  "human_health": {
+   "label": "Human health",
+   "color": "#c2410c"
+  },
+  "animal_health": {
+   "label": "Animal health",
+   "color": "#b45309"
+  },
+  "ocean": {
+   "label": "Ocean & marine",
+   "color": "#0369a1"
+  },
+  "aquaculture": {
+   "label": "Aquaculture & fisheries",
+   "color": "#0e7490"
+  },
+  "soil": {
+   "label": "Soil",
+   "color": "#78350f"
+  },
+  "plant": {
+   "label": "Plant",
+   "color": "#15803d"
+  },
+  "agriculture": {
+   "label": "Agriculture",
+   "color": "#65a30d"
+  },
+  "food": {
+   "label": "Food & fermentation",
+   "color": "#a16207"
+  },
+  "environment": {
+   "label": "Environment & climate",
+   "color": "#4d7c0f"
+  },
+  "computational": {
+   "label": "Computational & data",
+   "color": "#6d28d9"
+  },
+  "fundamental": {
+   "label": "Microbiology & ecology (general)",
+   "color": "#475569"
+  }
+ },
+ "sources": [],
+ "rejected_submissions": []
+}

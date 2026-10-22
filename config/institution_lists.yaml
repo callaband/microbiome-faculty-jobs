@@ -1,0 +1,67 @@
+# Institution groups that aren't flags in the federal IPEDS directory.
+# Names are matched after normalising (case, punctuation, "&" -> "and").
+# Add "| ST" after a name that several colleges share, to pin the state (e.g. Wheaton College | MA).
+# Corrections and additions welcome — open a pull request.
+
+ivy_league:
+  - Brown University
+  - Columbia University in the City of New York
+  - Columbia University
+  - Cornell University
+  - Dartmouth College
+  - Harvard University
+  - University of Pennsylvania
+  - Princeton University
+  - Yale University
+
+# Women's colleges and historically women's colleges (now coeducational) in the US.
+womens_colleges:
+  # Seven Sisters
+  - Barnard College
+  - Bryn Mawr College
+  - Mount Holyoke College
+  - Smith College
+  - Wellesley College
+  - Vassar College
+  - Radcliffe College
+  # Other women's colleges
+  - Agnes Scott College
+  - Alverno College
+  - Bay Path University
+  - Bennett College
+  - Cottey College
+  - Hollins University
+  - Meredith College
+  - Moore College of Art and Design
+  - Mount Saint Mary's University | CA
+  - Notre Dame of Maryland University
+  - Saint Mary's College | IN
+  - College of Saint Benedict
+  - Saint Mary-of-the-Woods College
+  - Salem College
+  - Scripps College
+  - Simmons University
+  - Spelman College
+  - St. Catherine University
+  - Stephens College
+  - Sweet Briar College
+  - Texas Woman's University
+  - Trinity Washington University
+  - Wesleyan College
+  # Historically women's, now coeducational
+  - Brenau University
+  - Chatham University
+  - Connecticut College
+  - Converse University
+  - Georgia College & State University
+  - Goucher College
+  - Hood College
+  - Mary Baldwin University
+  - Mississippi University for Women
+  - Russell Sage College
+  - Sarah Lawrence College
+  - Skidmore College
+  - University of North Carolina at Greensboro
+  - Wheaton College | MA
+  - Wilson College
+  - Winthrop University

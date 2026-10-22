@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel><opensearch:totalResults>3</opensearch:totalResults><title>Job Search RSS</title>
+<item><title>Example State University: Assistant Professor of Soil Microbial Ecology</title>
+<description>
+$95,000 - $110,000:
+
+Example State University:
+The Department of Soil and Crop Sciences invites applications for a tenure-track position in soil microbiome...
+Fort Collins, Colorado
+</description>
+<link>https://board.example/job/1001/assistant-professor-soil/?TrackID=9&amp;utm_source=rss</link>
+<pubDate>Wed, 01 Oct 2026 08:00:00 -0500</pubDate>
+<guid isPermaLink="true">https://board.example/job/1001/assistant-professor-soil/?TrackID=9&amp;utm_source=rss</guid></item>
+<item><title>Institut Exemple: Group Leader - Marine Holobionts</title>
+<description>
+Competitive:
+
+Institut Exemple:
+We seek a group leader studying coral and sponge holobionts...
+Roscoff (FR)
+</description>
+<link>https://board.example/job/1002/group-leader-marine/?TrackID=9</link>
+<pubDate>Mon, 15 Sep 2026 08:00:00 -0500</pubDate>
+<guid isPermaLink="true">https://board.example/job/1002/group-leader-marine/?TrackID=9</guid></item>
+<item><title>Example State University: Postdoctoral Fellow - Gut Microbiome</title>
+<description>
+Example State University:
+Postdoc...
+Fort Collins, Colorado
+</description>
+<link>https://board.example/job/1003/postdoc/?TrackID=9</link>
+<pubDate>Mon, 15 Sep 2026 08:00:00 -0500</pubDate>
+<guid isPermaLink="true">https://board.example/job/1003/postdoc/?TrackID=9</guid></item>
+</channel></rss>

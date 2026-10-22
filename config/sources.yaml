@@ -1,0 +1,105 @@
+# Job boards the daily collector checks.
+#
+# type: madgex        Boards built on the Madgex platform. They offer keyword RSS
+#                     at <base>/jobsrss/?keywords=... and every job page carries
+#                     schema.org JobPosting data (dates, location, description).
+# type: hej_category  HigherEdJobs' official per-category RSS feeds. The feed only
+#                     has title + institution + location, so the collector opens
+#                     each faculty-looking posting once to read its description.
+#
+# Set enabled: false to switch a source off. A source that fails (blocked,
+# changed format, offline) is skipped and reported on the website's
+# "Sources" panel; the rest of the run continues.
+
+settings:
+  # Seconds to wait between requests to the same site. Please be polite.
+  delay_seconds: 1.5
+  # Maximum RSS pages per keyword query (20 results per page on Madgex).
+  max_pages: 5
+  # Re-open an active posting's page to refresh its dates every N days.
+  refresh_days: 7
+  # A posting not seen in any feed for this many days is marked as closed.
+  stale_days: 10
+
+# Searched on every Madgex board. Board search is broad; the collector then
+# keeps only postings whose text matches config/taxonomy.yaml.
+keywords:
+  - microbiome
+  - microbiota
+  - metagenomics
+  - microbial ecology
+  - host-microbe
+  - holobiont
+  - rhizosphere
+  - phytobiome
+
+sources:
+  - id: sciencecareers
+    name: Science Careers (AAAS)
+    type: madgex
+    base: https://jobs.sciencecareers.org
+    enabled: true
+
+  - id: naturecareers
+    name: Nature Careers
+    type: madgex
+    base: https://www.nature.com/naturecareers
+    enabled: true
+
+  - id: chronicle
+    name: The Chronicle of Higher Education Jobs
+    type: madgex
+    base: https://jobs.chronicle.com
+    enabled: true
+
+  - id: insidehighered
+    name: Inside Higher Ed Careers
+    type: madgex
+    base: https://careers.insidehighered.com
+    enabled: true
+
+  - id: the_unijobs
+    name: Times Higher Education Unijobs
+    type: madgex
+    base: https://www.timeshighereducation.com/unijobs
+    enabled: true
+
+  - id: newscientist
+    name: New Scientist Jobs
+    type: madgex
+    base: https://www.newscientist.com/jobs
+    enabled: false   # mostly industry; switch on if useful
+
+  - id: higheredjobs
+    name: HigherEdJobs
+    type: hej_category
+    base: https://www.higheredjobs.com
+    enabled: true
+    # Faculty category feeds (catID -> category name on HigherEdJobs).
+    categories:
+      51: Animal Science
+      52: Entomology
+      54: Environmental Science, Ecology, and Forestry
+      53: Food Science
+      49: Plant and Soil Science
+      57: Veterinary Medicine
+      58: Other Agriculture Faculty
+      111: Agricultural Engineering
+      113: Biological and Biomedical Engineering
+      115: Civil and Environmental Engineering
+      185: Nutrition and Dietetics
+      221: Public and Environmental Health
+      138: Other Health Sciences Faculty
+      181: Dentistry
+      137: Medical Research
+      154: Pharmacy and Pharmacology
+      210: Other Medicine Faculty
+      99: Biochemistry and Molecular Biology
+      100: Biology
+      290: Data Science
+      170: Geology, Earth Sciences, and Oceanography
+      108: Other Science Faculty
+
+# Anyone can add a posting that the boards miss: put its URL on its own line in
+# data/submitted_urls.txt (or open a "Submit a position" issue). The collector
+# reads it like any other posting and applies the same filters.

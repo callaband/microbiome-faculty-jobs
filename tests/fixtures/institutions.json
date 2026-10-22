@@ -1,0 +1,117 @@
+{
+"info": {
+"source": "fixture",
+"fetched": "2099-01-01"
+},
+"institutions": [
+{
+"id": "1",
+"name": "Example State University",
+"aliases": [
+"ESU"
+],
+"city": "Fort Collins",
+"state": "CO",
+"basic": 15,
+"hbcu": false,
+"tribal": false,
+"landgrant": true,
+"medical": false,
+"control": "Public",
+"lat": 40.57,
+"lon": -105.08
+},
+{
+"id": "2",
+"name": "Example A & M University-College Station",
+"aliases": [
+"Example A&M University"
+],
+"city": "College Station",
+"state": "TX",
+"basic": 15,
+"hbcu": false,
+"tribal": false,
+"landgrant": true,
+"medical": true,
+"control": "Public",
+"lat": 30.61,
+"lon": -96.34
+},
+{
+"id": "3",
+"name": "Example Agricultural and Technical State University",
+"aliases": [],
+"city": "Greensboro",
+"state": "NC",
+"basic": 16,
+"hbcu": true,
+"tribal": false,
+"landgrant": true,
+"medical": false,
+"control": "Public",
+"lat": 36.07,
+"lon": -79.77
+},
+{
+"id": "4",
+"name": "Smith College",
+"aliases": [],
+"city": "Northampton",
+"state": "MA",
+"basic": 21,
+"hbcu": false,
+"tribal": false,
+"landgrant": false,
+"medical": false,
+"control": "Private nonprofit",
+"lat": 42.32,
+"lon": -72.64
+},
+{
+"id": "5",
+"name": "Wheaton College",
+"aliases": [],
+"city": "Wheaton",
+"state": "IL",
+"basic": 21,
+"hbcu": false,
+"tribal": false,
+"landgrant": false,
+"medical": false,
+"control": "Private nonprofit",
+"lat": 41.87,
+"lon": -88.1
+},
+{
+"id": "6",
+"name": "Yale University",
+"aliases": [],
+"city": "New Haven",
+"state": "CT",
+"basic": 15,
+"hbcu": false,
+"tribal": false,
+"landgrant": false,
+"medical": true,
+"control": "Private nonprofit",
+"lat": 41.31,
+"lon": -72.92
+},
+{
+"id": "7",
+"name": "Example Comprehensive University",
+"aliases": [],
+"city": "Ames",
+"state": "IA",
+"basic": 19,
+"hbcu": false,
+"tribal": false,
+"landgrant": false,
+"medical": false,
+"control": "Public",
+"lat": 42.0,
+"lon": -93.6
+}
+]
+}

@@ -1,0 +1,233 @@
+# Classification rules used by the collector.
+#
+# Everything here is plain keyword / regular-expression matching, so anyone can
+# improve the filters with a pull request — no code changes needed.
+# Patterns are case-insensitive Python regular expressions matched against the
+# posting's title + full description text.
+
+# A posting is kept only if it mentions at least one of these terms.
+microbiome_terms:
+  - 'microbiom\w*'            # microbiome, microbiomes
+  - 'microbiota\w*'
+  - 'metagenom\w*'
+  - 'metatranscriptom\w*'
+  - 'microbial ecolog\w*'
+  - 'microbial communit\w*'
+  - 'host[\s\-–]+microb\w*'   # host-microbe, host–microbiome
+  - 'holobiont\w*'
+  - 'phytobiome\w*'
+  - 'rhizosphere'
+  - 'viromes?\b'
+  - 'mycobiom\w*'
+  - 'microbial symbio\w*'
+  - 'gut microb\w*'
+  - 'commensal (?:bacteri|microb)\w*'
+
+# Job titles must look like a faculty position...
+faculty_title_patterns:
+  - '\bprofessor\w*'
+  - '\bprof\.'
+  - '\bfaculty\b'
+  - '\bopen[\s\-]rank\b'
+  - '\btenure'
+  - '\blecturer\b'
+  - '\breader\b'
+  - '\bprincipal investigator\b'
+  - '\bgroup leader\b'
+  - '\bjunior research group\b'
+  - '\b(?:assistant|associate|full) member\b'
+  - '\bchair\b'
+  - '\binvestigator\b'
+  - '\bclinician[\s\-]scientist\b'
+  - '\bphysician[\s\-]scientist\b'
+
+# ...and must not look like one of these (checked against the title only).
+exclude_title_patterns:
+  - '\bpost[\s\-]?doc\w*'
+  - '\bpostdoctoral\b'
+  - '\bgraduate (?:student|assistant)\b'
+  - '\bph\.?d\.?\s+(?:student|candidate|position|studentship)'
+  - '\bdoctoral (?:student|candidate|researcher)\b'
+  - '\bstudentship\b'
+  - '\btechnician\b'
+  - '\bresearch (?:assistant|associate|scientist|technologist|specialist|coordinator)\b(?!\s+professor)'
+  - '\bstaff scientist\b'
+  - '\blab(?:oratory)? manager\b'
+  - '\badjunct\b'
+  - '\bpart[\s\-]time\b'
+  - '\bintern(?:ship)?\b'
+  - '\bfellow(?:ship)?\b(?!.*professor)'
+  - '\bvisiting\b'
+  - '\bemeritus\b'
+
+# Research domains. A posting can belong to several.
+# label: shown on the website; color: map marker / chip color.
+domains:
+  human_health:
+    label: Human health
+    color: '#c2410c'
+    patterns:
+      - '\bhuman (?:health|disease|microbiome|gut)\b'
+      - '\bclinical\b'
+      - '\bpatients?\b'
+      - '\bmedicine\b'
+      - '\bmedical\b'
+      - '\bcancer\b'
+      - '\boncolog\w*'
+      - '\bimmunolog\w*'
+      - '\bgastroenterolog\w*'
+      - '\binfectious disease\w*'
+      - '\bpublic health\b'
+      - '\bepidemiolog\w*'
+      - '\bpediatric\w*'
+      - '\bwomen.s health\b'
+      - '\bnutrition\w*'
+      - '\bmetabolic disease\w*'
+      - '\bobesity\b'
+      - '\bdiabet\w*'
+      - '\bneuro\w*'
+      - '\boral (?:health|microbio\w*)'
+      - '\bdent(?:al|istry)\b'
+      - '\bpathology\b'
+      - '\bpharmac\w*'
+      - '\bantimicrobial resistance\b'
+  animal_health:
+    label: Animal health
+    color: '#b45309'
+    patterns:
+      - '\bveterinar\w*'
+      - '\banimal (?:health|science\w*|nutrition|agricultur\w*|production|microbio\w*)'
+      - '\blivestock\b'
+      - '\bpoultry\b'
+      - '\bswine\b'
+      - '\bpigs?\b'
+      - '\bcattle\b'
+      - '\bbovine\b'
+      - '\bruminan\w*'
+      - '\bdairy\b'
+      - '\bcompanion animals?\b'
+      - '\bwildlife\b'
+      - '\bzoonot\w*'
+      - '\bone health\b'
+      - '\bcomparative (?:medicine|biomedical)\b'
+  ocean:
+    label: Ocean & marine
+    color: '#0369a1'
+    patterns:
+      - '\bocean\w*'
+      - '\bmarine\b'
+      - '\bcoral\w*'
+      - '\bseawater\b'
+      - '\bcoastal\b'
+      - '\bestuar\w*'
+      - '\bsea\b'
+      - '\bdeep[\s\-]sea\b'
+      - '\bphytoplankton\b'
+      - '\bplankton\w*'
+      - '\bsponges?\b'
+  aquaculture:
+    label: Aquaculture & fisheries
+    color: '#0e7490'
+    patterns:
+      - '\baquacultur\w*'
+      - '\bmaricultur\w*'
+      - '\bfisher(?:y|ies)\b'
+      - '\bfish (?:health|disease|nutrition|pathology)\b'
+      - '\bshellfish\b'
+      - '\boysters?\b'
+      - '\bshrimp\b'
+      - '\bsalmon\w*'
+      - '\baquatic animal\w*'
+  soil:
+    label: Soil
+    color: '#78350f'
+    patterns:
+      - '\bsoils?\b'
+      - '\brhizosphere\b'
+      - '\bterrestrial (?:ecosystem|biogeochem)\w*'
+      - '\bpedolog\w*'
+  plant:
+    label: Plant
+    color: '#15803d'
+    patterns:
+      - '\bplants?\b'
+      - '\bphytobiome\w*'
+      - '\bplant patholog\w*'
+      - '\bcrops?\b'
+      - '\broots?\b'
+      - '\bphyllosphere\b'
+      - '\bendophyt\w*'
+      - '\bforest\w*'
+      - '\bhorticultur\w*'
+      - '\bbotan\w*'
+  agriculture:
+    label: Agriculture
+    color: '#65a30d'
+    patterns:
+      - '\bagricultur\w*'
+      - '\bagronom\w*'
+      - '\bagroecolog\w*'
+      - '\bfarm\w*'
+      - '\bcrop (?:production|science|protection)\b'
+      - '\blivestock\b'
+      - '\bfood (?:production|security|systems?)\b'
+      - '\bsustainable ag\w*'
+  food:
+    label: Food & fermentation
+    color: '#a16207'
+    patterns:
+      - '\bfood science\w*'
+      - '\bfood safety\b'
+      - '\bfoodborne\b'
+      - '\bfermentation\w*'
+      - '\bfermented\b'
+      - '\bprobiotic\w*'
+      - '\bprebiotic\w*'
+  environment:
+    label: Environment & climate
+    color: '#4d7c0f'
+    patterns:
+      - '\benvironmental (?:microbio\w*|science\w*|engineering|health)\b'
+      - '\bfreshwater\b'
+      - '\blakes?\b'
+      - '\brivers?\b'
+      - '\bwastewater\b'
+      - '\bbiogeochem\w*'
+      - '\bclimate\b'
+      - '\bbuilt environment\b'
+      - '\bbioremediat\w*'
+      - '\becosystem\w*'
+      - '\bpermafrost\b'
+  computational:
+    label: Computational & data
+    color: '#6d28d9'
+    patterns:
+      - '\bbioinformatic\w*'
+      - '\bcomputational\b'
+      - '\bdata science\b'
+      - '\bmachine learning\b'
+      - '\bartificial intelligence\b'
+      - '\b(?:AI|ML)\b'
+      - '\bsystems biology\b'
+      - '\bmulti[\s\-]?omics?\b'
+  fundamental:
+    label: Microbiology & ecology (general)
+    color: '#475569'
+    patterns:
+      - '\bmicrobiolog\w*'
+      - '\bmicrobial (?:ecology|evolution|physiology|genetics|genomics)\b'
+      - '\bsymbios\w*'
+      - '\bevolution\w*'
+      - '\bvirolog\w*'
+      - '\bmycolog\w*'
+
+# Domains that need a stronger signal: a posting is tagged with one of these only
+# if at least this many distinct patterns from it match (cuts false positives
+# like "root cause" -> plant, or one passing mention of "climate").
+min_hits:
+  human_health: 2
+  plant: 2
+  environment: 2
+  computational: 1
+  fundamental: 1
+  default: 1

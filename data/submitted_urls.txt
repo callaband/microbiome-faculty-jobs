@@ -1,0 +1,3 @@
+# Postings the job boards miss. One URL per line; lines starting with # are ignored.
+# The collector opens each URL daily and applies the same filters as everything else
+# (faculty title + microbiome terms). Remove a line once the position has closed.
