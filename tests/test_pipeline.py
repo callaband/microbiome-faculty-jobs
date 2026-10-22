@@ -86,7 +86,7 @@ sources:
     animal = jobs["Open Rank Professor - Animal Microbiome and One Health"]
     assert animal["rank_label"] == "Open rank" and animal["priority"] == "low"
     assert "animal_health" in animal["domains"] and animal["deadline"] == "2027-01-15"
-    assert animal["inst_types"] == ["r1", "landgrant", "med_school"] and animal["effort_focus"] == "unstated"
+    assert animal["inst_types"] == ["r1", "landgrant", "med_school", "vet_school"] and animal["effort_focus"] == "unstated"
 
     vet = jobs["Clinical Assistant Professor - Veterinary Microbiology"]
     assert vet["tenure_label"] == "Non-tenure-track" and vet["location"]["country_code"] == "QA"

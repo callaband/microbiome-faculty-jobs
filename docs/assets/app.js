@@ -18,7 +18,7 @@
     ["masters", "PUI – master's"], ["baccalaureate", "PUI – baccalaureate"], ["medical", "Medical school/center"],
     ["special", "Other special-focus"], ["associate", "Community/two-year college"], ["ivy", "Ivy League"],
     ["hbcu", "HBCU"], ["womens", "Women's/historically women's"], ["tribal", "Tribal college"],
-    ["landgrant", "Land-grant"], ["med_school", "Has a medical school"], ["institute", "Research institute/hospital"],
+    ["landgrant", "Land-grant"], ["med_school", "Has a medical school"], ["vet_school", "Has a veterinary school"], ["institute", "Research institute/hospital"],
     ["international", "Outside the US"], ["unknown", "Type not identified"],
   ];
   const FOCUS = [

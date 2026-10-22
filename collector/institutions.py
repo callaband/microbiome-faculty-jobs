@@ -5,6 +5,7 @@ Education, National Center for Education Statistics), which gives:
   - the Carnegie basic classification (R1, R2, doctoral/professional,
     master's, baccalaureate, special focus, associate's)
   - official flags: HBCU, tribal college, land-grant, grants a medical degree
+  - whether it awards the Doctor of Veterinary Medicine (from IPEDS completions)
   - public / private, and campus coordinates
 Ivy League and women's / historically women's colleges come from
 config/institution_lists.yaml.
@@ -35,7 +36,12 @@ from .regions import US_STATES
 log = logging.getLogger(__name__)
 DIRECTORY_FILE = STATE_DIR / "institutions.json"
 IPEDS_URL = "https://nces.ed.gov/ipeds/datacenter/data/HD{year}.zip"
+# Completions by program: used to find institutions that award the DVM
+# (CIP 51.2401 Veterinary Medicine, award level 17 = doctor's degree, professional practice).
+COMPLETIONS_URL = "https://nces.ed.gov/ipeds/datacenter/data/C{year}_A.zip"
+VET_CIP = "51.2401"
 REFRESH_DAYS = 300
+DIRECTORY_VERSION = 2  # bump to force a re-download when new fields are added
 
 # Carnegie basic classification (2018 and 2021 editions share these codes).
 CARNEGIE = {
@@ -77,6 +83,7 @@ TYPE_LABELS = {
     "tribal": "Tribal college",
     "landgrant": "Land-grant",
     "med_school": "Has a medical school",
+    "vet_school": "Has a veterinary school",
     "institute": "Research institute/hospital",
     "international": "Outside the US",
     "unknown": "Type not identified",
@@ -96,20 +103,47 @@ def _norm(s: str) -> str:
 
 
 # ----------------------------------------------------------------------------- directory
+def _read_zip_csv(session: requests.Session, url: str) -> str | None:
+    try:
+        r = session.get(url, timeout=180)
+        if r.status_code != 200 or not r.content.startswith(b"PK"):
+            return None
+        zf = zipfile.ZipFile(io.BytesIO(r.content))
+        name = sorted(n for n in zf.namelist() if n.lower().endswith(".csv"))[-1]  # prefer *_rv.csv
+        return zf.read(name).decode("latin-1")
+    except (requests.RequestException, zipfile.BadZipFile, IndexError) as exc:
+        log.warning("IPEDS %s: %s", url, exc)
+        return None
+
+
+def vet_unitids(raw_csv: str) -> set[str]:
+    """Institutions with at least one DVM graduate in an IPEDS completions (C_A) file."""
+    reader = csv.DictReader(io.StringIO(raw_csv))
+    cols = {c.strip().upper(): c for c in reader.fieldnames or []}
+    cip, lvl, tot, uid = (cols.get(k) for k in ("CIPCODE", "AWLEVEL", "CTOTALT", "UNITID"))
+    out = set()
+    if not (cip and uid):
+        return out
+    for row in reader:
+        if (row.get(cip) or "").strip().strip('"') != VET_CIP:
+            continue
+        if lvl and (row.get(lvl) or "").strip() not in ("17", "9"):  # 9 = pre-2010 "first-professional"
+            continue
+        try:
+            if tot and int(row.get(tot) or 0) <= 0:
+                continue
+        except ValueError:
+            continue
+        out.add((row.get(uid) or "").strip())
+    return out
+
+
 def _download(years: list[int]) -> list[dict]:
     session = requests.Session()
     session.headers["User-Agent"] = _user_agent()
     for year in years:
-        url = IPEDS_URL.format(year=year)
-        try:
-            r = session.get(url, timeout=120)
-            if r.status_code != 200 or not r.content.startswith(b"PK"):
-                continue
-            zf = zipfile.ZipFile(io.BytesIO(r.content))
-            name = sorted(n for n in zf.namelist() if n.lower().endswith(".csv"))[-1]  # prefer *_rv.csv
-            raw = zf.read(name).decode("latin-1")
-        except (requests.RequestException, zipfile.BadZipFile, IndexError) as exc:
-            log.warning("IPEDS %s: %s", year, exc)
+        raw = _read_zip_csv(session, IPEDS_URL.format(year=year))
+        if not raw:
             continue
         rows = []
         reader = csv.DictReader(io.StringIO(raw))
@@ -143,7 +177,19 @@ def _download(years: list[int]) -> list[dict]:
             })
         if rows:
             log.info("IPEDS directory %s: %d institutions (%s)", year, len(rows), basic_col)
-            return [{"source": f"IPEDS HD{year}", "classification": basic_col, "fetched": date.today().isoformat()}] + rows
+            vets, vet_source = set(), "not available"
+            for cy in (year, year - 1):
+                comp = _read_zip_csv(session, COMPLETIONS_URL.format(year=cy))
+                if comp:
+                    vets = vet_unitids(comp)
+                    if vets:
+                        vet_source = f"IPEDS C{cy}_A (CIP {VET_CIP})"
+                        break
+            for r in rows:
+                r["vetmed"] = r["id"] in vets
+            log.info("veterinary schools: %d (%s)", len(vets), vet_source)
+            return [{"source": f"IPEDS HD{year}", "classification": basic_col, "vet_source": vet_source,
+                     "version": DIRECTORY_VERSION, "fetched": date.today().isoformat()}] + rows
     return []
 
 
@@ -152,7 +198,8 @@ def load_directory(offline: bool = False) -> tuple[dict, list[dict]]:
     if DIRECTORY_FILE.exists():
         data = json.loads(DIRECTORY_FILE.read_text(encoding="utf-8"))
         info, rows = data.get("info", {}), data.get("institutions", [])
-    stale = not rows or (date.today() - date.fromisoformat(info.get("fetched", "2000-01-01"))).days > REFRESH_DAYS
+    stale = (not rows or info.get("version", 1) < DIRECTORY_VERSION
+             or (date.today() - date.fromisoformat(info.get("fetched", "2000-01-01"))).days > REFRESH_DAYS)
     if stale and not offline:
         this_year = date.today().year
         got = _download([this_year - 1, this_year - 2, this_year - 3])
@@ -270,6 +317,8 @@ def classify(employer: str, location: dict, description: str, clf: Classifier | 
             types.append("landgrant")
         if rec["medical"] and kind != "medical":
             types.append("med_school")
+        if rec.get("vetmed") or listed("vet_schools", *names, st=rec["state"]):
+            types.append("vet_school")
         out.update(types=types, carnegie=label, control=rec["control"], matched_name=rec["name"],
                    lat=rec.get("lat"), lon=rec.get("lon"))
         return out
@@ -280,6 +329,8 @@ def classify(employer: str, location: dict, description: str, clf: Classifier | 
         types.append("ivy")
     if listed("womens_colleges", emp_n):
         types.append("womens")
+    if listed("vet_schools", emp_n):
+        types.append("vet_school")
     if _INSTITUTE.search(employer or "") and not _UNIVERSITY.search(employer or ""):
         types.append("institute")
     out["types"] = types or ["unknown"]

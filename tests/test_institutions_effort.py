@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 from collector.effort import find_effort
-from collector.institutions import Classifier, classify
+from collector.institutions import Classifier, classify, vet_unitids
 
 ROWS = json.loads((Path(__file__).parent / "fixtures" / "institutions.json").read_text())["institutions"]
 CLF = Classifier(ROWS)
@@ -13,7 +13,8 @@ def kinds(employer, region, cc="US", city="", desc=""):
 
 
 def test_r1_landgrant_by_alias_and_city():
-    assert kinds("Example A&M University", "Texas", city="College Station") == ["r1", "landgrant", "med_school"]
+    assert kinds("Example A&M University", "Texas", city="College Station") == \
+        ["r1", "landgrant", "med_school", "vet_school"]
 
 
 def test_department_name_falls_back_to_description():
@@ -54,3 +55,16 @@ def test_effort_variants():
     assert find_effort("We rank in the top 10% for research funding.")["label"] == ""
     assert find_effort("The position carries a 3-3 teaching load.")["teaching_load"] == "3-3"
     assert find_effort("Nothing about effort.")["focus"] == "unstated"
+
+
+def test_vet_unitids_from_completions():
+    csv_text = ("UNITID,CIPCODE,MAJORNUM,AWLEVEL,CTOTALT\n"
+                "100,51.2401,1,17,120\n"      # DVM graduates -> vet school
+                "200,51.2401,1,5,10\n"        # bachelor's in vet science, not a DVM
+                "300,51.1201,1,17,150\n"      # MD, not DVM
+                '400,"51.2401",1,17,0\n')     # no graduates
+    assert vet_unitids(csv_text) == {"100"}
+
+
+def test_vet_school_from_list():
+    assert "vet_school" in kinds("Long Island University", "New York")

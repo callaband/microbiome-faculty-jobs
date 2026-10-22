@@ -65,3 +65,10 @@ womens_colleges:
   - Wheaton College | MA
   - Wilson College
   - Winthrop University
+
+# Veterinary schools are detected automatically: any institution with Doctor of
+# Veterinary Medicine graduates in the federal IPEDS completions data. List here
+# only schools it misses — e.g. new colleges that haven't graduated a class yet.
+vet_schools:
+  - Long Island University
+  - Texas Tech University

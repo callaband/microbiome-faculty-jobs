@@ -42,6 +42,7 @@ SUBMITTED_FILE = STATE_DIR / "submitted_urls.txt"
 
 SOON_DAYS = 14
 _CLF: Classifier | None = None  # institution directory, loaded in run()
+_DIR_VERSION = 0               # version of the directory that was loaded
 KEEP_CLOSED_DAYS = 180
 
 
@@ -142,6 +143,7 @@ def inst_fields(inst: dict) -> dict:
         "carnegie": inst.get("carnegie", ""),
         "control": inst.get("control", ""),
         "matched_institution": inst.get("matched_name", ""),
+        "inst_version": _DIR_VERSION,
     }
 
 
@@ -151,7 +153,7 @@ def refresh_record(job: dict, fresh: dict) -> None:
               "review_date", "review_text", "deadline", "deadline_text", "listing_expires", "until_filled",
               "employment", "salary", "board_job_type", "summary", "effort", "effort_label", "effort_text",
               "effort_focus", "teaching_load", "inst_types", "inst_type_label", "carnegie", "control",
-              "matched_institution"):
+              "matched_institution", "inst_version"):
         if fresh.get(k) not in (None, "", []):
             job[k] = fresh[k]
     job["last_checked"] = fresh["last_checked"]
@@ -270,9 +272,10 @@ def run(argv: list[str] | None = None) -> int:
     stale_days = int(settings.get("stale_days", 10))
     max_details = args.max_details or int(settings.get("max_detail_fetches", 900))
     taxonomy()  # fail fast on a bad config
-    global _CLF
+    global _CLF, _DIR_VERSION
     dir_info, dir_rows = load_directory(offline=bool(os.environ.get("OFFLINE")))
     _CLF = Classifier(dir_rows)
+    _DIR_VERSION = dir_info.get("version", 1) if dir_rows else 0
 
     jobs: dict[str, dict] = {j["id"]: j for j in _load_json(JOBS_FILE, [])}
     url_index = {s["url"]: j["id"] for j in jobs.values() for s in j["sources"]}
@@ -352,10 +355,11 @@ def run(argv: list[str] | None = None) -> int:
         stat["seconds"] = round(time.monotonic() - t0, 1)
         health.append(stat)
 
-    # Older records without institution type: classify from what we kept.
+    # Records classified with an older directory (or never): classify again from what we kept.
     for job in jobs.values():
-        if "inst_types" not in job:
-            job.update(inst_fields(classify(job.get("institution") or "", job["location"], job.get("summary", ""), _CLF)))
+        if job.get("inst_version") != _DIR_VERSION and _CLF and _CLF.available:
+            name = job.get("matched_institution") or job.get("institution") or ""
+            job.update(inst_fields(classify(name, job["location"], job.get("summary", ""), _CLF)))
 
     # Geocode, assess, prune.
     geo = Geocoder(max_lookups=int(settings.get("max_geocodes", 250)))
