@@ -115,6 +115,7 @@ button, input, select { font: inherit; color: inherit; }
 .map-foot span { display: inline-flex; align-items: center; gap: 6px; }
 .map-foot i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 .leaflet-container { font: 13px/1.4 var(--sans); }
+.tiles-dark { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
 .leaflet-popup-content-wrapper { border-radius: 8px; }
 .leaflet-popup-content { margin: 10px 12px; }
 .pop-title { font-weight: 600; display: block; margin-bottom: 2px; }

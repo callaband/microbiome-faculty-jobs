@@ -73,13 +73,12 @@ window.MFJ = (() => {
     return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
   }
 
+  // OpenStreetMap's standard tiles: no API key; attribution required.
   function tiles(L) {
-    const url = isDark()
-      ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-      : "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
-    return L.tileLayer(url, {
-      maxZoom: 18, subdomains: "abcd",
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    return L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      className: isDark() ? "tiles-dark" : "",
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     });
   }
 
