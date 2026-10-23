@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-22T22:54:03+00:00",
- "today": "2026-10-22",
+ "generated_at": "2026-10-23T18:15:34+00:00",
+ "today": "2026-10-23",
  "repo": "callaband/microbiome-faculty-jobs",
  "site_url": "https://callaband.github.io/microbiome-faculty-jobs/",
  "counts": {
   "open": 75,
   "closed": 2,
-  "new_this_run": 77
+  "new_this_run": 0
  },
  "domains": {
   "human_health": {
@@ -59,11 +59,11 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 29,
-   "new_matches": 18,
+   "listed": 28,
+   "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-22T22:29:35+00:00",
-   "seconds": 51.7
+   "checked_at": "2026-10-23T17:54:44+00:00",
+   "seconds": 11.1
   },
   {
    "id": "naturecareers",
@@ -72,27 +72,27 @@
    "listed": 0,
    "new_matches": 0,
    "error": "robots.txt disallows https://www.nature.com/naturecareers/jobsrss/?keywords=microbiome",
-   "checked_at": "2026-10-22T22:30:27+00:00"
+   "checked_at": "2026-10-23T17:54:56+00:00"
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 114,
-   "new_matches": 43,
+   "listed": 113,
+   "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-22T22:30:27+00:00",
-   "seconds": 144.5
+   "checked_at": "2026-10-23T17:54:56+00:00",
+   "seconds": 20.1
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
    "listed": 96,
-   "new_matches": 16,
+   "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-22T22:32:52+00:00",
-   "seconds": 81.6
+   "checked_at": "2026-10-23T17:55:16+00:00",
+   "seconds": 15.3
   },
   {
    "id": "the_unijobs",
@@ -101,18 +101,18 @@
    "listed": 0,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-22T22:34:13+00:00",
-   "seconds": 10.9
+   "checked_at": "2026-10-23T17:55:31+00:00",
+   "seconds": 11.0
   },
   {
    "id": "higheredjobs",
    "name": "HigherEdJobs",
    "ok": true,
-   "listed": 1602,
+   "listed": 1606,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-22T22:34:24+00:00",
-   "seconds": 1158.3
+   "checked_at": "2026-10-23T17:55:42+00:00",
+   "seconds": 1191.2
   }
  ],
  "rejected_submissions": [],
@@ -132,10 +132,11 @@
   "tribal": "Tribal college",
   "landgrant": "Land-grant",
   "med_school": "Has a medical school",
+  "vet_school": "Has a veterinary school",
   "institute": "Research institute/hospital",
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 963,
- "geocode_lookups": 19
+ "requests_made": 836,
+ "geocode_lookups": 0
 }

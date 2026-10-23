@@ -51,7 +51,7 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -71,7 +71,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f77e9b488a",
@@ -127,7 +128,7 @@
   ],
   "date_posted": "2026-09-30",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -147,7 +148,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "03bf57981b",
@@ -196,7 +198,7 @@
   ],
   "date_posted": "2026-09-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -216,7 +218,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "e3698533e1",
@@ -275,7 +278,7 @@
   ],
   "date_posted": "2026-10-08",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-25",
   "review_text": "Applications received by October 25, 2026 will be given full consideration.",
@@ -298,7 +301,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Oct 25, 2026"
+  "priority_reason": "Review begins Oct 25, 2026",
+  "inst_version": 2
  },
  {
   "id": "fc1e950efb",
@@ -350,7 +354,7 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-16",
   "review_text": "The review of applications will begin November 16, 2026, and the review will continue until the position is filled.",
@@ -370,7 +374,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "2a5ac58571",
@@ -421,7 +426,7 @@
   ],
   "date_posted": "2026-10-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -441,7 +446,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3234dac6d4",
@@ -491,7 +497,7 @@
   ],
   "date_posted": "2026-09-24",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -511,7 +517,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Deadline Oct 23, 2026"
+  "priority_reason": "Deadline Oct 23, 2026",
+  "inst_version": 2
  },
  {
   "id": "df7fb2f8fb",
@@ -563,7 +570,7 @@
   ],
   "date_posted": "2026-08-28",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -583,7 +590,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Deadline Nov 1, 2026"
+  "priority_reason": "Deadline Nov 1, 2026",
+  "inst_version": 2
  },
  {
   "id": "244107f06f",
@@ -637,7 +645,7 @@
   ],
   "date_posted": "2026-10-01",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-01",
   "review_text": "Review of applications will begin on November 1, 2026 and continue until the position is filled.",
@@ -657,7 +665,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 1, 2026"
+  "priority_reason": "Review begins Nov 1, 2026",
+  "inst_version": 2
  },
  {
   "id": "41477342f1",
@@ -714,7 +723,7 @@
   ],
   "date_posted": "2026-08-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-30",
   "review_text": "For full consideration, the information above should be submitted by 6 pm CST on October 30, 2026.",
@@ -734,7 +743,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Oct 30, 2026"
+  "priority_reason": "Review begins Oct 30, 2026",
+  "inst_version": 2
  },
  {
   "id": "ad2e8dbbd1",
@@ -787,7 +797,7 @@
   ],
   "date_posted": "2026-07-31",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-15",
   "review_text": "Review of applications will begin on October 15, 2026 and will continue until the positions are filled.",
@@ -807,7 +817,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "40181407e4",
@@ -859,7 +870,7 @@
   ],
   "date_posted": "2026-10-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -879,7 +890,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3c670379d8",
@@ -929,7 +941,7 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -949,7 +961,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "179a6514cb",
@@ -1001,7 +1014,7 @@
   ],
   "date_posted": "2026-09-24",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-01",
   "review_text": "Review of Applications will begin November 1, 2026.",
@@ -1021,7 +1034,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 1, 2026"
+  "priority_reason": "Review begins Nov 1, 2026",
+  "inst_version": 2
  },
  {
   "id": "765b694aae",
@@ -1071,7 +1085,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-01",
   "review_text": "To ensure full consideration, applications should be received by November 1, 2026.",
@@ -1091,7 +1105,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 1, 2026"
+  "priority_reason": "Review begins Nov 1, 2026",
+  "inst_version": 2
  },
  {
   "id": "bbc90521e0",
@@ -1141,7 +1156,7 @@
   ],
   "date_posted": "2026-09-10",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1161,7 +1176,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Deadline Oct 31, 2026"
+  "priority_reason": "Deadline Oct 31, 2026",
+  "inst_version": 2
  },
  {
   "id": "b67a95a838",
@@ -1211,7 +1227,7 @@
   ],
   "date_posted": "2026-10-01",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1231,7 +1247,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "54afe7ef1c",
@@ -1284,7 +1301,7 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-12-01",
   "review_text": "To ensure full consideration, please apply by December 1, 2026.",
@@ -1304,7 +1321,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "ac16161b0b",
@@ -1359,7 +1377,7 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1379,7 +1397,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "825e99b176",
@@ -1429,7 +1448,7 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1449,7 +1468,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "63800794cc",
@@ -1497,7 +1517,7 @@
   ],
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1517,7 +1537,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "57266c1296",
@@ -1562,7 +1583,7 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1582,7 +1603,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "e4a5eca440",
@@ -1631,7 +1653,7 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1651,7 +1673,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "6019b24b09",
@@ -1695,7 +1718,7 @@
   ],
   "date_posted": "2026-09-18",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1715,7 +1738,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f48a0a84ba",
@@ -1789,7 +1813,7 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1809,7 +1833,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "493002feb9",
@@ -1858,7 +1883,7 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -1878,7 +1903,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3e7447add6",
@@ -1934,7 +1960,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-09-15",
   "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
@@ -1954,7 +1980,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Sep 15, 2026 — application may be too late"
+  "priority_reason": "Review began Sep 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "226f858463",
@@ -2005,7 +2032,7 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2025,7 +2052,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f94fc4133a",
@@ -2074,7 +2102,7 @@
   ],
   "date_posted": "2026-09-10",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin on October 19,",
@@ -2094,7 +2122,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "19a7cb65ae",
@@ -2142,7 +2171,7 @@
   ],
   "date_posted": "2024-08-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2162,7 +2191,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "2de0d3fb03",
@@ -2216,7 +2246,7 @@
   ],
   "date_posted": "2026-03-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-04-15",
   "review_text": "Screening will begin April 15, 2026, but applications will be",
@@ -2236,7 +2266,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Apr 15, 2026 — application may be too late"
+  "priority_reason": "Review began Apr 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "b5e3db3d7c",
@@ -2284,7 +2315,7 @@
   ],
   "date_posted": "2026-09-03",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-01",
   "review_text": "Review of applications will begin on October 1, 2026 and continue",
@@ -2304,7 +2335,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 1, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "9145ade714",
@@ -2355,7 +2387,7 @@
   ],
   "date_posted": "2026-09-10",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2375,7 +2407,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d2aeb95bd8",
@@ -2424,7 +2457,7 @@
   ],
   "date_posted": "2026-08-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2444,7 +2477,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "880b8680b7",
@@ -2494,7 +2528,7 @@
   ],
   "date_posted": "2026-08-25",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-09-24",
   "review_text": "Application review will begin on September 24, 2026.",
@@ -2514,7 +2548,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Sep 24, 2026 — application may be too late"
+  "priority_reason": "Review began Sep 24, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "3a57433a33",
@@ -2568,7 +2603,7 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2588,7 +2623,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "6d84d09e28",
@@ -2640,7 +2676,7 @@
   ],
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2660,7 +2696,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "8f58945643",
@@ -2710,7 +2747,7 @@
   ],
   "date_posted": "2026-06-25",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-15",
   "review_text": "The deadline for assuring full consideration is October 15, 2026;",
@@ -2730,7 +2767,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "ae50839458",
@@ -2787,7 +2825,7 @@
   ],
   "date_posted": "2026-10-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-12-02",
   "review_text": "Applications received by December 2, 2026, will receive full consideration and review will continue until the position is filled.",
@@ -2810,7 +2848,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "6d45d904f6",
@@ -2864,7 +2903,7 @@
   ],
   "date_posted": "2026-06-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-01",
   "review_text": "The deadline for assuring full consideration is October 1st, 2026;",
@@ -2884,7 +2923,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 1, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "f1163a503a",
@@ -2936,7 +2976,7 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin Oct. 19.",
@@ -2956,7 +2996,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "5140c29a62",
@@ -3016,7 +3057,7 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3036,7 +3077,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f3babe8586",
@@ -3090,7 +3132,7 @@
   ],
   "date_posted": "2026-10-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-13",
   "review_text": "Screening of applications begins November 13, 2026 and continues",
@@ -3110,7 +3152,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "a407c20b28",
@@ -3163,7 +3206,7 @@
   ],
   "date_posted": "2026-07-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3183,7 +3226,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "ea2d1805a6",
@@ -3234,7 +3278,7 @@
   ],
   "date_posted": "2026-07-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2027-01-06",
   "review_text": "Review of applications will begin on January 6, 2027, and continue",
@@ -3256,7 +3300,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "b927a88ed5",
@@ -3306,7 +3351,7 @@
   ],
   "date_posted": "2026-03-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-04-01",
   "review_text": "Review of applications will begin 04/01/2026 and will continue",
@@ -3329,7 +3374,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Apr 1, 2026 — application may be too late"
+  "priority_reason": "Review began Apr 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "0bbbd98c05",
@@ -3383,7 +3429,7 @@
   ],
   "date_posted": "2026-10-07",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-06",
   "review_text": "Review of applications will begin on November 6, 2026 and continue until positions are filled.",
@@ -3402,8 +3448,9 @@
   "summary": "Job Title: Assistant / Associate Professor of Philosophy Job Summary As part of Purdue University’s strategic investment in One Health – Healthy and Resilient Living Systems, the Department of Philosophy within the College of Liberal Arts invites applications for a tenure-track or tenured faculty position at the Assistant or Associate Professor level. The Department of Philosophy seeks faculty who can contribute to…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 6, 2026",
+  "inst_version": 2
  },
  {
   "id": "95f4905bb3",
@@ -3453,7 +3500,7 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3473,7 +3520,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "229a155c18",
@@ -3527,7 +3575,7 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-13",
   "review_text": "Screening will begin November 13, 2026 and conclude when the position is filled.",
@@ -3547,7 +3595,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "bd6b29179a",
@@ -3603,7 +3652,7 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-05",
   "review_text": "Review of applications will begin on November 5, 2026 and continue until positions are filled.",
@@ -3623,7 +3672,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 5, 2026"
+  "priority_reason": "Review begins Nov 5, 2026",
+  "inst_version": 2
  },
  {
   "id": "9953e1dc68",
@@ -3675,7 +3725,7 @@
   ],
   "date_posted": "2026-04-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-05-31",
   "review_text": "Review of applications will begin May 31, 2026, and continue until",
@@ -3695,7 +3745,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began May 31, 2026 — application may be too late"
+  "priority_reason": "Review began May 31, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "098c96dd5f",
@@ -3746,7 +3797,7 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3766,7 +3817,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "0038c30013",
@@ -3816,7 +3868,7 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3836,7 +3888,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "de6edb24ef",
@@ -3885,7 +3938,7 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3905,7 +3958,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "7885ecb425",
@@ -3955,7 +4009,7 @@
   ],
   "date_posted": "2026-10-07",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -3975,7 +4029,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d8e70268ce",
@@ -4021,7 +4076,7 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4041,7 +4096,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "b64a9bd44c",
@@ -4092,7 +4148,7 @@
   ],
   "date_posted": "2026-10-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4112,7 +4168,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d770000675",
@@ -4165,7 +4222,7 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4188,7 +4245,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "9e098589af",
@@ -4239,7 +4297,7 @@
   ],
   "date_posted": "2026-09-23",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4259,7 +4317,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "7d1d41397d",
@@ -4312,7 +4371,7 @@
   ],
   "date_posted": "2026-09-30",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-25",
   "review_text": "Applications received by November 25, 2026, will be given full consideration.",
@@ -4335,7 +4394,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "b19586f2e7",
@@ -4385,7 +4445,7 @@
   ],
   "date_posted": "2024-03-24",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4405,7 +4465,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d87b944cc0",
@@ -4454,7 +4515,7 @@
   ],
   "date_posted": "2026-06-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4474,7 +4535,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "cd1f9dbfb0",
@@ -4525,7 +4587,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-09-15",
   "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
@@ -4545,7 +4607,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Sep 15, 2026 — application may be too late"
+  "priority_reason": "Review began Sep 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "4fd50b7e7c",
@@ -4595,7 +4658,7 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-11-02",
   "review_text": "Applications will be reviewed beginning November 2nd, 2026, and accepted until the position is filled.",
@@ -4615,7 +4678,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 2, 2026"
+  "priority_reason": "Review begins Nov 2, 2026",
+  "inst_version": 2
  },
  {
   "id": "adfd1501b4",
@@ -4666,7 +4730,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2026-10-15",
   "review_text": "Review of candidates will begin 10/15/2026 and will continue until filled.",
@@ -4686,7 +4750,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "40fc56abdb",
@@ -4737,7 +4802,7 @@
   ],
   "date_posted": "2023-10-28",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4757,7 +4822,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "ab623dd263",
@@ -4806,7 +4872,7 @@
   ],
   "date_posted": "2026-03-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4826,7 +4892,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "492ed68ae5",
@@ -4877,7 +4944,7 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4897,7 +4964,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3f181a1156",
@@ -4949,7 +5017,7 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -4969,7 +5037,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "0df4f8db53",
@@ -5021,7 +5090,7 @@
   ],
   "date_posted": "2026-02-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5041,7 +5110,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "c222ce8fb8",
@@ -5090,7 +5160,7 @@
   ],
   "date_posted": "2024-05-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5110,7 +5180,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "7077c0495a",
@@ -5158,7 +5229,7 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5178,7 +5249,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "896bf34857",
@@ -5229,7 +5301,7 @@
   ],
   "date_posted": "2025-09-17",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": "2025-11-21",
   "review_text": "Review of applications will begin on November 21, 2025 and will continue until the position is filled.",
@@ -5249,7 +5321,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Nov 21, 2025 — application may be too late"
+  "priority_reason": "Review began Nov 21, 2025 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "a9ab281448",
@@ -5297,7 +5370,7 @@
   ],
   "date_posted": "2026-08-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5317,7 +5390,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d437273e98",
@@ -5367,7 +5441,7 @@
   ],
   "date_posted": "2026-09-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5387,7 +5461,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Deadline Oct 31, 2026"
+  "priority_reason": "Deadline Oct 31, 2026",
+  "inst_version": 2
  },
  {
   "id": "0be18e6344",
@@ -5441,7 +5516,7 @@
   ],
   "date_posted": "2026-09-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5461,7 +5536,8 @@
   "status": "closed",
   "closed_reason": "deadline passed",
   "priority": "soon",
-  "priority_reason": "Deadline Oct 9, 2026"
+  "priority_reason": "Deadline Oct 9, 2026",
+  "inst_version": 2
  },
  {
   "id": "8b52a811a0",
@@ -5510,7 +5586,7 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-23",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -5530,6 +5606,7 @@
   "status": "closed",
   "closed_reason": "deadline passed",
   "priority": "soon",
-  "priority_reason": "Deadline Dec 15, 2024"
+  "priority_reason": "Deadline Dec 15, 2024",
+  "inst_version": 2
  }
 ]
