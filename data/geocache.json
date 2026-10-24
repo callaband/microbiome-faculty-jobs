@@ -1,4 +1,6 @@
 {
+"arizona state university’s biodesign institute, tempe, arizona|us": null,
+"arizona state university’s biodesign institute|us": null,
 "department of food science and human nutrition, fort collins, colorado|us": null,
 "department of food science and human nutrition|us": null,
 "department of molecular & cellular biology, guelph, ontario|ca": null,
@@ -34,6 +36,10 @@
 "montréal, quebec, canada|ca": {
 "lat": 45.50318,
 "lon": -73.56981
+},
+"tempe, arizona, united states|us": {
+"lat": 33.42551,
+"lon": -111.94002
 },
 "the university of luxembourg|lu": null,
 "university of hong kong|hk": null,
