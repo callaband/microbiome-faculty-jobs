@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-25T17:25:44+00:00",
- "today": "2026-10-25",
+ "generated_at": "2026-10-26T19:44:20+00:00",
+ "today": "2026-10-26",
  "repo": "callaband/microbiome-faculty-jobs",
  "site_url": "https://callaband.github.io/microbiome-faculty-jobs/",
  "counts": {
-  "open": 75,
-  "closed": 3,
-  "new_this_run": 0
+  "open": 73,
+  "closed": 6,
+  "new_this_run": 1
  },
  "domains": {
   "human_health": {
@@ -59,11 +59,11 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 29,
+   "listed": 30,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-25T17:06:24+00:00",
-   "seconds": 11.0
+   "checked_at": "2026-10-26T19:25:31+00:00",
+   "seconds": 14.5
   },
   {
    "id": "naturecareers",
@@ -72,27 +72,27 @@
    "listed": 0,
    "new_matches": 0,
    "error": "robots.txt disallows https://www.nature.com/naturecareers/jobsrss/?keywords=microbiome",
-   "checked_at": "2026-10-25T17:06:35+00:00"
+   "checked_at": "2026-10-26T19:25:46+00:00"
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 111,
-   "new_matches": 0,
+   "listed": 113,
+   "new_matches": 1,
    "error": null,
-   "checked_at": "2026-10-25T17:06:35+00:00",
-   "seconds": 20.3
+   "checked_at": "2026-10-26T19:25:46+00:00",
+   "seconds": 22.0
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
-   "listed": 97,
+   "listed": 99,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-25T17:06:56+00:00",
-   "seconds": 15.6
+   "checked_at": "2026-10-26T19:26:08+00:00",
+   "seconds": 17.3
   },
   {
    "id": "the_unijobs",
@@ -101,18 +101,18 @@
    "listed": 0,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-25T17:07:11+00:00",
-   "seconds": 10.8
+   "checked_at": "2026-10-26T19:26:25+00:00",
+   "seconds": 10.9
   },
   {
    "id": "higheredjobs",
    "name": "HigherEdJobs",
    "ok": true,
-   "listed": 1526,
+   "listed": 1482,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-10-25T17:07:22+00:00",
-   "seconds": 1101.4
+   "checked_at": "2026-10-26T19:26:36+00:00",
+   "seconds": 1063.8
   }
  ],
  "rejected_submissions": [],
@@ -137,6 +137,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 776,
+ "requests_made": 753,
  "geocode_lookups": 0
 }
