@@ -43,6 +43,10 @@
 },
 "the university of luxembourg|lu": null,
 "university of hong kong|hk": null,
+"university of toronto, toronto, ontario|ca": {
+"lat": 43.66347,
+"lon": -79.39682
+},
 "university of virginia, charlottesville, indiana|us": null,
 "university of virginia|us": {
 "lat": 38.04106,
