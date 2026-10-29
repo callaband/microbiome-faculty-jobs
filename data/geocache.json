@@ -1,6 +1,10 @@
 {
 "arizona state university’s biodesign institute, tempe, arizona|us": null,
 "arizona state university’s biodesign institute|us": null,
+"cambridge, maryland, united states|us": {
+"lat": 38.57005,
+"lon": -76.07727
+},
 "department of food science and human nutrition, fort collins, colorado|us": null,
 "department of food science and human nutrition|us": null,
 "department of molecular & cellular biology, guelph, ontario|ca": null,
@@ -43,6 +47,8 @@
 },
 "the university of luxembourg|lu": null,
 "university of hong kong|hk": null,
+"university of maryland center for environmental science (umces), cambridge, maryland|us": null,
+"university of maryland center for environmental science (umces)|us": null,
 "university of toronto, toronto, ontario|ca": {
 "lat": 43.66347,
 "lon": -79.39682
