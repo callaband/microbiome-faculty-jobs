@@ -299,6 +299,10 @@
 "on": "2026-10-26",
 "why": "title is not a faculty rank"
 },
+"https://jobs.sciencecareers.org/job/681058/scientist-advanced-genome-technologies-plant-biology-institute/": {
+"on": "2026-10-31",
+"why": "title is not a faculty rank"
+},
 "https://www.higheredjobs.com/details.cfm?JobCode=179547673": {
 "on": "2026-10-27",
 "why": "no microbiome terms in the posting"
@@ -1157,6 +1161,18 @@
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179602303": {
 "on": "2026-10-30",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179603576": {
+"on": "2026-10-31",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179603644": {
+"on": "2026-10-31",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179603656": {
+"on": "2026-10-31",
 "why": "no microbiome terms in the posting"
 }
 }
