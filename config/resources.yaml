@@ -1,0 +1,100 @@
+# "Where else to look" on the website: places the daily collector can't read
+# automatically (their rules don't allow it, there's no usable listing, or the
+# opportunity is a fellowship rather than a job ad), but that are worth checking.
+#
+# Each group has a title, an optional note, and items with name, url (optional)
+# and a short note. The collector copies this file to docs/data/resources.json
+# on every run. Corrections and additions welcome.
+
+groups:
+  - title: Europe — job boards and institutes
+    note: Many European professorships are advertised only on the university's own career page, so also check the departments you're interested in directly.
+    items:
+      - name: Nature Careers
+        url: https://www.nature.com/naturecareers/jobs
+        note: Worldwide. Its rules don't allow automated reading of the job feeds.
+      - name: Academics.com
+        url: https://www.academics.com/jobs
+        note: Germany, Austria and Switzerland. Its terms don't allow automated reading.
+      - name: AcademicTransfer
+        url: https://www.academictransfer.com/en/jobs/
+        note: Dutch universities and research institutes.
+      - name: CNRS researcher competitions
+        url: https://carrieres.cnrs.fr/en/external-competitions-for-researchers-m-f/
+        note: France. Permanent research posts (CRCN, DR) are filled through a yearly national competition, usually opening in December.
+      - name: EMBL careers
+        url: https://www.embl.org/careers/
+        note: Group leader posts at EMBL sites across Europe.
+      - name: Institut Pasteur
+        url: https://www.pasteur.fr/en/about-us/join-us/careers
+        note: Paris; group leader calls are announced here.
+      - name: Helmholtz Association
+        url: https://www.helmholtz.de/en/career/job-vacancies/
+        note: German national research centres, including infection and environmental research.
+      - name: Wellcome Sanger Institute
+        url: https://www.sanger.ac.uk/about/careers/
+        note: UK; faculty and group leader posts in genomics.
+
+  - title: Europe — independent group and fellowship programmes
+    items:
+      - name: DFG Emmy Noether Programme
+        url: https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether
+        note: Germany. Funding to lead an independent junior research group, often a route to a professorship.
+
+  - title: Asia — Hong Kong
+    note: Hong Kong's universities hire mainly through their own career pages. The government's Global STEM Professorship Scheme is offered through the universities rather than as a separate application.
+    items:
+      - name: HKU job search
+        url: https://jobs.hku.hk/en/search
+      - name: CUHK career opportunities
+        url: https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities
+      - name: HKUST current openings
+        url: https://hkustcareers.hkust.edu.hk/join-us/current-opening
+      - name: AcademicJobs.com — Hong Kong
+        url: https://www.academicjobs.com/hk/university-jobs
+        note: Aggregator; its search isn't reliable enough to read automatically.
+
+  - title: Asia — Singapore
+    items:
+      - name: NUS academic positions
+        url: https://www.nus.edu.sg/careers/academic-positions/
+      - name: NTU careers
+        url: https://www.ntu.edu.sg/about-us/build-a-career-at-ntu
+      - name: Careers@Gov
+        url: https://www.careers.gov.sg/
+        note: Public-sector research institutes, including A*STAR.
+      - name: NRF Fellowship
+        url: https://www.nrf.gov.sg/grants/nrff/
+        note: Independent research funding for early-career scientists that comes with a faculty or institute post. One call a year.
+
+  - title: Asia — China
+    note: Science Careers and the Chronicle (read daily) carry many ads from Chinese universities. Joint-venture universities use English and a North American–style tenure track.
+    items:
+      - name: Duke Kunshan University faculty jobs
+        url: https://career.dukekunshan.edu.cn/faculty-jobs/
+      - name: NYU Shanghai open positions
+        url: https://shanghai.nyu.edu/page/open-positions
+      - name: SUSTech careers (Shenzhen)
+        url: https://talent.sustech.edu.cn/rsfw/sys/zpglxt/extranet/index.do#/home
+        note: Mostly in Chinese.
+
+  - title: Asia — India
+    note: IITs, IISc and IISERs recruit through their own portals, often accepting applications year-round.
+    items:
+      - name: IISc faculty recruitment
+        url: https://www.iisc.ac.in/about/faculty-corner/how-to-apply
+      - name: IIT Bombay faculty recruitment
+        url: http://faculty.iitb.ac.in/apply-iitb
+      - name: Ramanujan Fellowship (ANRF)
+        url: https://anrfonline.in/ANRF/Ramanujan_fellowship
+        note: For scientists abroad returning to India; brings salary and research funds to a host institution.
+      - name: Ramalingaswami Re-entry Fellowship (DBT)
+        url: https://dbtindia.gov.in/ramalingaswami-re-entry-fellowshiprrf-programme
+        note: The same idea for biotechnology and life sciences, including microbiome research.
+
+  - title: Everywhere
+    items:
+      - name: Society job boards and mailing lists
+        note: Microbiology and ecology societies and their mailing lists often post faculty ads that never reach the big boards.
+      - name: Department and institute career pages
+        note: Many calls, especially in Europe, appear only on the hiring university's own site. If you find one, submit it here so others see it too.

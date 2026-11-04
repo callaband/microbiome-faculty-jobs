@@ -12,6 +12,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 import sys
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -162,6 +163,19 @@ def refresh_record(job: dict, fresh: dict) -> None:
         job["location"] = {**floc, **{k: v for k, v in loc.items() if k in ("lat", "lon", "precision")}}
 
 
+def refresh_job(src, job: dict, entry: Entry, today: date) -> None:
+    """Re-read a known posting's page. A page that is gone (404/410) closes the job."""
+    try:
+        d = src.fetch_detail(entry)
+    except FetchError as exc:
+        if re.search(r"HTTP (404|410)\b", str(exc)):
+            job["removed_on"] = today.isoformat()
+        log.info("refresh failed %s: %s", entry.url, exc)
+        return
+    job.pop("removed_on", None)
+    refresh_record(job, build_record(entry, d, src.name, today, job["microbiome_terms"]))
+
+
 def find_duplicate(rec: dict, jobs: dict[str, dict]) -> dict | None:
     """Same job posted on two boards: same place (city or institution) and near-identical title."""
     tt = norm_tokens(rec["title"])
@@ -182,7 +196,9 @@ def assess(job: dict, today: date, stale_days: int) -> None:
     review, deadline, expires = _d(job.get("review_date")), _d(job.get("deadline")), _d(job.get("listing_expires"))
     last_seen = _d(job["last_seen"])
     closed_reason = None
-    if deadline and deadline < today:
+    if job.get("removed_on"):
+        closed_reason = "listing removed"
+    elif deadline and deadline < today:
         closed_reason = "deadline passed"
     elif (today - last_seen).days > stale_days:
         closed_reason = "not seen recently"
@@ -207,6 +223,10 @@ def write_outputs(jobs: list[dict], meta: dict) -> None:
     jobs.sort(key=lambda j: j.get("first_seen") or "", reverse=True)
     jobs.sort(key=lambda j: j["status"] != "open")
     JOBS_FILE.write_text(json.dumps(jobs, indent=1, ensure_ascii=False), encoding="utf-8")
+    res = CONFIG_DIR / "resources.yaml"
+    if res.exists():
+        (SITE_DATA_DIR / "resources.json").write_text(
+            json.dumps(yaml.safe_load(res.read_text(encoding="utf-8")), indent=1, ensure_ascii=False), encoding="utf-8")
     META_FILE.write_text(json.dumps(meta, indent=1, ensure_ascii=False), encoding="utf-8")
 
     cols = ["status", "title", "institution", "institution_type", "carnegie", "control", "city", "region", "country",
@@ -270,7 +290,7 @@ def run(argv: list[str] | None = None) -> int:
     today = date.fromisoformat(args.today) if args.today else datetime.now(timezone.utc).date()
     refresh_days = int(settings.get("refresh_days", 7))
     stale_days = int(settings.get("stale_days", 10))
-    max_details = args.max_details or int(settings.get("max_detail_fetches", 900))
+    max_details = args.max_details or int(settings.get("max_detail_fetches", 2000))
     taxonomy()  # fail fast on a bad config
     global _CLF, _DIR_VERSION
     dir_info, dir_rows = load_directory(offline=bool(os.environ.get("OFFLINE")))
@@ -296,6 +316,8 @@ def run(argv: list[str] | None = None) -> int:
         stat = {"id": src.id, "name": src.name, "ok": True, "listed": 0, "new_matches": 0, "error": None,
                 "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
         t0 = time.monotonic()
+        if hasattr(src, "known_urls"):
+            src.known_urls = set(url_index)
         try:
             entries = src.list_entries()
         except FetchError as exc:
@@ -310,12 +332,8 @@ def run(argv: list[str] | None = None) -> int:
                 job = jobs[known_id]
                 job["last_seen"] = today.isoformat()
                 if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details:
-                    try:
-                        details_opened += 1
-                        d = src.fetch_detail(e)
-                        refresh_record(job, build_record(e, d, src.name, today, job["microbiome_terms"]))
-                    except FetchError as exc:
-                        log.info("refresh failed %s: %s", e.url, exc)
+                    refresh_job(src, job, e, today)
+                    details_opened += 1
                 continue
             if e.url in checked:
                 continue
@@ -333,7 +351,8 @@ def run(argv: list[str] | None = None) -> int:
                 continue
             rel = relevance(d.title or e.title, d.description, d.job_type, d.employment)
             if not rel.keep:
-                checked[e.url] = {"on": today.isoformat(), "why": rel.reason}
+                if getattr(src, "remember_rejects", True):
+                    checked[e.url] = {"on": today.isoformat(), "why": rel.reason}
                 if src.id == "submitted":
                     rejected_submissions.append({"url": e.url, "why": rel.reason})
                 continue
@@ -352,6 +371,20 @@ def run(argv: list[str] | None = None) -> int:
             url_index[e.url] = rec["id"]
             stat["new_matches"] += 1
             log.info("NEW  %s — %s", rec["title"], rec["institution"])
+        if getattr(src, "partial_listing", False):
+            # The source lists only its newest jobs: keep older ones open until their
+            # deadline, and re-check their pages weekly so withdrawn ones close.
+            listed = {e.url for e in entries}
+            for job in jobs.values():
+                for srec in job["sources"]:
+                    if srec["id"] != src.id or srec["url"] in listed or job.get("status") == "closed":
+                        continue
+                    job["last_seen"] = today.isoformat()
+                    if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details:
+                        details_opened += 1
+                        refresh_job(src, job, Entry(src.id, srec["url"], job["title"]), today)
+        if hasattr(src, "finish"):
+            src.finish()
         stat["seconds"] = round(time.monotonic() - t0, 1)
         health.append(stat)
 

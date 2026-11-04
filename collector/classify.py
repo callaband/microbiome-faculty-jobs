@@ -121,9 +121,40 @@ _DESC_RANK = {
 }
 
 
+# European titles (German, Dutch, Nordic, French, Southern European).
+_EU_RANK = {
+    "assistant": re.compile(r"\bjunior\s?professur\w*|\buniversitair docent\b", re.I),
+    "associate": re.compile(
+        r"\buniversitair hoofddocent\b|(?<!universitair )(?<!hoofd)\bdocent\b|\bma[iî]tre de conf[ée]rences\b"
+        r"|\bprofess(?:eur|ore) associ[ée]\w*|\bprofesor(?:a)? (?:titular|agregad[oa]|associad[oa])\b", re.I),
+    "full": re.compile(
+        r"\bhoogleraar\b|\bprofesseur des universit\w*|\bprofessore ordinario\b"
+        r"|\bprofesor(?:a)? catedr[áa]tic[oa]\b", re.I),
+    "lecturer": re.compile(r"\b\w*lektor(?:at)?\b", re.I),
+    "investigator": re.compile(
+        r"\bcharg[ée]e? de recherche\b|\bdirect(?:eur|rice) de recherche\b|\bnachwuchsgruppenleit\w*", re.I),
+}
+_PROFESSUR = re.compile(r"\bprofessur\b|\bprofessorship\b", re.I)
+# German professorship grades count only on professor posts (a "Group Leader (W2)" is a group leader).
+_W_GRADE = {"assistant": re.compile(r"\bW\s?1\b", re.I), "associate": re.compile(r"\bW\s?2\b", re.I),
+            "full": re.compile(r"\bW\s?3\b", re.I)}
+_ANY_PROF = re.compile(r"profess|\bprof\.", re.I)
+
+
 def ranks(title: str, description: str) -> list[str]:
     found: set[str] = set()
     t = title
+    for key, rx in _EU_RANK.items():
+        if rx.search(t):
+            found.add(key)
+    if _ANY_PROF.search(t) and not _INVEST.search(t):
+        for key, rx in _W_GRADE.items():
+            if rx.search(t):
+                found.add(key)
+    # A German "Professur" or a "Professorship" with no grade or level named: a professor post.
+    if _PROFESSUR.search(t) and not (found & {"assistant", "associate", "full"}) \
+            and not _ASSIST.search(t) and not _ASSOC.search(t):
+        found.add("full")
     if _OPEN.search(t):
         found.add("open")
     if _PROF.search(t) or "open" in found:
@@ -176,7 +207,9 @@ _TENURED = re.compile(
 )
 _PERMANENT = re.compile(
     r"\bpermanent (?:academic |faculty )?(?:position|post|appointment|contract|role|faculty)\b|\bcontinuing (?:position|appointment|role)\b"
-    r"|\bopen[\s\-]ended (?:contract|position|appointment)\b|\bindefinite (?:contract|appointment)\b|\blifetime (?:position|appointment)\b",
+    r"|\bopen[\s\-]ended (?:contract|position|appointment)\b|\bindefinite (?:contract|appointment)\b|\blifetime (?:position|appointment)\b"
+    r"|\bunbefristet\w*|\bvaste aanstelling\b|\bvast dienstverband\b|\bpermanent (?:full[\s\-]time )?(?:employment|staff)\b"
+    r"|\bcontract type[^.\n]{0,15}:\s*permanent\b",
     re.I,
 )
 TENURE_LABELS = {

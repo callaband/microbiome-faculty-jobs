@@ -20,6 +20,7 @@ DATE_RE = re.compile(
         {_MONTH}\s+\d{{1,2}}{_ORD},?\s+\d{{4}}        # November 15, 2026
       | \d{{1,2}}{_ORD}\s+(?:of\s+)?{_MONTH},?\s+\d{{4}}  # 15 November 2026
       | \d{{4}}-\d{{1,2}}-\d{{1,2}}                 # 2026-11-15
+      | \d{{1,2}}\.\s?\d{{1,2}}\.\s?\d{{4}}          # 15.11.2026 (day first, European)
       | \d{{1,2}}/\d{{1,2}}/\d{{2,4}}                # 11/15/2026
       | {_MONTH}\s+\d{{1,2}}{_ORD}(?![\d,]*\s*\d{{4}}) # November 15 (no year)
       | \d{{1,2}}{_ORD}\s+(?:of\s+)?{_MONTH}(?!,?\s*\d{{4}}) # 15 November (no year)
@@ -40,7 +41,8 @@ REVIEW_CUES = re.compile(
 
 DEADLINE_CUES = re.compile(
     r"deadline|closing date|close[sd]? on|closes|applications? (?:are |is )?due|due (?:date|by)"
-    r"|no later than|must be (?:received|submitted)|apply by|submit(?:ted)? by|last date",
+    r"|no later than|must be (?:received|submitted)|apply by|submit(?:ted)? by|last date"
+    r"|bewerbungsfrist|bewerbungsschluss|einsendeschluss|date limite|sluitingsdatum|reageren (?:kan )?tot",
     re.IGNORECASE,
 )
 
@@ -61,6 +63,12 @@ class DateFindings:
 
 
 def _parse_one(raw: str, anchor: date) -> date | None:
+    if re.fullmatch(r"\d{1,2}\.\s?\d{1,2}\.\s?\d{4}", raw.strip().rstrip(".")):
+        try:
+            d = dparser.parse(raw.replace(" ", ""), dayfirst=True).date()
+            return d if anchor.year - 2 <= d.year <= anchor.year + 3 else None
+        except (ValueError, OverflowError):
+            return None
     raw = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", raw.strip().rstrip("."), flags=re.I)
     raw = raw.replace(" of ", " ")
     has_year = bool(re.search(r"\d{4}|\d{1,2}/\d{1,2}/\d{2}", raw))

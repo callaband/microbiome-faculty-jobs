@@ -5,10 +5,11 @@ from __future__ import annotations
 import logging
 import os
 import time
-import urllib.robotparser
 from urllib.parse import urlsplit
 
 import requests
+
+from .robots import Robots
 
 log = logging.getLogger(__name__)
 
@@ -33,7 +34,7 @@ class PoliteClient:
             }
         )
         self._last_hit: dict[str, float] = {}
-        self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        self._robots: dict[str, Robots | None] = {}
         self.requests_made = 0
 
     # -- robots.txt -----------------------------------------------------------
@@ -41,20 +42,20 @@ class PoliteClient:
         parts = urlsplit(url)
         host = f"{parts.scheme}://{parts.netloc}"
         if host not in self._robots:
-            rp = urllib.robotparser.RobotFileParser()
+            rules: Robots | None = None
             try:
                 resp = self.session.get(host + "/robots.txt", timeout=self.timeout)
-                if resp.status_code >= 400:
-                    rp = None  # no robots.txt -> everything allowed
-                else:
-                    rp.parse(resp.text.splitlines())
+                if resp.status_code < 400:
+                    rules = Robots(resp.text)
+                elif resp.status_code in (401, 403):
+                    rules = Robots("User-agent: *\nDisallow: /")  # access refused: stay out
+                # 404 and other client errors: no robots.txt, everything allowed
             except requests.RequestException:
-                rp = None
-            self._robots[host] = rp
-        rp = self._robots[host]
-        return True if rp is None else rp.can_fetch(self.session.headers["User-Agent"], url)
+                rules = None
+            self._robots[host] = rules
+        rules = self._robots[host]
+        return True if rules is None else rules.can_fetch(self.session.headers["User-Agent"], url)
 
-    # -- fetching -------------------------------------------------------------
     def _wait(self, url: str) -> None:
         host = urlsplit(url).netloc
         last = self._last_hit.get(host)

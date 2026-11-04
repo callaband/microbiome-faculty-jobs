@@ -262,6 +262,247 @@ class HigherEdJobsSource:
         return d
 
 
+# ----------------------------------------------------------------------------- generic page reading
+def detail_from_page(html: str, entry: Entry, deadline_from_valid_through: bool = False) -> Detail:
+    """Read a job page: schema.org JobPosting data first, then the page itself."""
+    soup = BeautifulSoup(html, "html.parser")
+    d = Detail(title=entry.title, employer=entry.employer, date_posted=entry.date_posted)
+    jp = _jsonld_jobposting(soup)
+    if jp:
+        _detail_from_jsonld(jp, d)
+        if deadline_from_valid_through and d.listing_expires:
+            # On these boards the listing ends on the application deadline.
+            d.application_due = d.listing_expires
+    if not d.title:
+        og = soup.find("meta", property="og:title")
+        h1 = soup.find("h1")
+        d.title = clean(og["content"]) if og and og.get("content") else clean(h1.get_text(" ") if h1 else "")
+    if not d.description:
+        main = soup.find("main") or soup.find("article") or soup.body
+        d.description = html_to_text(str(main)) if main else ""
+    if not d.employer:
+        og = soup.find("meta", property="og:site_name")
+        d.employer = clean(og["content"]) if og and og.get("content") else ""
+    if not (d.city or d.country_code) and entry.location_text:
+        place = parse_place(entry.location_text)
+        d.city, d.region, d.country_code = place["city"], place["region"], place["country_code"]
+    return d
+
+
+def _expand(templates: list[str], keywords: list[str]) -> list[str]:
+    out = []
+    for t in templates:
+        if "{keyword}" in t:
+            out += [t.replace("{keyword}", quote_plus(k)) for k in keywords]
+        else:
+            out.append(t)
+    return out
+
+
+class ListingSource:
+    """Search-result or category pages that link to job pages carrying JobPosting data.
+
+    config:
+      base:  https://www.example.org
+      urls:  paths; "{keyword}" is replaced by each search keyword, "{page}" by 1..pages
+      link_pattern: regex matching a job page's path
+      pages: how many result pages to read when a url has "{page}" (default 1)
+      deadline_from_valid_through: true when the board ends a listing on its deadline
+    """
+
+    def __init__(self, cfg: dict, settings: dict, keywords: list[str], client: PoliteClient):
+        self.id, self.name, self.base = cfg["id"], cfg["name"], cfg["base"].rstrip("/")
+        self.urls = _expand(cfg["urls"], cfg.get("keywords") or keywords)
+        self.link_rx = re.compile(cfg["link_pattern"])
+        self.pages = int(cfg.get("pages", 1))
+        self.deadline_vt = bool(cfg.get("deadline_from_valid_through", False))
+        self.client = client
+
+    def _links(self, html: str) -> list[tuple[str, str]]:
+        soup = BeautifulSoup(html, "html.parser")
+        found: dict[str, str] = {}
+        for a in soup.find_all("a", href=True):
+            href = a["href"].split("#")[0]
+            path = urlsplit(href).path if href.startswith("http") else href.split("?")[0]
+            m = self.link_rx.search(path)
+            if not m:
+                continue
+            url = self.base + m.group(0) if not href.startswith("http") else _strip_query(href)
+            text = clean(a.get_text(" "))
+            text = re.sub(r"^(view details|read more|more info(?:rmation)?)\s*", "", text, flags=re.I)
+            if len(text) > len(found.get(url, "")) and len(text) < 300:
+                found[url] = text
+            else:
+                found.setdefault(url, "")
+        return list(found.items())
+
+    def list_entries(self) -> list[Entry]:
+        seen: dict[str, Entry] = {}
+        errors = []
+        for tpl in self.urls:
+            for page in range(1, (self.pages if "{page}" in tpl else 1) + 1):
+                url = self.base + tpl.replace("{page}", str(page))
+                try:
+                    links = self._links(self.client.get(url).text)
+                except FetchError as exc:
+                    errors.append(str(exc))
+                    break
+                new = [(u, t) for u, t in links if u not in seen]
+                for u, t in new:
+                    seen[u] = Entry(self.id, u, t)
+                if not new:
+                    break
+        if errors and not seen:
+            raise FetchError(errors[0])
+        return list(seen.values())
+
+    def fetch_detail(self, entry: Entry) -> Detail:
+        return detail_from_page(self.client.get(entry.url).text, entry, self.deadline_vt)
+
+
+class RssSource:
+    """A plain RSS job feed whose items link to job pages (e.g. Max Planck Society).
+
+    The feed only holds the latest postings, so jobs that drop off it stay listed
+    until their deadline (partial_listing)."""
+
+    partial_listing = True
+
+    def __init__(self, cfg: dict, settings: dict, keywords: list[str], client: PoliteClient):
+        self.id, self.name = cfg["id"], cfg["name"]
+        self.feeds = cfg["feeds"]
+        self.deadline_vt = bool(cfg.get("deadline_from_valid_through", False))
+        self.client = client
+
+    def list_entries(self) -> list[Entry]:
+        seen: dict[str, Entry] = {}
+        for feed in self.feeds:
+            for it in _rss_items(self.client.get(feed, accept="application/rss+xml, application/xml").text):
+                link = (it["link"] or it["guid"]).strip()
+                if link and link not in seen:
+                    seen[link] = Entry(self.id, link, clean(html_to_text(it["title"])), "", "", parse_any(it["pubDate"]))
+        return list(seen.values())
+
+    def fetch_detail(self, entry: Entry) -> Detail:
+        return detail_from_page(self.client.get(entry.url).text, entry, self.deadline_vt)
+
+
+class EuraxessSource:
+    """EURAXESS (European Commission). Its robots.txt asks robots not to run searches,
+    but allows the newest-first job list and every job page (/jobs/<number>). Job
+    numbers rise steadily, so each run opens the numbers it hasn't checked yet: first
+    the new ones, then, within a daily budget, older ones back to `backfill_ids`.
+    Progress is kept in data/euraxess_state.json, so nothing is opened twice."""
+
+    partial_listing = True
+    remember_rejects = False  # progress file already prevents re-opening
+
+    def __init__(self, cfg: dict, settings: dict, keywords: list[str], client: PoliteClient):
+        from . import STATE_DIR
+        self.id, self.name, self.base = cfg["id"], cfg["name"], cfg["base"].rstrip("/")
+        self.budget = int(cfg.get("max_per_run", 600))
+        self.backfill = int(cfg.get("backfill_ids", 7500))   # ~30 days at ~250 new jobs a day
+        self.state_file = STATE_DIR / "euraxess_state.json"
+        self.client = client
+        self.known_urls: set[str] = set()
+        self.processed: set[int] = set()
+        self.current_max = 0
+
+    def _url(self, n: int) -> str:
+        return f"{self.base}/jobs/{n}"
+
+    def _state(self) -> dict:
+        try:
+            return json.loads(self.state_file.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return {}
+
+    def list_entries(self) -> list[Entry]:
+        html = self.client.get(self.base + "/jobs/search").text
+        nums = [int(n) for n in re.findall(r"/jobs/(\d{3,})\b", html)]
+        if not nums:
+            raise FetchError("EURAXESS job list had no job links (page layout may have changed)")
+        self.current_max = cur = max(nums)
+        st = self._state()
+        high = int(st.get("done_high", cur))
+        low = int(st.get("done_low", cur + 1))
+        floor = cur - self.backfill
+        forward = list(range(high + 1, cur + 1))
+        backward = list(range(min(low, cur + 1) - 1, floor - 1, -1))
+        plan = (forward + backward)[: self.budget]
+        out = []
+        for n in plan:
+            url = self._url(n)
+            if url in self.known_urls:
+                self.processed.add(n)
+                continue
+            out.append(Entry(self.id, url, ""))
+        return out
+
+    def fetch_detail(self, entry: Entry) -> Detail:
+        n = int(entry.url.rsplit("/", 1)[1])
+        self.processed.add(n)  # counted even if the page is gone (unused or withdrawn number)
+        html = self.client.get(entry.url).text
+        return parse_euraxess(html, entry)
+
+    def finish(self) -> None:
+        """Save how far the walk got: the contiguous checked range around the newest jobs."""
+        if not self.current_max:
+            return
+        st = self._state()
+        high = int(st.get("done_high", self.current_max))
+        low = int(st.get("done_low", self.current_max + 1))
+        while high + 1 in self.processed:
+            high += 1
+        while low - 1 in self.processed:
+            low -= 1
+        floor = self.current_max - self.backfill
+        state = {"done_high": high, "done_low": max(low, floor), "current_max": self.current_max,
+                 "updated": date.today().isoformat()}
+        self.state_file.parent.mkdir(parents=True, exist_ok=True)
+        self.state_file.write_text(json.dumps(state, indent=1), encoding="utf-8")
+
+
+def parse_euraxess(html: str, entry: Entry) -> Detail:
+    soup = BeautifulSoup(html, "html.parser")
+    d = Detail()
+    og = soup.find("meta", property="og:title")
+    d.title = clean(og["content"]) if og and og.get("content") else ""
+    facts: dict[str, str] = {}
+    times: dict[str, str] = {}
+    for dt in soup.select("dt"):
+        dd = dt.find_next_sibling("dd")
+        if not dd:
+            continue
+        key = clean(dt.get_text(" ")).lower()
+        if key not in facts:
+            facts[key] = clean(dd.get_text(" "))
+            t = dd.find("time")
+            if t and t.get("datetime"):
+                times[key] = t["datetime"]
+    d.employer = facts.get("organisation/company", "")
+    d.country_code = country_code(facts.get("country"))
+    d.city = facts.get("city", "")
+    d.application_due = parse_any(times.get("application deadline") or facts.get("application deadline", "").split(" - ")[0])
+    d.employment = facts.get("job status", "")
+    profile = facts.get("researcher profile", "")
+    positions = facts.get("positions", "")
+    d.extra = {"researcher_profile": profile, "positions": positions, "contract": facts.get("type of contract", "")}
+    # R3 = established researcher, R4 = leading researcher: faculty-level profiles.
+    if re.search(r"\bR[34]\b", profile) and not re.search(r"phd|postdoc", positions, re.I):
+        d.job_type = "Faculty"
+    parts = []
+    for hid in ("offer-description", "requirements", "additional-information"):
+        h = soup.find(id=hid)
+        if h and h.find_next_sibling():
+            parts.append(html_to_text(str(h.find_next_sibling())))
+    if re.fullmatch(r"\s*permanent\s*", d.extra["contract"] or "", re.I):
+        parts.append("Contract type (EURAXESS): Permanent")
+    d.description = "\n\n".join(p for p in parts if p)
+    posted = re.search(r"Posted on:\s*([^<\n]+)", html)
+    d.date_posted = parse_any(posted.group(1)) if posted else None
+    return d
+
 # ----------------------------------------------------------------------------- Submitted URLs
 class SubmittedSource:
     """URLs listed in data/submitted_urls.txt (community submissions)."""
@@ -295,7 +536,8 @@ class SubmittedSource:
 
 def build_sources(cfg: dict, client: PoliteClient, submitted: list[str]):
     settings, keywords = cfg.get("settings", {}), cfg.get("keywords", [])
-    kinds = {"madgex": MadgexSource, "hej_category": HigherEdJobsSource}
+    kinds = {"madgex": MadgexSource, "hej_category": HigherEdJobsSource, "listing": ListingSource,
+             "rss": RssSource, "euraxess": EuraxessSource}
     out = []
     for s in cfg.get("sources", []):
         if not s.get("enabled", True):

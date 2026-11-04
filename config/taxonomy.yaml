@@ -22,6 +22,14 @@ microbiome_terms:
   - 'microbial symbio\w*'
   - 'gut microb\w*'
   - 'commensal (?:bacteri|microb)\w*'
+  # Other European languages (postings on EURAXESS and national boards)
+  - 'mikrobiom\w*'            # German, Nordic, Czech, Polish
+  - 'mikrobiot\w*'
+  - 'microbiot[ae]\w*'         # French microbiote, Italian/Spanish microbiota
+  - 'microbioom\w*'           # Dutch
+  - 'microbioma\w*'           # Spanish, Italian, Portuguese
+  - 'm[ée]tag[ée]nom\w*'       # French métagénomique
+  - 'holobionte?n?\b'
 
 # Job titles must look like a faculty position...
 faculty_title_patterns:
@@ -40,6 +48,19 @@ faculty_title_patterns:
   - '\binvestigator\b'
   - '\bclinician[\s\-]scientist\b'
   - '\bphysician[\s\-]scientist\b'
+  # European titles
+  - '\b(?:junior)?professur\w*'          # German Professur, Juniorprofessur
+  - '\bW\s?[123]\b'                       # German professorship grades W1-W3
+  - '\bhoogleraar\b'                     # Dutch full professor
+  - '\buniversitair (?:hoofd)?docent\b'  # Dutch assistant / associate professor
+  - '\bdocent\b'                         # Nordic / Central European associate professor
+  - '\b\w*lektor(?:at)?\b'                # universitetslektor, lektor
+  - '\bma[iî]tre de conf[ée]rences\b'    # French
+  - '\bprofesseur\w*'                    # French
+  - '\bprofesor\w*|\bprofessore\b'       # Spanish, Italian, Portuguese
+  - '\bcharg[ée]e? de recherche\b'       # French permanent researcher (CNRS, INRAE)
+  - '\bdirect(?:eur|rice) de recherche\b'
+  - '\bnachwuchsgruppenleit\w*'          # junior research group leader
 
 # ...and must not look like one of these (checked against the title only).
 exclude_title_patterns:
@@ -59,6 +80,12 @@ exclude_title_patterns:
   - '\bfellow(?:ship)?\b(?!.*professor)'
   - '\bvisiting\b'
   - '\bemeritus\b'
+  # European non-faculty titles
+  - '\bdoktorand\w*|\bpromovend\w*|\bdoctorant\w*|\bdoctoral (?:position|researcher|student)s?\b'
+  - '\bwissenschaftliche[rns]? mitarbeiter\w*'   # research associate (usually PhD/postdoc)
+  - '\buniversit(?:y|äts)\s?assistent\w*|\buniversity assistant\b'
+  - '\bstudent(?:ische)? (?:assistant|hilfskraft)\b'
+  - '\baios\b'                                    # Dutch medical resident
 
 # Research domains. A posting can belong to several.
 # label: shown on the website; color: map marker / chip color.

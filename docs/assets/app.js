@@ -271,6 +271,18 @@
     }
   }
 
+  // "Where else to look": links the collector can't read automatically.
+  fetch("data/resources.json", { cache: "no-cache" }).then(r => (r.ok ? r.json() : null)).then(res => {
+    const el = $("elsewhere-groups");
+    if (!res || !res.groups || !el) { const sec = $("elsewhere"); if (sec) sec.hidden = true; return; }
+    const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : null;
+    el.innerHTML = res.groups.map(g => `<div class="res-group"><h3>${esc(g.title)}</h3>
+      ${g.note ? `<p>${esc(g.note)}</p>` : ""}
+      <ul>${(g.items || []).map(it => `<li>${safeUrl(it.url)
+        ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)} ↗</a>` : `<b>${esc(it.name)}</b>`}
+        ${it.note ? `<span>${esc(it.note)}</span>` : ""}</li>`).join("")}</ul></div>`).join("");
+  }).catch(() => { const sec = $("elsewhere"); if (sec) sec.hidden = true; });
+
   readHash();
   initMap();
   renderLegend();
