@@ -72,6 +72,16 @@ You need a free GitHub account and [GitHub Desktop](https://desktop.github.com/)
 
 ---
 
+## Visitor statistics (optional)
+
+The site can count visits with [GoatCounter](https://www.goatcounter.com): free for non-commercial sites, no cookies (so no consent banner), no personal data. Each position page is counted separately under its title, so you can see which positions people open.
+
+1. Sign up at goatcounter.com and choose a site code, e.g. `mfjobs` (your dashboard is then `https://mfjobs.goatcounter.com`).
+2. Put that code between the quotes in [`docs/assets/analytics.js`](docs/assets/analytics.js): `const GOATCOUNTER_CODE = "mfjobs";`
+3. Commit and push. Visits show up in your GoatCounter dashboard within a minute.
+
+Leave the code empty to turn counting off. Visitors with ad or tracker blockers aren't counted, so treat the numbers as a lower bound. (GitHub's own **Insights → Traffic** page counts visits to the repository on github.com, not to the website.)
+
 ## Run or test it locally
 
 ```bash

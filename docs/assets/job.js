@@ -9,10 +9,12 @@
   const back = `<div class="crumbs"><a href="./">← All positions</a></div>`;
 
   if (!j) {
+    window.MFJ_track && window.MFJ_track("Position not found");
     root.innerHTML = back + `<div class="empty"><h3>Position not found</h3>It may have closed more than six months ago and been removed from the list.</div>`;
     return;
   }
   document.title = `${j.title} · ${j.institution} · Microbiome Faculty Jobs`;
+  window.MFJ_track && window.MFJ_track(`${j.title} · ${j.institution}`);
 
   let callout = "";
   if (j.status === "closed") {
