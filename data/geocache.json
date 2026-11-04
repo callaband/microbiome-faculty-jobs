@@ -41,12 +41,20 @@
 "lat": 45.50318,
 "lon": -73.56981
 },
+"quadram institute bioscience, norwich, england|gb": {
+"lat": 52.62089,
+"lon": 1.21874
+},
 "tempe, arizona, united states|us": {
 "lat": 33.42551,
 "lon": -111.94002
 },
 "the university of luxembourg|lu": null,
 "university of hong kong|hk": null,
+"university of leeds, leeds, england|gb": {
+"lat": 53.80657,
+"lon": -1.55579
+},
 "university of maryland center for environmental science (umces), cambridge, maryland|us": null,
 "university of maryland center for environmental science (umces)|us": null,
 "university of toronto, toronto, ontario|ca": {

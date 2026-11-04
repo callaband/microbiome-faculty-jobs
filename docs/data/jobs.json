@@ -73,6 +73,153 @@
   "priority_reason": ""
  },
  {
+  "id": "7ca728d075",
+  "title": "Lecturer in Zoology or Animal Science",
+  "institution": "University of Leeds",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Leeds",
+   "region": "England",
+   "country_code": "GB",
+   "country": "United Kingdom",
+   "world_region": "Europe",
+   "lat": 53.80657,
+   "lon": -1.55579,
+   "precision": "institution"
+  },
+  "url": "https://www.jobs.ac.uk/job/DTM143/lecturer-in-zoology-or-animal-science",
+  "sources": [
+   {
+    "id": "jobs_ac_uk",
+    "name": "jobs.ac.uk (UK and Europe)",
+    "url": "https://www.jobs.ac.uk/job/DTM143/lecturer-in-zoology-or-animal-science"
+   }
+  ],
+  "ranks": [
+   "lecturer"
+  ],
+  "rank_label": "Lecturer / Reader",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "animal_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host–microbiome",
+   "microbiome"
+  ],
+  "date_posted": "2026-10-30",
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-04",
+  "last_checked": "2026-11-04",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2027-01-03",
+  "deadline_text": "Application due date listed on the posting.",
+  "listing_expires": "2027-01-03",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full Time,Permanent",
+  "salary": "GBP 51753.00–59966.00",
+  "board_job_type": "",
+  "summary": "Location Leeds - Main Campus School/Institute School of Biology Interview Date To be confirmed Downloads Candidate Brief (PDF) Overview Are you an ambitious and experienced biologist with the motivation to carry out world-leading research and deliver an exceptional student experience in a research-intensive Russell Group University? This role offers the opportunity to further develop your career within one of the…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "27e4a4d725",
+  "title": "Group Leader - Food-Microbiome Modelling and Host-Microbe Interactions",
+  "institution": "Quadram Institute Bioscience",
+  "inst_types": [
+   "international",
+   "institute"
+  ],
+  "inst_type_label": "Outside the US · Research institute/hospital",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Norwich",
+   "region": "England",
+   "country_code": "GB",
+   "country": "United Kingdom",
+   "world_region": "Europe",
+   "lat": 52.62089,
+   "lon": 1.21874,
+   "precision": "institution"
+  },
+  "url": "https://www.jobs.ac.uk/job/DTJ665/group-leader-food-microbiome-modelling-and-host-microbe-interactions",
+  "sources": [
+   {
+    "id": "jobs_ac_uk",
+    "name": "jobs.ac.uk (UK and Europe)",
+    "url": "https://www.jobs.ac.uk/job/DTJ665/group-leader-food-microbiome-modelling-and-host-microbe-interactions"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "investigator"
+  ],
+  "rank_label": "Assistant / Associate / Investigator / Group leader",
+  "tenure": [
+   "tenured"
+  ],
+  "tenure_label": "Tenured",
+  "domains": [
+   "human_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "host-microbe",
+   "microbial community",
+   "microbiome"
+  ],
+  "date_posted": "2026-10-23",
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-04",
+  "last_checked": "2026-11-04",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-12-06",
+  "deadline_text": "Application due date listed on the posting.",
+  "listing_expires": "2026-12-06",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full Time,Permanent,Fixed-Term/Contract",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "About the Opportunity The Quadram Institute invites applications for an ambitious and collaborative Group Leader (Professor or Associate Professor equivalent) or Career Track Group Leader (Assistant Professor equivalent) to establish an independent research programme focused on advancing our understanding of how food and food components influence the human gut microbiome and host health. This strategic appointment…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
   "id": "bfdf73bc7f",
   "title": "Open Rank, Tenured/Tenure-track Faculty Position in Environmental Fate and Effects of Microplastics",
   "institution": "Indiana University Bloomington",
@@ -2170,7 +2317,7 @@
   ],
   "date_posted": "2026-09-10",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-03",
+  "last_seen": "2026-11-04",
   "last_checked": "2026-10-29",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin on October 19,",
@@ -2609,12 +2756,12 @@
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-04",
-  "last_checked": "2026-10-22",
+  "last_checked": "2026-11-04",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-13",
+  "listing_expires": "2027-01-02",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
