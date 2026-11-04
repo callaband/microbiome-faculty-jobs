@@ -44,7 +44,11 @@ sources:
     name: Nature Careers
     type: madgex
     base: https://www.nature.com/naturecareers
-    enabled: true
+    # Off: nature.com's robots.txt disallows its job RSS feeds and job search for
+    # automated tools. Individual job pages are allowed and listed in
+    # https://www.nature.com/naturecareers/sitemapindex.xml, so a sitemap-based
+    # reader would be the rules-compliant way to add it back.
+    enabled: false
 
   - id: chronicle
     name: The Chronicle of Higher Education Jobs
