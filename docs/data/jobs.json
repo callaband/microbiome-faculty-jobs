@@ -1,5 +1,790 @@
 [
  {
+  "id": "bfdf73bc7f",
+  "title": "Open Rank, Tenured/Tenure-track Faculty Position in Environmental Fate and Effects of Microplastics",
+  "institution": "Indiana University Bloomington",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Indiana University-Bloomington",
+  "inst_version": 2,
+  "location": {
+   "city": "Bloomington",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.16609,
+   "lon": -86.52656,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38059550/open-rank-tenured-tenure-track-faculty-position-in-environmental-fate-and-effects-of-microplastics/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38059550/open-rank-tenured-tenure-track-faculty-position-in-environmental-fate-and-effects-of-microplastics/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbial communities"
+  ],
+  "date_posted": "2026-11-03",
+  "first_seen": "2026-11-03",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-11-03",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-12-14",
+  "deadline_text": "application materials must be received by December 14, 2026.",
+  "listing_expires": "2027-01-03",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Posting Details Position Details Title Open Rank, Tenured/Tenure-track Faculty Position in Environmental Fate and Effects of Microplastics Appointment Status Tenure Track Department IU Bloomington Vice Provost For Faculty Affairs Location Bloomington Position Summary The O’Neill School of Public and Environmental Affairs at Indiana University Bloomington ( IUB ) invites applications for a tenured/tenure-track…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "2bb50fa13e",
+  "title": "Tenure-Track Assistant/Associate Professor in Biological Sciences -- Quantitative Neuroscience",
+  "institution": "Purdue University - Department of Biological Sciences",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "inst_version": 2,
+  "location": {
+   "city": "West Lafayette",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681019/tenure-track-assistant-associate-professor-in-biological-sciences-quantitative-neuroscience/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681019/tenure-track-assistant-associate-professor-in-biological-sciences-quantitative-neuroscience/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-29",
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
+  "review_date": "2026-11-15",
+  "review_text": "Review of applications will begin by November 15, 2026, and continue until positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-28",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary commensurate with education and experience",
+  "board_job_type": "",
+  "summary": "Strategic Faculty Recruitment Initiative in One Health - Healthy and Resilient Living Systems - Quantitative Neuroscience, Department of Biological Sciences As part of a transformative, university-wide initiative in One Health - Healthy and Resilient Living Systems, the Purdue University Department of Biological Sciences invites applications for a full-time, tenure-track or tenured faculty position at the Assistant…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 15, 2026"
+ },
+ {
+  "id": "8da80349ed",
+  "title": "Assistant Teaching Professor of Biology",
+  "institution": "Ball State University",
+  "inst_types": [
+   "r2"
+  ],
+  "inst_type_label": "R2",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "Ball State University",
+  "inst_version": 2,
+  "location": {
+   "city": "Muncie",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.20343,
+   "lon": -85.40904,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38057635/assistant-teaching-professor-of-biology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38057635/assistant-teaching-professor-of-biology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "non-tenure-track"
+  ],
+  "tenure_label": "Non-tenure-track",
+  "domains": [
+   "human_health",
+   "soil"
+  ],
+  "microbiome_terms": [
+   "microbial ecology",
+   "microbiome"
+  ],
+  "date_posted": "2026-10-28",
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-12-27",
+  "deadline_text": "Applications must be received by December 27, 2026, at 12:01",
+  "listing_expires": "2026-12-29",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Position Title: Assistant Teaching Professor of Biology Compensation: $48,000 - $62,000 Department: Biology Start Date: 08/16/2027 About this opportunity: The Department of Biology at Ball State University invites applications for a full-time Non-Tenure-Track Assistant Teaching Professor in Biology. This position is similar to a Research Faculty Fellow position, designed as a bridge position that combines teaching…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "a587dc7f45",
+  "title": "Professor of Quantitative Neuroscience, Purdue University Department of Biological Sciences",
+  "institution": "Purdue University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "inst_version": 2,
+  "location": {
+   "city": "West Lafayette",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38057923/professor-of-quantitative-neuroscience-purdue-university-department-of-biological-sciences/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38057923/professor-of-quantitative-neuroscience-purdue-university-department-of-biological-sciences/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-29",
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
+  "review_date": "2026-11-15",
+  "review_text": "Review of applications will begin by November 15, 2026, and continue until positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-29",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary commensurate with education and experience",
+  "board_job_type": "",
+  "summary": "Strategic Faculty Recruitment Initiative in One Health - Healthy and Resilient Living Systems - Quantitative Neuroscience, Department of Biological Sciences As part of a transformative, university-wide initiative in One Health - Healthy and Resilient Living Systems, the Purdue University Department of Biological Sciences invites applications for a full-time, tenure-track or tenured faculty position at the Assistant…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 15, 2026"
+ },
+ {
+  "id": "4c85d0d1b6",
+  "title": "Assistant Professor-Microbiome and Symbiosis Studies",
+  "institution": "University of Maryland Center for Environmental Science (UMCES)",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Cambridge",
+   "region": "Maryland",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.57005,
+   "lon": -76.07727,
+   "precision": "city"
+  },
+  "url": "https://www.higheredjobs.com/details.cfm?JobCode=179601266",
+  "sources": [
+   {
+    "id": "higheredjobs",
+    "name": "HigherEdJobs",
+    "url": "https://www.higheredjobs.com/details.cfm?JobCode=179601266"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "fundamental"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-28",
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": null,
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "a5217bed69",
+  "title": "Assistant Professor-Microbiome and Symbiosis Studies",
+  "institution": "University of MD Center For Environmental Science",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Maryland-Baltimore County",
+  "inst_version": 2,
+  "location": {
+   "city": "Baltimore",
+   "region": "Maryland",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.25669,
+   "lon": -76.71161,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680993/assistant-professor-microbiome-and-symbiosis-studies/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680993/assistant-professor-microbiome-and-symbiosis-studies/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "ocean"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-28",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-28",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-27",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "$90,000 to $120,000",
+  "board_job_type": "Faculty",
+  "summary": "University of Maryland Center for Environmental Science (UMCES), Institute of Marine and Environmental Technology (IMET), Baltimore, Maryland. UMCES invites applications for a tenure-track Assistant Professor at IMET. The successful candidate will have a demonstrated record of research excellence using approaches such as omics, biochemistry, cell biology, and mathematical modelling to investigate microbial or…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "7ec616e00b",
+  "title": "Assistant Professor",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "inst_version": 2,
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38056898/assistant-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38056898/assistant-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-27",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-28",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-26",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor Details The Department of Molecular Pharmaceutics at the University of Utah College of Pharmacy (https://pharmacy.utah.edu/pharmaceutics/ ) invites applications for a tenure track assistant professor faculty position. Potential areas of research interests include, but are not limited to gene and drug delivery, gene therapy & viral vector engineering, microbiome engineering, therapeutic protein…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "eeaea531f3",
+  "title": "Assistant Professor - Biological Engineering",
+  "institution": "University of Toronto",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Toronto",
+   "region": "Ontario",
+   "country_code": "CA",
+   "country": "Canada",
+   "world_region": "North America",
+   "lat": 43.66347,
+   "lon": -79.39682,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3556146/assistant-professor-biological-engineering/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3556146/assistant-professor-biological-engineering/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbial communities"
+  ],
+  "date_posted": "2026-09-26",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-28",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-12-01",
+  "deadline_text": "Closing Date: 12/01/2026, 11:59PM ET",
+  "listing_expires": "2026-12-20",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Assistant Professor - Biological Engineering Date Posted: 09/25/2026 Closing Date: 12/01/2026, 11:59PM ET Req ID: 50200 Job Category: Faculty - Tenure Stream (continuing) Faculty/Division: Faculty of Applied Science & Engineering Department: Department of Chemical Engineering and Applied Chemistry Campus: St. George (Downtown Toronto) Existing Vacancy: Yes POSITION DESCRIPTION The Department of Chemical Engineering…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "bc5d689ed1",
+  "title": "Associate or Full Professor, The Beirne B. Carter Center for Immunology Research",
+  "institution": "University of Virginia",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Charlottesville",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.04106,
+   "lon": -78.50551,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3564885/associate-or-full-professor-the-beirne-b-carter-center-for-immunology-research/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3564885/associate-or-full-professor-the-beirne-b-carter-center-for-immunology-research/"
+   }
+  ],
+  "ranks": [
+   "associate",
+   "full"
+  ],
+  "rank_label": "Associate / Full",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "commensal microbial"
+  ],
+  "date_posted": "2026-10-20",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-28",
+  "review_date": "2026-11-03",
+  "review_text": "Review of applications will commence Nov. 3rd, 2026, and will continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-19",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Description The Beirne B. Carter Center for Immunology Research at the University of Virginia seek an outstanding scientist with strong translational immunology program experience for appointment at the rank of Associate or Full Professor. Candidates must be nationally recognized for excellence in translational immunology research, hold external funding, and demonstrate an outstanding commitment to mentoring and…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 3, 2026"
+ },
+ {
+  "id": "af17f45641",
+  "title": "CHAIR, DEPARTMENT OF CLINICAL SCIENCES & ADVANCED MEDICINE",
+  "institution": "University of Pennsylvania",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "University of Pennsylvania",
+  "inst_version": 2,
+  "location": {
+   "city": "Philadelphia",
+   "region": "Pennsylvania",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.95093,
+   "lon": -75.19391,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3550108/chair-department-of-clinical-sciences-and-advanced-medicine/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3550108/chair-department-of-clinical-sciences-and-advanced-medicine/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health"
+  ],
+  "microbiome_terms": [
+   "host microbial"
+  ],
+  "date_posted": "2026-09-12",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-28",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2038-09-12",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "CHAIR, DEPARTMENT OF CLINICAL SCIENCES & ADVANCED MEDICINE Location: Philadelphia Open Date: Apr 08, 2026 Deadline: The University of Pennsylvania School of Veterinary Medicine (Penn Vet) invites applications for the position of Chair of the Department of Clinical Sciences and Advanced Medicine at the Philadelphia Campus. Appointment will be at the level of Full Professor in the Standing Faculty…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "454e2eb2a7",
+  "title": "Professor (all ranks) Microbiome and Human Health",
+  "institution": "Arizona State University’s Biodesign Institute",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Tempe",
+   "region": "Arizona",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 33.42551,
+   "lon": -111.94002,
+   "precision": "city"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680908/professor-all-ranks-microbiome-and-human-health/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680908/professor-all-ranks-microbiome-and-human-health/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38048251/professor-all-ranks-in-microbiome-and-human-health/"
+   }
+  ],
+  "ranks": [
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "metagenomics",
+   "metatranscriptomics",
+   "microbial ecology",
+   "microbiome"
+  ],
+  "date_posted": "2026-10-23",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-31",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-11-22",
+  "deadline_text": "The application deadline is November 22, 2026.",
+  "listing_expires": "2026-11-22",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Other",
+  "salary": "DOE",
+  "board_job_type": "Faculty",
+  "summary": "Arizona State University Ira A. Fulton Schools of Engineering School of Biological and Health Systems Engineering Biodesign Institute Biodesign Center for Health Through Microbiomes Professor (all ranks) Microbiome and Human Health Location: Tempe Campus The School of Biological & Health Systems Engineering within the Ira A. Fulton Schools of Engineering and the Biodesign Center for Health Through Microbiomes (HTM)…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
   "id": "c37f961259",
   "title": "Microbiology & Immunology/HCI Asst, Assoc, Professor - Rank Dependent on Qualifications",
   "institution": "University of Utah Department of Pathology",
@@ -51,8 +836,8 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -71,152 +856,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "f77e9b488a",
-  "title": "Assistant Professor of Plant Pathology",
-  "institution": "University of California, Davis",
-  "inst_types": [
-   "r1",
-   "landgrant",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Land-grant · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of California-Davis",
-  "location": {
-   "city": "Davis",
-   "region": "California",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 38.53967,
-   "lon": -121.74957,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680459/assistant-professor-of-plant-pathology/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680459/assistant-professor-of-plant-pathology/"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "plant",
-   "agriculture",
-   "environment"
-  ],
-  "microbiome_terms": [
-   "host-microbiome",
-   "microbial communities",
-   "microbial ecology",
-   "microbiomes"
-  ],
-  "date_posted": "2026-09-30",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-30",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "See job description.",
-  "board_job_type": "Faculty",
-  "summary": "Assistant Professor of Plant Pathology Position Overview: The salary range for this position is $106,800 - $130,700 (annual). \"Off-scale salaries\" and other components of pay, i.e., a salary that is higher than the published system-wide salary at the designated rank and step, are offered when necessary to meet competitive conditions, qualifications, and experience. The Department of Plant Pathology in the College of…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "03bf57981b",
-  "title": "Associate Professor Or Assistant Professor in Clinical Microbiology",
-  "institution": "The University of Luxembourg",
-  "inst_types": [
-   "international"
-  ],
-  "inst_type_label": "Outside the US",
-  "carnegie": "",
-  "control": "",
-  "matched_institution": "",
-  "location": {
-   "city": "",
-   "region": "",
-   "country_code": "LU",
-   "country": "Luxembourg",
-   "world_region": "Europe",
-   "lat": 49.81587,
-   "lon": 6.12968,
-   "precision": "country"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680267/associate-professor-or-assistant-professor-in-clinical-microbiology/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680267/associate-professor-or-assistant-professor-in-clinical-microbiology/"
-   }
-  ],
-  "ranks": [
-   "assistant",
-   "associate"
-  ],
-  "rank_label": "Assistant / Associate",
-  "tenure": [
-   "tenured"
-  ],
-  "tenure_label": "Tenured",
-  "domains": [
-   "human_health",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-09-21",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-29",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "TBC",
-  "board_job_type": "Faculty",
-  "summary": "Your role The position focuses on innovative, interdisciplinary teaching in clinical microbiology at the bachelor’s level and within medical specialization programmes. The recruited professor will play a central role in establishing teaching and research expertise in areas such as infectious diseases, antimicrobial resistance, and diagnostic microbiology. The successful candidate will lead the development and…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "e3698533e1",
@@ -275,8 +916,8 @@
   ],
   "date_posted": "2026-10-08",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-25",
   "review_text": "Applications received by October 25, 2026 will be given full consideration.",
   "deadline": null,
@@ -297,8 +938,9 @@
   "summary": "Assistant Professor - Chemistry for Sustainable/Healthy Foods, Tenure-track Department of Food Science Cornell University Ithaca, NY The academic home for this position is the Department of Food Science in the College of Agriculture and Life Sciences. The Department of Food Science at Cornell University invites candidates for a 9-month, full-time, tenure-track assistant professor position to develop a research and…",
   "status": "open",
   "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Oct 25, 2026"
+  "priority": "low",
+  "priority_reason": "Review began Oct 25, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "fc1e950efb",
@@ -350,8 +992,8 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-16",
   "review_text": "The review of applications will begin November 16, 2026, and the review will continue until the position is filled.",
   "deadline": null,
@@ -369,445 +1011,9 @@
   "summary": "The department of Biological Sciences at The University of Alabama invites applications for two tenure-track positions at the Assistant Professor level in Microbiology, as part of a microbiology focused cluster hire. The appointments will begin on August 16, 2027. Detailed Position Information The successful candidates for the positions will be expected to establish and lead a research program focused on…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "2a5ac58571",
-  "title": "Assistant Professor (Tenure-Track) in Biosensing",
-  "institution": "McGill University, Faculty of Medicine and Health Sciences, Department of Biomedical Engineering",
-  "inst_types": [
-   "international"
-  ],
-  "inst_type_label": "Outside the US",
-  "carnegie": "",
-  "control": "",
-  "matched_institution": "",
-  "location": {
-   "city": "Montréal",
-   "region": "Quebec",
-   "country_code": "CA",
-   "country": "Canada",
-   "world_region": "North America",
-   "lat": 45.50318,
-   "lon": -73.56981,
-   "precision": "city"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680529/assistant-professor-tenure-track-in-biosensing/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680529/assistant-professor-tenure-track-in-biosensing/"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "agriculture",
-   "environment",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-10-02",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": "2027-07-01",
-  "deadline_text": "The successful candidate will be required to begin a full-time tenure-track appointment at the rank of Assistant Professor no later than July 1, 2027, in the Department of Biomedical Engineering.",
-  "listing_expires": "2026-11-01",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salary will be commensurate with qualifications and experience.",
-  "board_job_type": "Faculty",
-  "summary": "Assistant Professor (Tenure-Track) in Biosensing, Canada Impact+ Emerging Leaders Program, Department of Biomedical Engineering, RL#L001829 Program Description The Canada Impact+ Emerging Leaders program is a one-time initiative designed to support institutions in recruiting internationally based Early Career Researchers to Canada. Emerging Leaders will receive research funding and institutional support to advance…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "3234dac6d4",
-  "title": "Assistant Professor (Canada Impact+ Emerging Leader)",
-  "institution": "Department of Molecular & Cellular Biology",
-  "inst_types": [
-   "international"
-  ],
-  "inst_type_label": "Outside the US",
-  "carnegie": "",
-  "control": "",
-  "matched_institution": "",
-  "location": {
-   "city": "Guelph",
-   "region": "Ontario",
-   "country_code": "CA",
-   "country": "Canada",
-   "world_region": "North America",
-   "lat": 43.54605,
-   "lon": -80.24933,
-   "precision": "city"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680355/assistant-professor-canada-impact-emerging-leader-/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680355/assistant-professor-canada-impact-emerging-leader-/"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "agriculture",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-09-24",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": "2026-10-23",
-  "deadline_text": "Deadline: 10/23/2026 or until a suitable candidate is found.",
-  "listing_expires": "2026-10-24",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "to be determined",
-  "board_job_type": "Faculty",
-  "summary": "Position Description: The Department of Molecular and Cellular Biology at the University of Guelph invites applications for a tenure-track position at the rank of Assistant Professor through the Canada Impact+ Emerging Leaders program. This prestigious federal initiative provides $100,000 per year for six years to support the successful candidates salary and research program (with the possibility of a further…",
-  "status": "open",
-  "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Deadline Oct 23, 2026"
- },
- {
-  "id": "df7fb2f8fb",
-  "title": "Assistant, Associate, or Full Professor, Ludwig Princeton Branch",
-  "institution": "Princeton University - Ludwig Princeton Branch",
-  "inst_types": [
-   "r1",
-   "ivy"
-  ],
-  "inst_type_label": "R1 · Ivy League",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Private nonprofit",
-  "matched_institution": "Princeton University",
-  "location": {
-   "city": "Princeton",
-   "region": "New Jersey",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.34873,
-   "lon": -74.65936,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/679902/assistant-associate-or-full-professor-ludwig-princeton-branch/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/679902/assistant-associate-or-full-professor-ludwig-princeton-branch/"
-   }
-  ],
-  "ranks": [
-   "assistant",
-   "associate",
-   "full",
-   "open"
-  ],
-  "rank_label": "Open rank",
-  "tenure": [
-   "tenure-track",
-   "tenured"
-  ],
-  "tenure_label": "Tenure-track or Tenured",
-  "domains": [
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-08-28",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": "2026-11-01",
-  "deadline_text": "For fullest consideration please apply by November 1, 2026.",
-  "listing_expires": "2026-10-27",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Ranges provided in ad",
-  "board_job_type": "Faculty",
-  "summary": "Princeton University seeks applications for an assistant, associate, or full professor to contribute to a major initiative at the interface between cancer, immunity, and metabolism (Ludwig Princeton Branch). We welcome applications from candidates using biological, chemical, physical, engineering and/or computational approaches to tackle questions at this interface. We are particularly interested in candidates with…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Deadline Nov 1, 2026"
- },
- {
-  "id": "244107f06f",
-  "title": "Tenure-Track Assistant Professor in Plant Sciences",
-  "institution": "Purdue University",
-  "inst_types": [
-   "r1",
-   "landgrant",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Land-grant · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "Purdue University-Main Campus",
-  "location": {
-   "city": "Indianapolis",
-   "region": "Indiana",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.42821,
-   "lon": -86.91443,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680484/tenure-track-assistant-professor-in-plant-sciences/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680484/tenure-track-assistant-professor-in-plant-sciences/"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "plant",
-   "agriculture",
-   "environment",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiomes"
-  ],
-  "date_posted": "2026-10-01",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": "2026-11-01",
-  "review_text": "Review of applications will begin on November 1, 2026 and continue until the position is filled.",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-31",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Full-Time",
-  "board_job_type": "Faculty",
-  "summary": "Strategic Faculty Recruitment Initiative in One Health - Healthy and Resilient Living Systems - College of Agriculture Plant Sciences Purdue University Main Campus | Indianapolis and West Lafayette, IN Tenure-Track Assistant Faculty Position in Plant Sciences As part of a transformative, university-wide initiative in One Health – Healthy and Resilient Living Systems, the College of Agriculture invites applications…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Nov 1, 2026"
- },
- {
-  "id": "41477342f1",
-  "title": "Assistant or Associate Professor of Microbiology",
-  "institution": "University of Illinois",
-  "inst_types": [
-   "r1",
-   "landgrant",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Land-grant · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Illinois Urbana-Champaign",
-  "location": {
-   "city": "Urbana",
-   "region": "Illinois",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.10472,
-   "lon": -88.22911,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/679884/assistant-or-associate-professor-of-microbiology/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/679884/assistant-or-associate-professor-of-microbiology/"
-   },
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38031233/assistant-or-associate-professor-of-microbiology-/"
-   }
-  ],
-  "ranks": [
-   "assistant",
-   "associate"
-  ],
-  "rank_label": "Assistant / Associate",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiomes"
-  ],
-  "date_posted": "2026-08-27",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": "2026-10-30",
-  "review_text": "For full consideration, the information above should be submitted by 6 pm CST on October 30, 2026.",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-26",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Assistant Professor: $90,000–$95,000; Associate Professor: $105,000–$120,000 (9-month salary, paid over 12 months)",
-  "board_job_type": "Faculty",
-  "summary": "Assistant or Associate Professor Department of Microbiology School of Molecular and Cellular Biology College of Liberal Arts & Sciences University of Illinois at Urbana-Champaign The Department of Microbiology in the School of Molecular and Cellular Biology (https://mcb.illinois.edu/departments/microbiology/) at the University of Illinois at Urbana-Champaign seeks applicants for a full-time tenure track position at…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Oct 30, 2026"
- },
- {
-  "id": "ad2e8dbbd1",
-  "title": "Chemical Engineering, Environmental Engineering and Materials Science and Engineering Assistant/Asso",
-  "institution": "Brown University - School of Engineering",
-  "inst_types": [
-   "r1",
-   "ivy",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Ivy League · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Private nonprofit",
-  "matched_institution": "Brown University",
-  "location": {
-   "city": "Providence",
-   "region": "Rhode Island",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 41.82617,
-   "lon": -71.40385,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/679539/chemical-engineering-environmental-engineering-and-materials-science-and-engineering-assistant-asso/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/679539/chemical-engineering-environmental-engineering-and-materials-science-and-engineering-assistant-asso/"
-   }
-  ],
-  "ranks": [
-   "assistant",
-   "associate"
-  ],
-  "rank_label": "Assistant / Associate",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "ocean",
-   "environment",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "metagenomics",
-   "microbial communities"
-  ],
-  "date_posted": "2026-07-31",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": "2026-10-15",
-  "review_text": "Review of applications will begin on October 15, 2026 and will continue until the positions are filled.",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-29",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salaries are set based on years of post Phd experience and level of appointment",
-  "board_job_type": "Faculty",
-  "summary": "Location: Providence, Rhode Island Position Type: Full-time, Tenure-Track Rank: Assistant Professor or Associate Professor Expected Start Date: July 1, 2027 Position Description The School of Engineering at Brown University invites applications for several full-time faculty positions at the Assistant or Associate Professor level (pre-tenure), with an expected start date of July 1, 2027. We seek visionary researchers…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "low",
-  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+  "priority_reason": "Review begins Nov 16, 2026",
+  "inst_version": 2
  },
  {
   "id": "40181407e4",
@@ -859,8 +1065,8 @@
   ],
   "date_posted": "2026-10-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -879,7 +1085,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3c670379d8",
@@ -929,8 +1136,8 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -949,79 +1156,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "179a6514cb",
-  "title": "Tenure-Track Molecular MIcrobiologists",
-  "institution": "Virginia Tech - Biological Sciences",
-  "inst_types": [
-   "r1",
-   "landgrant",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Land-grant · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "Virginia Polytechnic Institute and State University",
-  "location": {
-   "city": "Blacksburg",
-   "region": "Virginia",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 37.22901,
-   "lon": -80.42368,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680351/tenure-track-molecular-microbiologists/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680351/tenure-track-molecular-microbiologists/"
-   }
-  ],
-  "ranks": [
-   "associate"
-  ],
-  "rank_label": "Associate",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "environment",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "host-microbe"
-  ],
-  "date_posted": "2026-09-24",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": "2026-11-01",
-  "review_text": "Review of Applications will begin November 1, 2026.",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-24",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Commensurate with experience",
-  "board_job_type": "Faculty",
-  "summary": "The Department of Biological Sciences in the College of Science at Virginia Tech seeks applicants for two (2) tenure-track research and teaching positions at the Assistant/Associate Professor levels in the area of Molecular Microbiology. We seek microbiologists who employ molecular techniques to study and modify microorganisms, with special emphasis on bacteria, fungi, and/or their viruses. The ideal candidates’…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Nov 1, 2026"
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "765b694aae",
@@ -1071,8 +1207,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-01",
   "review_text": "To ensure full consideration, applications should be received by November 1, 2026.",
   "deadline": null,
@@ -1090,148 +1226,9 @@
   "summary": "The Morgridge Institute for Research, in partnership with the University of Wisconsin-Madison, seeks a joint tenure track assistant professor to lead a vibrant metabolism-focused research program. We are particularly interested in interdisciplinary and collaborative-minded scientists passionate about mechanistic understanding of metabolism and metabolic regulation, its connections with core biological processes, and…",
   "status": "open",
   "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Nov 1, 2026"
- },
- {
-  "id": "bbc90521e0",
-  "title": "Open Rank Professor of Virology, Tenured/Tenure-Eligible",
-  "institution": "UVA School of Medicine",
-  "inst_types": [
-   "r1",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Virginia-Main Campus",
-  "location": {
-   "city": "Charlottesville",
-   "region": "Virginia",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 38.03567,
-   "lon": -78.50343,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680104/open-rank-professor-of-virology-tenured-tenure-eligible/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680104/open-rank-professor-of-virology-tenured-tenure-eligible/"
-   }
-  ],
-  "ranks": [
-   "full",
-   "open"
-  ],
-  "rank_label": "Open rank",
-  "tenure": [
-   "tenure-track",
-   "tenured"
-  ],
-  "tenure_label": "Tenure-track or Tenured",
-  "domains": [
-   "human_health"
-  ],
-  "microbiome_terms": [
-   "host-microbe"
-  ],
-  "date_posted": "2026-09-10",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": "2026-10-31",
-  "deadline_text": "Applications must be received not later than October 31, 2026.",
-  "listing_expires": "2026-11-09",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Commensurate with Experience",
-  "board_job_type": "Faculty",
-  "summary": "The Department of Microbiology, Immunology and Cancer Biology (MIC) (https://med.virginia.edu/mic/) at the University of Virginia School of Medicine in Charlottesville, Virginia, seeks outstanding applicants in the field of Virology at the Assistant Professor (tenure-eligible), Associate Professor or Full Professor (tenured or tenure-eligible) level. Qualified applicants focusing on any area of virology are…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Deadline Oct 31, 2026"
- },
- {
-  "id": "b67a95a838",
-  "title": "Assistant Professor in Tropical Medicine",
-  "institution": "University of Hawaii John A Burns School of Medicine",
-  "inst_types": [
-   "r1",
-   "landgrant",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Land-grant · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Hawaii at Manoa",
-  "location": {
-   "city": "",
-   "region": "Hawaii",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 21.2986,
-   "lon": -157.81898,
-   "precision": "institution"
-  },
-  "url": "https://jobs.sciencecareers.org/job/680485/assistant-professor-in-tropical-medicine/",
-  "sources": [
-   {
-    "id": "sciencecareers",
-    "name": "Science Careers (AAAS)",
-    "url": "https://jobs.sciencecareers.org/job/680485/assistant-professor-in-tropical-medicine/"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "unspecified"
-  ],
-  "tenure_label": "Tenure not stated",
-  "domains": [
-   "human_health",
-   "animal_health"
-  ],
-  "microbiome_terms": [
-   "host-microbe"
-  ],
-  "date_posted": "2026-10-01",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-30",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Commensurate with experience",
-  "board_job_type": "Faculty",
-  "summary": "The Department of Tropical Medicine, Medical Microbiology and Pharmacology, John A. Burns School of Medicine (JABSOM), University of Hawaii at Manoa (UHM), seeks an early stage (Assistant Professor) investigator in Tropical Medicine to lead and support the Department’s basic sciences, clinical and translational research in emerging and re-emerging infectious diseases, and to support the teaching/mentoring mission of…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority": "low",
+  "priority_reason": "Review began Nov 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "54afe7ef1c",
@@ -1265,6 +1262,11 @@
     "id": "chronicle",
     "name": "The Chronicle of Higher Education Jobs",
     "url": "https://jobs.chronicle.com/job/38054249/department-chair-college-of-sciences-molecular-microbiology/"
+   },
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680907/department-chair-college-of-sciences-molecular-microbiology-and-immunology/"
    }
   ],
   "ranks": [
@@ -1284,27 +1286,28 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-12-01",
   "review_text": "To ensure full consideration, please apply by December 1, 2026.",
   "deadline": "2026-12-01",
   "deadline_text": "consideration, please apply by December 1, 2026.",
-  "listing_expires": "2026-12-21",
+  "listing_expires": "2026-12-22",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
   "effort_text": "",
   "effort_focus": "unstated",
   "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "See job description.",
+  "employment": "Other",
+  "salary": "Commensurate with education, experience, and qualifications",
   "board_job_type": "Faculty",
   "summary": "Department Chair - College of Sciences, Molecular Microbiology & Immunology Location: San Antonio, TX Regular/Temporary: Regular Job ID: 16580 Full/Part Time: Full Time Position Information Department Chair The University of Texas at San Antonio, College of Sciences, invites applications for the position of Professor and Chair of the Department of Molecular Microbiology and Immunology. The University of Texas at San…",
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "ac16161b0b",
@@ -1335,6 +1338,11 @@
     "id": "chronicle",
     "name": "The Chronicle of Higher Education Jobs",
     "url": "https://jobs.chronicle.com/job/38054564/assistant-professor-in-artificial-intelligence-for-animal-improvement/"
+   },
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680936/assistant-professor-in-artificial-intelligence-for-animal-improvement/"
    }
   ],
   "ranks": [
@@ -1359,13 +1367,13 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-21",
+  "listing_expires": "2026-11-25",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -1374,12 +1382,13 @@
   "teaching_load": "",
   "employment": "Full-Time",
   "salary": "Salary, startup support, and resources will be competitive and commensurate with qualifications and experience.",
-  "board_job_type": "",
-  "summary": "Artificial Intelligence | Genomics | Biotechnology | Precision Animal Systems Develop the next generation of data analytics and AI-enabled methods for selecting animals, deriving novel phenotypes, and implementing precision management or interventions to improve animal production systems. Position Purdue University invites applications for a tenure-track assistant professor position focused on data analytics and…",
+  "board_job_type": "Faculty",
+  "summary": "Artificial Intelligence | Genomics | Biotechnology | Precision Animal Systems Purdue University, Indianapolis Develop the next generation of data analytics and AI-enabled methods for selecting animals, deriving novel phenotypes, and implementing precision management or interventions to improve animal production systems. Position Purdue University invites applications for a tenure-track assistant professor position…",
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "825e99b176",
@@ -1429,8 +1438,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -1449,7 +1458,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "63800794cc",
@@ -1497,8 +1507,8 @@
   ],
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -1517,7 +1527,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "57266c1296",
@@ -1562,13 +1573,13 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -1582,7 +1593,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "e4a5eca440",
@@ -1631,13 +1643,13 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -1651,7 +1663,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "6019b24b09",
@@ -1695,13 +1708,13 @@
   ],
   "date_posted": "2026-09-18",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -1715,7 +1728,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f48a0a84ba",
@@ -1789,8 +1803,8 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": "2027-06-16",
@@ -1809,7 +1823,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "493002feb9",
@@ -1858,8 +1873,8 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -1878,7 +1893,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3e7447add6",
@@ -1934,8 +1950,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-09-15",
   "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
   "deadline": null,
@@ -1954,7 +1970,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Sep 15, 2026 — application may be too late"
+  "priority_reason": "Review began Sep 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "226f858463",
@@ -2005,8 +2022,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2025,7 +2042,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f94fc4133a",
@@ -2074,8 +2092,8 @@
   ],
   "date_posted": "2026-09-10",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin on October 19,",
   "deadline": null,
@@ -2094,7 +2112,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "19a7cb65ae",
@@ -2142,13 +2161,13 @@
   ],
   "date_posted": "2024-08-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -2162,7 +2181,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "2de0d3fb03",
@@ -2216,13 +2236,13 @@
   ],
   "date_posted": "2026-03-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-04-15",
   "review_text": "Screening will begin April 15, 2026, but applications will be",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -2236,7 +2256,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Apr 15, 2026 — application may be too late"
+  "priority_reason": "Review began Apr 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "b5e3db3d7c",
@@ -2284,13 +2305,13 @@
   ],
   "date_posted": "2026-09-03",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-01",
   "review_text": "Review of applications will begin on October 1, 2026 and continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -2304,7 +2325,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 1, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "9145ade714",
@@ -2355,8 +2377,8 @@
   ],
   "date_posted": "2026-09-10",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2375,146 +2397,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "d2aeb95bd8",
-  "title": "Assistant Professor",
-  "institution": "University of Utah",
-  "inst_types": [
-   "r1",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Utah",
-  "location": {
-   "city": "Salt Lake City",
-   "region": "Utah",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.76248,
-   "lon": -111.84604,
-   "precision": "institution"
-  },
-  "url": "https://jobs.chronicle.com/job/38030288/assistant-professor/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38030288/assistant-professor/"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-08-26",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-25",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salary Not specified",
-  "board_job_type": "",
-  "summary": "Assistant Professor Details The Department of Molecular Pharmaceutics at the University of Utah College of Pharmacy (https://pharmacy.utah.edu/pharmaceutics/ ) invites applications for a tenure track assistant professor faculty position. Potential areas of research interests include, but are not limited to gene and drug delivery, gene therapy & viral vector engineering, microbiome engineering, therapeutic protein…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "880b8680b7",
-  "title": "Assistant or Associate Professor of Anthropology",
-  "institution": "University of Alaska Anchorage",
-  "inst_types": [
-   "masters"
-  ],
-  "inst_type_label": "PUI – master's",
-  "carnegie": "Master's college/university (larger programs)",
-  "control": "Public",
-  "matched_institution": "University of Alaska Anchorage",
-  "location": {
-   "city": "Anchorage",
-   "region": "Alaska",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 61.19016,
-   "lon": -149.82619,
-   "precision": "institution"
-  },
-  "url": "https://jobs.chronicle.com/job/38029759/assistant-or-associate-professor-of-anthropology-/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38029759/assistant-or-associate-professor-of-anthropology-/"
-   }
-  ],
-  "ranks": [
-   "assistant",
-   "associate"
-  ],
-  "rank_label": "Assistant / Associate",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "ocean",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-08-25",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": "2026-09-24",
-  "review_text": "Application review will begin on September 24, 2026.",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-10-25",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "UNAC Grade 30, Assistant $66,462 -$77,099, Associate $73,458 - $88,867",
-  "board_job_type": "",
-  "summary": "The Department of Anthropology and Geography at the University of Alaska Anchorage (UAA) invites applications for an Assistant or Associate Professor of Anthropology with a specialty in Biological Anthropology. The faculty member hired for this position will teach lower-division undergraduate courses in anthropology and biological anthropology, as well as upper-division and graduate courses aligned with their…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "low",
-  "priority_reason": "Review began Sep 24, 2026 — application may be too late"
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3a57433a33",
@@ -2568,13 +2452,13 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -2588,7 +2472,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "6d84d09e28",
@@ -2640,7 +2525,7 @@
   ],
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-28",
   "last_checked": "2026-10-22",
   "review_date": null,
   "review_text": "",
@@ -2660,7 +2545,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "8f58945643",
@@ -2710,13 +2596,13 @@
   ],
   "date_posted": "2026-06-25",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-15",
   "review_text": "The deadline for assuring full consideration is October 15, 2026;",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -2730,7 +2616,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "ae50839458",
@@ -2787,13 +2674,13 @@
   ],
   "date_posted": "2026-10-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-12-02",
   "review_text": "Applications received by December 2, 2026, will receive full consideration and review will continue until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": true,
   "effort": {
    "research": 45,
@@ -2810,7 +2697,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "6d45d904f6",
@@ -2864,13 +2752,13 @@
   ],
   "date_posted": "2026-06-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-01",
   "review_text": "The deadline for assuring full consideration is October 1st, 2026;",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -2884,7 +2772,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 1, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "f1163a503a",
@@ -2936,8 +2825,8 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin Oct. 19.",
   "deadline": null,
@@ -2956,7 +2845,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "5140c29a62",
@@ -3016,8 +2906,8 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": "2027-05-01",
@@ -3036,7 +2926,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "f3babe8586",
@@ -3090,8 +2981,8 @@
   ],
   "date_posted": "2026-10-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-13",
   "review_text": "Screening of applications begins November 13, 2026 and continues",
   "deadline": null,
@@ -3109,8 +3000,9 @@
   "summary": "Assistant Professor Biomedical Sciences Job ID: 304925 Location: Statesboro, Georgia Full/Part Time: Full Time Regular/Temporary: Regular About Us Georgia Southern University is the state's largest and most comprehensive center of higher learning south of Atlanta, and one of the most dynamic public universities in the Southeast. Founded in 1906, Georgia Southern has grown from a single-purpose college into a…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 13, 2026",
+  "inst_version": 2
  },
  {
   "id": "a407c20b28",
@@ -3163,13 +3055,13 @@
   ],
   "date_posted": "2026-07-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -3183,7 +3075,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "ea2d1805a6",
@@ -3234,13 +3127,13 @@
   ],
   "date_posted": "2026-07-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2027-01-06",
   "review_text": "Review of applications will begin on January 6, 2027, and continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": true,
   "effort": {
    "research": 60
@@ -3256,7 +3149,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "b927a88ed5",
@@ -3306,13 +3200,13 @@
   ],
   "date_posted": "2026-03-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-04-01",
   "review_text": "Review of applications will begin 04/01/2026 and will continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": true,
   "effort": {
    "research": 60,
@@ -3329,7 +3223,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Apr 1, 2026 — application may be too late"
+  "priority_reason": "Review began Apr 1, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "0bbbd98c05",
@@ -3383,8 +3278,8 @@
   ],
   "date_posted": "2026-10-07",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-06",
   "review_text": "Review of applications will begin on November 6, 2026 and continue until positions are filled.",
   "deadline": null,
@@ -3402,8 +3297,9 @@
   "summary": "Job Title: Assistant / Associate Professor of Philosophy Job Summary As part of Purdue University’s strategic investment in One Health – Healthy and Resilient Living Systems, the Department of Philosophy within the College of Liberal Arts invites applications for a tenure-track or tenured faculty position at the Assistant or Associate Professor level. The Department of Philosophy seeks faculty who can contribute to…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 6, 2026",
+  "inst_version": 2
  },
  {
   "id": "95f4905bb3",
@@ -3453,8 +3349,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3473,7 +3369,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "229a155c18",
@@ -3527,8 +3424,8 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-13",
   "review_text": "Screening will begin November 13, 2026 and conclude when the position is filled.",
   "deadline": null,
@@ -3546,8 +3443,9 @@
   "summary": "Strategic Faculty Recruitment Initiative in One Health – Healthy and Resilient Living Systems - School of Engineering Technology, Purdue Polytechnic Institute Purdue University Main Campus | Indianapolis or West Lafayette, IN Tenure-Track/Tenured Faculty Position at Assistant or Associate Rank As part of a transformative, university-wide initiative in One Health - Healthy and Resilient Living Systems, the School of…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 13, 2026",
+  "inst_version": 2
  },
  {
   "id": "bd6b29179a",
@@ -3603,8 +3501,8 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-05",
   "review_text": "Review of applications will begin on November 5, 2026 and continue until positions are filled.",
   "deadline": null,
@@ -3623,7 +3521,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 5, 2026"
+  "priority_reason": "Review begins Nov 5, 2026",
+  "inst_version": 2
  },
  {
   "id": "9953e1dc68",
@@ -3675,13 +3574,13 @@
   ],
   "date_posted": "2026-04-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-05-31",
   "review_text": "Review of applications will begin May 31, 2026, and continue until",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -3695,7 +3594,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began May 31, 2026 — application may be too late"
+  "priority_reason": "Review began May 31, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "098c96dd5f",
@@ -3746,8 +3646,8 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3766,7 +3666,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "0038c30013",
@@ -3816,8 +3717,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3836,7 +3737,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "de6edb24ef",
@@ -3885,8 +3787,8 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3905,7 +3807,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "7885ecb425",
@@ -3935,6 +3838,11 @@
     "id": "chronicle",
     "name": "The Chronicle of Higher Education Jobs",
     "url": "https://jobs.chronicle.com/job/38048996/assistant-professor-soil-microbial-ecology/"
+   },
+   {
+    "id": "higheredjobs",
+    "name": "HigherEdJobs",
+    "url": "https://www.higheredjobs.com/details.cfm?JobCode=179581043"
    }
   ],
   "ranks": [
@@ -3955,12 +3863,12 @@
   ],
   "date_posted": "2026-10-07",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
+  "deadline": "2026-11-06",
+  "deadline_text": "Application due date listed on the posting.",
   "listing_expires": "2026-12-06",
   "until_filled": false,
   "effort": {},
@@ -3974,8 +3882,9 @@
   "summary": "Assistant Professor - Soil Microbial Ecology Join Our Campus Community! Thank you for your interest in joining the University of Wyoming. Our community thrives on the contributions of talented and driven individuals who share in our mission, vision, and values. If your expertise and experience align with the goals of our institution, we would be thrilled to hear from you. We encourage you to apply and become a…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority": "soon",
+  "priority_reason": "Deadline Nov 6, 2026",
+  "inst_version": 2
  },
  {
   "id": "d8e70268ce",
@@ -4021,13 +3930,13 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4041,7 +3950,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "b64a9bd44c",
@@ -4070,6 +3980,11 @@
     "id": "chronicle",
     "name": "The Chronicle of Higher Education Jobs",
     "url": "https://jobs.chronicle.com/job/38053581/associate-full-professor-of-genetics-genomics/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38058703/associate-full-professor-of-genetics-genomics/"
    }
   ],
   "ranks": [
@@ -4092,13 +4007,13 @@
   ],
   "date_posted": "2026-10-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-11-01",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-18",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4112,7 +4027,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d770000675",
@@ -4144,6 +4060,11 @@
     "id": "chronicle",
     "name": "The Chronicle of Higher Education Jobs",
     "url": "https://jobs.chronicle.com/job/38055340/assistant-professor-harnessing-the-power-of-synthetic-biology-tenure-track/"
+   },
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680903/assistant-professor-harnessing-the-power-of-synthetic-biology-tenure-track/"
    }
   ],
   "ranks": [
@@ -4165,13 +4086,13 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-11-22",
   "until_filled": false,
   "effort": {
    "research": 50,
@@ -4182,13 +4103,14 @@
   "effort_focus": "balanced",
   "teaching_load": "",
   "employment": "Full-Time",
-  "salary": "Competitive",
-  "board_job_type": "",
+  "salary": "competitive",
+  "board_job_type": "Faculty",
   "summary": "Assistant Professor - Harnessing the Power of Synthetic Biology, Tenure-track Cohort Hire: Harnessing the Power of Synthetic Biology (SynBio) Focus: Using bacteria to address 21st century challenges Department of Microbiology, Cornell University Location: Ithaca, NY. The academic home for this position is the Department of Microbiology, in the College of Agriculture and Life Sciences, housed on the Ithaca campus of…",
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "9e098589af",
@@ -4239,13 +4161,13 @@
   ],
   "date_posted": "2026-09-23",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-12-22",
+  "listing_expires": "2026-12-29",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4259,7 +4181,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "7d1d41397d",
@@ -4312,8 +4235,8 @@
   ],
   "date_posted": "2026-09-30",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-25",
   "review_text": "Applications received by November 25, 2026, will be given full consideration.",
   "deadline": null,
@@ -4335,7 +4258,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "b19586f2e7",
@@ -4385,8 +4309,8 @@
   ],
   "date_posted": "2024-03-24",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4405,7 +4329,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "d87b944cc0",
@@ -4454,8 +4379,8 @@
   ],
   "date_posted": "2026-06-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-01",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4474,7 +4399,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "cd1f9dbfb0",
@@ -4525,8 +4451,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-09-15",
   "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
   "deadline": null,
@@ -4545,7 +4471,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Sep 15, 2026 — application may be too late"
+  "priority_reason": "Review began Sep 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "4fd50b7e7c",
@@ -4595,13 +4522,13 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-11-02",
   "review_text": "Applications will be reviewed beginning November 2nd, 2026, and accepted until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-03",
+  "listing_expires": "2026-11-12",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -4614,8 +4541,9 @@
   "summary": "The Department of Microbiology & Immunology at Stanford University seeks applications for a tenure-track faculty position at the Assistant Professor level in the University Tenure Line. We seek outstanding scientist with a doctoral degree whose research addresses fundamental and emerging questions in broadly defined areas of microbiology and/or immunology. We welcome applications spanning the full breadth of these…",
   "status": "open",
   "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Nov 2, 2026"
+  "priority": "low",
+  "priority_reason": "Review began Nov 2, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "adfd1501b4",
@@ -4666,8 +4594,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2026-10-15",
   "review_text": "Review of candidates will begin 10/15/2026 and will continue until filled.",
   "deadline": null,
@@ -4686,7 +4614,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Oct 15, 2026 — application may be too late"
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "40fc56abdb",
@@ -4737,13 +4666,13 @@
   ],
   "date_posted": "2023-10-28",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-04",
+  "listing_expires": "2026-11-12",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -4757,7 +4686,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "ab623dd263",
@@ -4806,8 +4736,8 @@
   ],
   "date_posted": "2026-03-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4826,7 +4756,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "492ed68ae5",
@@ -4877,13 +4808,13 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-02",
+  "listing_expires": "2026-11-09",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -4897,7 +4828,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "3f181a1156",
@@ -4949,8 +4881,8 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4969,7 +4901,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "0df4f8db53",
@@ -5021,13 +4954,13 @@
   ],
   "date_posted": "2026-02-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-01",
+  "listing_expires": "2026-11-08",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5041,7 +4974,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "c222ce8fb8",
@@ -5090,8 +5024,8 @@
   ],
   "date_posted": "2024-05-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5110,7 +5044,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "7077c0495a",
@@ -5158,8 +5093,8 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5178,7 +5113,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
   "id": "896bf34857",
@@ -5229,13 +5165,13 @@
   ],
   "date_posted": "2025-09-17",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": "2025-11-21",
   "review_text": "Review of applications will begin on November 21, 2025 and will continue until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-02",
+  "listing_expires": "2026-11-09",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5249,7 +5185,8 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Nov 21, 2025 — application may be too late"
+  "priority_reason": "Review began Nov 21, 2025 — application may be too late",
+  "inst_version": 2
  },
  {
   "id": "a9ab281448",
@@ -5297,13 +5234,13 @@
   ],
   "date_posted": "2026-08-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-10-31",
+  "listing_expires": "2026-11-08",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -5317,12 +5254,377 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "inst_version": 2
  },
  {
-  "id": "d437273e98",
+  "id": "faf57cb7fc",
+  "title": "Regular Faculty",
+  "institution": "University of Idaho",
+  "inst_types": [
+   "r2",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R2 · Land-grant · Has a medical school",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "University of Idaho",
+  "inst_version": 2,
+  "location": {
+   "city": "Moscow",
+   "region": "Idaho",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 46.72741,
+   "lon": -117.01417,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38058464/regular-faculty/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38058464/regular-faculty/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-10-30",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-31",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-09-20",
+  "deadline_text": "those who apply by September 20, 2026.",
+  "listing_expires": "2026-12-29",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Regular Faculty University of Idaho APPOINTMENT INFORMATION Division/College College of Science Department Biological Sciences Position Classification Regular Faculty Rank Assistant Professor Tenure Status Tenure Track Location Moscow FTE 1.0 Advertising Pay Range Commensurate with experience and qualifications FLSA Status Exempt Type of Appointment Academic Year Anticipated Contract Start Date 08/16/2027 POSITION…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "soon",
+  "priority_reason": "Deadline Sep 20, 2026"
+ },
+ {
+  "id": "d755f80cca",
+  "title": "Assistant Professor",
+  "institution": "University of Colorado System",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Colorado Boulder",
+  "inst_version": 2,
+  "location": {
+   "city": "Aurora",
+   "region": "Colorado",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.00878,
+   "lon": -105.27082,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38056243/assistant-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38056243/assistant-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "gut microbiome",
+   "microbiome"
+  ],
+  "date_posted": "2026-10-26",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-30",
+  "last_checked": "2026-10-26",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-28",
+  "deadline_text": "consideration, apply by October 28, 2026.",
+  "listing_expires": "2026-12-26",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "University of Colorado Anschutz Department: School of Medicine – Department of Orthopedics Job Title: Assistant Professor Position #: 00854152 – Requisition #: 41491 Job Summary: The position involves the development and sustained growth of an independent, externally funded research program focused on osteoarthritis, fracture healing, and the musculoskeletal implications of the gut microbiome. The successful…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 28, 2026"
+ },
+ {
+  "id": "2a5ac58571",
+  "title": "Assistant Professor (Tenure-Track) in Biosensing",
+  "institution": "McGill University, Faculty of Medicine and Health Sciences, Department of Biomedical Engineering",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Montréal",
+   "region": "Quebec",
+   "country_code": "CA",
+   "country": "Canada",
+   "world_region": "North America",
+   "lat": 45.50318,
+   "lon": -73.56981,
+   "precision": "city"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680529/assistant-professor-tenure-track-in-biosensing/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680529/assistant-professor-tenure-track-in-biosensing/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-10-02",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-01",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2027-07-01",
+  "deadline_text": "The successful candidate will be required to begin a full-time tenure-track appointment at the rank of Assistant Professor no later than July 1, 2027, in the Department of Biomedical Engineering.",
+  "listing_expires": "2026-11-01",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary will be commensurate with qualifications and experience.",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor (Tenure-Track) in Biosensing, Canada Impact+ Emerging Leaders Program, Department of Biomedical Engineering, RL#L001829 Program Description The Canada Impact+ Emerging Leaders program is a one-time initiative designed to support institutions in recruiting internationally based Early Career Researchers to Canada. Emerging Leaders will receive research funding and institutional support to advance…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2
+ },
+ {
+  "id": "f77e9b488a",
+  "title": "Assistant Professor of Plant Pathology",
+  "institution": "University of California, Davis",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of California-Davis",
+  "location": {
+   "city": "Davis",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.53967,
+   "lon": -121.74957,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680459/assistant-professor-of-plant-pathology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680459/assistant-professor-of-plant-pathology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "plant",
+   "agriculture",
+   "environment"
+  ],
+  "microbiome_terms": [
+   "host-microbiome",
+   "microbial communities",
+   "microbial ecology",
+   "microbiomes"
+  ],
+  "date_posted": "2026-09-30",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-30",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-30",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "See job description.",
+  "board_job_type": "Faculty",
+  "summary": "Assistant Professor of Plant Pathology Position Overview: The salary range for this position is $106,800 - $130,700 (annual). \"Off-scale salaries\" and other components of pay, i.e., a salary that is higher than the published system-wide salary at the designated rank and step, are offered when necessary to meet competitive conditions, qualifications, and experience. The Department of Plant Pathology in the College of…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2
+ },
+ {
+  "id": "244107f06f",
+  "title": "Tenure-Track Assistant Professor in Plant Sciences",
+  "institution": "Purdue University",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Purdue University-Main Campus",
+  "location": {
+   "city": "Indianapolis",
+   "region": "Indiana",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.42821,
+   "lon": -86.91443,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680484/tenure-track-assistant-professor-in-plant-sciences/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680484/tenure-track-assistant-professor-in-plant-sciences/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "plant",
+   "agriculture",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-10-01",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-30",
+  "last_checked": "2026-10-29",
+  "review_date": "2026-11-01",
+  "review_text": "Review of applications will begin on November 1, 2026 and continue until the position is filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-31",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Full-Time",
+  "board_job_type": "Faculty",
+  "summary": "Strategic Faculty Recruitment Initiative in One Health - Healthy and Resilient Living Systems - College of Agriculture Plant Sciences Purdue University Main Campus | Indianapolis and West Lafayette, IN Tenure-Track Assistant Faculty Position in Plant Sciences As part of a transformative, university-wide initiative in One Health – Healthy and Resilient Living Systems, the College of Agriculture invites applications…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "low",
+  "priority_reason": "Review began Nov 1, 2026 — application may be too late",
+  "inst_version": 2
+ },
+ {
+  "id": "bbc90521e0",
   "title": "Open Rank Professor of Virology, Tenured/Tenure-Eligible",
-  "institution": "University of Virginia",
+  "institution": "UVA School of Medicine",
   "inst_types": [
    "r1",
    "med_school"
@@ -5332,8 +5634,149 @@
   "control": "Public",
   "matched_institution": "University of Virginia-Main Campus",
   "location": {
-   "city": "",
+   "city": "Charlottesville",
    "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 38.03567,
+   "lon": -78.50343,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680104/open-rank-professor-of-virology-tenured-tenure-eligible/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680104/open-rank-professor-of-virology-tenured-tenure-eligible/"
+   }
+  ],
+  "ranks": [
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-10",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-31",
+  "deadline_text": "Applications must be received not later than October 31, 2026.",
+  "listing_expires": "2026-11-09",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with Experience",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Microbiology, Immunology and Cancer Biology (MIC) (https://med.virginia.edu/mic/) at the University of Virginia School of Medicine in Charlottesville, Virginia, seeks outstanding applicants in the field of Virology at the Assistant Professor (tenure-eligible), Associate Professor or Full Professor (tenured or tenure-eligible) level. Qualified applicants focusing on any area of virology are…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 31, 2026",
+  "inst_version": 2
+ },
+ {
+  "id": "b67a95a838",
+  "title": "Assistant Professor in Tropical Medicine",
+  "institution": "University of Hawaii John A Burns School of Medicine",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Hawaii at Manoa",
+  "location": {
+   "city": "",
+   "region": "Hawaii",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 21.2986,
+   "lon": -157.81898,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680485/assistant-professor-in-tropical-medicine/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680485/assistant-professor-in-tropical-medicine/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "animal_health"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-10-01",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-30",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-30",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with experience",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Tropical Medicine, Medical Microbiology and Pharmacology, John A. Burns School of Medicine (JABSOM), University of Hawaii at Manoa (UHM), seeks an early stage (Assistant Professor) investigator in Tropical Medicine to lead and support the Department’s basic sciences, clinical and translational research in emerging and re-emerging infectious diseases, and to support the teaching/mentoring mission of…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2
+ },
+ {
+  "id": "d437273e98",
+  "title": "Open Rank Professor of Virology, Tenured/Tenure-Eligible",
+  "institution": "University of Virginia",
+  "inst_types": [
+   "unknown"
+  ],
+  "inst_type_label": "Type not identified",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Virginia-Main Campus",
+  "location": {
+   "city": "Charlottesville",
+   "region": "Indiana",
    "country_code": "US",
    "country": "United States",
    "world_region": "North America",
@@ -5367,14 +5810,14 @@
   ],
   "date_posted": "2026-09-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
-  "review_date": null,
-  "review_text": "",
+  "last_seen": "2026-11-01",
+  "last_checked": "2026-10-29",
+  "review_date": "2026-11-01",
+  "review_text": "Application review will begin on November 1, 2026, but the position will remain open until filled.",
   "deadline": "2026-10-31",
   "deadline_text": "Applications must be received no later than October 31, 2026.",
-  "listing_expires": "2026-11-01",
-  "until_filled": false,
+  "listing_expires": "2026-11-08",
+  "until_filled": true,
   "effort": {},
   "effort_label": "",
   "effort_text": "",
@@ -5384,10 +5827,591 @@
   "salary": "",
   "board_job_type": "",
   "summary": "Description The Department of Microbiology, Immunology and Cancer Biology (MIC) (https://med.virginia.edu/mic/) at the University of Virginia School of Medicine in Charlottesville, Virginia, seeks outstanding applicants in the field of Virology at the Assistant Professor (tenure-eligible), Associate Professor or Full Professor (tenured or tenure-eligible) level. Qualified applicants focusing on any area of virology…",
-  "status": "open",
-  "closed_reason": null,
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "low",
+  "priority_reason": "Review began Nov 1, 2026 — application may be too late",
+  "inst_version": 2
+ },
+ {
+  "id": "03bf57981b",
+  "title": "Associate Professor Or Assistant Professor in Clinical Microbiology",
+  "institution": "The University of Luxembourg",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "",
+   "region": "",
+   "country_code": "LU",
+   "country": "Luxembourg",
+   "world_region": "Europe",
+   "lat": 49.81587,
+   "lon": 6.12968,
+   "precision": "country"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680267/associate-professor-or-assistant-professor-in-clinical-microbiology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680267/associate-professor-or-assistant-professor-in-clinical-microbiology/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenured"
+  ],
+  "tenure_label": "Tenured",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-21",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-29",
+  "last_checked": "2026-10-29",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-29",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "TBC",
+  "board_job_type": "Faculty",
+  "summary": "Your role The position focuses on innovative, interdisciplinary teaching in clinical microbiology at the bachelor’s level and within medical specialization programmes. The recruited professor will play a central role in establishing teaching and research expertise in areas such as infectious diseases, antimicrobial resistance, and diagnostic microbiology. The successful candidate will lead the development and…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2
+ },
+ {
+  "id": "ad2e8dbbd1",
+  "title": "Chemical Engineering, Environmental Engineering and Materials Science and Engineering Assistant/Asso",
+  "institution": "Brown University - School of Engineering",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Brown University",
+  "location": {
+   "city": "Providence",
+   "region": "Rhode Island",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 41.82617,
+   "lon": -71.40385,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/679539/chemical-engineering-environmental-engineering-and-materials-science-and-engineering-assistant-asso/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/679539/chemical-engineering-environmental-engineering-and-materials-science-and-engineering-assistant-asso/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "ocean",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics",
+   "microbial communities"
+  ],
+  "date_posted": "2026-07-31",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-29",
+  "last_checked": "2026-10-29",
+  "review_date": "2026-10-15",
+  "review_text": "Review of applications will begin on October 15, 2026 and will continue until the positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-29",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salaries are set based on years of post Phd experience and level of appointment",
+  "board_job_type": "Faculty",
+  "summary": "Location: Providence, Rhode Island Position Type: Full-time, Tenure-Track Rank: Assistant Professor or Associate Professor Expected Start Date: July 1, 2027 Position Description The School of Engineering at Brown University invites applications for several full-time faculty positions at the Assistant or Associate Professor level (pre-tenure), with an expected start date of July 1, 2027. We seek visionary researchers…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "low",
+  "priority_reason": "Review began Oct 15, 2026 — application may be too late",
+  "inst_version": 2
+ },
+ {
+  "id": "df7fb2f8fb",
+  "title": "Assistant, Associate, or Full Professor, Ludwig Princeton Branch",
+  "institution": "Princeton University - Ludwig Princeton Branch",
+  "inst_types": [
+   "r1",
+   "ivy"
+  ],
+  "inst_type_label": "R1 · Ivy League",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Princeton University",
+  "location": {
+   "city": "Princeton",
+   "region": "New Jersey",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.34873,
+   "lon": -74.65936,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/679902/assistant-associate-or-full-professor-ludwig-princeton-branch/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/679902/assistant-associate-or-full-professor-ludwig-princeton-branch/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-08-28",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-27",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-11-01",
+  "deadline_text": "For fullest consideration please apply by November 1, 2026.",
+  "listing_expires": "2026-10-27",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Ranges provided in ad",
+  "board_job_type": "Faculty",
+  "summary": "Princeton University seeks applications for an assistant, associate, or full professor to contribute to a major initiative at the interface between cancer, immunity, and metabolism (Ludwig Princeton Branch). We welcome applications from candidates using biological, chemical, physical, engineering and/or computational approaches to tackle questions at this interface. We are particularly interested in candidates with…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
   "priority": "soon",
-  "priority_reason": "Deadline Oct 31, 2026"
+  "priority_reason": "Deadline Nov 1, 2026",
+  "inst_version": 2
+ },
+ {
+  "id": "41477342f1",
+  "title": "Assistant or Associate Professor of Microbiology",
+  "institution": "University of Illinois",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Illinois Urbana-Champaign",
+  "location": {
+   "city": "Urbana",
+   "region": "Illinois",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.10472,
+   "lon": -88.22911,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/679884/assistant-or-associate-professor-of-microbiology/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/679884/assistant-or-associate-professor-of-microbiology/"
+   },
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38031233/assistant-or-associate-professor-of-microbiology-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiomes"
+  ],
+  "date_posted": "2026-08-27",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-27",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-10-30",
+  "review_text": "For full consideration, the information above should be submitted by 6 pm CST on October 30, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-26",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Assistant Professor: $90,000–$95,000; Associate Professor: $105,000–$120,000 (9-month salary, paid over 12 months)",
+  "board_job_type": "Faculty",
+  "summary": "Assistant or Associate Professor Department of Microbiology School of Molecular and Cellular Biology College of Liberal Arts & Sciences University of Illinois at Urbana-Champaign The Department of Microbiology in the School of Molecular and Cellular Biology (https://mcb.illinois.edu/departments/microbiology/) at the University of Illinois at Urbana-Champaign seeks applicants for a full-time tenure track position at…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "low",
+  "priority_reason": "Review began Oct 30, 2026 — application may be too late",
+  "inst_version": 2
+ },
+ {
+  "id": "179a6514cb",
+  "title": "Tenure-Track Molecular MIcrobiologists",
+  "institution": "Virginia Tech - Biological Sciences",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Virginia Polytechnic Institute and State University",
+  "location": {
+   "city": "Blacksburg",
+   "region": "Virginia",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.22901,
+   "lon": -80.42368,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680351/tenure-track-molecular-microbiologists/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680351/tenure-track-molecular-microbiologists/"
+   }
+  ],
+  "ranks": [
+   "associate"
+  ],
+  "rank_label": "Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "host-microbe"
+  ],
+  "date_posted": "2026-09-24",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-11-01",
+  "review_text": "Review of Applications will begin November 1, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-24",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with experience",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Biological Sciences in the College of Science at Virginia Tech seeks applicants for two (2) tenure-track research and teaching positions at the Assistant/Associate Professor levels in the area of Molecular Microbiology. We seek microbiologists who employ molecular techniques to study and modify microorganisms, with special emphasis on bacteria, fungi, and/or their viruses. The ideal candidates’…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "low",
+  "priority_reason": "Review began Nov 1, 2026 — application may be too late",
+  "inst_version": 2
+ },
+ {
+  "id": "d2aeb95bd8",
+  "title": "Assistant Professor",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38030288/assistant-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38030288/assistant-professor/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-08-26",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-25",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor Details The Department of Molecular Pharmaceutics at the University of Utah College of Pharmacy (https://pharmacy.utah.edu/pharmaceutics/ ) invites applications for a tenure track assistant professor faculty position. Potential areas of research interests include, but are not limited to gene and drug delivery, gene therapy & viral vector engineering, microbiome engineering, therapeutic protein…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2
+ },
+ {
+  "id": "880b8680b7",
+  "title": "Assistant or Associate Professor of Anthropology",
+  "institution": "University of Alaska Anchorage",
+  "inst_types": [
+   "masters"
+  ],
+  "inst_type_label": "PUI – master's",
+  "carnegie": "Master's college/university (larger programs)",
+  "control": "Public",
+  "matched_institution": "University of Alaska Anchorage",
+  "location": {
+   "city": "Anchorage",
+   "region": "Alaska",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 61.19016,
+   "lon": -149.82619,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38029759/assistant-or-associate-professor-of-anthropology-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38029759/assistant-or-associate-professor-of-anthropology-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "ocean",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-08-25",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24",
+  "last_checked": "2026-10-22",
+  "review_date": "2026-09-24",
+  "review_text": "Application review will begin on September 24, 2026.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-10-25",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "UNAC Grade 30, Assistant $66,462 -$77,099, Associate $73,458 - $88,867",
+  "board_job_type": "",
+  "summary": "The Department of Anthropology and Geography at the University of Alaska Anchorage (UAA) invites applications for an Assistant or Associate Professor of Anthropology with a specialty in Biological Anthropology. The faculty member hired for this position will teach lower-division undergraduate courses in anthropology and biological anthropology, as well as upper-division and graduate courses aligned with their…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "low",
+  "priority_reason": "Review began Sep 24, 2026 — application may be too late",
+  "inst_version": 2
+ },
+ {
+  "id": "3234dac6d4",
+  "title": "Assistant Professor (Canada Impact+ Emerging Leader)",
+  "institution": "Department of Molecular & Cellular Biology",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "location": {
+   "city": "Guelph",
+   "region": "Ontario",
+   "country_code": "CA",
+   "country": "Canada",
+   "world_region": "North America",
+   "lat": 43.54605,
+   "lon": -80.24933,
+   "precision": "city"
+  },
+  "url": "https://jobs.sciencecareers.org/job/680355/assistant-professor-canada-impact-emerging-leader-/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/680355/assistant-professor-canada-impact-emerging-leader-/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "animal_health",
+   "agriculture",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-24",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24",
+  "last_checked": "2026-10-22",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-10-23",
+  "deadline_text": "Deadline: 10/23/2026 or until a suitable candidate is found.",
+  "listing_expires": "2026-10-24",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "to be determined",
+  "board_job_type": "Faculty",
+  "summary": "Position Description: The Department of Molecular and Cellular Biology at the University of Guelph invites applications for a tenure-track position at the rank of Assistant Professor through the Canada Impact+ Emerging Leaders program. This prestigious federal initiative provides $100,000 per year for six years to support the successful candidates salary and research program (with the possibility of a further…",
+  "status": "closed",
+  "closed_reason": "deadline passed",
+  "priority": "soon",
+  "priority_reason": "Deadline Oct 23, 2026",
+  "inst_version": 2
  },
  {
   "id": "0be18e6344",
@@ -5441,8 +6465,8 @@
   ],
   "date_posted": "2026-09-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-01",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-10-09",
@@ -5461,7 +6485,8 @@
   "status": "closed",
   "closed_reason": "deadline passed",
   "priority": "soon",
-  "priority_reason": "Deadline Oct 9, 2026"
+  "priority_reason": "Deadline Oct 9, 2026",
+  "inst_version": 2
  },
  {
   "id": "8b52a811a0",
@@ -5510,13 +6535,13 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22",
-  "last_checked": "2026-10-22",
+  "last_seen": "2026-11-03",
+  "last_checked": "2026-10-29",
   "review_date": null,
   "review_text": "",
   "deadline": "2024-12-15",
   "deadline_text": "We encourage all applications to be submitted by December 15th, 2024.",
-  "listing_expires": "2026-11-02",
+  "listing_expires": "2026-11-09",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5530,6 +6555,7 @@
   "status": "closed",
   "closed_reason": "deadline passed",
   "priority": "soon",
-  "priority_reason": "Deadline Dec 15, 2024"
+  "priority_reason": "Deadline Dec 15, 2024",
+  "inst_version": 2
  }
 ]
