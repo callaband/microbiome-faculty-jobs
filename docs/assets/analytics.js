@@ -5,7 +5,7 @@
 // part before ".goatcounter.com" in your dashboard's address: for
 // https://mfjobs.goatcounter.com you would write "mfjobs".
 // Leave it empty to turn counting off.
-const GOATCOUNTER_CODE = "";
+const GOATCOUNTER_CODE = "mfjobs";
 
 (() => {
   const code = GOATCOUNTER_CODE.trim();
