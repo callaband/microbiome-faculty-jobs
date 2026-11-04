@@ -24,7 +24,8 @@ NOMINATIM = os.environ.get("NOMINATIM_URL", "https://nominatim.openstreetmap.org
 
 
 class Geocoder:
-    def __init__(self, max_lookups: int = 250):
+    def __init__(self, max_lookups: int = 250, deadline: float | None = None):
+        self.deadline = deadline
         self.cache: dict[str, dict | None] = {}
         if CACHE_FILE.exists():
             self.cache = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
@@ -46,6 +47,8 @@ class Geocoder:
             return self.cache[key]
         if self.lookups >= self.max_lookups or os.environ.get("OFFLINE"):
             return None
+        if self.deadline is not None and time.monotonic() > self.deadline:
+            return None  # out of time this run; looked up next run
         wait = 1.1 - (time.monotonic() - self._last)
         if wait > 0:
             time.sleep(wait)
@@ -55,7 +58,7 @@ class Geocoder:
         if country:
             params["countrycodes"] = country.lower()
         try:
-            r = self.session.get(NOMINATIM, params=params, timeout=30)
+            r = self.session.get(NOMINATIM, params=params, timeout=(10, 20))
             r.raise_for_status()
             hits = r.json()
         except (requests.RequestException, ValueError) as exc:

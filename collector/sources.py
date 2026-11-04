@@ -546,7 +546,9 @@ def build_sources(cfg: dict, client: PoliteClient, submitted: list[str]):
         if not kind:
             log.warning("unknown source type %r for %s", s.get("type"), s.get("id"))
             continue
-        out.append(kind(s, settings, keywords, client))
+        obj = kind(s, settings, keywords, client)
+        obj.cfg = s
+        out.append(obj)
     if submitted:
         out.append(SubmittedSource(submitted, client))
     return out

@@ -30,6 +30,13 @@ settings:
   stale_days: 10
   # Most posting pages opened in one run (all sources together).
   max_detail_fetches: 2000
+  # Time limits, so a slow site can never push a run past GitHub's 2-hour limit
+  # (a cancelled run saves nothing). A source that reaches its limit picks up
+  # where it left off on the next run. A source can set its own max_minutes.
+  max_minutes: 90
+  source_minutes: 20
+  # Stop reading a source for this run after this many failed requests in a row.
+  max_failures_in_a_row: 8
 
 # Searched on every Madgex board. Board search is broad; the collector then
 # keeps only postings whose text matches config/taxonomy.yaml.
@@ -84,18 +91,6 @@ sources:
     enabled: true
 
   # ---------------------------------------------------------------- Europe
-  - id: euraxess
-    name: EURAXESS (European Commission)
-    type: euraxess
-    base: https://euraxess.ec.europa.eu
-    # About 250 new jobs a day. Each run opens the new job pages, then works back
-    # through older ones (up to backfill_ids numbers back) within max_per_run.
-    # Only faculty-level jobs (researcher profile R3/R4, or a faculty title) that
-    # mention microbiome terms are kept.
-    max_per_run: 600
-    backfill_ids: 7500
-    enabled: true
-
   - id: jobs_ac_uk
     name: jobs.ac.uk (UK and Europe)
     type: listing
@@ -214,3 +209,17 @@ sources:
 # Anyone can add a posting that the boards miss: put its URL on its own line in
 # data/submitted_urls.txt (or open a "Submit a position" issue). The collector
 # reads it like any other posting and applies the same filters.
+
+  # Read last: it opens the most pages, so the other boards finish first.
+  - id: euraxess
+    name: EURAXESS (European Commission)
+    type: euraxess
+    base: https://euraxess.ec.europa.eu
+    # About 250 new jobs a day. Each run opens the new job pages, then works back
+    # through older ones (up to backfill_ids numbers back) within max_per_run.
+    # Only faculty-level jobs (researcher profile R3/R4, or a faculty title) that
+    # mention microbiome terms are kept.
+    max_per_run: 600
+    max_minutes: 30
+    backfill_ids: 7500
+    enabled: true

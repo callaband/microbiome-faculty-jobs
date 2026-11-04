@@ -263,7 +263,7 @@
       ? new Date(meta.generated_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }) : "not yet";
     $("sources").innerHTML = (meta.sources || []).map(s => `<tr>
         <td><span class="${s.ok ? "ok" : "bad"}">${s.ok ? "●" : "○"}</span> ${esc(s.name)}${s.ok ? "" : `<br><small class="bad">${esc(s.error || "failed")}</small>`}</td>
-        <td>${s.ok ? `${s.listed} listed · ${s.new_matches} new` : "skipped"}</td></tr>`).join("")
+        <td>${s.ok ? `${s.listed} listed · ${s.new_matches} new` : "skipped"}${s.note ? `<br><small>${esc(s.note)}</small>` : ""}</td></tr>`).join("")
       || `<tr><td>Waiting for the first run.</td><td></td></tr>`;
     const repo = MFJ.repoUrl(meta);
     if (repo) {

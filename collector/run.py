@@ -163,17 +163,22 @@ def refresh_record(job: dict, fresh: dict) -> None:
         job["location"] = {**floc, **{k: v for k, v in loc.items() if k in ("lat", "lon", "precision")}}
 
 
-def refresh_job(src, job: dict, entry: Entry, today: date) -> None:
+def refresh_job(src, job: dict, entry: Entry, today: date) -> tuple[bool, str]:
     """Re-read a known posting's page. A page that is gone (404/410) closes the job."""
     try:
         d = src.fetch_detail(entry)
     except FetchError as exc:
-        if re.search(r"HTTP (404|410)\b", str(exc)):
+        gone = bool(re.search(r"HTTP (404|410)\b", str(exc)))
+        if gone:
             job["removed_on"] = today.isoformat()
         log.info("refresh failed %s: %s", entry.url, exc)
-        return
+        return gone, str(exc)
+    except Exception as exc:  # noqa: BLE001
+        log.warning("could not re-read %s: %r", entry.url, exc)
+        return False, f"could not read page ({type(exc).__name__})"
     job.pop("removed_on", None)
     refresh_record(job, build_record(entry, d, src.name, today, job["microbiome_terms"]))
+    return True, ""
 
 
 def find_duplicate(rec: dict, jobs: dict[str, dict]) -> dict | None:
@@ -310,83 +315,141 @@ def run(argv: list[str] | None = None) -> int:
     health, rejected_submissions = [], []
     details_opened = 0
 
+    run_start = time.monotonic()
+    run_limit = float(settings.get("max_minutes", 90)) * 60       # whole run, before saving
+    default_src_limit = float(settings.get("source_minutes", 20)) * 60
+    max_fail_streak = int(settings.get("max_failures_in_a_row", 8))
+
     for src in build_sources(cfg, client, submitted):
         if only and src.id not in only:
             continue
         stat = {"id": src.id, "name": src.name, "ok": True, "listed": 0, "new_matches": 0, "error": None,
+                "pages_opened": 0, "note": None,
                 "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+        if time.monotonic() - run_start > run_limit:
+            stat.update(ok=False, error="skipped this run: the run's time limit was reached (it runs again tomorrow)")
+            health.append(stat)
+            continue
         t0 = time.monotonic()
+        src_limit = float(src.cfg.get("max_minutes", 0)) * 60 if getattr(src, "cfg", None) else 0
+        src_deadline = t0 + min(src_limit or default_src_limit, max(60.0, run_limit - (t0 - run_start)))
         if hasattr(src, "known_urls"):
             src.known_urls = set(url_index)
+        fails = {"streak": 0, "last": ""}
+
+        def opened(ok: bool, err: str = "") -> None:
+            stat["pages_opened"] += 1
+            if ok:
+                fails["streak"] = 0
+            else:
+                fails["streak"] += 1
+                fails["last"] = err
+            if stat["pages_opened"] % 50 == 0:
+                log.info("%s: %d pages opened, %d new, %.1f min", src.id, stat["pages_opened"],
+                         stat["new_matches"], (time.monotonic() - t0) / 60)
+
+        def must_stop() -> str | None:
+            if fails["streak"] >= max_fail_streak:
+                return f"stopped after {fails['streak']} failed requests in a row (last: {fails['last']})"
+            if time.monotonic() > src_deadline:
+                return "time"
+            return None
+
         try:
-            entries = src.list_entries()
-        except FetchError as exc:
-            stat.update(ok=False, error=str(exc))
-            health.append(stat)
-            log.warning("%s: %s", src.id, exc)
-            continue
-        stat["listed"] = len(entries)
-        for e in entries:
-            known_id = url_index.get(e.url)
-            if known_id:
-                job = jobs[known_id]
-                job["last_seen"] = today.isoformat()
-                if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details:
-                    refresh_job(src, job, e, today)
-                    details_opened += 1
-                continue
-            if e.url in checked:
-                continue
-            if e.title and not _title_prefilter(src, e.title):
-                continue  # obviously not a faculty job; don't open its page
-            if details_opened >= max_details:
-                continue  # picked up on the next run
             try:
-                details_opened += 1
-                d = src.fetch_detail(e)
+                entries = src.list_entries()
             except FetchError as exc:
-                log.info("detail failed %s: %s", e.url, exc)
-                if src.id == "submitted":
-                    rejected_submissions.append({"url": e.url, "why": str(exc)})
+                stat.update(ok=False, error=str(exc))
+                log.warning("%s: %s", src.id, exc)
                 continue
-            rel = relevance(d.title or e.title, d.description, d.job_type, d.employment)
-            if not rel.keep:
-                if getattr(src, "remember_rejects", True):
-                    checked[e.url] = {"on": today.isoformat(), "why": rel.reason}
-                if src.id == "submitted":
-                    rejected_submissions.append({"url": e.url, "why": rel.reason})
-                continue
-            rec = build_record(e, d, src.name, today, rel.terms)
-            dup = find_duplicate(rec, jobs)
-            if dup:
-                if not any(s["url"] == e.url for s in dup["sources"]):
-                    dup["sources"].append(rec["sources"][0])
-                dup["last_seen"] = today.isoformat()
-                for k in ("review_date", "review_text", "deadline", "deadline_text"):
-                    if rec.get(k) and not dup.get(k):
-                        dup[k] = rec[k]
-                url_index[e.url] = dup["id"]
-                continue
-            jobs[rec["id"]] = rec
-            url_index[e.url] = rec["id"]
-            stat["new_matches"] += 1
-            log.info("NEW  %s — %s", rec["title"], rec["institution"])
-        if getattr(src, "partial_listing", False):
-            # The source lists only its newest jobs: keep older ones open until their
-            # deadline, and re-check their pages weekly so withdrawn ones close.
-            listed = {e.url for e in entries}
-            for job in jobs.values():
-                for srec in job["sources"]:
-                    if srec["id"] != src.id or srec["url"] in listed or job.get("status") == "closed":
-                        continue
+            stat["listed"] = len(entries)
+            stop = None
+            for e in entries:
+                stop = must_stop()
+                if stop:
+                    break
+                known_id = url_index.get(e.url)
+                if known_id:
+                    job = jobs[known_id]
                     job["last_seen"] = today.isoformat()
                     if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details:
                         details_opened += 1
-                        refresh_job(src, job, Entry(src.id, srec["url"], job["title"]), today)
-        if hasattr(src, "finish"):
-            src.finish()
-        stat["seconds"] = round(time.monotonic() - t0, 1)
-        health.append(stat)
+                        opened(*refresh_job(src, job, e, today))
+                    continue
+                if e.url in checked:
+                    continue
+                if e.title and not _title_prefilter(src, e.title):
+                    continue  # obviously not a faculty job; don't open its page
+                if details_opened >= max_details:
+                    continue  # picked up on the next run
+                details_opened += 1
+                try:
+                    d = src.fetch_detail(e)
+                except FetchError as exc:
+                    gone = bool(re.search(r"HTTP (404|410)\b", str(exc)))
+                    opened(gone, str(exc))  # a missing page is an answer, not a failure
+                    log.info("detail failed %s: %s", e.url, exc)
+                    if src.id == "submitted":
+                        rejected_submissions.append({"url": e.url, "why": str(exc)})
+                    continue
+                except Exception as exc:  # noqa: BLE001 - a page we can't parse shouldn't stop the run
+                    opened(False, f"could not read page ({type(exc).__name__})")
+                    log.warning("could not read %s: %r", e.url, exc)
+                    continue
+                opened(True)
+                rel = relevance(d.title or e.title, d.description, d.job_type, d.employment)
+                if not rel.keep:
+                    if getattr(src, "remember_rejects", True):
+                        checked[e.url] = {"on": today.isoformat(), "why": rel.reason}
+                    if src.id == "submitted":
+                        rejected_submissions.append({"url": e.url, "why": rel.reason})
+                    continue
+                rec = build_record(e, d, src.name, today, rel.terms)
+                dup = find_duplicate(rec, jobs)
+                if dup:
+                    if not any(s["url"] == e.url for s in dup["sources"]):
+                        dup["sources"].append(rec["sources"][0])
+                    dup["last_seen"] = today.isoformat()
+                    for k in ("review_date", "review_text", "deadline", "deadline_text"):
+                        if rec.get(k) and not dup.get(k):
+                            dup[k] = rec[k]
+                    url_index[e.url] = dup["id"]
+                    continue
+                jobs[rec["id"]] = rec
+                url_index[e.url] = rec["id"]
+                stat["new_matches"] += 1
+                log.info("NEW  %s — %s", rec["title"], rec["institution"])
+            if getattr(src, "partial_listing", False) and not stop:
+                # The source lists only its newest jobs: keep older ones open until their
+                # deadline, and re-check their pages weekly so withdrawn ones close.
+                listed = {e.url for e in entries}
+                for job in jobs.values():
+                    for srec in job["sources"]:
+                        if srec["id"] != src.id or srec["url"] in listed or job.get("status") == "closed":
+                            continue
+                        job["last_seen"] = today.isoformat()
+                        if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details \
+                                and not must_stop():
+                            details_opened += 1
+                            opened(*refresh_job(src, job, Entry(src.id, srec["url"], job["title"]), today))
+            if stop == "time":
+                stat["note"] = "paused at its time limit; continues on the next run"
+                log.warning("%s: time limit reached after %d pages; continuing next run", src.id, stat["pages_opened"])
+            elif stop:
+                stat.update(ok=False, error=stop)
+                log.warning("%s: %s", src.id, stop)
+        except Exception as exc:  # noqa: BLE001 - one broken reader must not stop the others
+            stat.update(ok=False, error=f"internal error: {type(exc).__name__}: {exc}"[:300])
+            log.exception("%s failed", src.id)
+        finally:
+            if hasattr(src, "finish"):
+                try:
+                    src.finish()
+                except Exception:  # noqa: BLE001
+                    log.exception("%s: could not save progress", src.id)
+            stat["seconds"] = round(time.monotonic() - t0, 1)
+            if stat not in health:
+                health.append(stat)
 
     # Records classified with an older directory (or never): classify again from what we kept.
     for job in jobs.values():
@@ -395,7 +458,8 @@ def run(argv: list[str] | None = None) -> int:
             job.update(inst_fields(classify(name, job["location"], job.get("summary", ""), _CLF)))
 
     # Geocode, assess, prune.
-    geo = Geocoder(max_lookups=int(settings.get("max_geocodes", 250)))
+    geo = Geocoder(max_lookups=int(settings.get("max_geocodes", 250)),
+                   deadline=time.monotonic() + max(180.0, run_limit + 600 - (time.monotonic() - run_start)))
     for job in jobs.values():
         loc = job["location"]
         if loc.get("lat") is None and job.get("status") != "closed":
