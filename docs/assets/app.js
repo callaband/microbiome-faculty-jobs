@@ -64,7 +64,8 @@
 
   // ------------------------------------------------------------------ filtering
   const haystack = j => [j.title, j.institution, place(j, true), j.summary, j.rank_label, j.tenure_label,
-    j.inst_type_label, j.carnegie, j.matched_institution, j.effort_label,
+    j.inst_type_label, j.carnegie, j.matched_institution, j.effort_label, j.original_title,
+    j.translated ? "translated " + j.translated.language : "",
     ...(j.domains || []).map(d => domainLabel(meta, d)), ...(j.microbiome_terms || [])].join(" ").toLowerCase();
   jobs.forEach(j => { j._hay = haystack(j); });
 
@@ -213,6 +214,8 @@
     const tags = [
       `<span class="tag">${esc(j.rank_label)}</span>`,
       `<span class="tag ${/tenure-track|tenured|permanent/i.test(j.tenure_label) ? "tt" : ""}">${esc(j.tenure_label)}</span>`,
+      j.translated ? `<span class="tag tr" title="Machine-translated by ${esc(j.translated.by)}. Original title: ${esc(j.original_title)}"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5h9M8.5 3v2M6 5c.8 3.5 3.2 6.2 6 7.5M11 5c-.6 3.2-2.8 6.3-6.5 8"/><path d="M12.5 21l4-9 4 9M14 18h5"/></svg>Translated from ${esc(j.translated.language)}</span>`
+        : (j.language && j.language !== "en" && j.original_title ? `<span class="tag tr" title="This posting is not in English">In ${esc(({ja:"Japanese",zh:"Chinese",zt:"Chinese",ko:"Korean",de:"German",fr:"French",es:"Spanish",pt:"Portuguese",it:"Italian",nl:"Dutch",sv:"Swedish",da:"Danish",nb:"Norwegian",fi:"Finnish",pl:"Polish",cs:"Czech"})[j.language] || j.language)}</span>` : ""),
       j.inst_type_label ? `<span class="tag inst" title="${esc(j.carnegie || "")}">${esc(j.inst_type_label)}</span>` : "",
       j.effort_label ? `<span class="tag eff">${esc(j.effort_label)}</span>`
         : `<span class="tag muted">Effort % not stated</span>`,

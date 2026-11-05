@@ -33,11 +33,20 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
 
+      # Translation models (~100 MB per language) are downloaded once and kept here.
+      - name: Keep translation models between runs
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/mfj-translate
+          key: translation-models-v1
+
       - name: Collect postings
         env:
           ONLY: ${{ github.event.inputs.only }}
           # Optional: add a repository secret GEOCODER_EMAIL so OpenStreetMap can contact you if needed.
           GEOCODER_EMAIL: ${{ secrets.GEOCODER_EMAIL }}
+          # Optional: a DeepL API key for better translations (free plan is enough).
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
           if [ -n "$ONLY" ]; then
             python -m collector.run --only "$ONLY"

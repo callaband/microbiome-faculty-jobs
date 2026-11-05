@@ -17,6 +17,9 @@
   window.MFJ_track && window.MFJ_track(`${j.title} · ${j.institution}`);
 
   let callout = "";
+  const trNote = j.translated
+    ? `<div class="callout tr"><b>Translated from ${esc(j.translated.language)}.</b> The title and summary on this page were machine-translated by ${esc(j.translated.by)} and may contain mistakes. The original title is shown under the heading; the original posting is the official version.</div>`
+    : "";
   if (j.status === "closed") {
     callout = `<div class="callout closed"><b>Closed</b> — ${esc(j.closed_reason || "no longer listed")}. Check the original posting before applying.</div>`;
   } else if (j.priority === "low") {
@@ -38,13 +41,14 @@
     <div class="detail-head">
       <div>${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}</div>
       <h1>${esc(j.title)}</h1>
+      ${j.translated ? `<div class="orig-title" lang="${esc(j.translated.from)}">${esc(j.original_title)}</div>` : ""}
       <div class="where">${esc(j.institution)} · ${esc(place(j, true))}</div>
     </div>
     <div class="cta-row">
       <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open original posting ↗</a>
       ${report ? `<a class="btn" href="${report}" target="_blank" rel="noopener">Report a problem</a>` : ""}
     </div>
-    ${callout}
+    ${trNote}${callout}
     <div class="detail-grid">
       <dl class="panel facts">
         ${fact("Rank", esc(j.rank_label))}

@@ -21,6 +21,7 @@ DATE_RE = re.compile(
       | \d{{1,2}}{_ORD}\s+(?:of\s+)?{_MONTH},?\s+\d{{4}}  # 15 November 2026
       | \d{{4}}-\d{{1,2}}-\d{{1,2}}                 # 2026-11-15
       | \d{{1,2}}\.\s?\d{{1,2}}\.\s?\d{{4}}          # 15.11.2026 (day first, European)
+      | \d{{4}}\s?年\s?\d{{1,2}}\s?月\s?\d{{1,2}}\s?日      # 2026年11月30日 (Japanese, Chinese)
       | \d{{1,2}}/\d{{1,2}}/\d{{2,4}}                # 11/15/2026
       | {_MONTH}\s+\d{{1,2}}{_ORD}(?![\d,]*\s*\d{{4}}) # November 15 (no year)
       | \d{{1,2}}{_ORD}\s+(?:of\s+)?{_MONTH}(?!,?\s*\d{{4}}) # 15 November (no year)
@@ -42,7 +43,8 @@ REVIEW_CUES = re.compile(
 DEADLINE_CUES = re.compile(
     r"deadline|closing date|close[sd]? on|closes|applications? (?:are |is )?due|due (?:date|by)"
     r"|no later than|must be (?:received|submitted)|apply by|submit(?:ted)? by|last date"
-    r"|bewerbungsfrist|bewerbungsschluss|einsendeschluss|date limite|sluitingsdatum|reageren (?:kan )?tot",
+    r"|bewerbungsfrist|bewerbungsschluss|einsendeschluss|date limite|sluitingsdatum|reageren (?:kan )?tot"
+    r"|締切|締め切り|応募期限|募集終了|募集期間|截止|마감",
     re.IGNORECASE,
 )
 
@@ -63,6 +65,13 @@ class DateFindings:
 
 
 def _parse_one(raw: str, anchor: date) -> date | None:
+    cjk = re.fullmatch(r"(\d{4})\s?年\s?(\d{1,2})\s?月\s?(\d{1,2})\s?日", raw.strip())
+    if cjk:
+        try:
+            d = date(int(cjk.group(1)), int(cjk.group(2)), int(cjk.group(3)))
+            return d if anchor.year - 2 <= d.year <= anchor.year + 3 else None
+        except ValueError:
+            return None
     if re.fullmatch(r"\d{1,2}\.\s?\d{1,2}\.\s?\d{4}", raw.strip().rstrip(".")):
         try:
             d = dparser.parse(raw.replace(" ", ""), dayfirst=True).date()

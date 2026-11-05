@@ -30,6 +30,10 @@ microbiome_terms:
   - 'microbioma\w*'           # Spanish, Italian, Portuguese
   - 'm[ée]tag[ée]nom\w*'       # French métagénomique
   - 'holobionte?n?\b'
+  # Japanese, Chinese, Korean (no word boundaries in these scripts)
+  - 'マイクロバイオーム|微生物叢|細菌叢|腸内細菌|腸内フローラ|メタゲノム'
+  - '微生物组|微生物群落|肠道菌群|宏基因组|微生态'
+  - '마이크로바이옴|미생물군|장내\s?미생물|메타게놈'
 
 # Job titles must look like a faculty position...
 faculty_title_patterns:
@@ -61,6 +65,10 @@ faculty_title_patterns:
   - '\bcharg[ée]e? de recherche\b'       # French permanent researcher (CNRS, INRAE)
   - '\bdirect(?:eur|rice) de recherche\b'
   - '\bnachwuchsgruppenleit\w*'          # junior research group leader
+  # Japanese, Chinese, Korean
+  - '教授|准教授|講師|助教|教員'           # ja (zh shares 教授)
+  - '副教授|讲师|助理教授|长聘|预聘|教职'   # zh
+  - '교수|전임교원'                        # ko
 
 # ...and must not look like one of these (checked against the title only).
 exclude_title_patterns:
@@ -86,6 +94,9 @@ exclude_title_patterns:
   - '\buniversit(?:y|äts)\s?assistent\w*|\buniversity assistant\b'
   - '\bstudent(?:ische)? (?:assistant|hilfskraft)\b'
   - '\baios\b'                                    # Dutch medical resident
+  - 'ポスドク|博士研究員|研究補助|技術職員|技術補佐|事務|パート|アルバイト|非常勤|学術専門職員'   # ja
+  - '博士后|博士後|研究助理|技术员|行政'                                                     # zh
+  - '박사후|시간강사|행정'                                                                    # ko
 
 # Research domains. A posting can belong to several.
 # label: shown on the website; color: map marker / chip color.

@@ -47,6 +47,7 @@ def test_pipeline(tmp_path, monkeypatch):
         monkeypatch.setattr(run, name, val)
     monkeypatch.setattr(geo, "CACHE_FILE", state / "geocache.json")
     monkeypatch.setattr(inst, "DIRECTORY_FILE", FIX / "institutions.json")
+    monkeypatch.setattr("collector.translate.CACHE_FILE", state / "translations.json")
     monkeypatch.setattr(run, "PoliteClient", FakeClient)
     monkeypatch.setenv("OFFLINE", "1")
     cfg = tmp_path / "sources.yaml"

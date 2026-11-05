@@ -21,8 +21,8 @@ from xml.sax.saxutils import escape
 import yaml
 
 from . import CONFIG_DIR, SITE_DATA_DIR, STATE_DIR
-from .classify import (domains, is_faculty_title, rank_label, ranks, relevance, taxonomy, tenure,
-                       tenure_label)
+from .classify import (domains, is_faculty_title, microbiome_terms, rank_label, ranks, relevance, taxonomy,
+                       tenure, tenure_label)
 from .dates import find_dates
 from .effort import find_effort
 from .institutions import TYPE_LABELS, Classifier, classify, load_directory
@@ -31,6 +31,7 @@ from .http import FetchError, PoliteClient
 from .regions import country_name, region_of
 from .sources import Detail, Entry, build_sources
 from .text import excerpt, jaccard, norm_tokens
+from .translate import Translator, detect, language_name
 
 log = logging.getLogger("collector")
 
@@ -44,6 +45,32 @@ SUBMITTED_FILE = STATE_DIR / "submitted_urls.txt"
 SOON_DAYS = 14
 _CLF: Classifier | None = None  # institution directory, loaded in run()
 _DIR_VERSION = 0               # version of the directory that was loaded
+_TR: Translator | None = None  # machine translation, set up in run()
+
+
+def localize(d: Detail, entry: Entry) -> dict | None:
+    """For a non-English posting that mentions microbiome terms, translate its title and
+    description into English. Returns None for English postings."""
+    title = d.title or entry.title
+    lang = detect(f"{title}\n{(d.description or '')[:1500]}")
+    if lang == "en":
+        return None
+    info = {"lang": lang}
+    if not microbiome_terms(f"{title}\n{d.description}"):
+        return info  # not relevant anyway: don't spend translation time on it
+    res = _TR.translate([title, (d.description or "")[:4000]], lang) if _TR else None
+    if res:
+        (t_en, desc_en), by = res
+        info.update(title_en=t_en.strip(), desc_en=desc_en.strip(), by=by)
+    return info
+
+
+def relevance_for(d: Detail, entry: Entry, loc: dict | None):
+    title = d.title or entry.title
+    text = d.description
+    if loc and loc.get("title_en"):
+        title, text = f"{loc['title_en']} / {title}", f"{d.description}\n\n{loc['desc_en']}"
+    return relevance(title, text, d.job_type, d.employment)
 KEEP_CLOSED_DAYS = 180
 
 
@@ -82,13 +109,21 @@ def _title_prefilter(src, title: str) -> bool:
 
 
 # ----------------------------------------------------------------------------- building records
-def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: list[str]) -> dict:
-    title = d.title or entry.title
-    text = d.description
+def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: list[str],
+                 loc: dict | None = None) -> dict:
+    original_title = d.title or entry.title
+    title, text, summary_text = original_title, d.description, d.description
+    translated = None
+    if loc and loc.get("title_en"):
+        title = loc["title_en"] or original_title
+        summary_text = loc["desc_en"]
+        text = f"{loc['desc_en']}\n\n{d.description}"  # classify on both versions
+        translated = {"from": loc["lang"], "language": language_name(loc["lang"]), "by": loc["by"]}
+    rank_title = " ".join(x for x in (title, original_title if translated else "", d.extra.get("rank_hint", "")) if x)
     anchor = d.date_posted or entry.date_posted or today
     found = find_dates(text, anchor)
     deadline = d.application_due or found.deadline
-    rs, ts = ranks(title, text), tenure(title, text)
+    rs, ts = ranks(rank_title, text), tenure(rank_title, text)
     eff = find_effort(text)
     location = {
         "city": d.city,
@@ -132,7 +167,10 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
         "employment": d.employment,
         "salary": d.salary,
         "board_job_type": d.job_type,
-        "summary": excerpt(text),
+        "summary": excerpt(summary_text),
+        "language": loc["lang"] if loc else "en",
+        "original_title": original_title if loc else "",
+        "translated": translated,
     }
 
 
@@ -154,7 +192,7 @@ def refresh_record(job: dict, fresh: dict) -> None:
               "review_date", "review_text", "deadline", "deadline_text", "listing_expires", "until_filled",
               "employment", "salary", "board_job_type", "summary", "effort", "effort_label", "effort_text",
               "effort_focus", "teaching_load", "inst_types", "inst_type_label", "carnegie", "control",
-              "matched_institution", "inst_version"):
+              "matched_institution", "inst_version", "language", "original_title", "translated"):
         if fresh.get(k) not in (None, "", []):
             job[k] = fresh[k]
     job["last_checked"] = fresh["last_checked"]
@@ -177,7 +215,7 @@ def refresh_job(src, job: dict, entry: Entry, today: date) -> tuple[bool, str]:
         log.warning("could not re-read %s: %r", entry.url, exc)
         return False, f"could not read page ({type(exc).__name__})"
     job.pop("removed_on", None)
-    refresh_record(job, build_record(entry, d, src.name, today, job["microbiome_terms"]))
+    refresh_record(job, build_record(entry, d, src.name, today, job["microbiome_terms"], localize(d, entry)))
     return True, ""
 
 
@@ -300,6 +338,8 @@ def run(argv: list[str] | None = None) -> int:
     global _CLF, _DIR_VERSION
     dir_info, dir_rows = load_directory(offline=bool(os.environ.get("OFFLINE")))
     _CLF = Classifier(dir_rows)
+    global _TR
+    _TR = Translator(max_chars_per_run=int(settings.get("max_translation_chars", 80_000)))
     _DIR_VERSION = dir_info.get("version", 1) if dir_rows else 0
 
     jobs: dict[str, dict] = {j["id"]: j for j in _load_json(JOBS_FILE, [])}
@@ -315,6 +355,7 @@ def run(argv: list[str] | None = None) -> int:
     health, rejected_submissions = [], []
     details_opened = 0
 
+    prev_health = {x.get("id"): x for x in _load_json(META_FILE, {}).get("sources", [])}
     run_start = time.monotonic()
     run_limit = float(settings.get("max_minutes", 90)) * 60       # whole run, before saving
     default_src_limit = float(settings.get("source_minutes", 20)) * 60
@@ -329,6 +370,15 @@ def run(argv: list[str] | None = None) -> int:
         if time.monotonic() - run_start > run_limit:
             stat.update(ok=False, error="skipped this run: the run's time limit was reached (it runs again tomorrow)")
             health.append(stat)
+            continue
+        prev = prev_health.get(src.id, {})
+        fail_days = int(prev.get("fail_days", 0))
+        last_try = _d(prev.get("last_try")) if prev.get("last_try") else None
+        if fail_days >= 3 and last_try and (today - last_try).days < 7:
+            # Refused on several days in a row: ask only once a week until it answers again.
+            nxt = last_try + timedelta(days=7)
+            health.append({**prev, "note": f"refused on {fail_days} days in a row; next try {nxt:%b} {nxt.day}",
+                           "checked_at": stat["checked_at"]})
             continue
         t0 = time.monotonic()
         src_limit = float(src.cfg.get("max_minutes", 0)) * 60 if getattr(src, "cfg", None) else 0
@@ -397,14 +447,15 @@ def run(argv: list[str] | None = None) -> int:
                     log.warning("could not read %s: %r", e.url, exc)
                     continue
                 opened(True)
-                rel = relevance(d.title or e.title, d.description, d.job_type, d.employment)
+                loc = localize(d, e)
+                rel = relevance_for(d, e, loc)
                 if not rel.keep:
                     if getattr(src, "remember_rejects", True):
                         checked[e.url] = {"on": today.isoformat(), "why": rel.reason}
                     if src.id == "submitted":
                         rejected_submissions.append({"url": e.url, "why": rel.reason})
                     continue
-                rec = build_record(e, d, src.name, today, rel.terms)
+                rec = build_record(e, d, src.name, today, rel.terms, loc)
                 dup = find_duplicate(rec, jobs)
                 if dup:
                     if not any(s["url"] == e.url for s in dup["sources"]):
@@ -448,6 +499,12 @@ def run(argv: list[str] | None = None) -> int:
                 except Exception:  # noqa: BLE001
                     log.exception("%s: could not save progress", src.id)
             stat["seconds"] = round(time.monotonic() - t0, 1)
+            if stat["ok"]:
+                stat["fail_days"] = 0
+            else:
+                same_day = prev.get("last_try") == today.isoformat()
+                stat["fail_days"] = fail_days if same_day and fail_days else fail_days + 1
+            stat["last_try"] = today.isoformat()
             if stat not in health:
                 health.append(stat)
 
@@ -469,6 +526,8 @@ def run(argv: list[str] | None = None) -> int:
                 loc.update(lat=hit["lat"], lon=hit["lon"], precision=hit["precision"])
         assess(job, today, stale_days)
     geo.save()
+    if _TR:
+        _TR.save()
     cutoff = today - timedelta(days=KEEP_CLOSED_DAYS)
     kept = [j for j in jobs.values() if j["status"] == "open" or _d(j["last_seen"]) >= cutoff]
     old = (today - timedelta(days=365)).isoformat()
@@ -497,6 +556,9 @@ def run(argv: list[str] | None = None) -> int:
         "inst_type_labels": TYPE_LABELS,
         "requests_made": client.requests_made,
         "geocode_lookups": geo.lookups,
+        "translation": {"available": bool(_TR and _TR.available),
+                        "providers": [p.name for p in _TR.providers] if _TR else [],
+                        "chars_this_run": _TR.used if _TR else 0},
     }
     write_outputs(kept, meta)
     log.info("done: %d open, %d closed, %d requests, %d geocodes", meta["counts"]["open"],

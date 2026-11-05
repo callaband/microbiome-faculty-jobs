@@ -26,12 +26,13 @@ Everything runs free on GitHub: a GitHub Action collects postings once a day and
 | The Chronicle of Higher Education Jobs | worldwide | same |
 | Inside Higher Ed Careers | mostly US | same |
 | HigherEdJobs | US | official category RSS feeds (biology, animal & plant & soil science, veterinary medicine, public health, oceanography, …); each faculty-titled posting is opened once to read its description |
-| Times Higher Education Unijobs | worldwide | life-science and health category pages (its robots.txt disallows job feeds and keyword searches) |
+| Times Higher Education Unijobs | worldwide | life-science and health category pages, plus Hong Kong, Singapore, China, Australia and New Zealand region pages (its robots.txt disallows job feeds and keyword searches) |
 | EURAXESS (European Commission) | Europe and worldwide | new job pages by job number, ~250 a day, plus a month of older ones read gradually; only faculty-level profiles (R3/R4) or faculty titles are kept. Its robots.txt asks robots not to run searches, so none are run |
 | jobs.ac.uk | UK and Europe | keyword search pages + schema.org data |
 | Academic Positions | Europe | **off** — refuses requests from GitHub's servers; linked under Where else to look |
 | University Positions | Europe | category pages (its RSS feed is disallowed in robots.txt) |
 | Max Planck Society | Germany | official job RSS feed |
+| JREC-IN Portal | Japan | keyword search with Japanese terms (マイクロバイオーム, 微生物叢, 腸内細菌, …); postings machine-translated |
 | jobRxiv | worldwide | faculty category RSS feed (latest 100) + schema.org data on each job page |
 | FEMS | Europe | microbiology job board RSS feed |
 | Nature Careers | worldwide | **off** — nature.com's robots.txt disallows its job feeds for automated tools |
@@ -80,6 +81,15 @@ You need a free GitHub account and [GitHub Desktop](https://desktop.github.com/)
 - **Your own copy of the site address** in feeds and links is filled in automatically from the repository name.
 
 ---
+
+## Postings in other languages
+
+Postings that aren't in English (JREC-IN, and any non-English posting on the other boards) are machine-translated into English and marked **Translated from …** on the site, with the original title kept on the position's page. Only postings that already mention microbiome terms in their own language are translated, so translation stays quick. Terms and job titles in Japanese, Chinese, Korean and the main European languages are in [`config/taxonomy.yaml`](config/taxonomy.yaml).
+
+- **Free, offline (default):** [Argos Translate](https://github.com/argosopentech/argos-translate) models run inside the GitHub Action. A model (~100 MB) is downloaded the first time a language is needed.
+- **Better quality (optional):** create a free [DeepL API](https://www.deepl.com/pro-api) account and add its key as a repository secret named `DEEPL_API_KEY` (Settings → Secrets and variables → Actions). The free plan's 500,000 characters a month is far more than the tracker uses.
+
+Translations are cached in `data/translations.json`, so each posting is translated once. If translation fails, the posting is kept in its original language.
 
 ## Visitor statistics (optional)
 

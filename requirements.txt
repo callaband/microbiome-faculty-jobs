@@ -2,3 +2,7 @@ requests>=2.31
 beautifulsoup4>=4.12
 python-dateutil>=2.8
 PyYAML>=6.0
+# Offline translation of non-English postings (Argos Translate models via CTranslate2)
+ctranslate2>=4.0
+sentencepiece>=0.2
+langdetect>=1.0.9

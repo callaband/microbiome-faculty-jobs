@@ -36,7 +36,11 @@ settings:
   max_minutes: 90
   source_minutes: 20
   # Stop reading a source for this run after this many failed requests in a row.
+  # A source refused on 3 days in a row is then tried once a week until it answers.
   max_failures_in_a_row: 8
+  # Machine translation of non-English postings (see collector/translate.py).
+  # Only postings that already mention microbiome terms are translated.
+  max_translation_chars: 80000
 
 # Searched on every Madgex board. Board search is broad; the collector then
 # keeps only postings whose text matches config/taxonomy.yaml.
@@ -82,15 +86,23 @@ sources:
   - id: the_unijobs
     name: Times Higher Education Unijobs
     # THE's robots.txt disallows its job feeds and keyword searches, so read its
-    # life-science and health category pages instead (titles filtered first).
+    # category and region pages instead (titles filtered before any page is opened).
+    # The region pages are the main source for Hong Kong, Singapore, mainland China,
+    # Australia and New Zealand, whose university career sites can't be read.
     type: listing
     base: https://www.timeshighereducation.com
     urls:
       - "/unijobs/listings/life-sciences/?page={page}"
       - "/unijobs/listings/clinical-pre-clinical-and-health/?page={page}"
+      - "/unijobs/listings/hong-kong/?page={page}"
+      - "/unijobs/listings/singapore/?page={page}"
+      - "/unijobs/listings/china/?page={page}"
+      - "/unijobs/listings/australia/?page={page}"
+      - "/unijobs/listings/new-zealand/?page={page}"
     link_pattern: '/unijobs/listing/\d+/[a-z0-9\-]+'
-    pages: 8
+    pages: 15
     require_faculty_title: true
+    max_minutes: 30
     enabled: true
 
   # ---------------------------------------------------------------- Europe
@@ -167,6 +179,22 @@ sources:
     type: rss
     feeds:
       - https://www.mpg.de/feeds/jobs.rss
+    enabled: true
+
+  # ---------------------------------------------------------------- Asia, in local languages
+  - id: jrecin
+    name: JREC-IN Portal (Japan)
+    type: jrecin
+    base: https://jrecin.jst.go.jp
+    # Japan's national research job portal (JST). Searched with Japanese terms;
+    # matching postings are machine-translated into English.
+    keywords:
+      - マイクロバイオーム     # microbiome
+      - 微生物叢             # microbiota
+      - 細菌叢               # bacterial flora
+      - 腸内細菌             # gut bacteria
+      - 腸内フローラ         # gut flora
+      - メタゲノム           # metagenome
     enabled: true
 
   # ---------------------------------------------------------------- worldwide science boards

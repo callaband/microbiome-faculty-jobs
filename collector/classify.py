@@ -123,14 +123,14 @@ _DESC_RANK = {
 
 # European titles (German, Dutch, Nordic, French, Southern European).
 _EU_RANK = {
-    "assistant": re.compile(r"\bjunior\s?professur\w*|\buniversitair docent\b", re.I),
+    "assistant": re.compile(r"\bjunior\s?professur\w*|\buniversitair docent\b|助教|助理教授|조교수", re.I),
     "associate": re.compile(
-        r"\buniversitair hoofddocent\b|(?<!universitair )(?<!hoofd)\bdocent\b|\bma[iî]tre de conf[ée]rences\b"
+        r"\buniversitair hoofddocent\b|(?<!universitair )(?<!hoofd)\bdocent\b|\bma[iî]tre de conf[ée]rences\b|准教授|副教授|부교수"
         r"|\bprofess(?:eur|ore) associ[ée]\w*|\bprofesor(?:a)? (?:titular|agregad[oa]|associad[oa])\b", re.I),
     "full": re.compile(
-        r"\bhoogleraar\b|\bprofesseur des universit\w*|\bprofessore ordinario\b"
+        r"\bhoogleraar\b|\bprofesseur des universit\w*|\bprofessore ordinario\b|(?<![准副理])教授(?!会)|(?<![부조])교수"
         r"|\bprofesor(?:a)? catedr[áa]tic[oa]\b", re.I),
-    "lecturer": re.compile(r"\b\w*lektor(?:at)?\b", re.I),
+    "lecturer": re.compile(r"\b\w*lektor(?:at)?\b|講師|讲师|강사", re.I),
     "investigator": re.compile(
         r"\bcharg[ée]e? de recherche\b|\bdirect(?:eur|rice) de recherche\b|\bnachwuchsgruppenleit\w*", re.I),
 }
@@ -197,10 +197,12 @@ _NON_TT = re.compile(
     r"|\bnon[\s\-]?tenured\b|\bteaching[\s\-](?:track|stream)\b|\bteaching (?:assistant |associate )?professor\b"
     r"|\bprofessor of (?:practice|instruction|teaching)\b|\bclinical (?:assistant |associate )?professor\b"
     r"|\bresearch (?:assistant |associate )?professor\b|\bfixed[\s\-]term\b|\bterm[\s\-]limited\b"
-    r"|\b(?:one|two|three|1|2|3)[\s\-]year (?:renewable )?(?:appointment|contract|position)\b|\binstructional faculty\b",
+    r"|\b(?:one|two|three|1|2|3)[\s\-]year (?:renewable )?(?:appointment|contract|position)\b|\binstructional faculty\b"
+    r"|テニュアトラック以外|任期あり|任期付|有期雇用|비정년",
     re.I,
 )
-_TT = re.compile(r"\btenure[\s\-]*(?:track|stream|eligible|line|system)\b|\btenure[\s\-]accruing\b", re.I)
+_TT = re.compile(r"\btenure[\s\-]*(?:track|stream|eligible|line|system)\b|\btenure[\s\-]accruing\b"
+                 r"|テニュアトラック(?!以外)|预聘|長聘|长聘|정년\s?트랙", re.I)
 _TENURED = re.compile(
     r"\btenured\b|\bwith tenure\b|\btenure (?:at|upon|on) (?:the )?(?:time of )?(?:hire|appointment)\b|\btenure (?:may|can|will) be (?:granted|considered|available)",
     re.I,
@@ -209,7 +211,7 @@ _PERMANENT = re.compile(
     r"\bpermanent (?:academic |faculty )?(?:position|post|appointment|contract|role|faculty)\b|\bcontinuing (?:position|appointment|role)\b"
     r"|\bopen[\s\-]ended (?:contract|position|appointment)\b|\bindefinite (?:contract|appointment)\b|\blifetime (?:position|appointment)\b"
     r"|\bunbefristet\w*|\bvaste aanstelling\b|\bvast dienstverband\b|\bpermanent (?:full[\s\-]time )?(?:employment|staff)\b"
-    r"|\bcontract type[^.\n]{0,15}:\s*permanent\b",
+    r"|\bcontract type[^.\n]{0,15}:\s*permanent\b|任期なし|任期の定めなし|無期雇用|终身教职|정년\s?보장",
     re.I,
 )
 TENURE_LABELS = {

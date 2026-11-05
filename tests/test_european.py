@@ -110,6 +110,7 @@ def env(tmp_path, monkeypatch):
         monkeypatch.setattr(run, name, val)
     monkeypatch.setattr(geo, "CACHE_FILE", state / "geocache.json")
     monkeypatch.setattr(inst, "DIRECTORY_FILE", FIX / "institutions.json")
+    monkeypatch.setattr("collector.translate.CACHE_FILE", state / "translations.json")
     monkeypatch.setattr("collector.STATE_DIR", state)
     monkeypatch.setattr(run, "PoliteClient", Client)
     monkeypatch.setenv("OFFLINE", "1")

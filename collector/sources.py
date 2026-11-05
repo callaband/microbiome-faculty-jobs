@@ -516,6 +516,81 @@ def parse_euraxess(html: str, entry: Entry) -> Detail:
     d.date_posted = parse_any(posted.group(1)) if posted else None
     return d
 
+
+# ----------------------------------------------------------------------------- JREC-IN (Japan)
+class JrecinSource:
+    """JREC-IN Portal, Japan's national research job portal (run by JST). Its
+    robots.txt allows the job search and job pages under /seek/. Searched with
+    Japanese microbiome terms; postings are in Japanese and get translated."""
+
+    def __init__(self, cfg: dict, settings: dict, keywords: list[str], client: PoliteClient):
+        self.id, self.name, self.base = cfg["id"], cfg["name"], cfg["base"].rstrip("/")
+        self.keywords = cfg.get("keywords") or ["マイクロバイオーム"]
+        self.require_faculty_title = True
+        self.client = client
+
+    def list_entries(self) -> list[Entry]:
+        seen: dict[str, Entry] = {}
+        for kw in self.keywords:
+            html = self.client.get(f"{self.base}/seek/SeekJorSearch?fn=0&keyword_and={quote_plus(kw)}").text
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.find_all("a", href=True):
+                m = re.search(r"SeekJorDetail\?id=([A-Z0-9]+)", a["href"])
+                if not m:
+                    continue
+                url = f"{self.base}/seek/SeekJorDetail?id={m.group(1)}"
+                title = clean(a.get_text(" "))
+                if url not in seen or len(title) > len(seen[url].title):
+                    seen[url] = Entry(self.id, url, title)
+        return list(seen.values())
+
+    def fetch_detail(self, entry: Entry) -> Detail:
+        return parse_jrecin(self.client.get(entry.url).text, entry)
+
+
+def parse_jrecin(html: str, entry: Entry) -> Detail:
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "nav", "header", "footer"]):
+        tag.decompose()
+    main = soup.find("main") or soup.body or soup
+    lines = [ln.strip() for ln in main.get_text("\n").splitlines() if ln.strip()]
+    text = "\n".join(lines)
+    d = Detail(title=entry.title, country_code="JP")
+
+    def after(label: str) -> str:
+        for i, ln in enumerate(lines):
+            if ln.rstrip(" :：") == label and i + 1 < len(lines):
+                return lines[i + 1].lstrip(":： ").strip()
+        return ""
+
+    head = re.search(r"公開開始日\s*[:：]\s*\S+\n([^\n]+)\n(D\d{6,})\n([^\n]+)\n([^\n]+)", text)
+    if head:
+        d.title = head.group(1)
+        d.employer = head.group(4)
+        d.extra["institution_type_ja"] = head.group(3)
+    m = re.search(r"募集終了日\s*[:：]\s*(\d{4}年\d{1,2}月\d{1,2}日)", text)
+    if m:
+        y, mo, da = re.findall(r"\d+", m.group(1))
+        d.application_due = date(int(y), int(mo), int(da))
+    m = re.search(r"公開開始日\s*[:：]\s*(\d{4}年\d{1,2}月\d{1,2}日)", text)
+    if m:
+        y, mo, da = re.findall(r"\d+", m.group(1))
+        d.date_posted = date(int(y), int(mo), int(da))
+    m = re.search(r"勤務地\s*[:：]\s*\n?\s*([^\n]+)", text)
+    if m:
+        d.region = m.group(1).split("-")[-1].strip()
+    rank = after("職種")
+    d.extra["rank_hint"] = rank
+    employment = after("雇用形態")
+    d.employment = "Part-time" if re.search(r"非常勤|パート", employment + d.title) else "Full-time"
+    d.job_type = "Faculty" if re.search(r"教授|准教授|講師|助教", rank) else ""
+    start = text.find("業務内容")
+    end = text.find("応募方法")
+    body = text[start:end] if start >= 0 and end > start else text[start if start >= 0 else 0:][:6000]
+    contract = " ".join(x for x in (after("契約期間"), employment) if x)
+    d.description = (body + ("\n契約期間: " + contract if contract else "")).strip()
+    return d
+
 # ----------------------------------------------------------------------------- Submitted URLs
 class SubmittedSource:
     """URLs listed in data/submitted_urls.txt (community submissions)."""
@@ -550,7 +625,7 @@ class SubmittedSource:
 def build_sources(cfg: dict, client: PoliteClient, submitted: list[str]):
     settings, keywords = cfg.get("settings", {}), cfg.get("keywords", [])
     kinds = {"madgex": MadgexSource, "hej_category": HigherEdJobsSource, "listing": ListingSource,
-             "rss": RssSource, "euraxess": EuraxessSource}
+             "rss": RssSource, "euraxess": EuraxessSource, "jrecin": JrecinSource}
     out = []
     for s in cfg.get("sources", []):
         if not s.get("enabled", True):
