@@ -138,6 +138,234 @@
   "priority_reason": ""
  },
  {
+  "id": "8b5da98c39",
+  "title": "Public offering of lectures on oral microbiology",
+  "institution": "昭和医科大学",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "",
+   "region": "東京都",
+   "country_code": "JP",
+   "country": "Japan",
+   "world_region": "Asia",
+   "lat": 35.90691,
+   "lon": 139.64523,
+   "precision": "institution"
+  },
+  "url": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126040792",
+  "sources": [
+   {
+    "id": "jrecin",
+    "name": "JREC-IN Portal (Japan)",
+    "url": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126040792"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "non-tenure-track"
+  ],
+  "tenure_label": "Non-tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome",
+   "マイクロバイオーム"
+  ],
+  "date_posted": "2026-04-13",
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "last_checked": "2026-11-05",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-11-30",
+  "deadline_text": "Application due date listed on the posting.",
+  "listing_expires": null,
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-time",
+  "salary": "",
+  "board_job_type": "Faculty",
+  "summary": "Business Description Background of recruitment and project description [Work contents (Business contents, subjects etc.)] Education: Lectures, exercises and research guidance on oral microbiology related subjects for undergraduate and ⁇ students (including ⁇ students). ⁇ : ⁇ aged in research activities in this course (oral microbiology). The main theme is the interaction between oral microbiome and systemic…",
+  "language": "ja",
+  "original_title": "口腔微生物学講座助教の公募",
+  "translated": {
+   "from": "ja",
+   "language": "Japanese",
+   "by": "Argos Translate"
+  },
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "e2820e9647",
+  "title": "[S ⁇ ctural Biological ⁇ ] Keio University School of Medicine, Koyo Sakaguchi Memorial Lecture, Hunting Signals, Public Call for Special Assistant Professor",
+  "institution": "慶應義塾大学",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "",
+   "region": "東京都",
+   "country_code": "JP",
+   "country": "Japan",
+   "world_region": "Asia",
+   "lat": 35.65852,
+   "lon": 139.7513,
+   "precision": "institution"
+  },
+  "url": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126091810",
+  "sources": [
+   {
+    "id": "jrecin",
+    "name": "JREC-IN Portal (Japan)",
+    "url": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126091810"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "non-tenure-track"
+  ],
+  "tenure_label": "Non-tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiota",
+   "腸内細菌"
+  ],
+  "date_posted": "2026-09-28",
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "last_checked": "2026-11-05",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2027-03-31",
+  "deadline_text": "Application due date listed on the posting.",
+  "listing_expires": null,
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-time",
+  "salary": "",
+  "board_job_type": "Faculty",
+  "summary": "Business Description Background of recruitment and project description In cooperation with Dr. ⁇ shibaya (PI) \"Understanding and application of the principle of intestinal bacterial operation that extends healthy life\" 1. ⁇ Structural analysis using Cryo-EM method of intestinal bacterial metabolic proteins (receptors including pro ⁇ ⁇ ⁇ s, GPCRs, etc.) 2. ⁇ Structural deter ⁇ using MicroED method of intestinal…",
+  "language": "ja",
+  "original_title": "【構造生物化学】慶應義塾大学医学部坂口光洋記念講座シグナル探求学　特任助教の公募",
+  "translated": {
+   "from": "ja",
+   "language": "Japanese",
+   "by": "Argos Translate"
+  },
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "2cdee0a55e",
+  "title": "[Re-publication] Call for Assistant Professor (Full-time) (Graduate School of Medicine, Department of Microbiology)",
+  "institution": "山口大学",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "",
+   "region": "山口県",
+   "country_code": "JP",
+   "country": "Japan",
+   "world_region": "Asia",
+   "lat": 34.14808,
+   "lon": 131.46868,
+   "precision": "institution"
+  },
+  "url": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126090012",
+  "sources": [
+   {
+    "id": "jrecin",
+    "name": "JREC-IN Portal (Japan)",
+    "url": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126090012"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "full"
+  ],
+  "rank_label": "Assistant / Full",
+  "tenure": [
+   "non-tenure-track"
+  ],
+  "tenure_label": "Non-tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "細菌叢"
+  ],
+  "date_posted": "2026-09-01",
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05",
+  "last_checked": "2026-11-05",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-11-30",
+  "deadline_text": "Application due date listed on the posting.",
+  "listing_expires": null,
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-time",
+  "salary": "",
+  "board_job_type": "Faculty",
+  "summary": "Business Description Background of recruitment and project description Call for a full-time instructor. https://www. yamaguchi-u. ac. jp/med/graduate_school/index. html Job Description ⁇ : We will be engaged in research related to microbiology. In particular, we have experience in research and in ⁇ ious diseases related to bacterial flora and immunology, but we do not have any experience. Education: We will teach…",
+  "language": "ja",
+  "original_title": "[再公募] 助教(常勤）の公募（医学系研究科　微生物学講座）",
+  "translated": {
+   "from": "ja",
+   "language": "Japanese",
+   "by": "Argos Translate"
+  },
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
   "id": "698d677e70",
   "title": "Assistant Professor - Immunology",
   "institution": "Arizona State University",
