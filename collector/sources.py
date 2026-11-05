@@ -316,6 +316,7 @@ class ListingSource:
         self.link_rx = re.compile(cfg["link_pattern"])
         self.pages = int(cfg.get("pages", 1))
         self.deadline_vt = bool(cfg.get("deadline_from_valid_through", False))
+        self.require_faculty_title = bool(cfg.get("require_faculty_title", False))
         self.client = client
 
     def _links(self, html: str) -> list[tuple[str, str]]:
@@ -372,6 +373,7 @@ class RssSource:
         self.id, self.name = cfg["id"], cfg["name"]
         self.feeds = cfg["feeds"]
         self.deadline_vt = bool(cfg.get("deadline_from_valid_through", False))
+        self.employer_from_title = bool(cfg.get("employer_from_title", False))
         self.client = client
 
     def list_entries(self) -> list[Entry]:
@@ -384,7 +386,13 @@ class RssSource:
         return list(seen.values())
 
     def fetch_detail(self, entry: Entry) -> Detail:
-        return detail_from_page(self.client.get(entry.url).text, entry, self.deadline_vt)
+        d = detail_from_page(self.client.get(entry.url).text, entry, self.deadline_vt)
+        if self.employer_from_title:
+            title = d.title or entry.title
+            m = re.search(r"\s[–—-]\s+([^–—]+)$", title)
+            if m and re.search(r"universit|institut|college|school|hospital|centre|center|laborator", m.group(1), re.I):
+                d.employer = clean(m.group(1))
+        return d
 
 
 class EuraxessSource:
@@ -441,8 +449,13 @@ class EuraxessSource:
 
     def fetch_detail(self, entry: Entry) -> Detail:
         n = int(entry.url.rsplit("/", 1)[1])
-        self.processed.add(n)  # counted even if the page is gone (unused or withdrawn number)
-        html = self.client.get(entry.url).text
+        try:
+            html = self.client.get(entry.url).text
+        except FetchError as exc:
+            if re.search(r"HTTP (404|410)\b", str(exc)):
+                self.processed.add(n)  # unused or withdrawn number: nothing to read
+            raise  # refused or timed out: try this number again next run
+        self.processed.add(n)
         return parse_euraxess(html, entry)
 
     def finish(self) -> None:
@@ -548,6 +561,8 @@ def build_sources(cfg: dict, client: PoliteClient, submitted: list[str]):
             continue
         obj = kind(s, settings, keywords, client)
         obj.cfg = s
+        if s.get("delay_seconds") and s.get("base") and hasattr(client, "host_delay"):
+            client.host_delay[urlsplit(s["base"]).netloc] = float(s["delay_seconds"])
         out.append(obj)
     if submitted:
         out.append(SubmittedSource(submitted, client))

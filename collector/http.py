@@ -34,6 +34,7 @@ class PoliteClient:
             }
         )
         self._last_hit: dict[str, float] = {}
+        self.host_delay: dict[str, float] = {}  # per-site delay overrides (config: delay_seconds)
         self._robots: dict[str, Robots | None] = {}
         self.requests_made = 0
         self._speeds: dict[str, list[float]] = {}
@@ -72,10 +73,11 @@ class PoliteClient:
     def _wait(self, url: str) -> None:
         host = urlsplit(url).netloc
         last = self._last_hit.get(host)
+        delay = self.host_delay.get(host, self.delay)
         if last is not None:
             gap = time.monotonic() - last
-            if gap < self.delay:
-                time.sleep(self.delay - gap)
+            if gap < delay:
+                time.sleep(delay - gap)
         self._last_hit[host] = time.monotonic()
 
     def get(self, url: str, *, accept: str | None = None, retries: int = 2) -> requests.Response:

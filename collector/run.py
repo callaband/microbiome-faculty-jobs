@@ -76,7 +76,7 @@ def _title_prefilter(src, title: str) -> bool:
     tx = taxonomy()
     if any(rx.search(title) for rx in tx["_exclude"]):
         return False
-    if src.id == "higheredjobs":
+    if src.id == "higheredjobs" or getattr(src, "require_faculty_title", False):
         return is_faculty_title(title)[0]
     return True
 

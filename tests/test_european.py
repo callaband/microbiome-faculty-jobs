@@ -221,3 +221,56 @@ def test_other_language_terms_and_dates():
     assert relevance("Universitair Docent", "onderzoek naar het microbioom").keep
     assert tenure_label(tenure("Professur", "Die Stelle ist unbefristet.")) == "Permanent / continuing"
     assert find_dates("Bewerbungsfrist: 15.12.2026.", date(2026, 11, 4)).deadline == date(2026, 12, 15)
+
+
+def test_euraxess_refused_pages_are_retried(env, monkeypatch):
+    tmp_path, site, state, cfg = env
+    real_get = Client.get
+
+    def refusing(self, url, **kw):
+        if url == "https://euraxess.example/jobs/1002":
+            Client.opened.append(url)
+            raise FetchError("HTTP 403 for " + url)
+        return real_get(self, url, **kw)
+
+    monkeypatch.setattr(Client, "get", refusing)
+    run.run(["--sources", str(cfg), "--today", "2026-11-04"])
+    st = json.loads((state / "euraxess_state.json").read_text())
+    assert st["done_low"] == 1003  # 1003 (404) counts as checked; 1002 (403) doesn't
+    monkeypatch.setattr(Client, "get", real_get)
+    run.run(["--sources", str(cfg), "--today", "2026-11-05"])
+    assert "https://euraxess.example/jobs/1002" in Client.opened
+    titles = {j["title"] for j in json.loads((site / "jobs.json").read_text())}
+    assert "Tenure-track Assistant Professor in Soil Microbial Ecology" in titles
+
+
+def test_per_site_delay_from_config():
+    from collector.http import PoliteClient
+    c = PoliteClient(delay_seconds=1.5)
+    sources.build_sources({"settings": {}, "keywords": [], "sources": [
+        {"id": "e", "name": "E", "type": "euraxess", "base": "https://euraxess.example", "delay_seconds": 5}]}, c, [])
+    assert c.host_delay == {"euraxess.example": 5.0}
+
+
+def test_fems_style_feed_takes_employer_from_title(monkeypatch):
+    feed = """<?xml version="1.0"?><rss version="2.0"><channel><title>Jobs</title>
+      <item><title>Assistant Professor in Microbial Ecology &#8211; Example University of Ghent</title>
+        <link>https://fems.example/opportunities/ap-microbial-ecology/</link><pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate></item>
+      </channel></rss>"""
+    page = """<html><head><meta property="og:title" content="Assistant Professor in Microbial Ecology – Example University of Ghent">
+      <meta property="og:site_name" content="FEMS"></head><body><main><p>Tenure-track post studying the gut microbiome
+      of farmed fish in aquaculture.</p></main></body></html>"""
+    pages = {"https://fems.example/feed/": feed, "https://fems.example/opportunities/ap-microbial-ecology/": page}
+
+    class C:
+        def get(self, url, **_):
+            r = requests.Response(); r.status_code, r._content, r.encoding = 200, pages[url].encode(), "utf-8"
+            return r
+
+    src = sources.RssSource({"id": "fems", "name": "FEMS", "feeds": ["https://fems.example/feed/"],
+                             "employer_from_title": True}, {}, [], C())
+    [e] = src.list_entries()
+    assert e.title == "Assistant Professor in Microbial Ecology – Example University of Ghent"
+    d = src.fetch_detail(e)
+    assert d.employer == "Example University of Ghent"
+    assert relevance(d.title, d.description).keep

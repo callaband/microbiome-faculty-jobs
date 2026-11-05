@@ -15,6 +15,11 @@
      "note": "Germany, Austria and Switzerland. Its terms don't allow automated reading."
     },
     {
+     "name": "Academic Positions",
+     "url": "https://academicpositions.com",
+     "note": "Europe-wide professor, tenure-track and lecturer ads. It refuses automated reading from the servers this site runs on."
+    },
+    {
      "name": "AcademicTransfer",
      "url": "https://www.academictransfer.com/en/jobs/",
      "note": "Dutch universities and research institutes."
@@ -47,12 +52,70 @@
    ]
   },
   {
+   "title": "Europe — more boards and universities",
+   "items": [
+    {
+     "name": "Academic Jobs Online",
+     "url": "https://academicjobsonline.org/ajo/jobs",
+     "note": "Worldwide faculty searches; ETH Zurich runs some of its professorship searches here."
+    },
+    {
+     "name": "ETH Zurich jobs",
+     "url": "https://eth-gethired.ch/en/"
+    },
+    {
+     "name": "EPFL working at EPFL",
+     "url": "https://www.epfl.ch/about/working/",
+     "note": "Faculty adverts link through to EPFL's faculty recruiting site."
+    },
+    {
+     "name": "Jobbnorge",
+     "url": "https://www.jobbnorge.no",
+     "note": "Norway's main academic job board, used by Bergen, Oslo, NTNU and others."
+    },
+    {
+     "name": "University of Copenhagen vacancies",
+     "url": "https://www.employment.ku.dk"
+    },
+    {
+     "name": "ICREA",
+     "url": "https://www.icrea.cat",
+     "note": "Catalonia. Permanent research professorships hosted at Catalan universities and institutes."
+    },
+    {
+     "name": "acad.jobs",
+     "url": "https://www.acad.jobs",
+     "note": "Aggregator that crawls university career pages worldwide."
+    }
+   ]
+  },
+  {
    "title": "Europe — independent group and fellowship programmes",
    "items": [
     {
      "name": "DFG Emmy Noether Programme",
      "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether",
      "note": "Germany. Funding to lead an independent junior research group, often a route to a professorship."
+    },
+    {
+     "name": "Ramón y Cajal (Spain)",
+     "url": "https://www.ciencia.gob.es/en/Convocatorias/2026/RYC26.html",
+     "note": "Five-year contracts leading to a permanent post at a Spanish university or institute."
+    },
+    {
+     "name": "Research Ireland Pathway",
+     "url": "https://www.researchireland.ie/funding/pathway/",
+     "note": "Ireland. Funding for early-career researchers to set up an independent programme."
+    },
+    {
+     "name": "FCT Scientific Employment (Portugal)",
+     "url": "https://www.fct.pt",
+     "note": "National calls for research career posts, including FCT-Tenure."
+    },
+    {
+     "name": "EMBO Installation Grants",
+     "url": "https://embo.org/funding/fellowships-grants-and-career-support/installation-grants",
+     "note": "Support for new group leaders setting up a lab in eligible countries (2025 call - Croatia, Czechia, Estonia, Greece, Hungary, Lithuania, Montenegro, Poland, Türkiye)."
     }
    ]
   },
@@ -122,6 +185,41 @@
    ]
   },
   {
+   "title": "Asia — Japan, Korea and Taiwan",
+   "items": [
+    {
+     "name": "JREC-IN Portal (Japan)",
+     "url": "https://jrecin.jst.go.jp/seek/SeekTop",
+     "note": "Japan's national research job portal, run by JST. Most academic posts in Japan are listed here."
+    },
+    {
+     "name": "OIST faculty positions (Japan)",
+     "url": "https://www.oist.jp/careers/faculty-positions",
+     "note": "English-language graduate university in Okinawa with tenure-track hiring in life sciences."
+    },
+    {
+     "name": "BRIC BioJob (Korea)",
+     "url": "https://www.ibric.org/bric/biojob/recruit.do",
+     "note": "Korea's biology research information centre; academic and research job ads."
+    },
+    {
+     "name": "Academia Sinica recruitment (Taiwan)",
+     "url": "https://www.sinica.edu.tw/en/Recruitment/53",
+     "note": "Tenure-track research fellow posts (assistant to full professor level)."
+    }
+   ]
+  },
+  {
+   "title": "Middle East",
+   "items": [
+    {
+     "name": "KAUST careers (Saudi Arabia)",
+     "url": "https://careers.kaust.edu.sa/",
+     "note": "Faculty searches, including the Biological and Environmental Science and Engineering division."
+    }
+   ]
+  },
+  {
    "title": "Asia — India",
    "note": "IITs, IISc and IISERs recruit through their own portals, often accepting applications year-round.",
    "items": [
@@ -142,6 +240,65 @@
      "name": "Ramalingaswami Re-entry Fellowship (DBT)",
      "url": "https://dbtindia.gov.in/ramalingaswami-re-entry-fellowshiprrf-programme",
      "note": "The same idea for biotechnology and life sciences, including microbiome research."
+    }
+   ]
+  },
+  {
+   "title": "Australia and New Zealand",
+   "note": "Times Higher Education (read daily) carries many Australian and New Zealand university posts. Most universities also advertise on their own career pages.",
+   "items": [
+    {
+     "name": "Uni Roles",
+     "url": "https://uniroles.com.au",
+     "note": "Australian university jobs board with a Science category."
+    },
+    {
+     "name": "Monash University jobs",
+     "url": "https://www.monash.edu/jobs/jobs-at-monash"
+    },
+    {
+     "name": "University of Auckland jobs",
+     "url": "https://jobs.auckland.ac.nz"
+    },
+    {
+     "name": "CSIRO careers (Australia)",
+     "url": "https://jobs.csiro.au/go/Science/7829200/",
+     "note": "National science agency; research scientist and group leader roles."
+    },
+    {
+     "name": "PHF Science (New Zealand)",
+     "url": "https://www.phfscience.nz/",
+     "note": "Replaced ESR in 2025; public-health microbiology and genomics."
+    },
+    {
+     "name": "Bioeconomy Science Institute (New Zealand)",
+     "url": "https://www.bioeconomyscience.co.nz/about-us/careers",
+     "note": "Formed in 2025 from AgResearch, Plant & Food Research, Scion and Manaaki Whenua; agricultural, plant and soil microbiology."
+    },
+    {
+     "name": "Earth Sciences New Zealand",
+     "url": "https://www.earthsciences.nz/",
+     "note": "Formed from NIWA and GNS Science; marine and environmental research."
+    }
+   ]
+  },
+  {
+   "title": "Australia and New Zealand — fellowships",
+   "items": [
+    {
+     "name": "ARC DECRA and Future Fellowships",
+     "url": "https://arc.gov.au",
+     "note": "Australian Research Council fellowships that often lead to continuing academic posts."
+    },
+    {
+     "name": "NHMRC Investigator Grants",
+     "url": "https://www.nhmrc.gov.au",
+     "note": "Australia's main health and medical research fellowships, including emerging-leader levels."
+    },
+    {
+     "name": "Tāwhia te Mana Research Fellowships",
+     "url": "https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/tawhia-te-mana/about-en",
+     "note": "New Zealand; replaced the Rutherford Discovery Fellowships in 2024."
     }
    ]
   },

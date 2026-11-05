@@ -26,16 +26,18 @@ Everything runs free on GitHub: a GitHub Action collects postings once a day and
 | The Chronicle of Higher Education Jobs | worldwide | same |
 | Inside Higher Ed Careers | mostly US | same |
 | HigherEdJobs | US | official category RSS feeds (biology, animal & plant & soil science, veterinary medicine, public health, oceanography, …); each faculty-titled posting is opened once to read its description |
-| Times Higher Education Unijobs | worldwide | keyword search pages (its robots.txt disallows the job feeds) |
+| Times Higher Education Unijobs | worldwide | life-science and health category pages (its robots.txt disallows job feeds and keyword searches) |
 | EURAXESS (European Commission) | Europe and worldwide | new job pages by job number, ~250 a day, plus a month of older ones read gradually; only faculty-level profiles (R3/R4) or faculty titles are kept. Its robots.txt asks robots not to run searches, so none are run |
 | jobs.ac.uk | UK and Europe | keyword search pages + schema.org data |
-| Academic Positions | Europe | professor / associate professor / tenure-track / lecturer category pages for biology fields |
+| Academic Positions | Europe | **off** — refuses requests from GitHub's servers; linked under Where else to look |
 | University Positions | Europe | category pages (its RSS feed is disallowed in robots.txt) |
 | Max Planck Society | Germany | official job RSS feed |
+| jobRxiv | worldwide | faculty category RSS feed (latest 100) + schema.org data on each job page |
+| FEMS | Europe | microbiology job board RSS feed |
 | Nature Careers | worldwide | **off** — nature.com's robots.txt disallows its job feeds for automated tools |
 | Community submissions | anywhere | any URL in `data/submitted_urls.txt` |
 
-Boards that can't be read automatically (Academics.com, AcademicTransfer, national portals in Hong Kong, Singapore, China and India) and fellowships that lead to faculty posts (Emmy Noether, NRF, Ramanujan, Ramalingaswami) are listed under **Where else to look** on the website. That list lives in [`config/resources.yaml`](config/resources.yaml).
+Boards that can't be read automatically (Academics.com, AcademicTransfer, national portals in Hong Kong, Singapore, China, India, Japan, Korea, Taiwan, Australia and New Zealand) and fellowships that lead to faculty posts (Emmy Noether, NRF, Ramanujan, Ramalingaswami) are listed under **Where else to look** on the website. That list lives in [`config/resources.yaml`](config/resources.yaml).
 
 Boards are searched for *microbiome, microbiota, metagenomics, microbial ecology, host-microbe, holobiont, rhizosphere, phytobiome*. A posting is kept only if its title looks like a faculty rank (not postdoc, technician, adjunct, …) and its text mentions a microbiome term. Titles and terms in German, Dutch, French, Nordic and Southern European languages are recognised too (e.g. *W2/W3-Professur, Juniorprofessur, universitair (hoofd)docent, hoogleraar, maître de conférences, universitetslektor; Mikrobiom, microbiote, microbioom*). All of these rules are plain lists in [`config/taxonomy.yaml`](config/taxonomy.yaml) and [`config/sources.yaml`](config/sources.yaml) — edit them to tune the tracker, no programming needed.
 

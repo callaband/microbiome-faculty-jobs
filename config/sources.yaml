@@ -81,13 +81,16 @@ sources:
 
   - id: the_unijobs
     name: Times Higher Education Unijobs
-    # THE's robots.txt disallows its job RSS feeds, so read its search pages instead.
+    # THE's robots.txt disallows its job feeds and keyword searches, so read its
+    # life-science and health category pages instead (titles filtered first).
     type: listing
     base: https://www.timeshighereducation.com
     urls:
-      - "/unijobs/listings/?keywords={keyword}&page={page}"
+      - "/unijobs/listings/life-sciences/?page={page}"
+      - "/unijobs/listings/clinical-pre-clinical-and-health/?page={page}"
     link_pattern: '/unijobs/listing/\d+/[a-z0-9\-]+'
-    pages: 3
+    pages: 8
+    require_faculty_title: true
     enabled: true
 
   # ---------------------------------------------------------------- Europe
@@ -138,7 +141,9 @@ sources:
       - /jobs/position/lecturersenior-lecturer/field/agricultural-science
     link_pattern: '/ad/[a-z0-9\-]+/\d{4}/[a-z0-9\-]+/\d+'
     deadline_from_valid_through: true
-    enabled: true
+    # Off: the site refuses requests from GitHub's servers (HTTP 403, Nov 2026).
+    # Listed under "Where else to look" instead.
+    enabled: false
 
   - id: universitypositions
     name: University Positions
@@ -154,6 +159,7 @@ sources:
       - /jobs/lecturer
     link_pattern: '/jobs/\d{6,}-[a-z0-9\-]+'
     deadline_from_valid_through: true
+    require_faculty_title: true
     enabled: true
 
   - id: maxplanck
@@ -163,11 +169,31 @@ sources:
       - https://www.mpg.de/feeds/jobs.rss
     enabled: true
 
+  # ---------------------------------------------------------------- worldwide science boards
+  - id: jobrxiv
+    name: jobRxiv
+    type: rss
+    # Non-profit science job board; its faculty category feed carries the latest 100 posts.
+    feeds:
+      - https://jobrxiv.org/job-category/faculty/feed/
+    enabled: true
+
+  - id: fems
+    name: FEMS (Federation of European Microbiological Societies)
+    type: rss
+    # Microbiology-only job board; mostly PhD and postdoc posts, with occasional faculty ones.
+    feeds:
+      - https://fems-microbiology.org/categories/jobs/feed/
+    employer_from_title: true
+    enabled: true
+
   # Not read automatically (listed under "Where else to look" on the website):
   #  - academics.com: its robots.txt prohibits automated access without written permission.
   #  - AcademicTransfer (Netherlands): site was down for maintenance when checked (Nov 2026);
   #    check its robots.txt before adding.
   #  - academicjobs.com: its search ignores keywords and mostly returns grant notices.
+  #  - CSIRO (Australia): robots.txt disallows its job feeds (/services/); research-scientist roles.
+  #  - acad.jobs: its crawler instructions page is gone, so its rules are unclear.
 
   # ---------------------------------------------------------------- other
   - id: newscientist
@@ -180,6 +206,8 @@ sources:
     name: HigherEdJobs
     type: hej_category
     base: https://www.higheredjobs.com
+    # Slower than the default: its bot protection reacts to quick runs of requests.
+    delay_seconds: 3
     enabled: true
     # Faculty category feeds (catID -> category name on HigherEdJobs).
     categories:
@@ -221,5 +249,7 @@ sources:
     # mention microbiome terms are kept.
     max_per_run: 600
     max_minutes: 30
+    # One page every 5 seconds (about 350 per run): it refused faster reading.
+    delay_seconds: 5
     backfill_ids: 7500
     enabled: true
