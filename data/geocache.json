@@ -9,6 +9,10 @@
 "department of food science and human nutrition|us": null,
 "department of molecular & cellular biology, guelph, ontario|ca": null,
 "department of molecular & cellular biology|ca": null,
+"fems|": {
+"lat": 0.50706,
+"lon": 35.21906
+},
 "fort collins, colorado, united states|us": {
 "lat": 40.58718,
 "lon": -105.07701
@@ -50,6 +54,10 @@
 "lon": -111.94002
 },
 "the university of luxembourg|lu": null,
+"university of alberta|ca": {
+"lat": 53.52682,
+"lon": -113.52449
+},
 "university of hong kong|hk": null,
 "university of leeds, leeds, england|gb": {
 "lat": 53.80657,
