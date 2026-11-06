@@ -49,6 +49,12 @@
 "lat": 52.62089,
 "lon": 1.21874
 },
+"roma, italy|it": {
+"lat": 41.89332,
+"lon": 12.48293
+},
+"sapienza università di roma- dip. fisiologia e farmacologia vittorio erspamer, roma|it": null,
+"sapienza università di roma- dip. fisiologia e farmacologia vittorio erspamer|it": null,
 "tempe, arizona, united states|us": {
 "lat": 33.42551,
 "lon": -111.94002
@@ -57,6 +63,10 @@
 "university of alberta|ca": {
 "lat": 53.52682,
 "lon": -113.52449
+},
+"university of british columbia faculty|ca": {
+"lat": 49.26555,
+"lon": -123.23837
 },
 "university of hong kong|hk": null,
 "university of leeds, leeds, england|gb": {
