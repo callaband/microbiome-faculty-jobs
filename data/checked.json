@@ -179,6 +179,10 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/?post_type=job_listing&p=158496": {
+"on": "2026-11-08",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/?post_type=job_listing&p=158766": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
@@ -446,6 +450,10 @@
 "https://jobrxiv.org/job/professor-of-neurogeriatrics/": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/project-management-instructor-pool-ucla-extension-2/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
 },
 "https://jobrxiv.org/job/rutgers-the-state-university-of-new-jersey-27778-immunology-assistant-professor-tenure-track-3/": {
 "on": "2026-11-05",
