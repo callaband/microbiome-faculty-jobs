@@ -21,8 +21,8 @@ from xml.sax.saxutils import escape
 import yaml
 
 from . import CONFIG_DIR, SITE_DATA_DIR, STATE_DIR
-from .classify import (domains, is_faculty_title, microbiome_terms, rank_label, ranks, relevance, taxonomy,
-                       tenure, tenure_label)
+from .classify import (domains, is_faculty_title, method_labels, methods, microbiome_terms, rank_label, ranks,
+                       relevance, taxonomy, tenure, tenure_label)
 from .dates import find_dates
 from .effort import find_effort
 from .institutions import TYPE_LABELS, Classifier, classify, load_directory
@@ -148,6 +148,7 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
         "tenure": ts,
         "tenure_label": tenure_label(ts),
         "domains": domains(title, text),
+        **_method_fields(methods(title, text)),
         "microbiome_terms": terms,
         "date_posted": _iso(anchor),
         "first_seen": today.isoformat(),
@@ -174,6 +175,10 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
     }
 
 
+def _method_fields(m: dict) -> dict:
+    return {"methods": m["flags"], "omics_layers": m["omics_layers"], "method_evidence": m["evidence"]}
+
+
 def inst_fields(inst: dict) -> dict:
     types = inst["types"]
     return {
@@ -192,7 +197,8 @@ def refresh_record(job: dict, fresh: dict) -> None:
               "review_date", "review_text", "deadline", "deadline_text", "listing_expires", "until_filled",
               "employment", "salary", "board_job_type", "summary", "effort", "effort_label", "effort_text",
               "effort_focus", "teaching_load", "inst_types", "inst_type_label", "carnegie", "control",
-              "matched_institution", "inst_version", "language", "original_title", "translated"):
+              "matched_institution", "inst_version", "language", "original_title", "translated", "methods",
+              "omics_layers", "method_evidence"):
         if fresh.get(k) not in (None, "", []):
             job[k] = fresh[k]
     job["last_checked"] = fresh["last_checked"]
@@ -273,7 +279,8 @@ def write_outputs(jobs: list[dict], meta: dict) -> None:
     META_FILE.write_text(json.dumps(meta, indent=1, ensure_ascii=False), encoding="utf-8")
 
     cols = ["status", "title", "institution", "institution_type", "carnegie", "control", "city", "region", "country",
-            "rank", "tenure", "effort", "teaching_load", "domains", "review_date", "deadline", "priority",
+            "rank", "tenure", "effort", "teaching_load", "domains", "methods", "omics_layers", "review_date",
+            "deadline", "priority",
             "date_posted", "first_seen", "url"]
     with open(CSV_FILE, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
@@ -283,7 +290,7 @@ def write_outputs(jobs: list[dict], meta: dict) -> None:
             w.writerow([j["status"], j["title"], j["institution"], j.get("inst_type_label", ""), j.get("carnegie", ""),
                         j.get("control", ""), loc.get("city"), loc.get("region"), loc.get("country"),
                         j["rank_label"], j["tenure_label"], j.get("effort_label", ""), j.get("teaching_load", ""),
-                        "; ".join(j["domains"]),
+                        "; ".join(j["domains"]), "; ".join(j.get("methods", [])), "; ".join(j.get("omics_layers", [])),
                         j.get("review_date") or "", j.get("deadline") or "", j["priority"],
                         j.get("date_posted") or "", j["first_seen"], j["url"]])
 
@@ -422,7 +429,8 @@ def run(argv: list[str] | None = None) -> int:
                 if known_id:
                     job = jobs[known_id]
                     job["last_seen"] = today.isoformat()
-                    if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details:
+                    stale = (today - _d(job["last_checked"])).days >= refresh_days or "methods" not in job
+                    if stale and job.get("status") != "closed" and details_opened < max_details:
                         details_opened += 1
                         opened(*refresh_job(src, job, e, today))
                     continue
@@ -479,8 +487,8 @@ def run(argv: list[str] | None = None) -> int:
                         if srec["id"] != src.id or srec["url"] in listed or job.get("status") == "closed":
                             continue
                         job["last_seen"] = today.isoformat()
-                        if (today - _d(job["last_checked"])).days >= refresh_days and details_opened < max_details \
-                                and not must_stop():
+                        stale = (today - _d(job["last_checked"])).days >= refresh_days or "methods" not in job
+                        if stale and details_opened < max_details and not must_stop():
                             details_opened += 1
                             opened(*refresh_job(src, job, Entry(src.id, srec["url"], job["title"]), today))
             if stop == "time":
@@ -507,6 +515,12 @@ def run(argv: list[str] | None = None) -> int:
             stat["last_try"] = today.isoformat()
             if stat not in health:
                 health.append(stat)
+
+    # Jobs that couldn't be re-read this run: set method flags from the title and summary we kept.
+    for job in jobs.values():
+        if "methods" not in job:
+            job.update(_method_fields(methods(job.get("title", ""), " ".join(
+                [job.get("summary", ""), " ".join(job.get("microbiome_terms", []))]))))
 
     # Records classified with an older directory (or never): classify again from what we kept.
     for job in jobs.values():
@@ -554,6 +568,7 @@ def run(argv: list[str] | None = None) -> int:
         "rejected_submissions": rejected_submissions,
         "institution_directory": dir_info.get("source", "not available"),
         "inst_type_labels": TYPE_LABELS,
+        "method_labels": method_labels(),
         "requests_made": client.requests_made,
         "geocode_lookups": geo.lookups,
         "translation": {"available": bool(_TR and _TR.available),

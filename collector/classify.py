@@ -81,6 +81,54 @@ def domains(title: str, description: str) -> list[str]:
     return specific or (["fundamental"] if "fundamental" in out else ["fundamental"])
 
 
+# --------------------------------------------------------------------------- method flags
+@lru_cache(maxsize=1)
+def _method_rules() -> dict:
+    tx = taxonomy()
+    rules = {}
+    for key, spec in (tx.get("method_flags") or {}).items():
+        rules[key] = {
+            "label": spec.get("label", key),
+            "patterns": [re.compile(p, re.I) for p in spec.get("patterns", [])],
+            "layers": {name: re.compile(p, re.I) for name, p in (spec.get("layers") or {}).items()},
+        }
+    return rules
+
+
+def _evidence(text: str, rx: re.Pattern) -> str:
+    m = rx.search(text)
+    if not m:
+        return ""
+    start = max(text.rfind("\n", 0, m.start()), text.rfind(". ", 0, m.start()) + 1, 0)
+    end_candidates = [i for i in (text.find("\n", m.end()), text.find(". ", m.end())) if i != -1]
+    end = min(end_candidates) + 1 if end_candidates else len(text)
+    snippet = re.sub(r"\s+", " ", text[start:end]).strip()
+    return snippet if len(snippet) <= 240 else snippet[:239].rstrip() + "…"
+
+
+def methods(title: str, description: str) -> dict:
+    """Method flags for a posting: {"flags": [...], "omics_layers": [...], "evidence": {flag: sentence}}."""
+    text = f"{title}\n{description}"
+    out = {"flags": [], "omics_layers": [], "evidence": {}}
+    for key, rule in _method_rules().items():
+        hit = next((rx for rx in rule["patterns"] if rx.search(text)), None)
+        layers = [name for name, rx in rule["layers"].items() if rx.search(text)]
+        if rule["layers"]:
+            out["omics_layers"] = layers
+        if hit is None and len(layers) >= 2:
+            hit = rule["layers"][layers[0]]
+            out["evidence"][key] = "Mentions " + ", ".join(layers)
+        elif hit is not None:
+            out["evidence"][key] = _evidence(text, hit)
+        if hit is not None:
+            out["flags"].append(key)
+    return out
+
+
+def method_labels() -> dict[str, str]:
+    return {k: v["label"] for k, v in _method_rules().items()}
+
+
 # --------------------------------------------------------------------------- rank
 RANKS = ["assistant", "associate", "full", "open", "lecturer", "investigator"]
 RANK_LABELS = {

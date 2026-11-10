@@ -269,3 +269,41 @@ min_hits:
   computational: 1
   fundamental: 1
   default: 1
+
+# ---------------------------------------------------------------------------
+# Method flags, shown as extra tags and filters next to the research areas.
+# A flag is set when any of its patterns appears in the title or description.
+method_flags:
+  bioinformatics:
+    label: Bioinformatics
+    patterns:
+      - '\bbioinformatic\w*'
+      - '\bcomputational (?:biolog\w*|genomics|microbiolog\w*|ecolog\w*|immunolog\w*|biomedicine|life sciences?)'
+      - '\b(?:genomic|sequencing|sequence|omics|microbiome|metagenomic) data (?:science|analysis|analytics|integration)'
+      - '\b(?:analysis|analyses|analyzing|analysing) of (?:large[\s\-]scale |high[\s\-]throughput )?(?:sequencing|genomic|omics|metagenomic|microbiome) data'
+      - '\bdata[\s\-]driven (?:biology|microbiology|life sciences?)'
+      - '\bmachine[\s\-]learning\b|\bdeep[\s\-]learning\b|\bartificial intelligence\b'
+      - '\bdata science\b'
+      - '\bstatistical genomics\b|\bgenome informatics\b|\bphylogenomic\w*'
+      - '\bsystems biology\b|\bmathematical modell?ing\b'
+      - '\bbioinformatik\w*|\bbioinformatique\b|\bbioinform[áa]tica\b|\bbioinformatica\b'
+      - 'バイオインフォマティクス|生物信息学|생물정보학'
+  multi_omics:
+    label: Multi-omics
+    # Set when one of these appears, or when two or more of the omics layers below do.
+    patterns:
+      - '\bmulti[\s\-]?omics?\b|\bmultiomic\w*'
+      - '\bintegrat\w* (?:of )?(?:multiple |multi[\s\-]layer |several )?omics\b|\bintegrative omics\b|\bpan[\s\-]omics\b'
+      - 'マルチオミクス|多组学|멀티오믹스'
+    # Omics layers listed on each position's page.
+    layers:
+      metagenomics: '\bmetagenom\w*|\bshotgun sequencing\b|メタゲノム|宏基因组|메타게놈'
+      metatranscriptomics: '\bmetatranscriptom\w*'
+      metaproteomics: '\bmetaproteom\w*'
+      genomics: '\b(?<!meta)genomics\b|\bwhole[\s\-]genome sequencing\b'
+      transcriptomics: '\b(?<!meta)transcriptom\w*|\bRNA[\s\-]?seq\b|\bsingle[\s\-]cell (?:RNA|sequencing|genomics)'
+      proteomics: '\b(?<!meta)proteom\w*'
+      metabolomics: '\bmetabolom\w*|\bmetabonom\w*|\blipidom\w*'
+      epigenomics: '\bepigenom\w*|\bmethylom\w*'
+      spatial omics: '\bspatial (?:transcriptom\w*|omics|proteom\w*)'
+      amplicon / 16S: '\b16S rRNA\b|\bamplicon sequencing\b|\bITS sequencing\b'

@@ -58,6 +58,11 @@
         ${fact("Effort split", j.effort_label ? esc(j.effort_label) : `<span style="color:var(--ink-3)">Not stated in the posting</span>`, j.effort_text)}
         ${fact("Teaching load", esc(j.teaching_load))}
         ${fact("Research area", domainTags)}
+        ${fact("Methods", (j.methods || []).length
+          ? (j.methods || []).map(m => `<span class="tag meth">${esc((meta.method_labels || {})[m] || m)}</span>`).join(" ")
+            + [...new Set((j.methods || []).map(m => (j.method_evidence || {})[m]).filter(Boolean))].map(t => `<span class="ev">“${esc(t)}”</span>`).join("")
+          : `<span style="color:var(--ink-3)">No bioinformatics or multi-omics work mentioned</span>`)}
+        ${fact("Omics mentioned", esc((j.omics_layers || []).join(", ")))}
         ${fact("Review begins", datePlus(j.review_date), j.review_text)}
         ${fact("Application deadline", datePlus(j.deadline) || (j.until_filled ? "Open until filled" : ""), j.deadline_text && !/listed on the posting/.test(j.deadline_text) ? j.deadline_text : "")}
         ${fact("Open until filled", j.until_filled && j.deadline ? "Yes" : "")}

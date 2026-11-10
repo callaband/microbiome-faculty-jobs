@@ -26,9 +26,11 @@
     ["teaching", "Teaching-heavy (≥60% teaching)"], ["other", "Mostly extension/clinical"], ["unstated", "Effort % not stated"],
   ];
   const DOMAINS = Object.keys(meta.domains || {});
+  const METHOD_LABELS = meta.method_labels || { bioinformatics: "Bioinformatics", multi_omics: "Multi-omics" };
+  const METHODS = Object.keys(METHOD_LABELS);
 
   // ------------------------------------------------------------------ state <-> URL
-  const state = { q: "", dom: new Set(), rank: new Set(), ten: new Set(), inst: new Set(), focus: new Set(), region: "", country: "", posted: "", hideLow: false, closed: false, sort: "newest" };
+  const state = { q: "", dom: new Set(), rank: new Set(), ten: new Set(), inst: new Set(), focus: new Set(), meth: new Set(), region: "", country: "", posted: "", hideLow: false, closed: false, sort: "newest" };
   function readHash() {
     const p = new URLSearchParams(location.hash.slice(1));
     state.q = p.get("q") || "";
@@ -37,6 +39,7 @@
     state.ten = new Set((p.get("ten") || "").split(",").filter(Boolean));
     state.inst = new Set((p.get("inst") || "").split(",").filter(Boolean));
     state.focus = new Set((p.get("focus") || "").split(",").filter(Boolean));
+    state.meth = new Set((p.get("meth") || "").split(",").filter(Boolean));
     state.region = p.get("region") || "";
     state.country = p.get("country") || "";
     state.posted = p.get("posted") || "";
@@ -52,6 +55,7 @@
     if (state.ten.size) p.set("ten", [...state.ten].join(","));
     if (state.inst.size) p.set("inst", [...state.inst].join(","));
     if (state.focus.size) p.set("focus", [...state.focus].join(","));
+    if (state.meth.size) p.set("meth", [...state.meth].join(","));
     if (state.region) p.set("region", state.region);
     if (state.country) p.set("country", state.country);
     if (state.posted) p.set("posted", state.posted);
@@ -66,6 +70,7 @@
   const haystack = j => [j.title, j.institution, place(j, true), j.summary, j.rank_label, j.tenure_label,
     j.inst_type_label, j.carnegie, j.matched_institution, j.effort_label, j.original_title,
     j.translated ? "translated " + j.translated.language : "",
+    ...(j.methods || []).map(m => (meta.method_labels || {})[m] || m), ...(j.omics_layers || []),
     ...(j.domains || []).map(d => domainLabel(meta, d)), ...(j.microbiome_terms || [])].join(" ").toLowerCase();
   jobs.forEach(j => { j._hay = haystack(j); });
 
@@ -81,6 +86,8 @@
     if (skip !== "ten" && state.ten.size && !(j.tenure || []).some(t => state.ten.has(t))) return false;
     if (skip !== "inst" && state.inst.size && !(j.inst_types || ["unknown"]).some(t => state.inst.has(t))) return false;
     if (skip !== "focus" && state.focus.size && !state.focus.has(j.effort_focus || "unstated")) return false;
+    // Method flags: a position must have every flag that's ticked.
+    if (skip !== "meth" && state.meth.size && ![...state.meth].every(m => (j.methods || []).includes(m))) return false;
     if (skip !== "region" && state.region && (j.location.world_region || "Other") !== state.region) return false;
     if (skip !== "region" && state.country && j.location.country !== state.country) return false;
     if (state.posted) {
@@ -105,8 +112,8 @@
 
   function renderFilters(syncInputs = true) {
     const ds = (document.activeElement && document.activeElement.dataset) || {};
-    const focused = ds.dom || ds.rank || ds.ten || ds.inst || ds.focus;
-    const focusAttr = document.activeElement && ["dom", "rank", "ten", "inst", "focus"].find(k => document.activeElement.dataset[k]);
+    const focused = ds.dom || ds.rank || ds.ten || ds.inst || ds.focus || ds.meth;
+    const focusAttr = document.activeElement && ["dom", "rank", "ten", "inst", "focus", "meth"].find(k => document.activeElement.dataset[k]);
     $("f-dom").innerHTML = DOMAINS.map(d => {
       const n = count("dom", j => (j.domains || []).includes(d));
       return `<button type="button" class="chip" data-dom="${d}" aria-pressed="${state.dom.has(d)}" style="--c:${domainColor(meta, d)}">
@@ -124,6 +131,9 @@
       return n || state.inst.has(k) ? `<label><input type="checkbox" data-inst="${k}" ${state.inst.has(k) ? "checked" : ""}> ${label}
        <span class="n">${n}</span></label>` : "";
     }).join("") || `<span class="n" style="font-size:13px;color:var(--ink-3)">Available after the first run</span>`;
+    $("f-meth").innerHTML = METHODS.map(k =>
+      `<label><input type="checkbox" data-meth="${k}" ${state.meth.has(k) ? "checked" : ""}> ${esc(METHOD_LABELS[k])}
+       <span class="n">${count("meth", j => (j.methods || []).includes(k))}</span></label>`).join("");
     $("f-focus").innerHTML = FOCUS.map(([k, label]) =>
       `<label><input type="checkbox" data-focus="${k}" ${state.focus.has(k) ? "checked" : ""}> ${label}
        <span class="n">${count("focus", j => (j.effort_focus || "unstated") === k)}</span></label>`).join("");
@@ -157,6 +167,7 @@
     else if (t.dataset.ten) toggle(state.ten, t.dataset.ten);
     else if (t.dataset.inst) toggle(state.inst, t.dataset.inst);
     else if (t.dataset.focus) toggle(state.focus, t.dataset.focus);
+    else if (t.dataset.meth) toggle(state.meth, t.dataset.meth);
     else if (t.id === "f-region") { state.region = t.value; state.country = ""; }
     else if (t.id === "f-country") state.country = t.value;
     else if (t.id === "f-posted") state.posted = t.value;
@@ -216,6 +227,7 @@
       `<span class="tag ${/tenure-track|tenured|permanent/i.test(j.tenure_label) ? "tt" : ""}">${esc(j.tenure_label)}</span>`,
       j.translated ? `<span class="tag tr" title="Machine-translated by ${esc(j.translated.by)}. Original title: ${esc(j.original_title)}"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5h9M8.5 3v2M6 5c.8 3.5 3.2 6.2 6 7.5M11 5c-.6 3.2-2.8 6.3-6.5 8"/><path d="M12.5 21l4-9 4 9M14 18h5"/></svg>Translated from ${esc(j.translated.language)}</span>`
         : (j.language && j.language !== "en" && j.original_title ? `<span class="tag tr" title="This posting is not in English">In ${esc(({ja:"Japanese",zh:"Chinese",zt:"Chinese",ko:"Korean",de:"German",fr:"French",es:"Spanish",pt:"Portuguese",it:"Italian",nl:"Dutch",sv:"Swedish",da:"Danish",nb:"Norwegian",fi:"Finnish",pl:"Polish",cs:"Czech"})[j.language] || j.language)}</span>` : ""),
+      ...(j.methods || []).map(m => `<span class="tag meth" title="${esc((j.method_evidence || {})[m] || "")}">${esc(METHOD_LABELS[m] || m)}</span>`),
       j.inst_type_label ? `<span class="tag inst" title="${esc(j.carnegie || "")}">${esc(j.inst_type_label)}</span>` : "",
       j.effort_label ? `<span class="tag eff">${esc(j.effort_label)}</span>`
         : `<span class="tag muted">Effort % not stated</span>`,
