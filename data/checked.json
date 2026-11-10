@@ -139,6 +139,10 @@
 "on": "2026-11-09",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3572758/research-senior-associate-neuroscience/": {
+"on": "2026-11-10",
+"why": "title is not a faculty rank"
+},
 "https://fems-microbiology.org/opportunities/biological-scientist/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -283,6 +287,14 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/assistant-professor-of-teaching-position-in-chemical-biomolecular-engineering/": {
+"on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/assistant-professor-of-teaching-position-in-electrical-and-computer-engineering/": {
+"on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/assistant-professor-of-teaching-position-in-materials-science-and-engineering/": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
@@ -421,6 +433,10 @@
 },
 "https://jobrxiv.org/job/max-wyman-assistant-professor-statistics/": {
 "on": "2026-11-05",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/multiple-tenure-track-assistant-professor-positions-in-computer-science/": {
+"on": "2026-11-10",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/new-york-university-arts-and-science-27778-assistant-professor-of-biology-computational-ai/": {
@@ -813,6 +829,10 @@
 },
 "https://universitypositions.eu/jobs/794819679-lecturer-spanish-language-acquisition": {
 "on": "2026-11-04",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/801844784-lecturer-heritage-studies-architectural-history-0-4-fte": {
+"on": "2026-11-10",
 "why": "no microbiome terms in the posting"
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179547673": {
@@ -1739,6 +1759,10 @@
 "on": "2026-11-07",
 "why": "no microbiome terms in the posting"
 },
+"https://www.jobs.ac.uk/job/DTP419/fse-phd-presidents-doctoral-scholarship-sensing-soil-health-linking-biological-indicators-and-human-perceptions": {
+"on": "2026-11-10",
+"why": "title is not a faculty rank"
+},
 "https://www.mpg.de/27038528/population-and-social-data-science-summer-incubator-program": {
 "on": "2026-11-04",
 "why": "title is not a faculty rank"
@@ -1797,6 +1821,14 @@
 },
 "https://www.mpg.de/27078036/head-of-it-full-time-mpi-is-stuttgart": {
 "on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://www.mpg.de/27081351/software-engineer-swi-ground-segment": {
+"on": "2026-11-10",
+"why": "title is not a faculty rank"
+},
+"https://www.mpg.de/27081711/scientific-software-engineer-swi-science-operations": {
+"on": "2026-11-10",
 "why": "title is not a faculty rank"
 },
 "https://www.timeshighereducation.com/unijobs/listing/391499/lecturer-solar-and-stellar-physics": {
@@ -3621,6 +3653,26 @@
 },
 "https://www.timeshighereducation.com/unijobs/listing/417490/research-assistant-professor-in-department-of-applied-mathematics": {
 "on": "2026-11-09",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417500/instructor-assistant-professor-of-the-department-of-sports-medicine-and-rehabilitation": {
+"on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417511/lecturer-senior-lecturer-in-finance-women-only-": {
+"on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417518/academic-leadership-positions-under-lks-faculty-of-medicine": {
+"on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417519/academic-leadership-positions-in-school-of-clinical-medicine-under-lks-faculty-of-medicine": {
+"on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417520/tenure-track-professor-associate-professor-in-mental-wellness-in-the-department-of-social-work": {
+"on": "2026-11-10",
 "why": "no microbiome terms in the posting"
 }
 }
