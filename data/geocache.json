@@ -21,6 +21,8 @@
 "lat": 40.58718,
 "lon": -105.07701
 },
+"friedrich schiller university jena, jena, thuringia|de": null,
+"friedrich schiller university jena|de": null,
 "guelph, ontario, canada|ca": {
 "lat": 43.54605,
 "lon": -80.24933
@@ -30,6 +32,10 @@
 "isb|us": {
 "lat": 45.48999,
 "lon": -122.86117
+},
+"jena, thuringia, germany|de": {
+"lat": 50.92817,
+"lon": 11.58794
 },
 "jobrxiv|": null,
 "luxembourg|lu": {

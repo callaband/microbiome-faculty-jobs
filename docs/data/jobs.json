@@ -1,5 +1,244 @@
 [
  {
+  "id": "6a05cfa6c1",
+  "title": "Assistant Professor, tenure-track",
+  "institution": "University of Texas at Austin",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "The University of Texas at Austin",
+  "inst_version": 2,
+  "location": {
+   "city": "Austin",
+   "region": "Texas",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 30.28282,
+   "lon": -97.73827,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38064317/assistant-professor-tenure-track/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38064317/assistant-professor-tenure-track/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [],
+  "method_evidence": {
+   "bioinformatics": "immunology, and computational/systems immunology."
+  },
+  "methods_version": 2,
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-11-10",
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "review_date": "2026-10-19",
+  "review_text": "Review of applications will begin on October 19,",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-09",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor, tenure-track College/School/Unit: College of Natural Sciences Department: Department of Molecular Biosciences Posted: Sep 8, 2026 Apply By: Open until filled Description The Department of Molecular Biosciences at the University of Texas at Austin invites applications for a tenure-track faculty position at the Assistant Professor level in the field of immunology. We welcome applications from…",
+  "language": "en",
+  "original_title": "",
+  "translated": null,
+  "status": "open",
+  "closed_reason": null,
+  "priority": "low",
+  "priority_reason": "Review began Oct 19, 2026 — application may be too late"
+ },
+ {
+  "id": "91786600e0",
+  "title": "Assistant Professor - Soil Microbial Ecology",
+  "institution": "University of Wyoming",
+  "inst_types": [
+   "r2",
+   "landgrant"
+  ],
+  "inst_type_label": "R2 · Land-grant",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "University of Wyoming",
+  "inst_version": 2,
+  "location": {
+   "city": "Laramie",
+   "region": "Wyoming",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 41.31177,
+   "lon": -105.57931,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38064903/assistant-professor-soil-microbial-ecology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38064903/assistant-professor-soil-microbial-ecology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "soil",
+   "agriculture"
+  ],
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2,
+  "microbiome_terms": [
+   "microbial ecology"
+  ],
+  "date_posted": "2026-11-11",
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-10",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor - Soil Microbial Ecology Join Our Campus Community! Thank you for your interest in joining the University of Wyoming. Our community thrives on the contributions of talented and driven individuals who share in our mission, vision, and values. If your expertise and experience align with the goals of our institution, we would be thrilled to hear from you. We encourage you to apply and become a…",
+  "language": "en",
+  "original_title": "",
+  "translated": null,
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "7d15a71e81",
+  "title": "A Junior Research Group Leader Position within the Cluster of Excellence “Balance of the Microverse”",
+  "institution": "Friedrich Schiller University Jena",
+  "inst_types": [
+   "international"
+  ],
+  "inst_type_label": "Outside the US",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Jena",
+   "region": "Thuringia",
+   "country_code": "DE",
+   "country": "Germany",
+   "world_region": "Europe",
+   "lat": 50.92817,
+   "lon": 11.58794,
+   "precision": "city"
+  },
+  "url": "https://universitypositions.eu/jobs/802672339-a-junior-research-group-leader-position-within-the-cluster-of-excellence-",
+  "sources": [
+   {
+    "id": "universitypositions",
+    "name": "University Positions",
+    "url": "https://universitypositions.eu/jobs/802672339-a-junior-research-group-leader-position-within-the-cluster-of-excellence-"
+   }
+  ],
+  "ranks": [
+   "investigator"
+  ],
+  "rank_label": "Investigator / Group leader",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health"
+  ],
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2,
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-11-06",
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "review_date": null,
+  "review_text": "",
+  "deadline": "2026-12-07",
+  "deadline_text": "Application due date listed on the posting.",
+  "listing_expires": "2026-12-07",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Job advertisement Vacancy ID: 312/2026 Closing date: 2026-12-07 The Friedrich Schiller University Jena is a dynamic and innovation-driven university centrally located in Germany. With a broad range of disciplines, it shapes the future through excellent research and teaching. Its scientific excellence is reflected in the profile areas Light – Life – Liberty, which provide pioneering insights and sustainable solutions…",
+  "language": "en",
+  "original_title": "",
+  "translated": null,
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
   "id": "ea2d2ddc45",
   "title": "Mid-Career Faculty, Biostatistics",
   "institution": "University of Utah",
@@ -47,8 +286,8 @@
   ],
   "date_posted": "2026-11-10",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-10",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -70,7 +309,26 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics",
+   "transcriptomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Medicine is investing heavily in data science through the DELPHI",
+   "multi_omics": "Mentions metagenomics, genomics, transcriptomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "1ca96ef86c",
@@ -118,13 +376,13 @@
   ],
   "date_posted": "2026-11-10",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-10",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-10",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -141,77 +399,10 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
- },
- {
-  "id": "5ba95e0d06",
-  "title": "Assistant Professor of Neutral Atom Quantum Technologies",
-  "institution": "jobRxiv",
-  "inst_types": [
-   "unknown"
-  ],
-  "inst_type_label": "Type not identified",
-  "carnegie": "",
-  "control": "",
-  "matched_institution": "",
-  "inst_version": 2,
-  "location": {
-   "city": "",
-   "region": "",
-   "country_code": null,
-   "country": "",
-   "world_region": "Other"
-  },
-  "url": "https://jobrxiv.org/?post_type=job_listing&p=158449",
-  "sources": [
-   {
-    "id": "jobrxiv",
-    "name": "jobRxiv",
-    "url": "https://jobrxiv.org/?post_type=job_listing&p=158449"
-   }
-  ],
-  "ranks": [
-   "assistant"
-  ],
-  "rank_label": "Assistant",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "animal_health",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbial ecology"
-  ],
-  "date_posted": "2026-10-24",
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-10",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": null,
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "",
-  "salary": "",
-  "board_job_type": "",
-  "summary": "For Employers For PIs: Hire for your lab! For HR: Job Posting Solutions Search the Candidate Database How to write a good job listing My jobs Contact Us For Candidates Submit your Profile Bookmarked jobs Salary Explorer – Industry Contact Us Testimonials Post a Job Find Candidates Find a Job Submit Profile Log In Register Log In Remember Me Don't have an account? Sign up now! Lost Password? Sign Up I agree to the…",
-  "language": "en",
-  "original_title": "",
-  "translated": null,
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "20e4c02663",
@@ -263,8 +454,8 @@
   ],
   "date_posted": "2026-11-09",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-09",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-12-01",
   "review_text": "Review of applications will begin on December 1, 2026, and will continue until January 3, 2027, for an anticipated start date of August 16, 2027.",
   "deadline": null,
@@ -286,7 +477,20 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "A PhD, MD, MD/PhD, or equivalent terminal degree in neuroscience, molecular or cellular biology, microbiology, physiology, computational biology, or a related discipline by the anticipated start date.",
+   "multi_omics": "The successful candidate’s research program should meaningfully integrate artificial intelligence, machine learning, computational modeling, multi-omics, or other advanced quantitative methods to generate or test biological hypotheses and…"
+  },
+  "methods_version": 2
  },
  {
   "id": "f9b5c85d8c",
@@ -346,13 +550,13 @@
   ],
   "date_posted": "2026-11-09",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-09",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2027-01-08",
-  "review_text": "Application review will begin January 8, 2027, and will continue until a suitable candidate is identified.",
+  "review_text": "Application review will begin January 8, 2027, and will continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-08",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -360,16 +564,19 @@
   "effort_focus": "unstated",
   "teaching_load": "",
   "employment": "Full-Time",
-  "salary": "",
+  "salary": "Competitive Salary",
   "board_job_type": "",
-  "summary": "Posting Number: F2866P Working Title: Assistant/Associate Professor - Food Microbiology Department: CAES-Food Science & Technology About the University of Georgia: Chartered by the state of Georgia in 1785, the University of Georgia is the birthplace of public higher education in America and is the state’s flagship university (https://www.uga.edu/). The proof is in our more than 240 years of academic and…",
+  "summary": "Position Summary The Department of Food Science and Technology at the University of Georgia is seeking a highly motivated and creative individual to develop a research and teaching program in the area of food microbiology and/or food safety. The successful applicant will provide leadership and scholarship in food safety and/or food microbiology research and teaching. Specific responsibilities include (but are not…",
   "language": "en",
   "original_title": "",
   "translated": null,
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "1119f432da",
@@ -419,8 +626,8 @@
   ],
   "date_posted": "2026-11-06",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-07",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-12-15",
@@ -442,7 +649,24 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "transcriptomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Proficiency in a range of laboratory techniques, such as anaerobic culturing, pure culture characterization, antibiotic resistance genes and of metagenomic and meta-transcriptomic analysis, is desirable to fully utilize the analytical plat…",
+   "multi_omics": "Research focused on understanding the link between different omics techniques is particularly relevant here."
+  },
+  "methods_version": 2
  },
  {
   "id": "a85c236e8e",
@@ -495,8 +719,8 @@
   ],
   "date_posted": "2026-11-06",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-06",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -518,7 +742,20 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "This research program will build on the Department of Biology's strengths in plant genetics and genomics, crop adaptation, plant biotechnology, soil and microbial ecology, plant–biotic interactions and food-system sustainability, and on co…"
+  },
+  "methods_version": 2
  },
  {
   "id": "418c5e9a0e",
@@ -590,7 +827,12 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "fa3f6d0c21",
@@ -639,8 +881,8 @@
   ],
   "date_posted": "2026-10-27",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -659,7 +901,11 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "5a559392fb",
@@ -708,8 +954,8 @@
   ],
   "date_posted": "2026-09-24",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -728,7 +974,11 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "8b5da98c39",
@@ -777,8 +1027,8 @@
   ],
   "date_posted": "2026-04-13",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-11-30",
@@ -804,7 +1054,20 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "transcriptomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "We are developing research using aseptic mouse models, single cell RNA-seq analysis, and ⁇ ce microscope analysis."
+  },
+  "methods_version": 2
  },
  {
   "id": "e2820e9647",
@@ -853,8 +1116,8 @@
   ],
   "date_posted": "2026-09-28",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2027-03-31",
@@ -880,7 +1143,10 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "2cdee0a55e",
@@ -929,8 +1195,8 @@
   ],
   "date_posted": "2026-09-01",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-11-30",
@@ -956,7 +1222,10 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "698d677e70",
@@ -1009,8 +1278,8 @@
   ],
   "date_posted": "2026-11-03",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-12-03",
@@ -1029,7 +1298,25 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "This position offers opportunities to interface with other research labs focused on immunology, infectious diseases, microbiomics, genomics, oncogenesis, neurodegeneration, and other areas across multiple colleges and institutes.",
+   "multi_omics": "Mentions metagenomics, genomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "7ca728d075",
@@ -1080,8 +1367,8 @@
   ],
   "date_posted": "2026-10-30",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2027-01-03",
@@ -1100,7 +1387,21 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Data-driven and evolutionary biology, encompassing animal-focused genomics, data-driven biology or evolutionary computational biology, including research with applications in health, One Health, agriculture, biodiversity or conservation"
+  },
+  "methods_version": 2
  },
  {
   "id": "27e4a4d725",
@@ -1156,8 +1457,8 @@
   ],
   "date_posted": "2026-10-23",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-12-06",
@@ -1176,7 +1477,21 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "We welcome applications from candidates with backgrounds including microbiology, biochemistry, bioinformatics, computational biology, nutrition science, immunology, gastroenterology, analytical chemistry and bioengineering.",
+   "multi_omics": "We welcome researchers who combine technological innovation with biological insight, whether through novel model systems, advanced molecular and analytical techniques, computational approaches, or integrated multi-omics methodologies."
+  },
+  "methods_version": 2
  },
  {
   "id": "bfdf73bc7f",
@@ -1241,8 +1556,8 @@
   ],
   "date_posted": "2026-11-03",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-10",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-12-14",
   "review_text": "Application procedure: To ensure full consideration, application materials must be received by December 14, 2026.",
   "deadline": "2026-12-14",
@@ -1262,7 +1577,20 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "language": "en"
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Faculty also have exceptional access to world-class supercomputing resources, state-of-the-art analytical facilities—including the Center for Genomics and Bioinformatics, Flow Cytometry Core Facility, and Light Microscopy Imaging Center—an…"
+  },
+  "methods_version": 2
  },
  {
   "id": "2bb50fa13e",
@@ -1318,8 +1646,8 @@
   ],
   "date_posted": "2026-10-29",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-15",
   "review_text": "Review of applications will begin by November 15, 2026, and continue until positions are filled.",
   "deadline": null,
@@ -1338,7 +1666,24 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 15, 2026"
+  "priority_reason": "Review begins Nov 15, 2026",
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "spatial omics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "This position builds on Purdue’s established leadership in artificial intelligence, computational biology, and neuroscience; world-leading expertise in quantitative imaging and image-based profiling, including the Cells to Cures Engine; an…",
+   "multi_omics": "This position builds on Purdue’s established leadership in artificial intelligence, computational biology, and neuroscience; world-leading expertise in quantitative imaging and image-based profiling, including the Cells to Cures Engine; an…"
+  },
+  "methods_version": 2
  },
  {
   "id": "8da80349ed",
@@ -1388,13 +1733,13 @@
   ],
   "date_posted": "2026-10-28",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-12-27",
   "deadline_text": "Applications must be received by December 27, 2026, at 12:01",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -1408,7 +1753,21 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "microbial genetics and genomics, applied/industrial microbiology,"
+  },
+  "methods_version": 2
  },
  {
   "id": "a587dc7f45",
@@ -1463,8 +1822,8 @@
   ],
   "date_posted": "2026-10-29",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-15",
   "review_text": "Review of applications will begin by November 15, 2026, and continue until positions are filled.",
   "deadline": null,
@@ -1483,7 +1842,24 @@
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
-  "priority_reason": "Review begins Nov 15, 2026"
+  "priority_reason": "Review begins Nov 15, 2026",
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "spatial omics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "This position builds on Purdue’s established leadership in artificial intelligence, computational biology, and neuroscience; world-leading expertise in quantitative imaging and image-based profiling, including the Cells to Cures Engine; an…",
+   "multi_omics": "This position builds on Purdue’s established leadership in artificial intelligence, computational biology, and neuroscience; world-leading expertise in quantitative imaging and image-based profiling, including the Cells to Cures Engine; an…"
+  },
+  "methods_version": 2
  },
  {
   "id": "4c85d0d1b6",
@@ -1551,7 +1927,12 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "a5217bed69",
@@ -1599,8 +1980,8 @@
   ],
   "date_posted": "2026-10-28",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -1619,7 +2000,21 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "The successful candidate will have a demonstrated record of research excellence using approaches such as omics, biochemistry, cell biology, and mathematical modelling to investigate microbial or symbiotic interactions.",
+   "multi_omics": "The successful candidate will have a demonstrated record of research excellence using approaches such as omics, biochemistry, cell biology, and mathematical modelling to investigate microbial or symbiotic interactions."
+  },
+  "methods_version": 2
  },
  {
   "id": "7ec616e00b",
@@ -1669,8 +2064,8 @@
   ],
   "date_posted": "2026-10-27",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -1689,7 +2084,18 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "and/or the Health Sciences Bioinformatics cluster are other"
+  },
+  "methods_version": 2
  },
  {
   "id": "eeaea531f3",
@@ -1757,7 +2163,12 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "bc5d689ed1",
@@ -1826,7 +2237,12 @@
   "status": "open",
   "closed_reason": null,
   "priority": "low",
-  "priority_reason": "Review began Nov 3, 2026 — application may be too late"
+  "priority_reason": "Review began Nov 3, 2026 — application may be too late",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "af17f45641",
@@ -1897,7 +2313,12 @@
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
-  "priority_reason": ""
+  "priority_reason": "",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "454e2eb2a7",
@@ -1957,8 +2378,8 @@
   ],
   "date_posted": "2026-10-23",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-07",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2026-11-22",
@@ -1978,7 +2399,26 @@
   "closed_reason": null,
   "priority": "soon",
   "priority_reason": "Deadline Nov 22, 2026",
-  "language": "en"
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "metatranscriptomics",
+   "metaproteomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Candidates may work across the discovery-to-translation continuum using approaches such as multi-omics, systems biology, artificial intelligence, microbial ecology, synthetic biology, bioengineering, and translational research.",
+   "multi_omics": "Candidates may work across the discovery-to-translation continuum using approaches such as multi-omics, systems biology, artificial intelligence, microbial ecology, synthetic biology, bioengineering, and translational research."
+  },
+  "methods_version": 2
  },
  {
   "id": "c37f961259",
@@ -2032,8 +2472,8 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2053,7 +2493,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "The Cancer Biostatistics Shared Resource provides state-of-the art biostatistics and research design support to clinical, translational, laboratory, and population sciences investigators at Huntsman Cancer Institute.",
+   "multi_omics": "Mentions metagenomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "e3698533e1",
@@ -2112,13 +2570,13 @@
   ],
   "date_posted": "2026-10-08",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-10-25",
   "review_text": "Applications received by October 25, 2026 will be given full consideration.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-07",
+  "listing_expires": "2026-12-08",
   "until_filled": true,
   "effort": {
    "research": 50,
@@ -2129,18 +2587,32 @@
   "effort_focus": "balanced",
   "teaching_load": "",
   "employment": "Full-Time",
-  "salary": "competitive",
+  "salary": "Competitive",
   "board_job_type": "Faculty",
   "summary": "Assistant Professor - Chemistry for Sustainable/Healthy Foods, Tenure-track Department of Food Science Cornell University Ithaca, NY The academic home for this position is the Department of Food Science in the College of Agriculture and Life Sciences. The Department of Food Science at Cornell University invites candidates for a 9-month, full-time, tenure-track assistant professor position to develop a research and…",
   "status": "open",
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Oct 25, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "Foods for Health: Appropriate research areas may include: Food for health approaches, including mechanistic studies on how food components and bioactives influence physiological function, gut health, and the microbiome; Development and app…",
+   "multi_omics": "Foods for Health: Appropriate research areas may include: Food for health approaches, including mechanistic studies on how food components and bioactives influence physiological function, gut health, and the microbiome; Development and app…"
+  },
+  "methods_version": 2
  },
  {
   "id": "fc1e950efb",
-  "title": "Assistant Professor of Microbiology in Biological Sciences",
+  "title": "BCAS - Assistant Professor of Microbiology in Biological Sciences - 530532",
   "institution": "University of Alabama",
   "inst_types": [
    "r1"
@@ -2150,7 +2622,7 @@
   "control": "Public",
   "matched_institution": "The University of Alabama",
   "location": {
-   "city": "",
+   "city": "Tuscaloosa",
    "region": "Alabama",
    "country_code": "US",
    "country": "United States",
@@ -2188,28 +2660,32 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-16",
-  "review_text": "The review of applications will begin November 16, 2026, and the review will continue until the position is filled.",
+  "review_text": "Applications submitted by November 16, 2026, will be given priority consideration and the review will continue until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-10",
+  "listing_expires": "2027-08-01",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
   "effort_text": "",
   "effort_focus": "unstated",
   "teaching_load": "",
-  "employment": "Contractor",
+  "employment": "Full-Time",
   "salary": "Competitive",
   "board_job_type": "Faculty ,\n Postdoc",
-  "summary": "The department of Biological Sciences at The University of Alabama invites applications for two tenure-track positions at the Assistant Professor level in Microbiology, as part of a microbiology focused cluster hire. The appointments will begin on August 16, 2027. Detailed Position Information The successful candidates for the positions will be expected to establish and lead a research program focused on…",
+  "summary": "Department/Organization 204411 - Biological Sciences Rank Assistant Professor Position Summary The Department of Biological Sciences at The University of Alabama invites applications for two tenure-track positions at the Assistant Professor level in Microbiology, as part of a microbiology-focused cluster hire. The appointment will begin on August 16, 2027. Detailed Position Information The Department of Biological…",
   "status": "open",
   "closed_reason": null,
   "priority": "soon",
   "priority_reason": "Review begins Nov 16, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "40181407e4",
@@ -2261,8 +2737,8 @@
   ],
   "date_posted": "2026-10-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2282,7 +2758,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Approaches may span molecular genetics, functional genomics, pangenomics, experimental microbiology, and ecological analysis, along with computational biology, data science, and artificial intelligence (AI) /machine learning (ML) methods w…",
+   "multi_omics": "Mentions metagenomics, genomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "3c670379d8",
@@ -2332,8 +2826,8 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2353,7 +2847,24 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "The successful candidate will be expected to maintain a cutting-edge externally funded research program that synergizes with existing core groups in the department, including genomics and gene regulation, host-microbe interactions, microbi…",
+   "multi_omics": "We particularly seek candidates who investigate fundamental cellular mechanisms in immunology using innovative imaging, molecular, genetic, and/or multiomics-based approaches."
+  },
+  "methods_version": 2
  },
  {
   "id": "765b694aae",
@@ -2403,8 +2914,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-01",
   "review_text": "To ensure full consideration, applications should be received by November 1, 2026.",
   "deadline": null,
@@ -2424,7 +2935,18 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Nov 1, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "Chemical & Biological Engineering: Metabolic engineering, chemical biological technologies in metabolism study, quantitative systems biology."
+  },
+  "methods_version": 2
  },
  {
   "id": "54afe7ef1c",
@@ -2482,8 +3004,8 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-12-01",
   "review_text": "To ensure full consideration, please apply by December 1, 2026.",
   "deadline": "2026-12-01",
@@ -2503,7 +3025,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "genomics",
+   "proteomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Research strengths span biomedical and health innovation, molecular, chemical and materials discovery, fundamental and applied physical sciences, earth, environmental and planetary systems, mathematical, computational and data sciences, an…",
+   "multi_omics": "We seek outstanding candidates who have independent, cutting-edge research programs in infection and immunity, host microbe interactions, bacterial or fungal pathogenesis, anti-microbial drug discovery and medicinal chemistry, vector-borne…"
+  },
+  "methods_version": 2
  },
  {
   "id": "ac16161b0b",
@@ -2563,8 +3103,8 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2584,7 +3124,24 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Candidates developing foundational or applied methods in AI, computational biology, quantitative genetics, engineering, bioinformatics, multi-omics data analytics, statistics, or related fields whose work can accelerate improvement across…",
+   "multi_omics": "Candidates developing foundational or applied methods in AI, computational biology, quantitative genetics, engineering, bioinformatics, multi-omics data analytics, statistics, or related fields whose work can accelerate improvement across…"
+  },
+  "methods_version": 2
  },
  {
   "id": "825e99b176",
@@ -2634,8 +3191,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2655,7 +3212,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "microbial metagenomics, metabolism or ecology within disease states",
+   "multi_omics": "Mentions metagenomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "57266c1296",
@@ -2700,13 +3275,13 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -2721,7 +3296,18 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "Faculty of Dentistry include Clinical Artificial Intelligence,"
+  },
+  "methods_version": 2
  },
  {
   "id": "e4a5eca440",
@@ -2770,13 +3356,13 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -2791,7 +3377,18 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "discovery by developing or incorporating predictive computational"
+  },
+  "methods_version": 2
  },
  {
   "id": "6019b24b09",
@@ -2835,8 +3432,8 @@
   ],
   "date_posted": "2026-09-18",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -2856,7 +3453,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "f48a0a84ba",
@@ -2930,13 +3531,13 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2027-06-16",
   "deadline_text": "Deadline: Jun 16, 2027 at 11:59 PM Eastern Time",
-  "listing_expires": "2026-11-10",
+  "listing_expires": "2027-06-16",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -2946,12 +3547,16 @@
   "employment": "Full-Time",
   "salary": "Salary Not specified",
   "board_job_type": "",
-  "summary": "Assistant Professor, CE or Tenure Track, Division of GI, Hepatology and Nutrition Location: Philadelphia, PA Open Date: Jun 16, 2025 Deadline: Jun 16, 2027 at 11:59 PM Eastern Time Children's Hospital of Philadelphia and the Division of Gastroenterology, Hepatology and Nutrition in the Department of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania seek candidates for several Assistant…",
+  "summary": "Assistant Professor, CE or Tenure Track, Division of GI, Hepatology and Nutrition Location: Philadelphia, PA Open Date: Jun 16, 2025 Close Date: Jun 16, 2027 Description: Children's Hospital of Philadelphia and the Division of Gastroenterology, Hepatology and Nutrition in the Department of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania seek candidates for several Assistant Professor…",
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "493002feb9",
@@ -3000,8 +3605,8 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3021,7 +3626,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "genomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Extensive biobanking, genomics, metabolomics, bioinformatics,",
+   "multi_omics": "Mentions genomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "226f858463",
@@ -3072,8 +3695,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3093,7 +3716,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "19a7cb65ae",
@@ -3141,13 +3768,13 @@
   ],
   "date_posted": "2024-08-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -3162,7 +3789,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "2de0d3fb03",
@@ -3216,13 +3847,13 @@
   ],
   "date_posted": "2026-03-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-04-15",
   "review_text": "Screening will begin April 15, 2026, but applications will be",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -3237,7 +3868,25 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Apr 15, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "genomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "other imaging modalities, bioinformatics, and precision food and",
+   "multi_omics": "Mentions genomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "b5e3db3d7c",
@@ -3285,13 +3934,13 @@
   ],
   "date_posted": "2026-09-03",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-10-01",
   "review_text": "Review of applications will begin on October 1, 2026 and continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -3306,79 +3955,21 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Oct 1, 2026 — application may be too late",
-  "inst_version": 2
- },
- {
-  "id": "9145ade714",
-  "title": "Assistant or Associate Professor position, Environmental Health",
-  "institution": "Duke University",
-  "inst_types": [
-   "r1",
-   "med_school"
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
   ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Private nonprofit",
-  "matched_institution": "Duke University",
-  "location": {
-   "city": "Durham",
-   "region": "North Carolina",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 36.00113,
-   "lon": -78.93762,
-   "precision": "institution"
+  "method_basis": {
+   "bioinformatics": "stated"
   },
-  "url": "https://jobs.chronicle.com/job/38035036/assistant-or-associate-professor-position-environmental-health/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38035036/assistant-or-associate-professor-position-environmental-health/"
-   }
+  "omics_layers": [
+   "genomics"
   ],
-  "ranks": [
-   "assistant",
-   "associate"
-  ],
-  "rank_label": "Assistant / Associate",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "environment",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-09-10",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-11-09",
-  "last_checked": "2026-11-05",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-11-10",
-  "until_filled": false,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "DOE",
-  "board_job_type": "",
-  "summary": "Assistant or Associate Professor position, Environmental Health Nicholas School of the Environment, Duke University, Duke University, Durham NC Apply now: AcademicJobsOnline. See Job # 32513 Anticipated start: July 1, 2027 The Nicholas School of the Environment invites applications for a tenure-track position in Environmental Health with an emphasis on toxicology and pollutant effects. The successful candidate will…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": "",
-  "inst_version": 2
+  "method_evidence": {
+   "bioinformatics": "analyses, and/or bioinformatics techniques)."
+  },
+  "methods_version": 2
  },
  {
   "id": "3a57433a33",
@@ -3423,8 +4014,7 @@
   ],
   "tenure_label": "Tenure not stated",
   "domains": [
-   "human_health",
-   "computational"
+   "human_health"
   ],
   "microbiome_terms": [
    "microbiome",
@@ -3432,13 +4022,13 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -3448,12 +4038,16 @@
   "employment": "Full-Time",
   "salary": "Competitive Salary",
   "board_job_type": "",
-  "summary": "About the Job The Department of Medicine at the University of Minnesota invites applications to join the Division of Gastroenterology, Hepatology and Nutrition Division at the academic rank of assistant, associate, or full professor on our Luminal GI team. Positions are available on the Academic or Clinician tracks. Our current strengths include microbiome science, inflammatory bowel disease, and use of artificial…",
+  "summary": "About the Job We are seeking a board-certified Academic Gastroenterologist with a specialized focus in Inflammatory Bowel Disease (IBD) to join our dynamic division. In this role, you will deliver comprehensive clinical care to a complex patient panel, drive clinical or translational research in Crohn’s disease and ulcerative colitis, and actively participate in teaching and mentoring fellows, residents, and medical…",
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "6d84d09e28",
@@ -3510,8 +4104,8 @@
   ],
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -3531,7 +4125,24 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "biology, computational biology, or related fields, as evidenced by",
+   "multi_omics": "multi-omics integration and quantitative modeling to guide the"
+  },
+  "methods_version": 2
  },
  {
   "id": "8f58945643",
@@ -3581,13 +4192,13 @@
   ],
   "date_posted": "2026-06-25",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-10-15",
   "review_text": "The deadline for assuring full consideration is October 15, 2026;",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -3602,7 +4213,18 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Oct 15, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "possibly through the application of generative AI to metabolism,"
+  },
+  "methods_version": 2
  },
  {
   "id": "ae50839458",
@@ -3659,13 +4281,13 @@
   ],
   "date_posted": "2026-10-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-12-02",
   "review_text": "Applications received by December 2, 2026, will receive full consideration and review will continue until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {
    "research": 45,
@@ -3683,7 +4305,21 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "computational, bioinformatic, and related research, as well as"
+  },
+  "methods_version": 2
  },
  {
   "id": "6d45d904f6",
@@ -3737,13 +4373,13 @@
   ],
   "date_posted": "2026-06-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-10-01",
   "review_text": "The deadline for assuring full consideration is October 1st, 2026;",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -3758,7 +4394,18 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Oct 1, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "including experimental, computational, and engineering approaches"
+  },
+  "methods_version": 2
  },
  {
   "id": "f1163a503a",
@@ -3810,8 +4457,8 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin Oct. 19.",
   "deadline": null,
@@ -3831,7 +4478,11 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Oct 19, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "5140c29a62",
@@ -3891,13 +4542,13 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": "2027-05-01",
   "deadline_text": "Deadline: May 01, 2027 at 11:59 PM Eastern Time",
-  "listing_expires": "2026-11-10",
+  "listing_expires": "2027-05-01",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -3907,12 +4558,16 @@
   "employment": "Full-Time",
   "salary": "Salary Not specified",
   "board_job_type": "",
-  "summary": "Assistant Professor, Tenure Track, Infectious Diseases Location: Philadelphia, PA Open Date: May 01, 2025 Deadline: May 01, 2027 at 11:59 PM Eastern Time The Division of Infectious Diseases in the Department of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania seeks candidates for several Assistant Professor positions in the tenure track. Applicants must have an M.D./Ph.D. or equivalent…",
+  "summary": "Assistant Professor, Tenure Track, Infectious Diseases Location: Philadelphia, PA Open Date: May 1, 2025 Close Date: May 1, 2027 Description: The Division of Infectious Diseases in the Department of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania seeks candidates for several Assistant Professor positions in the tenure track. Applicants must have an M.D./Ph.D. or equivalent degree.…",
   "status": "open",
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "f3babe8586",
@@ -3966,8 +4621,8 @@
   ],
   "date_posted": "2026-10-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-13",
   "review_text": "Screening of applications begins November 13, 2026 and continues",
   "deadline": null,
@@ -3987,7 +4642,21 @@
   "closed_reason": null,
   "priority": "soon",
   "priority_reason": "Review begins Nov 13, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Bioinformatics & Computational"
+  },
+  "methods_version": 2
  },
  {
   "id": "a407c20b28",
@@ -4040,13 +4709,13 @@
   ],
   "date_posted": "2026-07-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4061,7 +4730,27 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics",
+   "transcriptomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "University of Artificial Intelligence (MBZUAI) in Abu Dhabi is at",
+   "multi_omics": "Multi-Omics, Personalized Medicine, Precision Therapeutics,"
+  },
+  "methods_version": 2
  },
  {
   "id": "ea2d1805a6",
@@ -4112,13 +4801,13 @@
   ],
   "date_posted": "2026-07-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2027-01-06",
   "review_text": "Review of applications will begin on January 6, 2027, and continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {
    "research": 60
@@ -4135,7 +4824,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "b927a88ed5",
@@ -4185,13 +4878,13 @@
   ],
   "date_posted": "2026-03-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-04-01",
   "review_text": "Review of applications will begin 04/01/2026 and will continue",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": true,
   "effort": {
    "research": 60,
@@ -4209,7 +4902,21 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Apr 1, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "research in metabolic diseases and intestinal microbiomics."
+  },
+  "methods_version": 2
  },
  {
   "id": "0bbbd98c05",
@@ -4263,8 +4970,8 @@
   ],
   "date_posted": "2026-10-07",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-06",
   "review_text": "Review of applications will begin on November 6, 2026 and continue until positions are filled.",
   "deadline": null,
@@ -4284,7 +4991,18 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Nov 6, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "By integrating strengths in agriculture, engineering, artificial intelligence, data science, and health sciences, Purdue aims to create a globally distinctive platform for addressing complex challenges at the intersection of food systems,…"
+  },
+  "methods_version": 2
  },
  {
   "id": "95f4905bb3",
@@ -4334,8 +5052,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4355,7 +5073,21 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "environment for bioinformatics and data science."
+  },
+  "methods_version": 2
  },
  {
   "id": "229a155c18",
@@ -4414,8 +5146,8 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-13",
   "review_text": "Screening will begin November 13, 2026 and conclude when the position is filled.",
   "deadline": null,
@@ -4435,7 +5167,18 @@
   "closed_reason": null,
   "priority": "soon",
   "priority_reason": "Review begins Nov 13, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "By integrating strengths in agriculture, engineering, artificial intelligence, data science, and health sciences, Purdue aims to create a globally distinctive platform for addressing complex challenges at the intersection of food systems,…"
+  },
+  "methods_version": 2
  },
  {
   "id": "bd6b29179a",
@@ -4491,8 +5234,8 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-05",
   "review_text": "Review of applications will begin on November 5, 2026 and continue until positions are filled.",
   "deadline": null,
@@ -4512,7 +5255,18 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Nov 5, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "Particular areas of interest include, but are not limited to, emerging infectious diseases and One Health epidemiology; environmental and climate health; food systems, nutrition, and population health; rural and community health resilience…"
+  },
+  "methods_version": 2
  },
  {
   "id": "9953e1dc68",
@@ -4556,21 +5310,20 @@
   "domains": [
    "human_health",
    "animal_health",
-   "agriculture",
-   "computational"
+   "agriculture"
   ],
   "microbiome_terms": [
    "microbiome"
   ],
   "date_posted": "2026-04-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-05-31",
   "review_text": "Review of applications will begin May 31, 2026, and continue until",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4585,7 +5338,21 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began May 31, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "science, veterinary medicine, engineering, data science, and the"
+  },
+  "methods_version": 2
  },
  {
   "id": "0038c30013",
@@ -4635,8 +5402,8 @@
   ],
   "date_posted": "2026-09-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4656,7 +5423,27 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics",
+   "transcriptomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "University's strengths in genetics and bioinformatics to translate",
+   "multi_omics": "Mentions metagenomics, genomics, transcriptomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "d8e70268ce",
@@ -4702,13 +5489,13 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4723,7 +5510,18 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "Optimization, Scientific Computing, and Data Science; Quantum"
+  },
+  "methods_version": 2
  },
  {
   "id": "b64a9bd44c",
@@ -4779,8 +5577,8 @@
   ],
   "date_posted": "2026-10-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-08",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4801,7 +5599,23 @@
   "priority": "normal",
   "priority_reason": "",
   "inst_version": 2,
-  "language": "en"
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "• computational genomics and bioinformatics;",
+   "multi_omics": "• single-cell, spatial, or multi-omic approaches;"
+  },
+  "methods_version": 2
  },
  {
   "id": "d770000675",
@@ -4859,8 +5673,8 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -4883,7 +5697,18 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "The best candidate for this position will have an established track-record in interdisciplinary research, and a strong background in bacterial genetics, bacterial physiology, bacterial diversity, and/or microbial data science."
+  },
+  "methods_version": 2
  },
  {
   "id": "9e098589af",
@@ -4934,13 +5759,13 @@
   ],
   "date_posted": "2026-09-23",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2027-01-04",
+  "listing_expires": "2027-01-11",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -4955,7 +5780,18 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "Biology (MCB), and Genetics, Bioinformatics, and"
+  },
+  "methods_version": 2
  },
  {
   "id": "7d1d41397d",
@@ -5008,8 +5844,8 @@
   ],
   "date_posted": "2026-09-30",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-25",
   "review_text": "Applications received by November 25, 2026, will be given full consideration.",
   "deadline": null,
@@ -5030,9 +5866,13 @@
   "summary": "Vegetable Production Systems Focus: Vegetable Production School of Integrative Plant Science, Cornell University Position: Assistant Professor, Tenure-track Location: Cornell AgriTech in Geneva, NY. The academic home for this position is the School of Integrative Plant Science (SIPS) in the College of Agriculture and Life Sciences at Cornell University. The School of Integrative Plant Science (SIPS) in the College…",
   "status": "open",
   "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": "",
-  "inst_version": 2
+  "priority": "soon",
+  "priority_reason": "Review begins Nov 25, 2026",
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "b19586f2e7",
@@ -5082,8 +5922,8 @@
   ],
   "date_posted": "2024-03-24",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5103,7 +5943,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "d87b944cc0",
@@ -5157,8 +6001,8 @@
   ],
   "date_posted": "2026-06-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5178,7 +6022,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "cd1f9dbfb0",
@@ -5229,8 +6077,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-09-15",
   "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
   "deadline": null,
@@ -5250,7 +6098,21 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Sep 15, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Priority will be given to candidates with established or emerging expertise and leadership in clinical and translational nutrition research related to dietary patterns, phytochemicals and nutrients, precision nutrition, metabolism and meta…"
+  },
+  "methods_version": 2
  },
  {
   "id": "4fd50b7e7c",
@@ -5300,13 +6162,13 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-11-02",
   "review_text": "Applications will be reviewed beginning November 2nd, 2026, and accepted until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-12",
+  "listing_expires": "2026-11-19",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5321,7 +6183,18 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Nov 2, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "method_evidence": {
+   "bioinformatics": "We are especially interested in candidates who bring innovative molecular, genomic, systems-level computational, quantitative or theoretical approaches to important biological questions."
+  },
+  "methods_version": 2
  },
  {
   "id": "adfd1501b4",
@@ -5372,8 +6245,8 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2026-10-15",
   "review_text": "Review of candidates will begin 10/15/2026 and will continue until filled.",
   "deadline": null,
@@ -5393,7 +6266,11 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Oct 15, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "40fc56abdb",
@@ -5444,13 +6321,13 @@
   ],
   "date_posted": "2023-10-28",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-12",
+  "listing_expires": "2026-11-19",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5465,7 +6342,18 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "method_evidence": {
+   "bioinformatics": "Fields of particular interest include artificial intelligence, computational biology, and host-microbial interactions."
+  },
+  "methods_version": 2
  },
  {
   "id": "ab623dd263",
@@ -5514,8 +6402,8 @@
   ],
   "date_posted": "2026-03-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5535,7 +6423,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "492ed68ae5",
@@ -5586,13 +6478,13 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-16",
+  "listing_expires": "2026-11-24",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5607,7 +6499,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "genomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Open Rank Professor, tenure track (Nutrigenomics)",
+   "multi_omics": "Mentions genomics, metabolomics"
+  },
+  "methods_version": 2
  },
  {
   "id": "3f181a1156",
@@ -5659,8 +6569,8 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5680,7 +6590,21 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Ohio State strives to become a global leader in AI-driven discovery (https://go.osu.edu/ai-initiative) and promote AI fluency for human thriving."
+  },
+  "methods_version": 2
  },
  {
   "id": "0df4f8db53",
@@ -5732,13 +6656,13 @@
   ],
   "date_posted": "2026-02-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-15",
+  "listing_expires": "2026-11-22",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5753,7 +6677,21 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "The CTR provides comprehensive support for investigators conducting translational research, offering expertise in clinical trial design, regulatory compliance, biostatistics, and research coordination."
+  },
+  "methods_version": 2
  },
  {
   "id": "c222ce8fb8",
@@ -5802,8 +6740,8 @@
   ],
   "date_posted": "2024-05-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5823,7 +6761,11 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "7077c0495a",
@@ -5871,8 +6813,8 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
@@ -5892,7 +6834,25 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "stated"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "COLCOM - Professor in Bioinformatics",
+   "multi_omics": "Integration of OMICs data"
+  },
+  "methods_version": 2
  },
  {
   "id": "896bf34857",
@@ -5943,13 +6903,13 @@
   ],
   "date_posted": "2025-09-17",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": "2025-11-21",
   "review_text": "Review of applications will begin on November 21, 2025 and will continue until the position is filled.",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-16",
+  "listing_expires": "2026-11-24",
   "until_filled": true,
   "effort": {},
   "effort_label": "",
@@ -5964,7 +6924,21 @@
   "closed_reason": null,
   "priority": "low",
   "priority_reason": "Review began Nov 21, 2025 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Faculty have access to multiple core facilities on campus including animal facility, genomics core, imaging core, mass-spectrometry core, flow cytometers and cell sorters (https://research.utk.edu/oried/core-facilities/)."
+  },
+  "methods_version": 2
  },
  {
   "id": "a9ab281448",
@@ -6012,13 +6986,13 @@
   ],
   "date_posted": "2026-08-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
-  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-11",
+  "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
   "deadline": null,
   "deadline_text": "",
-  "listing_expires": "2026-11-16",
+  "listing_expires": "2026-11-24",
   "until_filled": false,
   "effort": {},
   "effort_label": "",
@@ -6033,7 +7007,21 @@
   "closed_reason": null,
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Qualified applicants focusing on any area of Neuro-Oncology / CNS Malignancies Research including but not limited to cancer immunology, cancer signaling, cancer genomics and epigenetics, RNA science and Medicine, cancer metabolism, cancer…"
+  },
+  "methods_version": 2
  },
  {
   "id": "faf57cb7fc",
@@ -6084,7 +7072,7 @@
   ],
   "date_posted": "2026-10-30",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "last_checked": "2026-11-07",
   "review_date": null,
   "review_text": "",
@@ -6105,7 +7093,12 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Sep 20, 2026",
-  "language": "en"
+  "language": "en",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "d755f80cca",
@@ -6174,7 +7167,89 @@
   "status": "closed",
   "closed_reason": "deadline passed",
   "priority": "soon",
-  "priority_reason": "Deadline Oct 28, 2026"
+  "priority_reason": "Deadline Oct 28, 2026",
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
+ },
+ {
+  "id": "9145ade714",
+  "title": "Assistant or Associate Professor position, Environmental Health",
+  "institution": "Duke University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Duke University",
+  "location": {
+   "city": "Durham",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 36.00113,
+   "lon": -78.93762,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38035036/assistant-or-associate-professor-position-environmental-health/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38035036/assistant-or-associate-professor-position-environmental-health/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate"
+  ],
+  "rank_label": "Assistant / Associate",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "environment",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-10",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-09",
+  "last_checked": "2026-11-05",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-10",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "DOE",
+  "board_job_type": "",
+  "summary": "Assistant or Associate Professor position, Environmental Health Nicholas School of the Environment, Duke University, Duke University, Durham NC Apply now: AcademicJobsOnline. See Job # 32513 Anticipated start: July 1, 2027 The Nicholas School of the Environment invites applications for a tenure-track position in Environmental Health with an emphasis on toxicology and pollutant effects. The successful candidate will…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "f94fc4133a",
@@ -6244,7 +7319,12 @@
   "closed_reason": "listing expired",
   "priority": "low",
   "priority_reason": "Review began Oct 19, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "098c96dd5f",
@@ -6316,7 +7396,20 @@
   "closed_reason": "listing expired",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "metagenomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "The Institute for Systems Biology (ISB) seeks a highly motivated and talented Assistant, Associate, or Full Professor to join our faculty and lead transformative efforts in AI, machine learning, and computational biology to bridge the gap…"
+  },
+  "methods_version": 2
  },
  {
   "id": "63800794cc",
@@ -6385,7 +7478,12 @@
   "closed_reason": "listing expired",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "3e7447add6",
@@ -6462,7 +7560,12 @@
   "closed_reason": "listing expired",
   "priority": "low",
   "priority_reason": "Review began Oct 15, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "de6edb24ef",
@@ -6532,7 +7635,20 @@
   "closed_reason": "listing expired",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "Mid-Career Faculty, Biostatistics"
+  },
+  "methods_version": 2
  },
  {
   "id": "7885ecb425",
@@ -6608,7 +7724,12 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Nov 6, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "2a5ac58571",
@@ -6680,7 +7801,12 @@
   "closed_reason": "listing expired",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "f77e9b488a",
@@ -6757,7 +7883,12 @@
   "closed_reason": "not seen recently",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "244107f06f",
@@ -6832,7 +7963,12 @@
   "closed_reason": "not seen recently",
   "priority": "low",
   "priority_reason": "Review began Nov 1, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "bbc90521e0",
@@ -6903,7 +8039,12 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Oct 31, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "b67a95a838",
@@ -6974,7 +8115,12 @@
   "closed_reason": "not seen recently",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "d437273e98",
@@ -7023,7 +8169,7 @@
   ],
   "date_posted": "2026-09-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "last_checked": "2026-11-05",
   "review_date": "2026-11-01",
   "review_text": "Application review will begin on November 1, 2026, but the position will remain open until filled.",
@@ -7044,7 +8190,12 @@
   "closed_reason": "deadline passed",
   "priority": "low",
   "priority_reason": "Review began Nov 1, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "03bf57981b",
@@ -7114,7 +8265,12 @@
   "closed_reason": "not seen recently",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "ad2e8dbbd1",
@@ -7188,7 +8344,20 @@
   "closed_reason": "not seen recently",
   "priority": "low",
   "priority_reason": "Review began Oct 15, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "We seek visionary researchers… metagenomics microbial communities"
+  },
+  "methods_version": 2
  },
  {
   "id": "df7fb2f8fb",
@@ -7261,7 +8430,18 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Nov 1, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [],
+  "method_evidence": {
+   "bioinformatics": "We welcome applications from candidates using biological, chemical, physical, engineering and/or computational approaches to tackle questions at this interface."
+  },
+  "methods_version": 2
  },
  {
   "id": "41477342f1",
@@ -7339,7 +8519,12 @@
   "closed_reason": "not seen recently",
   "priority": "low",
   "priority_reason": "Review began Oct 30, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "179a6514cb",
@@ -7412,7 +8597,12 @@
   "closed_reason": "not seen recently",
   "priority": "low",
   "priority_reason": "Review began Nov 1, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "d2aeb95bd8",
@@ -7482,7 +8672,12 @@
   "closed_reason": "not seen recently",
   "priority": "normal",
   "priority_reason": "",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "880b8680b7",
@@ -7553,7 +8748,12 @@
   "closed_reason": "not seen recently",
   "priority": "low",
   "priority_reason": "Review began Sep 24, 2026 — application may be too late",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "3234dac6d4",
@@ -7624,7 +8824,12 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Oct 23, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "0be18e6344",
@@ -7699,7 +8904,12 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Oct 9, 2026",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  },
  {
   "id": "8b52a811a0",
@@ -7748,7 +8958,7 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "last_checked": "2026-11-05",
   "review_date": null,
   "review_text": "",
@@ -7769,6 +8979,11 @@
   "closed_reason": "deadline passed",
   "priority": "soon",
   "priority_reason": "Deadline Dec 15, 2024",
-  "inst_version": 2
+  "inst_version": 2,
+  "methods": [],
+  "method_basis": {},
+  "omics_layers": [],
+  "method_evidence": {},
+  "methods_version": 2
  }
 ]
