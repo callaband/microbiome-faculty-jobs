@@ -41,6 +41,25 @@ window.MFJ = (() => {
     return (meta.domains && meta.domains[key] && meta.domains[key].label) || key;
   }
 
+  // An ad first posted more than a year ago (or, with no posting date, whose review began more
+  // than a year ago): the search may be over, or it is a standing call that keeps being reposted.
+  function oldAd(job) {
+    const from = job.date_posted || job.review_date;
+    const days = daysFrom(from);
+    if (days === null || days > -365) return null;
+    const years = Math.floor(-days / 365);
+    return {
+      date: from,
+      byReview: !job.date_posted,
+      label: years >= 2 ? `Posted over ${years} years ago` : "Posted over a year ago",
+    };
+  }
+
+  function oldAdBadge(job) {
+    const o = job.status !== "closed" && oldAd(job);
+    return o ? `<span class="badge old" title="${o.byReview ? "Review began" : "First posted"} ${fmt(o.date)}">${o.label}</span>` : "";
+  }
+
   function priorityBadge(job) {
     if (job.status === "closed") return `<span class="badge closed">Closed</span>`;
     if (job.priority === "low") return `<span class="badge low" title="${esc(job.priority_reason)}">Low priority</span>`;
@@ -88,5 +107,5 @@ window.MFJ = (() => {
 
   function repoUrl(meta) { return meta.repo ? `https://github.com/${meta.repo}` : null; }
 
-  return { load, esc, fmt, toDate, daysFrom, relative, isNew, place, domainColor, domainLabel, priorityBadge, initTheme, tiles, pinIcon, repoUrl };
+  return { load, esc, fmt, toDate, daysFrom, relative, isNew, place, domainColor, domainLabel, priorityBadge, oldAd, oldAdBadge, initTheme, tiles, pinIcon, repoUrl };
 })();

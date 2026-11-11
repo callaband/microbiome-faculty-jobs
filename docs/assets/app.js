@@ -1,6 +1,6 @@
 // Main page: filters, map and results list.
 (async () => {
-  const { esc, fmt, relative, isNew, place, domainColor, domainLabel, priorityBadge } = MFJ;
+  const { esc, fmt, relative, isNew, place, domainColor, domainLabel, priorityBadge, oldAd, oldAdBadge } = MFJ;
   const { jobs, meta } = await MFJ.load();
   MFJ.initTheme(document.getElementById("theme"));
 
@@ -240,12 +240,12 @@
     const dates = [
       j.review_date ? `Review <b>${fmt(j.review_date)}</b>` : "",
       j.deadline ? `Deadline <b>${fmt(j.deadline)}</b>` : (j.until_filled ? "Open until filled" : ""),
-      `<span title="First seen ${fmt(j.first_seen)}">Posted ${fmt(j.date_posted || j.first_seen)}</span>`,
+      `<span title="First seen ${fmt(j.first_seen)}"${oldAd(j) && j.date_posted ? ' class="old-date"' : ""}>Posted ${fmt(j.date_posted || j.first_seen)}</span>`,
     ].filter(Boolean).join("<br>");
     const cls = ["job", j.priority === "low" ? "is-low" : "", j.status === "closed" ? "is-closed" : ""].join(" ");
     return `<article class="${cls}" style="--c:${domainColor(meta, (j.domains || [])[0])}">
       <div>
-        <h3 class="job-title">${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}<a href="job.html?id=${j.id}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
+        <h3 class="job-title">${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}${oldAdBadge(j)}<a href="job.html?id=${j.id}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
         <div class="job-where">${esc(j.institution)} · ${esc(place(j))}</div>
       </div>
       <div class="job-dates">${dates}</div>

@@ -170,6 +170,8 @@ button, input, select { font: inherit; color: inherit; }
 .badge.low { background: var(--low-soft); color: var(--low); }
 .badge.soon { background: var(--soon-soft); color: var(--soon); }
 .badge.closed { background: var(--warn-soft); color: var(--warn); }
+.badge.old { background: none; color: var(--warn); box-shadow: inset 0 0 0 1px var(--warn); }
+.old-date, .job-dates .old-date { color: var(--warn); font-weight: 600; }
 
 .empty { padding: 40px 24px; text-align: center; color: var(--ink-2); background: var(--panel); border: 1px dashed var(--line); border-radius: var(--radius); }
 .empty h3 { font: 600 18px var(--serif); color: var(--ink); margin: 0 0 6px; }
@@ -201,6 +203,7 @@ button, input, select { font: inherit; color: inherit; }
 .callout.low { background: var(--low-soft); color: var(--ink); border-left: 4px solid var(--low); }
 .callout.soon { background: var(--soon-soft); color: var(--ink); border-left: 4px solid var(--soon); }
 .callout.closed { background: var(--warn-soft); color: var(--ink); border-left: 4px solid var(--warn); }
+.callout.old { background: var(--warn-soft); color: var(--ink); border-left: 4px dashed var(--warn); }
 .callout.tr { background: var(--accent-soft); color: var(--ink); border-left: 4px solid var(--accent); }
 .orig-title { font-size: 17px; color: var(--ink-2); margin: -2px 0 8px; overflow-wrap: anywhere; }
 .detail-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 18px; }

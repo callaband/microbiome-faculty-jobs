@@ -1,6 +1,6 @@
 // Detail page for one position: job.html?id=<id>
 (async () => {
-  const { esc, fmt, relative, isNew, place, domainColor, domainLabel, priorityBadge } = MFJ;
+  const { esc, fmt, relative, isNew, place, domainColor, domainLabel, priorityBadge, oldAd, oldAdBadge } = MFJ;
   MFJ.initTheme(document.getElementById("theme"));
   const id = new URLSearchParams(location.search).get("id");
   const { jobs, meta } = await MFJ.load();
@@ -17,6 +17,8 @@
   window.MFJ_track && window.MFJ_track(`${j.title} · ${j.institution}`);
 
   let callout = "";
+  const old = j.status !== "closed" && oldAd(j);
+  const oldNote = old ? `<div class="callout old"><b>${old.label}.</b> ${old.byReview ? "Review of applications began" : "This ad was first posted"} ${fmt(old.date)}. The search may already be over, or this may be a standing call that is reposted and still open. Check the original posting, or ask the department, before preparing an application.</div>` : "";
   const trNote = j.translated
     ? `<div class="callout tr"><b>Translated from ${esc(j.translated.language)}.</b> The title and summary on this page were machine-translated by ${esc(j.translated.by)} and may contain mistakes. The original title is shown under the heading; the original posting is the official version.</div>`
     : "";
@@ -39,7 +41,7 @@
 
   root.innerHTML = `${back}
     <div class="detail-head">
-      <div>${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}</div>
+      <div>${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}${oldAdBadge(j)}</div>
       <h1>${esc(j.title)}</h1>
       ${j.translated ? `<div class="orig-title" lang="${esc(j.translated.from)}">${esc(j.original_title)}</div>` : ""}
       <div class="where">${esc(j.institution)} · ${esc(place(j, true))}</div>
@@ -48,7 +50,7 @@
       <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open original posting ↗</a>
       ${report ? `<a class="btn" href="${report}" target="_blank" rel="noopener">Report a problem</a>` : ""}
     </div>
-    ${trNote}${callout}
+    ${trNote}${callout}${oldNote}
     <div class="detail-grid">
       <dl class="panel facts">
         ${fact("Rank", esc(j.rank_label))}
@@ -69,7 +71,7 @@
         ${fact("Review begins", datePlus(j.review_date), j.review_text)}
         ${fact("Application deadline", datePlus(j.deadline) || (j.until_filled ? "Open until filled" : ""), j.deadline_text && !/listed on the posting/.test(j.deadline_text) ? j.deadline_text : "")}
         ${fact("Open until filled", j.until_filled && j.deadline ? "Yes" : "")}
-        ${fact("Posted", fmt(j.date_posted))}
+        ${fact("Posted", fmt(j.date_posted) + (old && !old.byReview ? ` <span class="old-date">— ${old.label.replace("Posted ", "")}</span>` : ""))}
         ${fact("First seen here", fmt(j.first_seen))}
         ${fact("Listing ends", fmt(j.listing_expires))}
         ${fact("Employment", esc(j.employment))}
