@@ -86,6 +86,7 @@ button, input, select { font: inherit; color: inherit; }
 @media (max-width: 900px) { .filters-toggle { display: flex; } .filters.open .filters-toggle { margin-bottom: 12px; } }
 .filters h2 { font: 600 12px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 18px 0 8px; }
 .filters h2:first-child { margin-top: 0; }
+.filters .hint { font: 12px/1.4 var(--sans); color: var(--ink-3); margin: 6px 0 0; }
 .search { width: 100%; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); }
 .search:focus { border-color: var(--accent); outline: none; }
 
@@ -156,6 +157,8 @@ button, input, select { font: inherit; color: inherit; }
 .tag.eff { background: var(--soon-soft); color: var(--ink); }
 .tag.muted { background: none; color: var(--ink-3); border: 1px dashed var(--line); }
 .tag.meth { background: none; border: 1px solid color-mix(in srgb, #6d28d9 45%, var(--line)); color: color-mix(in srgb, #6d28d9 75%, var(--ink)); font-weight: 500; }
+.tag.meth.sug { border-style: dashed; }
+.basis { font: 13px/1.4 var(--sans); color: var(--ink-3); }
 .tag.tr { display: inline-flex; align-items: center; gap: 4px; background: var(--accent-soft); color: var(--accent); font-weight: 500; }
 .tag .ico { width: 13px; height: 13px; flex: none; }
 .job-dates { text-align: right; font: 13px/1.45 var(--sans); color: var(--ink-2); white-space: nowrap; }

@@ -21,7 +21,7 @@ from xml.sax.saxutils import escape
 import yaml
 
 from . import CONFIG_DIR, SITE_DATA_DIR, STATE_DIR
-from .classify import (domains, is_faculty_title, method_labels, methods, microbiome_terms, rank_label, ranks,
+from .classify import (METHODS_VERSION, domains, is_faculty_title, method_labels, methods, microbiome_terms, rank_label, ranks,
                        relevance, taxonomy, tenure, tenure_label)
 from .dates import find_dates
 from .effort import find_effort
@@ -41,6 +41,7 @@ CSV_FILE = SITE_DATA_DIR / "jobs.csv"
 FEED_FILE = SITE_DATA_DIR.parent / "feed.xml"
 CHECKED_FILE = STATE_DIR / "checked.json"      # postings we opened and rejected
 SUBMITTED_FILE = STATE_DIR / "submitted_urls.txt"
+REMOVED_FILE = STATE_DIR / "removed_urls.txt"
 
 SOON_DAYS = 14
 _CLF: Classifier | None = None  # institution directory, loaded in run()
@@ -138,7 +139,7 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
     return {
         "id": _job_id(entry.url),
         "title": title,
-        "institution": d.employer or entry.employer,
+        "institution": _employer(d.employer or entry.employer, source_name),
         **inst_fields(inst),
         "location": location,
         "url": entry.url,
@@ -175,8 +176,16 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
     }
 
 
+def _employer(name: str, source_name: str) -> str:
+    """The hiring institution, never the job board's own name (a page's site name can be the board's)."""
+    n = (name or "").strip()
+    board = re.sub(r"\s*\(.*?\)", "", source_name or "").strip().lower()
+    return "" if n.lower() in (board, (source_name or "").lower()) else n
+
+
 def _method_fields(m: dict) -> dict:
-    return {"methods": m["flags"], "omics_layers": m["omics_layers"], "method_evidence": m["evidence"]}
+    return {"methods": m["flags"], "method_basis": m["basis"], "omics_layers": m["omics_layers"],
+            "method_evidence": m["evidence"], "methods_version": METHODS_VERSION}
 
 
 def inst_fields(inst: dict) -> dict:
@@ -198,7 +207,7 @@ def refresh_record(job: dict, fresh: dict) -> None:
               "employment", "salary", "board_job_type", "summary", "effort", "effort_label", "effort_text",
               "effort_focus", "teaching_load", "inst_types", "inst_type_label", "carnegie", "control",
               "matched_institution", "inst_version", "language", "original_title", "translated", "methods",
-              "omics_layers", "method_evidence"):
+              "method_basis", "omics_layers", "method_evidence", "methods_version"):
         if fresh.get(k) not in (None, "", []):
             job[k] = fresh[k]
     job["last_checked"] = fresh["last_checked"]
@@ -221,6 +230,10 @@ def refresh_job(src, job: dict, entry: Entry, today: date) -> tuple[bool, str]:
         log.warning("could not re-read %s: %r", entry.url, exc)
         return False, f"could not read page ({type(exc).__name__})"
     job.pop("removed_on", None)
+    if d.expired:
+        job.setdefault("expired_on", today.isoformat())
+        job["last_checked"] = today.isoformat()
+        return True, ""
     refresh_record(job, build_record(entry, d, src.name, today, job["microbiome_terms"], localize(d, entry)))
     return True, ""
 
@@ -247,6 +260,8 @@ def assess(job: dict, today: date, stale_days: int) -> None:
     closed_reason = None
     if job.get("removed_on"):
         closed_reason = "listing removed"
+    elif job.get("expired_on"):
+        closed_reason = "listing expired"
     elif deadline and deadline < today:
         closed_reason = "deadline passed"
     elif (today - last_seen).days > stale_days:
@@ -324,6 +339,13 @@ def _merge_health(new: list[dict], old: list[dict], enabled: set[str]) -> list[d
     return new + [s for s in old if s.get("id") not in seen and s.get("id") in enabled]
 
 
+def _url_lines(path) -> list[str]:
+    if not path.exists():
+        return []
+    return [ln.split("#", 1)[0].strip() for ln in path.read_text(encoding="utf-8").splitlines()
+            if ln.split("#", 1)[0].strip()]
+
+
 # ----------------------------------------------------------------------------- main
 def run(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -350,8 +372,13 @@ def run(argv: list[str] | None = None) -> int:
     _DIR_VERSION = dir_info.get("version", 1) if dir_rows else 0
 
     jobs: dict[str, dict] = {j["id"]: j for j in _load_json(JOBS_FILE, [])}
-    url_index = {s["url"]: j["id"] for j in jobs.values() for s in j["sources"]}
     checked: dict[str, dict] = _load_json(CHECKED_FILE, {})
+    # Postings taken off the site by hand (wrongly matched): drop them and never add them again.
+    for url in _url_lines(REMOVED_FILE):
+        checked[url] = {"on": today.isoformat(), "why": "removed by hand (data/removed_urls.txt)"}
+        for jid in [j["id"] for j in jobs.values() if any(s["url"] == url for s in j["sources"])]:
+            log.info("REMOVED by hand  %s", jobs.pop(jid)["title"])
+    url_index = {s["url"]: j["id"] for j in jobs.values() for s in j["sources"]}
     submitted = []
     if SUBMITTED_FILE.exists():
         submitted = [ln.strip() for ln in SUBMITTED_FILE.read_text(encoding="utf-8").splitlines()
@@ -426,10 +453,16 @@ def run(argv: list[str] | None = None) -> int:
                 if stop:
                     break
                 known_id = url_index.get(e.url)
+                if e.expired:
+                    # The feed shows this listing has ended: close it if we have it, never add it.
+                    if known_id and not jobs[known_id].get("expired_on"):
+                        jobs[known_id]["expired_on"] = today.isoformat()
+                        log.info("EXPIRED  %s", jobs[known_id]["title"])
+                    continue
                 if known_id:
                     job = jobs[known_id]
                     job["last_seen"] = today.isoformat()
-                    stale = (today - _d(job["last_checked"])).days >= refresh_days or "methods" not in job
+                    stale = (today - _d(job["last_checked"])).days >= refresh_days or job.get("methods_version") != METHODS_VERSION
                     if stale and job.get("status") != "closed" and details_opened < max_details:
                         details_opened += 1
                         opened(*refresh_job(src, job, e, today))
@@ -455,6 +488,9 @@ def run(argv: list[str] | None = None) -> int:
                     log.warning("could not read %s: %r", e.url, exc)
                     continue
                 opened(True)
+                if d.expired:
+                    checked[e.url] = {"on": today.isoformat(), "why": "listing expired"}
+                    continue
                 loc = localize(d, e)
                 rel = relevance_for(d, e, loc)
                 if not rel.keep:
@@ -486,11 +522,14 @@ def run(argv: list[str] | None = None) -> int:
                     for srec in job["sources"]:
                         if srec["id"] != src.id or srec["url"] in listed or job.get("status") == "closed":
                             continue
-                        job["last_seen"] = today.isoformat()
-                        stale = (today - _d(job["last_checked"])).days >= refresh_days or "methods" not in job
+                        stale = (today - _d(job["last_checked"])).days >= refresh_days or job.get("methods_version") != METHODS_VERSION
                         if stale and details_opened < max_details and not must_stop():
                             details_opened += 1
                             opened(*refresh_job(src, job, Entry(src.id, srec["url"], job["title"]), today))
+                        # Still "seen" only while its page was confirmed recently; if the page can't
+                        # be read for a while, the job closes as "not seen recently".
+                        if (today - _d(job["last_checked"])).days <= refresh_days and not job.get("expired_on"):
+                            job["last_seen"] = today.isoformat()
             if stop == "time":
                 stat["note"] = "paused at its time limit; continues on the next run"
                 log.warning("%s: time limit reached after %d pages; continuing next run", src.id, stat["pages_opened"])
@@ -518,9 +557,17 @@ def run(argv: list[str] | None = None) -> int:
 
     # Jobs that couldn't be re-read this run: set method flags from the title and summary we kept.
     for job in jobs.values():
-        if "methods" not in job:
-            job.update(_method_fields(methods(job.get("title", ""), " ".join(
-                [job.get("summary", ""), " ".join(job.get("microbiome_terms", []))]))))
+        if job.get("methods_version") != METHODS_VERSION:
+            fresh = _method_fields(methods(job.get("title", ""), " ".join(
+                [job.get("summary", ""), " ".join(job.get("microbiome_terms", []))])))
+            # The summary is shorter than the full posting: keep flags an earlier full read found.
+            for flag in job.get("methods") or []:
+                if flag not in fresh["methods"]:
+                    fresh["methods"].append(flag)
+                    fresh["method_basis"][flag] = (job.get("method_basis") or {}).get(flag, "stated")
+                    fresh["method_evidence"][flag] = (job.get("method_evidence") or {}).get(flag, "")
+            fresh["omics_layers"] = sorted(set(fresh["omics_layers"]) | set(job.get("omics_layers") or []))
+            job.update(fresh)
 
     # Records classified with an older directory (or never): classify again from what we kept.
     for job in jobs.values():

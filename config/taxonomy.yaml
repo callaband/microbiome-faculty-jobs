@@ -242,7 +242,6 @@ domains:
     patterns:
       - '\bbioinformatic\w*'
       - '\bcomputational\b'
-      - '\bdata science\b'
       - '\bmachine learning\b'
       - '\bartificial intelligence\b'
       - '\b(?:AI|ML)\b'
@@ -282,12 +281,24 @@ method_flags:
       - '\b(?:genomic|sequencing|sequence|omics|microbiome|metagenomic) data (?:science|analysis|analytics|integration)'
       - '\b(?:analysis|analyses|analyzing|analysing) of (?:large[\s\-]scale |high[\s\-]throughput )?(?:sequencing|genomic|omics|metagenomic|microbiome) data'
       - '\bdata[\s\-]driven (?:biology|microbiology|life sciences?)'
-      - '\bmachine[\s\-]learning\b|\bdeep[\s\-]learning\b|\bartificial intelligence\b'
       - '\bdata science\b'
       - '\bstatistical genomics\b|\bgenome informatics\b|\bphylogenomic\w*'
-      - '\bsystems biology\b|\bmathematical modell?ing\b'
       - '\bbioinformatik\w*|\bbioinformatique\b|\bbioinform[áa]tica\b|\bbioinformatica\b'
       - 'バイオインフォマティクス|生物信息学|생물정보학'
+    # Wording that doesn't name bioinformatics but implies the job will involve it:
+    # sequencing-based or omics research, computational or AI methods, modelling, large datasets.
+    suggests:
+      - '\bmachine[\s\-]learning\b|\bdeep[\s\-]learning\b|\bartificial intelligence\b|\bdata science\b|\bsystems biology\b'
+      - '\bcomputational\b|\bin silico\b|\bquantitative biolog\w*|\bbiostatistic\w*'
+      - '\b(?:microbiome|microbial|community|metabolic|ecological|predictive|mechanistic|mathematical|statistical|network|dynamic\w*|food[\s\-]microbiome|genome[\s\-]scale|agent[\s\-]based) model(?:l?ing|s)\b'
+      - '\b(?:infectious disease|disease|epidemic\w*) model(?:l?ing)\b'
+      - '\bAI\b|\bAI[\s\-](?:enabled|driven|based)\b|\bneural networks?\b|\bdata analytics\b|\bbig data\b|\b(?:large|complex|high[\s\-]dimensional) (?:data ?sets|data)\b'
+      - '\b(?:high[\s\-]throughput|next[\s\-]generation|shotgun|long[\s\-]read|amplicon|16S(?: rRNA)?|genome|nanopore) sequencing\b|\bsequencing[\s\-]based\b|\bsequence data\b'
+      - '\b(?<!meta)genomics\b|\bgenomic (?:data|approaches|analys\w+|tools|methods|selection|epidemiology|surveillance)\b|\bnutrigenomic\w*|\bpangenom\w*|\bcomparative genomic\w*'
+      - '\bmetagenom\w*|\bmetatranscriptom\w*|\bmetaproteom\w*|\bmetabolom\w*|\b(?<!meta)transcriptom\w*|\b(?<!meta)proteom\w*|\bmicrobiomics\b|\bsingle[\s\-]cell\b'
+      - '(?:[\u2018\u2019\x27\-]|\b)omics\b'
+      - '\bmetagenomik\w*|\bm[ée]tag[ée]nomique\b|\bmetagen[óo]mica\b|\bbioinformatische\b|\bcomputergest\w+'
+      - 'メタゲノム|ゲノム解析|情報解析|データ解析|機械学習|人工知能|宏基因组|基因组学|计算生物|机器学习|人工智能|메타게놈|유전체|기계학습|인공지능'
   multi_omics:
     label: Multi-omics
     # Set when one of these appears, or when two or more of the omics layers below do.
@@ -295,12 +306,19 @@ method_flags:
       - '\bmulti[\s\-]?omics?\b|\bmultiomic\w*'
       - '\bintegrat\w* (?:of )?(?:multiple |multi[\s\-]layer |several )?omics\b|\bintegrative omics\b|\bpan[\s\-]omics\b'
       - 'マルチオミクス|多组学|멀티오믹스'
+    # Implied: generic "omics approaches / tools / technologies" (several kinds of omics),
+    # "systems-level" omics, or two or more of the omics layers below.
+    suggests:
+      - '(?:[\u2018\u2019\x27\-]|\b)omics (?:approaches|tools|technologies|techniques|methods|platforms|data ?sets|data|analyses|analysis|integration|strategies|sciences?)\b'
+      - '\b(?:approaches|methods|tools|technologies|techniques) such as (?:\w+ ){0,3}omics\b|\busing (?:\w+[\s,]+){0,3}omics\b'
+      - '\bsystems[\s\-](?:level|biology) (?:approaches|analys\w+|integration)\b'
+    min_layers: 2
     # Omics layers listed on each position's page.
     layers:
-      metagenomics: '\bmetagenom\w*|\bshotgun sequencing\b|メタゲノム|宏基因组|메타게놈'
+      metagenomics: '\bmetagenom\w*|\bmicrobiomics\b|\bshotgun sequencing\b|メタゲノム|宏基因组|메타게놈'
       metatranscriptomics: '\bmetatranscriptom\w*'
       metaproteomics: '\bmetaproteom\w*'
-      genomics: '\b(?<!meta)genomics\b|\bwhole[\s\-]genome sequencing\b'
+      genomics: '\b(?<!meta)(?<!nutri)genomics\b|\bwhole[\s\-]genome sequencing\b|\bnutrigenomic\w*'
       transcriptomics: '\b(?<!meta)transcriptom\w*|\bRNA[\s\-]?seq\b|\bsingle[\s\-]cell (?:RNA|sequencing|genomics)'
       proteomics: '\b(?<!meta)proteom\w*'
       metabolomics: '\bmetabolom\w*|\bmetabonom\w*|\blipidom\w*'

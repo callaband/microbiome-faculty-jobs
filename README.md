@@ -2,7 +2,7 @@
 
 An open, daily-updated tracker of **faculty positions in microbiome science** worldwide, with a searchable website, a world map, and a page for every position.
 
-Positions are sorted into research areas — **human health, animal health, ocean & marine, aquaculture & fisheries, soil, plant, agriculture, food & fermentation, environment & climate, computational & data**, and general microbiology & ecology — and labelled by **rank** (assistant, associate, full, open rank, lecturer, group leader), **tenure status** (tenure-track, tenured, permanent/continuing, non-tenure-track), **institution type** (R1, R2, doctoral, primarily undergraduate institution (PUI), medical school, veterinary school, Ivy League, HBCU, women's/historically women's college, tribal college, land-grant, research institute, outside the US), and the **research/teaching effort split** and teaching load when the posting states them (or "not stated"). Positions that call for **bioinformatics** or **multi-omics** work are flagged too.
+Positions are sorted into research areas — **human health, animal health, ocean & marine, aquaculture & fisheries, soil, plant, agriculture, food & fermentation, environment & climate, computational & data**, and general microbiology & ecology — and labelled by **rank** (assistant, associate, full, open rank, lecturer, group leader), **tenure status** (tenure-track, tenured, permanent/continuing, non-tenure-track), **institution type** (R1, R2, doctoral, primarily undergraduate institution (PUI), medical school, veterinary school, Ivy League, HBCU, women's/historically women's college, tribal college, land-grant, research institute, outside the US), and the **research/teaching effort split** and teaching load when the posting states them (or "not stated"). Every listed position must mention the microbiome; among those, positions whose posting states or suggests **bioinformatics** or **multi-omics** work are flagged too.
 
 Positions whose **review start or full-consideration date has already passed are marked "low priority"** and listed after the rest: the search may be well underway.
 
@@ -77,6 +77,7 @@ You need a free GitHub account and [GitHub Desktop](https://desktop.github.com/)
 
 ### Optional
 - **Accepting community submissions:** create a label named `add-to-tracker` (**Issues → Labels → New label**). When someone uses **Submit a position**, add that label to their issue: the URL is added, an update runs, and the issue is closed with a reply.
+- **Taking off a mistaken match:** add its URL (as shown under "Listed on" on the position's page) to [`data/removed_urls.txt`](data/removed_urls.txt). The next run deletes it and never adds it again.
 - **Geocoding contact:** add a repository secret `GEOCODER_EMAIL` (Settings → Secrets and variables → Actions) so OpenStreetMap's Nominatim service can reach you if needed.
 - **Your own copy of the site address** in feeds and links is filled in automatically from the repository name.
 
@@ -121,14 +122,14 @@ python -m http.server -d docs 8000                     # then open http://localh
 | Review date | the earliest date in a sentence about review beginning, first review, priority date or full consideration |
 | Deadline | the board's "application due" field, or the latest date in a sentence about a deadline / closing date |
 | Effort split | percentages tied to research / teaching / extension / service / clinical ("60% research and 40% teaching", "research (70%)", "75/25 research/teaching"); otherwise "not stated" |
-| Bioinformatics | the posting mentions bioinformatics, computational biology, analysis of sequencing/omics data, machine learning, data science or systems biology (also in German, French, Spanish, Japanese, Chinese and Korean); the detail page quotes the sentence |
-| Multi-omics | the posting says multi-omics / integrative omics, **or** names two or more omics layers (metagenomics, metatranscriptomics, metaproteomics, metabolomics, genomics, transcriptomics, proteomics, epigenomics, spatial omics, 16S/amplicon); the layers found are listed on the detail page. Patterns are in `method_flags` in `config/taxonomy.yaml` |
+| Bioinformatics | flags microbiome positions only (it never adds a position). **Stated:** the posting names bioinformatics, computational biology/genomics/microbiology, or analysis of sequencing/omics data. **Suggested:** its wording implies the work: metagenomics or other omics, sequencing (16S, shotgun, long-read…), genomics, computational or quantitative methods, microbiome/metabolic/disease modelling, machine learning or AI, data science, biostatistics, large datasets. Also in German, French, Spanish, Japanese, Chinese and Korean. Dashed tag = suggested; the position page quotes the sentence |
+| Multi-omics | same idea. **Stated:** multi-omics / integrative omics. **Suggested:** "omics approaches / tools / data", or two or more omics layers named (metagenomics, metatranscriptomics, metaproteomics, metabolomics, genomics, transcriptomics, proteomics, epigenomics, spatial omics, 16S/amplicon); the layers found are listed on the position page. Patterns are under `method_flags` in `config/taxonomy.yaml` |
 | Teaching load | "2-2 teaching load", "3/3 load", "teaching load of two courses per semester" |
 | Institution type (US) | the employer is matched to the U.S. Department of Education's IPEDS directory: Carnegie basic classification (R1, R2, doctoral/professional, master's and baccalaureate = **PUI**, medical school/center, special focus, two-year) and official HBCU, tribal, land-grant and medical-degree flags; **veterinary school** = the institution has Doctor of Veterinary Medicine graduates in IPEDS completions data (program code 51.2401). If the employer is listed as a department, the institution's name is looked for in the posting text. Ivy League and women's/historically women's colleges come from [`config/institution_lists.yaml`](config/institution_lists.yaml) |
 | Institution type (non-US) | "Outside the US", plus "Research institute/hospital" when the employer is an institute, centre, laboratory or hospital |
 | Low priority | review date is in the past |
 | Review soon | review date or deadline within 14 days |
-| Closed | deadline passed, or not seen on any board for 10 days, or the listing expired |
+| Closed | deadline passed; the board removed the page (404); the page says the listing has expired or closed ("This listing has expired", "no longer accepting applications", …); the feed marks it ended (jobRxiv keeps expired jobs in its feed with a `?p=` link); or not seen for 10 days. Boards whose feeds hold only their newest posts (jobRxiv, FEMS, Max Planck, EURAXESS) keep older jobs open only while the job page is re-checked weekly and still live |
 
 Labels come from text matching and will sometimes be wrong. Use **Report a problem** on any position page, or improve the rules with a pull request.
 

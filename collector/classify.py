@@ -82,6 +82,10 @@ def domains(title: str, description: str) -> list[str]:
 
 
 # --------------------------------------------------------------------------- method flags
+# Bump when the method-flag rules change, so open positions are read again and re-flagged.
+METHODS_VERSION = 2
+
+
 @lru_cache(maxsize=1)
 def _method_rules() -> dict:
     tx = taxonomy()
@@ -90,7 +94,9 @@ def _method_rules() -> dict:
         rules[key] = {
             "label": spec.get("label", key),
             "patterns": [re.compile(p, re.I) for p in spec.get("patterns", [])],
+            "suggests": [re.compile(p, re.I) for p in spec.get("suggests", [])],
             "layers": {name: re.compile(p, re.I) for name, p in (spec.get("layers") or {}).items()},
+            "min_layers": int(spec.get("min_layers", 2)),
         }
     return rules
 
@@ -107,21 +113,30 @@ def _evidence(text: str, rx: re.Pattern) -> str:
 
 
 def methods(title: str, description: str) -> dict:
-    """Method flags for a posting: {"flags": [...], "omics_layers": [...], "evidence": {flag: sentence}}."""
+    """Method flags for a (microbiome) posting.
+
+    A flag is "stated" when the posting names the method (bioinformatics, multi-omics) and
+    "suggested" when its wording implies the job will involve it (e.g. metagenomics or
+    computational modelling for bioinformatics; omics approaches or two omics layers for
+    multi-omics). Returns {"flags", "basis": {flag: stated|suggested}, "omics_layers", "evidence"}.
+    These flags only describe a position; whether it is listed at all is decided by relevance().
+    """
     text = f"{title}\n{description}"
-    out = {"flags": [], "omics_layers": [], "evidence": {}}
+    out = {"flags": [], "basis": {}, "omics_layers": [], "evidence": {}}
     for key, rule in _method_rules().items():
-        hit = next((rx for rx in rule["patterns"] if rx.search(text)), None)
         layers = [name for name, rx in rule["layers"].items() if rx.search(text)]
         if rule["layers"]:
             out["omics_layers"] = layers
-        if hit is None and len(layers) >= 2:
-            hit = rule["layers"][layers[0]]
+        stated = next((rx for rx in rule["patterns"] if rx.search(text)), None)
+        hint = None if stated else next((rx for rx in rule["suggests"] if rx.search(text)), None)
+        if stated or hint:
+            out["evidence"][key] = _evidence(text, stated or hint)
+        elif rule["layers"] and len(layers) >= rule["min_layers"]:
             out["evidence"][key] = "Mentions " + ", ".join(layers)
-        elif hit is not None:
-            out["evidence"][key] = _evidence(text, hit)
-        if hit is not None:
-            out["flags"].append(key)
+        else:
+            continue
+        out["flags"].append(key)
+        out["basis"][key] = "stated" if stated else "suggested"
     return out
 
 

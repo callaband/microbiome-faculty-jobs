@@ -204,6 +204,9 @@ sources:
     # Non-profit science job board; its faculty category feed carries the latest 100 posts.
     feeds:
       - https://jobrxiv.org/job-category/faculty/feed/
+    # The feed keeps listings after they expire, and links those as "?post_type=job_listing&p=<n>"
+    # instead of "/job/<name>/". Such items are treated as ended (never added; closed if known).
+    expired_link_pattern: '[?&]p=\d+'
     enabled: true
 
   - id: fems

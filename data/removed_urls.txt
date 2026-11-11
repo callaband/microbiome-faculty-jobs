@@ -1,0 +1,6 @@
+# Postings to take off the site because they were matched by mistake (not microbiome
+# faculty jobs). One URL per line, exactly as it appears under "Listed on" on the
+# position's page; text after # is a note. The collector deletes these postings and
+# never adds them again.
+
+https://jobrxiv.org/?post_type=job_listing&p=158449   # quantum technologies job; "microbial ecology" came from a Related Jobs box

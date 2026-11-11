@@ -59,7 +59,10 @@
         ${fact("Teaching load", esc(j.teaching_load))}
         ${fact("Research area", domainTags)}
         ${fact("Methods", (j.methods || []).length
-          ? (j.methods || []).map(m => `<span class="tag meth">${esc((meta.method_labels || {})[m] || m)}</span>`).join(" ")
+          ? (j.methods || []).map(m => {
+              const sug = (j.method_basis || {})[m] === "suggested";
+              return `<span class="tag meth${sug ? " sug" : ""}">${esc((meta.method_labels || {})[m] || m)}</span> <span class="basis">${sug ? "suggested by the posting" : "stated in the posting"}</span>`;
+            }).join("<br>")
             + [...new Set((j.methods || []).map(m => (j.method_evidence || {})[m]).filter(Boolean))].map(t => `<span class="ev">“${esc(t)}”</span>`).join("")
           : `<span style="color:var(--ink-3)">No bioinformatics or multi-omics work mentioned</span>`)}
         ${fact("Omics mentioned", esc((j.omics_layers || []).join(", ")))}

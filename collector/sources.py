@@ -34,6 +34,7 @@ class Entry:
     employer: str = ""
     location_text: str = ""
     date_posted: date | None = None
+    expired: bool = False    # the feed itself shows the listing has ended
 
 
 @dataclass
@@ -51,6 +52,7 @@ class Detail:
     job_type: str = ""                    # board's job-type label, e.g. "Faculty"
     employment: str = ""                  # Full-Time / Part-Time
     salary: str = ""
+    expired: bool = False                 # the page says the listing has expired / closed
     extra: dict = field(default_factory=dict)
 
 
@@ -263,6 +265,58 @@ class HigherEdJobsSource:
 
 
 # ----------------------------------------------------------------------------- generic page reading
+# Notices job boards put on a listing that has ended (WP Job Manager, Workday, Madgex, ...).
+_EXPIRED = re.compile(
+    r"\bthis (?:job )?listing (?:has )?expired\b|\bthis (?:job|position|vacancy|posting|advert(?:isement)?) "
+    r"(?:has expired|has closed|is (?:now |no longer )?(?:closed|available|open|active|accepting applications)|"
+    r"has been (?:filled|closed|removed|withdrawn))\b|\b(?:job|position|vacancy|posting) (?:is )?no longer available\b"
+    r"|\bno longer accepting applications\b|\bapplications? (?:for this (?:job|position) )?(?:are|is) (?:now )?closed\b"
+    r"|\bthe job you are looking for (?:is no longer|has been)\b",
+    re.I,
+)
+# Elements that hold other jobs, menus or site chrome rather than the posting itself.
+_CHROME = re.compile(r"related|similar|recommend|spotlight|carousel|sidebar|breadcrumb|cookie|newsletter|"
+                     r"(?:^|[-_ ])(?:nav|menu|header|footer)(?:$|[-_ ])", re.I)
+_DESC_SELECTORS = (".job_description", ".job-description", "[itemprop=description]", ".job-details",
+                   ".vacancy-description", ".job-body", "article", "main")
+
+
+def _notice_text(soup: BeautifulSoup) -> str:
+    """Short status messages near the top of a page (where boards say a listing has expired)."""
+    bits = [el.get_text(" ") for el in soup.select(
+        ".job-manager-info, .job-manager-message, .alert, .notice, .message, [role=alert], .expired, "
+        "[class*=expired], [class*=closed]")[:10]]
+    if soup.title:
+        bits.append(soup.title.get_text(" "))
+    h1 = soup.find("h1")
+    if h1:
+        bits.append(h1.get_text(" "))
+    return clean(" ".join(bits))[:2000]
+
+
+def _posting_text(soup: BeautifulSoup) -> str:
+    """The posting's own text: drop menus, footers and boxes of other jobs, then take the description.
+
+    Page layouts often wrap the whole posting in containers named like "right-sidebar" or
+    "new-header", so nothing that holds the posting's heading or description is removed."""
+    keys = [el for sel in _DESC_SELECTORS for el in soup.select(sel)] + soup.find_all("h1")
+    keep = {id(a) for el in keys for a in [el, *el.parents]}
+    for el in soup.find_all(["nav", "header", "footer", "aside", "script", "style", "noscript"]):
+        if not el.decomposed and id(el) not in keep:
+            el.decompose()
+    for el in soup.find_all(True):
+        if el.decomposed or id(el) in keep:
+            continue
+        marks = " ".join(el.get("class") or []) + " " + (el.get("id") or "")
+        if marks.strip() and _CHROME.search(marks):
+            el.decompose()
+    for sel in _DESC_SELECTORS:
+        el = soup.select_one(sel)
+        if el and len(el.get_text(" ", strip=True)) > 200:
+            return html_to_text(str(el))
+    return html_to_text(str(soup.body)) if soup.body else ""
+
+
 def detail_from_page(html: str, entry: Entry, deadline_from_valid_through: bool = False) -> Detail:
     """Read a job page: schema.org JobPosting data first, then the page itself."""
     soup = BeautifulSoup(html, "html.parser")
@@ -273,16 +327,18 @@ def detail_from_page(html: str, entry: Entry, deadline_from_valid_through: bool 
         if deadline_from_valid_through and d.listing_expires:
             # On these boards the listing ends on the application deadline.
             d.application_due = d.listing_expires
+    # An expired notice counts only when the page doesn't also carry the live posting's data.
+    d.expired = entry.expired or (not jp and bool(_EXPIRED.search(_notice_text(soup))))
     if not d.title:
         og = soup.find("meta", property="og:title")
         h1 = soup.find("h1")
         d.title = clean(og["content"]) if og and og.get("content") else clean(h1.get_text(" ") if h1 else "")
-    if not d.description:
-        main = soup.find("main") or soup.find("article") or soup.body
-        d.description = html_to_text(str(main)) if main else ""
     if not d.employer:
+        # Only when the site is the employer's own (not a job board; see build_record).
         og = soup.find("meta", property="og:site_name")
         d.employer = clean(og["content"]) if og and og.get("content") else ""
+    if not d.description and not d.expired:
+        d.description = _posting_text(soup)
     if not (d.city or d.country_code) and entry.location_text:
         place = parse_place(entry.location_text)
         d.city, d.region, d.country_code = place["city"], place["region"], place["country_code"]
@@ -374,6 +430,10 @@ class RssSource:
         self.feeds = cfg["feeds"]
         self.deadline_vt = bool(cfg.get("deadline_from_valid_through", False))
         self.employer_from_title = bool(cfg.get("employer_from_title", False))
+        # Some feeds keep ended listings and give them a different kind of link
+        # (jobRxiv: "?post_type=job_listing&p=123" instead of "/job/<name>/").
+        rx = cfg.get("expired_link_pattern")
+        self.expired_rx = re.compile(rx) if rx else None
         self.client = client
 
     def list_entries(self) -> list[Entry]:
@@ -382,7 +442,13 @@ class RssSource:
             for it in _rss_items(self.client.get(feed, accept="application/rss+xml, application/xml").text):
                 link = (it["link"] or it["guid"]).strip()
                 if link and link not in seen:
-                    seen[link] = Entry(self.id, link, clean(html_to_text(it["title"])), "", "", parse_any(it["pubDate"]))
+                    expired = bool(self.expired_rx and self.expired_rx.search(link))
+                    title = clean(html_to_text(it["title"]))
+                    seen[link] = Entry(self.id, link, title, "", "", parse_any(it["pubDate"]), expired=expired)
+                    guid = it["guid"].strip()
+                    if expired and guid.startswith("http") and guid not in seen:
+                        # The guid keeps the listing's usual address, which is how we know it.
+                        seen[guid] = Entry(self.id, guid, title, "", "", parse_any(it["pubDate"]), expired=True)
         return list(seen.values())
 
     def fetch_detail(self, entry: Entry) -> Detail:
