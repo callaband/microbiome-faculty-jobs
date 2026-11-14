@@ -1,5 +1,91 @@
 [
  {
+  "id": "890036b41c",
+  "title": "Assistant Professors: Molecular Cell Biologists (1) Immunology and (2) Virology",
+  "institution": "University of Hawaii at Manoa College of Natural Sciences / School of Life Sciences",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Hawaii at Manoa",
+  "inst_version": 2,
+  "location": {
+   "city": "Honolulu",
+   "region": "Hawaii",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 21.2986,
+   "lon": -157.81898,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38065937/assistant-professors-molecular-cell-biologists-1-immunology-and-2-virology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38065937/assistant-professors-molecular-cell-biologists-1-immunology-and-2-virology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "ocean",
+   "computational"
+  ],
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested"
+  },
+  "omics_layers": [],
+  "method_evidence": {
+   "bioinformatics": "In addition, the successful candidate will be expected to develop research collaborations supporting UHM institutional initiatives such as place-specific health sciences, the NIH Centers of Biological Research Excellence (COBRE) in Diabete…"
+  },
+  "methods_version": 2,
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-11-14",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14",
+  "last_checked": "2026-11-14",
+  "review_date": "2026-12-10",
+  "review_text": "Closing Date: Application review begins December 10, 2026",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-11",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with qualifications and experience",
+  "board_job_type": "",
+  "summary": "Assistant Professors: Molecular Cell Biologists (1) Immunology & (2) Virology (#0082921) (#0086093T) Title: Assistant Professors: Molecular Cell Biologists (1) Immunology and (2) Virology Position Numbers: 0082921, 0086093T Hiring Unit: College of Natural Sciences - School of Life Sciences Location: Manoa Date Posted: November 10, 2026 Closing Date: Application review begins December 10, 2026 Salary Information…",
+  "language": "en",
+  "original_title": "",
+  "translated": null,
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
   "id": "a068fb718b",
   "title": "Assistant/Associate/Professor of Mucosal Immunology",
   "institution": "Pennsylvania State University",
@@ -70,7 +156,7 @@
   ],
   "date_posted": "2026-11-13",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-13",
   "review_date": null,
   "review_text": "",
@@ -157,7 +243,7 @@
   ],
   "date_posted": "2026-11-10",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin on October 19,",
@@ -236,7 +322,7 @@
   ],
   "date_posted": "2026-11-11",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -312,7 +398,7 @@
   ],
   "date_posted": "2026-11-06",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -385,7 +471,7 @@
   ],
   "date_posted": "2026-11-10",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -475,7 +561,7 @@
   ],
   "date_posted": "2026-11-10",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -553,7 +639,7 @@
   ],
   "date_posted": "2026-11-09",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-12-01",
   "review_text": "Review of applications will begin on December 1, 2026, and will continue until January 3, 2027, for an anticipated start date of August 16, 2027.",
@@ -654,7 +740,7 @@
   ],
   "date_posted": "2026-11-09",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2027-01-08",
   "review_text": "Application review will begin January 8, 2027, and will continue",
@@ -730,7 +816,7 @@
   ],
   "date_posted": "2026-11-06",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -823,7 +909,7 @@
   ],
   "date_posted": "2026-11-06",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -985,7 +1071,7 @@
   ],
   "date_posted": "2026-10-27",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1058,7 +1144,7 @@
   ],
   "date_posted": "2026-09-24",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1131,7 +1217,7 @@
   ],
   "date_posted": "2026-04-13",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1220,7 +1306,7 @@
   ],
   "date_posted": "2026-09-28",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1299,7 +1385,7 @@
   ],
   "date_posted": "2026-09-01",
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1382,7 +1468,7 @@
   ],
   "date_posted": "2026-11-03",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1471,7 +1557,7 @@
   ],
   "date_posted": "2026-10-30",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1561,7 +1647,7 @@
   ],
   "date_posted": "2026-10-23",
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1660,7 +1746,7 @@
   ],
   "date_posted": "2026-11-03",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-12-14",
   "review_text": "Application procedure: To ensure full consideration, application materials must be received by December 14, 2026.",
@@ -1750,7 +1836,7 @@
   ],
   "date_posted": "2026-10-29",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-15",
   "review_text": "Review of applications will begin by November 15, 2026, and continue until positions are filled.",
@@ -1837,7 +1923,7 @@
   ],
   "date_posted": "2026-10-28",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -1926,7 +2012,7 @@
   ],
   "date_posted": "2026-10-29",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-15",
   "review_text": "Review of applications will begin by November 15, 2026, and continue until positions are filled.",
@@ -2084,7 +2170,7 @@
   ],
   "date_posted": "2026-10-28",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -2168,7 +2254,7 @@
   ],
   "date_posted": "2026-10-27",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -2490,7 +2576,7 @@
   ],
   "date_posted": "2026-10-23",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -2584,7 +2670,7 @@
   ],
   "date_posted": "2026-09-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -2682,7 +2768,7 @@
   ],
   "date_posted": "2026-10-08",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-25",
   "review_text": "Applications received by October 25, 2026 will be given full consideration.",
@@ -2772,7 +2858,7 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-16",
   "review_text": "Applications submitted by November 16, 2026, will be given priority consideration and the review will continue until the position is filled.",
@@ -2847,7 +2933,7 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -2935,7 +3021,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-01",
   "review_text": "To ensure full consideration, applications should be received by November 1, 2026.",
@@ -3025,7 +3111,7 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-12-01",
   "review_text": "To ensure full consideration, please apply by December 1, 2026.",
@@ -3124,7 +3210,7 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3161,95 +3247,6 @@
   "method_evidence": {
    "bioinformatics": "Candidates developing foundational or applied methods in AI, computational biology, quantitative genetics, engineering, bioinformatics, multi-omics data analytics, statistics, or related fields whose work can accelerate improvement across…",
    "multi_omics": "Candidates developing foundational or applied methods in AI, computational biology, quantitative genetics, engineering, bioinformatics, multi-omics data analytics, statistics, or related fields whose work can accelerate improvement across…"
-  },
-  "methods_version": 2
- },
- {
-  "id": "825e99b176",
-  "title": "Physician-Scientist - Microbiome/Mucosal Immunology Gastroenterologist",
-  "institution": "University of Utah",
-  "inst_types": [
-   "r1",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Utah",
-  "location": {
-   "city": "Salt Lake City",
-   "region": "Utah",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.76248,
-   "lon": -111.84604,
-   "precision": "institution"
-  },
-  "url": "https://jobs.chronicle.com/job/38037714/physician-scientist-microbiome-mucosal-immunology-gastroenterologist/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38037714/physician-scientist-microbiome-mucosal-immunology-gastroenterologist/"
-   }
-  ],
-  "ranks": [
-   "open"
-  ],
-  "rank_label": "Open rank",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health"
-  ],
-  "microbiome_terms": [
-   "metagenomics",
-   "microbiome",
-   "microbiota"
-  ],
-  "date_posted": "2026-09-14",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-11-12",
-  "last_checked": "2026-11-11",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-11-13",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salary Not specified",
-  "board_job_type": "",
-  "summary": "Physician-Scientist - Microbiome/Mucosal Immunology Gastroenterologist Details The Division of Gastroenterology within the University of Utah's Department of Internal Medicine announces a new tenure-track physician-scientist faculty position in the field of the Microbiota and Mucosal Immunology. Particular areas of interest include microbiota-immune interactions, mucosal immune pathways that promote health, dietary…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": "",
-  "inst_version": 2,
-  "language": "en",
-  "methods": [
-   "bioinformatics",
-   "multi_omics"
-  ],
-  "method_basis": {
-   "bioinformatics": "suggested",
-   "multi_omics": "suggested"
-  },
-  "omics_layers": [
-   "metagenomics",
-   "metabolomics"
-  ],
-  "method_evidence": {
-   "bioinformatics": "microbial metagenomics, metabolism or ecology within disease states",
-   "multi_omics": "Mentions metagenomics, metabolomics"
   },
   "methods_version": 2
  },
@@ -3296,7 +3293,7 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3377,7 +3374,7 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3453,7 +3450,7 @@
   ],
   "date_posted": "2026-09-18",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3552,7 +3549,7 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3626,7 +3623,7 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3665,82 +3662,6 @@
    "bioinformatics": "Extensive biobanking, genomics, metabolomics, bioinformatics,",
    "multi_omics": "Mentions genomics, metabolomics"
   },
-  "methods_version": 2
- },
- {
-  "id": "226f858463",
-  "title": "Assistant Professor, Associate Professor or Professor (DOQ)",
-  "institution": "University of Utah",
-  "inst_types": [
-   "r1",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Utah",
-  "location": {
-   "city": "Salt Lake City",
-   "region": "Utah",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.76248,
-   "lon": -111.84604,
-   "precision": "institution"
-  },
-  "url": "https://jobs.chronicle.com/job/38037789/assistant-professor-associate-professor-or-professor-doq-/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38037789/assistant-professor-associate-professor-or-professor-doq-/"
-   }
-  ],
-  "ranks": [
-   "assistant",
-   "associate",
-   "full",
-   "open"
-  ],
-  "rank_label": "Open rank",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health"
-  ],
-  "microbiome_terms": [
-   "microbiome"
-  ],
-  "date_posted": "2026-09-14",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-11-12",
-  "last_checked": "2026-11-11",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-11-13",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salary Not specified",
-  "board_job_type": "",
-  "summary": "Assistant Professor, Associate Professor or Professor (DOQ) Details The Department of Dermatology at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a new tenure-track faculty position at any academic rank. We seek outstanding candidates pursuing innovative research in any area relevant to dermatology, including but not limited to: Cutaneous oncology, skin microbiome and host…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": "",
-  "inst_version": 2,
-  "language": "en",
-  "method_basis": {},
-  "method_evidence": {},
   "methods_version": 2
  },
  {
@@ -3789,7 +3710,7 @@
   ],
   "date_posted": "2024-08-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -3868,7 +3789,7 @@
   ],
   "date_posted": "2026-03-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-04-15",
   "review_text": "Screening will begin April 15, 2026, but applications will be",
@@ -3955,7 +3876,7 @@
   ],
   "date_posted": "2026-09-03",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-01",
   "review_text": "Review of applications will begin on October 1, 2026 and continue",
@@ -4043,7 +3964,7 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -4125,7 +4046,7 @@
   ],
   "date_posted": "2026-10-14",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -4213,7 +4134,7 @@
   ],
   "date_posted": "2026-06-25",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-15",
   "review_text": "The deadline for assuring full consideration is October 15, 2026;",
@@ -4307,7 +4228,7 @@
   ],
   "date_posted": "2026-10-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-12-02",
   "review_text": "Applications received by December 2, 2026, will receive full consideration and review will continue until the position is filled.",
@@ -4399,7 +4320,7 @@
   ],
   "date_posted": "2026-06-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-01",
   "review_text": "The deadline for assuring full consideration is October 1st, 2026;",
@@ -4483,7 +4404,7 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-19",
   "review_text": "Review of applications will begin Oct. 19.",
@@ -4568,7 +4489,7 @@
   ],
   "date_posted": "2026-09-11",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -4647,7 +4568,7 @@
   ],
   "date_posted": "2026-10-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-13",
   "review_text": "Screening of applications begins November 13, 2026 and continues",
@@ -4666,8 +4587,8 @@
   "summary": "Assistant Professor Biomedical Sciences Job ID: 304925 Location: Statesboro, Georgia Full/Part Time: Full Time Regular/Temporary: Regular About Us Georgia Southern University is the state's largest and most comprehensive center of higher learning south of Atlanta, and one of the most dynamic public universities in the Southeast. Founded in 1906, Georgia Southern has grown from a single-purpose college into a…",
   "status": "open",
   "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Nov 13, 2026",
+  "priority": "low",
+  "priority_reason": "Review began Nov 13, 2026 — application may be too late",
   "inst_version": 2,
   "language": "en",
   "methods": [
@@ -4735,7 +4656,7 @@
   ],
   "date_posted": "2026-07-09",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -4827,7 +4748,7 @@
   ],
   "date_posted": "2026-07-27",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2027-01-06",
   "review_text": "Review of applications will begin on January 6, 2027, and continue",
@@ -4904,7 +4825,7 @@
   ],
   "date_posted": "2026-03-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-04-01",
   "review_text": "Review of applications will begin 04/01/2026 and will continue",
@@ -4996,7 +4917,7 @@
   ],
   "date_posted": "2026-10-07",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-06",
   "review_text": "Review of applications will begin on November 6, 2026 and continue until positions are filled.",
@@ -5027,91 +4948,6 @@
   },
   "method_evidence": {
    "bioinformatics": "By integrating strengths in agriculture, engineering, artificial intelligence, data science, and health sciences, Purdue aims to create a globally distinctive platform for addressing complex challenges at the intersection of food systems,…"
-  },
-  "methods_version": 2
- },
- {
-  "id": "95f4905bb3",
-  "title": "Epidemiology Faculty in Infectious Disease Dynamics",
-  "institution": "University of Utah",
-  "inst_types": [
-   "r1",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Utah",
-  "location": {
-   "city": "Salt Lake City",
-   "region": "Utah",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.76248,
-   "lon": -111.84604,
-   "precision": "institution"
-  },
-  "url": "https://jobs.chronicle.com/job/38037709/epidemiology-faculty-in-infectious-disease-dynamics/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38037709/epidemiology-faculty-in-infectious-disease-dynamics/"
-   }
-  ],
-  "ranks": [
-   "unspecified"
-  ],
-  "rank_label": "Rank not stated",
-  "tenure": [
-   "unspecified"
-  ],
-  "tenure_label": "Tenure not stated",
-  "domains": [
-   "human_health",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "microbiome",
-   "microbiota"
-  ],
-  "date_posted": "2026-09-14",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-11-12",
-  "last_checked": "2026-11-11",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-11-13",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salary Not specified",
-  "board_job_type": "",
-  "summary": "Epidemiology Faculty in Infectious Disease Dynamics Details The Division of Epidemiology at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a faculty position in the area of infectious disease modeling or computational epidemiology. We seek candidates whose expertise and research align with or complement the work of the University of Utah Infectious Disease Dynamics Group and…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": "",
-  "inst_version": 2,
-  "language": "en",
-  "methods": [
-   "bioinformatics"
-  ],
-  "method_basis": {
-   "bioinformatics": "stated"
-  },
-  "omics_layers": [
-   "genomics"
-  ],
-  "method_evidence": {
-   "bioinformatics": "environment for bioinformatics and data science."
   },
   "methods_version": 2
  },
@@ -5172,7 +5008,7 @@
   ],
   "date_posted": "2026-10-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-13",
   "review_text": "Screening will begin November 13, 2026 and conclude when the position is filled.",
@@ -5191,8 +5027,8 @@
   "summary": "Strategic Faculty Recruitment Initiative in One Health – Healthy and Resilient Living Systems - School of Engineering Technology, Purdue Polytechnic Institute Purdue University Main Campus | Indianapolis or West Lafayette, IN Tenure-Track/Tenured Faculty Position at Assistant or Associate Rank As part of a transformative, university-wide initiative in One Health - Healthy and Resilient Living Systems, the School of…",
   "status": "open",
   "closed_reason": null,
-  "priority": "soon",
-  "priority_reason": "Review begins Nov 13, 2026",
+  "priority": "low",
+  "priority_reason": "Review began Nov 13, 2026 — application may be too late",
   "inst_version": 2,
   "language": "en",
   "methods": [
@@ -5260,7 +5096,7 @@
   ],
   "date_posted": "2026-10-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-05",
   "review_text": "Review of applications will begin on November 5, 2026 and continue until positions are filled.",
@@ -5343,7 +5179,7 @@
   ],
   "date_posted": "2026-04-02",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-05-31",
   "review_text": "Review of applications will begin May 31, 2026, and continue until",
@@ -5377,97 +5213,6 @@
   ],
   "method_evidence": {
    "bioinformatics": "science, veterinary medicine, engineering, data science, and the"
-  },
-  "methods_version": 2
- },
- {
-  "id": "0038c30013",
-  "title": "TRIAD Director - Associate Professor or Full Professor",
-  "institution": "University of Utah",
-  "inst_types": [
-   "r1",
-   "med_school"
-  ],
-  "inst_type_label": "R1 · Has a medical school",
-  "carnegie": "R1: Doctoral – very high research activity",
-  "control": "Public",
-  "matched_institution": "University of Utah",
-  "location": {
-   "city": "Salt Lake City",
-   "region": "Utah",
-   "country_code": "US",
-   "country": "United States",
-   "world_region": "North America",
-   "lat": 40.76248,
-   "lon": -111.84604,
-   "precision": "institution"
-  },
-  "url": "https://jobs.chronicle.com/job/38037825/triad-director-associate-professor-or-full-professor/",
-  "sources": [
-   {
-    "id": "chronicle",
-    "name": "The Chronicle of Higher Education Jobs",
-    "url": "https://jobs.chronicle.com/job/38037825/triad-director-associate-professor-or-full-professor/"
-   }
-  ],
-  "ranks": [
-   "associate",
-   "full"
-  ],
-  "rank_label": "Associate / Full",
-  "tenure": [
-   "tenure-track"
-  ],
-  "tenure_label": "Tenure-track",
-  "domains": [
-   "human_health",
-   "computational"
-  ],
-  "microbiome_terms": [
-   "metagenomics"
-  ],
-  "date_posted": "2026-09-14",
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-11-12",
-  "last_checked": "2026-11-11",
-  "review_date": null,
-  "review_text": "",
-  "deadline": null,
-  "deadline_text": "",
-  "listing_expires": "2026-11-13",
-  "until_filled": true,
-  "effort": {},
-  "effort_label": "",
-  "effort_text": "",
-  "effort_focus": "unstated",
-  "teaching_load": "",
-  "employment": "Full-Time",
-  "salary": "Salary Not specified",
-  "board_job_type": "",
-  "summary": "TRIAD Director - Associate Professor or Full Professor Details The Division of Biostatistics in the Department of Population Health Sciences (PHS) at the University of Utah School of Medicine has an opening for an Associate or Full Professor-level faculty. We seek a candidate who will serve as the director of the University of Utah's Translational Research: Implementation, Analysis and Design (TRIAD) Team which…",
-  "status": "open",
-  "closed_reason": null,
-  "priority": "normal",
-  "priority_reason": "",
-  "inst_version": 2,
-  "language": "en",
-  "methods": [
-   "bioinformatics",
-   "multi_omics"
-  ],
-  "method_basis": {
-   "bioinformatics": "stated",
-   "multi_omics": "suggested"
-  },
-  "omics_layers": [
-   "metagenomics",
-   "genomics",
-   "transcriptomics",
-   "metabolomics"
-  ],
-  "method_evidence": {
-   "bioinformatics": "University's strengths in genetics and bioinformatics to translate",
-   "multi_omics": "Mentions metagenomics, genomics, transcriptomics, metabolomics"
   },
   "methods_version": 2
  },
@@ -5515,7 +5260,7 @@
   ],
   "date_posted": "2020-11-06",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -5603,7 +5348,7 @@
   ],
   "date_posted": "2026-10-19",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -5699,7 +5444,7 @@
   ],
   "date_posted": "2026-10-22",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -5785,7 +5530,7 @@
   ],
   "date_posted": "2026-09-23",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -5870,7 +5615,7 @@
   ],
   "date_posted": "2026-09-30",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-25",
   "review_text": "Applications received by November 25, 2026, will be given full consideration.",
@@ -5948,7 +5693,7 @@
   ],
   "date_posted": "2024-03-24",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -6027,7 +5772,7 @@
   ],
   "date_posted": "2026-06-13",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -6103,7 +5848,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-09-15",
   "review_text": "Review of applications will begin September 15, 2026, and continue until the position is filled.",
@@ -6188,7 +5933,7 @@
   ],
   "date_posted": "2026-08-20",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-11-02",
   "review_text": "Applications will be reviewed beginning November 2nd, 2026, and accepted until the position is filled.",
@@ -6271,7 +6016,7 @@
   ],
   "date_posted": "2026-09-04",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2026-10-15",
   "review_text": "Review of candidates will begin 10/15/2026 and will continue until filled.",
@@ -6347,7 +6092,7 @@
   ],
   "date_posted": "2023-10-28",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -6504,7 +6249,7 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -6682,7 +6427,7 @@
   ],
   "date_posted": "2026-02-26",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -6839,7 +6584,7 @@
   ],
   "date_posted": "2026-10-21",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": null,
   "review_text": "",
@@ -6929,7 +6674,7 @@
   ],
   "date_posted": "2025-09-17",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-11",
   "review_date": "2025-11-21",
   "review_text": "Review of applications will begin on November 21, 2025 and will continue until the position is filled.",
@@ -7098,7 +6843,7 @@
   ],
   "date_posted": "2026-10-30",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-07",
   "review_date": null,
   "review_text": "",
@@ -7198,6 +6943,347 @@
   "method_basis": {},
   "omics_layers": [],
   "method_evidence": {},
+  "methods_version": 2
+ },
+ {
+  "id": "825e99b176",
+  "title": "Physician-Scientist - Microbiome/Mucosal Immunology Gastroenterologist",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037714/physician-scientist-microbiome-mucosal-immunology-gastroenterologist/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037714/physician-scientist-microbiome-mucosal-immunology-gastroenterologist/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "metagenomics",
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-12",
+  "last_checked": "2026-11-11",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Physician-Scientist - Microbiome/Mucosal Immunology Gastroenterologist Details The Division of Gastroenterology within the University of Utah's Department of Internal Medicine announces a new tenure-track physician-scientist faculty position in the field of the Microbiota and Mucosal Immunology. Particular areas of interest include microbiota-immune interactions, mucosal immune pathways that promote health, dietary…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "suggested",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "microbial metagenomics, metabolism or ecology within disease states",
+   "multi_omics": "Mentions metagenomics, metabolomics"
+  },
+  "methods_version": 2
+ },
+ {
+  "id": "226f858463",
+  "title": "Assistant Professor, Associate Professor or Professor (DOQ)",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037789/assistant-professor-associate-professor-or-professor-doq-/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037789/assistant-professor-associate-professor-or-professor-doq-/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health"
+  ],
+  "microbiome_terms": [
+   "microbiome"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-12",
+  "last_checked": "2026-11-11",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Assistant Professor, Associate Professor or Professor (DOQ) Details The Department of Dermatology at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a new tenure-track faculty position at any academic rank. We seek outstanding candidates pursuing innovative research in any area relevant to dermatology, including but not limited to: Cutaneous oncology, skin microbiome and host…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2,
+  "language": "en",
+  "method_basis": {},
+  "method_evidence": {},
+  "methods_version": 2
+ },
+ {
+  "id": "95f4905bb3",
+  "title": "Epidemiology Faculty in Infectious Disease Dynamics",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037709/epidemiology-faculty-in-infectious-disease-dynamics/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037709/epidemiology-faculty-in-infectious-disease-dynamics/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "microbiome",
+   "microbiota"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-12",
+  "last_checked": "2026-11-11",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "Epidemiology Faculty in Infectious Disease Dynamics Details The Division of Epidemiology at the University of Utah Spencer Fox Eccles School of Medicine invites applications for a faculty position in the area of infectious disease modeling or computational epidemiology. We seek candidates whose expertise and research align with or complement the work of the University of Utah Infectious Disease Dynamics Group and…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated"
+  },
+  "omics_layers": [
+   "genomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "environment for bioinformatics and data science."
+  },
+  "methods_version": 2
+ },
+ {
+  "id": "0038c30013",
+  "title": "TRIAD Director - Associate Professor or Full Professor",
+  "institution": "University of Utah",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Utah",
+  "location": {
+   "city": "Salt Lake City",
+   "region": "Utah",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.76248,
+   "lon": -111.84604,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38037825/triad-director-associate-professor-or-full-professor/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38037825/triad-director-associate-professor-or-full-professor/"
+   }
+  ],
+  "ranks": [
+   "associate",
+   "full"
+  ],
+  "rank_label": "Associate / Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "human_health",
+   "computational"
+  ],
+  "microbiome_terms": [
+   "metagenomics"
+  ],
+  "date_posted": "2026-09-14",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-11-12",
+  "last_checked": "2026-11-11",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-11-13",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Salary Not specified",
+  "board_job_type": "",
+  "summary": "TRIAD Director - Associate Professor or Full Professor Details The Division of Biostatistics in the Department of Population Health Sciences (PHS) at the University of Utah School of Medicine has an opening for an Associate or Full Professor-level faculty. We seek a candidate who will serve as the director of the University of Utah's Translational Research: Implementation, Analysis and Design (TRIAD) Team which…",
+  "status": "closed",
+  "closed_reason": "listing expired",
+  "priority": "normal",
+  "priority_reason": "",
+  "inst_version": 2,
+  "language": "en",
+  "methods": [
+   "bioinformatics",
+   "multi_omics"
+  ],
+  "method_basis": {
+   "bioinformatics": "stated",
+   "multi_omics": "suggested"
+  },
+  "omics_layers": [
+   "metagenomics",
+   "genomics",
+   "transcriptomics",
+   "metabolomics"
+  ],
+  "method_evidence": {
+   "bioinformatics": "University's strengths in genetics and bioinformatics to translate",
+   "multi_omics": "Mentions metagenomics, genomics, transcriptomics, metabolomics"
+  },
   "methods_version": 2
  },
  {
@@ -9075,7 +9161,7 @@
   ],
   "date_posted": "2026-05-15",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "last_checked": "2026-11-05",
   "review_date": null,
   "review_text": "",

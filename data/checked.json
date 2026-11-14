@@ -220,7 +220,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-13",
+"on": "2026-11-14",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -395,6 +395,10 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/associate-professorship-of-kidney-stone-disease/": {
+"on": "2026-11-14",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/associate-senior-lecturer-assistant-professor-in-medical-radiation-physics-with-a-focus-on-nuclear-medicine-physics/": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
@@ -481,6 +485,10 @@
 },
 "https://jobrxiv.org/job/lecturer-teaching-in-bio-id-maternity-cover-2/": {
 "on": "2026-11-05",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/lecturer-teaching-technologies-in-digital-humanities-paternity-cover/": {
+"on": "2026-11-14",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/math-science-instructor-for-geoforce/": {
@@ -570,6 +578,10 @@
 "https://jobrxiv.org/job/senior-lecturer-principal-specialty-supervisor-medicine/": {
 "on": "2026-11-05",
 "why": "part-time"
+},
+"https://jobrxiv.org/job/temporary-position-as-senior-lecturer-in-clinical-medicine-combined-with-employment-as-specialist-physician-consultant-based-in-helsingborg/": {
+"on": "2026-11-14",
+"why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/tenure-track-assistant-professor-analysis/": {
 "on": "2026-11-05",
