@@ -220,7 +220,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-14",
+"on": "2026-11-15",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -882,6 +882,10 @@
 "https://jobs.sciencecareers.org/job/681094/assistant-professor/": {
 "on": "2026-11-03",
 "why": "no microbiome terms in the posting"
+},
+"https://jobs.sciencecareers.org/job/681138/director-center-for-genomics-and-data-science-research/": {
+"on": "2026-11-15",
+"why": "title is not a faculty rank"
 },
 "https://jobs.sciencecareers.org/job/681147/scientist-applications-team-pathogen-/": {
 "on": "2026-11-06",
