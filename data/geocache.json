@@ -13,6 +13,11 @@
 "department of food science and human nutrition|us": null,
 "department of molecular & cellular biology, guelph, ontario|ca": null,
 "department of molecular & cellular biology|ca": null,
+"eth zurich, canton of zürich|ch": null,
+"eth zurich|ch": {
+"lat": 47.41322,
+"lon": 8.53749
+},
 "fems|": {
 "lat": 0.50706,
 "lon": 35.21906
