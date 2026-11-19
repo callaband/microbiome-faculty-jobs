@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-18T21:33:25+00:00",
- "today": "2026-11-18",
+ "generated_at": "2026-11-19T21:44:40+00:00",
+ "today": "2026-11-19",
  "repo": "callaband/microbiome-faculty-jobs",
  "site_url": "https://callaband.github.io/microbiome-faculty-jobs/",
  "counts": {
-  "open": 86,
+  "open": 88,
   "closed": 33,
-  "new_this_run": 1
+  "new_this_run": 2
  },
  "domains": {
   "human_health": {
@@ -62,68 +62,68 @@
    "listed": 27,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 16,
+   "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-18T21:28:48+00:00",
-   "seconds": 34.9,
+   "checked_at": "2026-11-19T21:40:43+00:00",
+   "seconds": 11.1,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 111,
+   "listed": 114,
    "new_matches": 1,
    "error": null,
-   "pages_opened": 37,
+   "pages_opened": 3,
    "note": null,
-   "checked_at": "2026-11-18T21:29:23+00:00",
-   "seconds": 74.2,
+   "checked_at": "2026-11-19T21:40:54+00:00",
+   "seconds": 23.3,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
-   "listed": 92,
+   "listed": 138,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 16,
+   "pages_opened": 5,
    "note": null,
-   "checked_at": "2026-11-18T21:30:37+00:00",
-   "seconds": 40.9,
+   "checked_at": "2026-11-19T21:41:17+00:00",
+   "seconds": 29.3,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "the_unijobs",
    "name": "Times Higher Education Unijobs",
    "ok": true,
-   "listed": 699,
+   "listed": 712,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 4,
+   "pages_opened": 11,
    "note": null,
-   "checked_at": "2026-11-18T21:31:18+00:00",
-   "seconds": 87.5,
+   "checked_at": "2026-11-19T21:41:47+00:00",
+   "seconds": 98.1,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "jobs_ac_uk",
    "name": "jobs.ac.uk (UK and Europe)",
    "ok": true,
-   "listed": 40,
+   "listed": 39,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 2,
+   "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-18T21:32:46+00:00",
-   "seconds": 14.6,
+   "checked_at": "2026-11-19T21:43:25+00:00",
+   "seconds": 13.1,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "universitypositions",
@@ -134,10 +134,10 @@
    "error": null,
    "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-18T21:33:00+00:00",
-   "seconds": 8.1,
+   "checked_at": "2026-11-19T21:43:38+00:00",
+   "seconds": 8.0,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "maxplanck",
@@ -146,40 +146,40 @@
    "listed": 30,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 0,
+   "pages_opened": 1,
    "note": null,
-   "checked_at": "2026-11-18T21:33:08+00:00",
-   "seconds": 0.9,
+   "checked_at": "2026-11-19T21:43:46+00:00",
+   "seconds": 2.7,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "jrecin",
    "name": "JREC-IN Portal (Japan)",
    "ok": true,
-   "listed": 14,
-   "new_matches": 0,
+   "listed": 16,
+   "new_matches": 1,
    "error": null,
-   "pages_opened": 3,
+   "pages_opened": 1,
    "note": null,
-   "checked_at": "2026-11-18T21:33:09+00:00",
-   "seconds": 12.8,
+   "checked_at": "2026-11-19T21:43:49+00:00",
+   "seconds": 11.1,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "jobrxiv",
    "name": "jobRxiv",
-   "ok": false,
-   "listed": 0,
+   "ok": true,
+   "listed": 112,
    "new_matches": 0,
-   "error": "robots.txt disallows https://jobrxiv.org/job-category/faculty/feed/",
-   "pages_opened": 0,
+   "error": null,
+   "pages_opened": 14,
    "note": null,
-   "checked_at": "2026-11-18T21:33:22+00:00",
-   "seconds": 0.1,
-   "fail_days": 1,
-   "last_try": "2026-11-18"
+   "checked_at": "2026-11-19T21:44:00+00:00",
+   "seconds": 36.6,
+   "fail_days": 0,
+   "last_try": "2026-11-19"
   },
   {
    "id": "fems",
@@ -188,12 +188,12 @@
    "listed": 10,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 1,
+   "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-18T21:33:22+00:00",
-   "seconds": 2.6,
+   "checked_at": "2026-11-19T21:44:36+00:00",
+   "seconds": 1.0,
    "fail_days": 0,
-   "last_try": "2026-11-18"
+   "last_try": "2026-11-19"
   },
   {
    "id": "higheredjobs",
@@ -204,7 +204,7 @@
    "error": "stopped after 8 failed requests in a row (last: blocked by bot protection at www.higheredjobs.com)",
    "pages_opened": 8,
    "note": "refused on 4 days in a row; next try Nov 21",
-   "checked_at": "2026-11-18T21:33:25+00:00",
+   "checked_at": "2026-11-19T21:44:37+00:00",
    "seconds": 87.3,
    "fail_days": 4,
    "last_try": "2026-11-14"
@@ -218,7 +218,7 @@
    "error": "robots.txt disallows https://euraxess.ec.europa.eu/jobs/search",
    "pages_opened": 0,
    "note": "refused on 4 days in a row; next try Nov 23",
-   "checked_at": "2026-11-18T21:33:25+00:00",
+   "checked_at": "2026-11-19T21:44:37+00:00",
    "seconds": 0.1,
    "fail_days": 4,
    "last_try": "2026-11-16"
@@ -250,13 +250,13 @@
   "bioinformatics": "Bioinformatics",
   "multi_omics": "Multi-omics"
  },
- "requests_made": 189,
- "geocode_lookups": 0,
+ "requests_made": 149,
+ "geocode_lookups": 3,
  "translation": {
   "available": true,
   "providers": [
    "Argos Translate"
   ],
-  "chars_this_run": 0
+  "chars_this_run": 2178
  }
 }
