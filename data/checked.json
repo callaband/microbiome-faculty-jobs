@@ -187,6 +187,10 @@
 "on": "2026-11-19",
 "why": "no microbiome terms in the posting"
 },
+"https://careers.insidehighered.com/job/3577931/assistant-associate-project-scientist-microbial-genetics-and-microbiome-engineering/": {
+"on": "2026-11-20",
+"why": "title is not a faculty rank"
+},
 "https://fems-microbiology.org/opportunities/biological-scientist/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -232,7 +236,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-19",
+"on": "2026-11-20",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -399,6 +403,10 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/associate-professor-lecturer-of-quantum-computation-and-quantum-information-theory-2/": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/associate-professor-lecturer-of-quantum-computation-and-quantum-information-theory/": {
 "on": "2026-11-13",
 "why": "no microbiome terms in the posting"
@@ -450,6 +458,10 @@
 "https://jobrxiv.org/job/cell-biology-of-disease-tenure-track-faculty-position/": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/clinical-professor-of-gastrointestinal-cancer-research/": {
+"on": "2026-11-20",
+"why": "part-time"
 },
 "https://jobrxiv.org/job/columbia-university-27778-staff-associate-ii-mufson-lab/": {
 "on": "2026-11-07",
@@ -607,6 +619,10 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/professor-of-quantum-computation-and-quantum-information-theory-2/": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/professor-of-quantum-computation-and-quantum-information-theory/": {
 "on": "2026-11-13",
 "why": "no microbiome terms in the posting"
@@ -719,8 +735,16 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/university-lecturer-in-bioinformatics/": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/university-lecturer-in-developmental-biology/": {
 "on": "2026-11-19",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/university-lecturer-in-integrative-physiology/": {
+"on": "2026-11-20",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/university-of-california-san-francisco-27778-cell-biology-of-disease-tenure-track-faculty-position/": {
@@ -991,6 +1015,14 @@
 "on": "2026-11-18",
 "why": "title is not a faculty rank"
 },
+"https://jobs.sciencecareers.org/job/681334/-senior-computational-genomics-scientist-algorithms-and-ai-ml/": {
+"on": "2026-11-20",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681335/senior-mems-development-engineer-scientist-pathogen/": {
+"on": "2026-11-20",
+"why": "title is not a faculty rank"
+},
 "https://universitypositions.eu/jobs/563429451-hourly-paid-lecturer-in-computer-science": {
 "on": "2026-11-04",
 "why": "part-time"
@@ -1041,6 +1073,30 @@
 },
 "https://universitypositions.eu/jobs/809371782-full-professor-in-science-technology-and-society-studies": {
 "on": "2026-11-17",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/815530846-lecturer-in-applied-mathematics-optimisation": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/815530847-lecturer-in-digital-humanities-aep": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/815530848-lecturer-in-disordered-systems": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/815969567-lecturer-in-artificial-intelligence": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/816034429-docent-opleiding-tot-obstetrieverpleegkunde": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/816043791-assistant-professor-in-history-and-philosophy-of-the-life-sciences": {
+"on": "2026-11-20",
 "why": "no microbiome terms in the posting"
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179547673": {
@@ -2831,6 +2887,10 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://www.timeshighereducation.com/unijobs/listing/416180/lecturer-in-midwifery": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
 "https://www.timeshighereducation.com/unijobs/listing/416187/professor-in-the-school-of-future-media": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
@@ -4121,6 +4181,42 @@
 },
 "https://www.timeshighereducation.com/unijobs/listing/417851/faculty-positions-in-school-of-internet-of-things-full-rank-": {
 "on": "2026-11-19",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417858/university-lecturer-in-integrative-physiology": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417859/faculty-positions-in-accounting-full-rank-": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417860/university-lecturer-in-bioinformatics": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417861/university-lecturer-in-developmental-biology": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417863/associate-professor-in-midwifery": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417876/tenure-track-professorship-in-health-with-a-focus-on-sustainability": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417890/professor-of-social-work": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417891/senior-lecturer-in-midwifery": {
+"on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/417892/assistant-professor-department-of-biomedical-engineering": {
+"on": "2026-11-20",
 "why": "no microbiome terms in the posting"
 }
 }
