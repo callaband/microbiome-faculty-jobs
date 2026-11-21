@@ -191,6 +191,10 @@
 "on": "2026-11-20",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3578804/lecturer/": {
+"on": "2026-11-21",
+"why": "part-time"
+},
 "https://fems-microbiology.org/opportunities/biological-scientist/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -236,7 +240,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-20",
+"on": "2026-11-21",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -651,6 +655,10 @@
 "on": "2026-11-12",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/senior-lecturer-in-human-computer-interaction/": {
+"on": "2026-11-21",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/senior-lecturer-in-microelectronics/": {
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
@@ -685,6 +693,10 @@
 },
 "https://jobrxiv.org/job/tenure-track-assistant-professor-in-animal-physiology/": {
 "on": "2026-11-05",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/tenure-track-assistant-professor-in-entomology/": {
+"on": "2026-11-21",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/tenure-track-assistant-professor-in-mathematics-2027-28/": {
@@ -1097,6 +1109,10 @@
 },
 "https://universitypositions.eu/jobs/816043791-assistant-professor-in-history-and-philosophy-of-the-life-sciences": {
 "on": "2026-11-20",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/817788770-lecturer-in-film-studies-aep-ftc": {
+"on": "2026-11-21",
 "why": "no microbiome terms in the posting"
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179547673": {
@@ -2021,6 +2037,22 @@
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179609885": {
 "on": "2026-11-07",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179618339": {
+"on": "2026-11-21",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179620228": {
+"on": "2026-11-21",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179620253": {
+"on": "2026-11-21",
+"why": "no microbiome terms in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179622289": {
+"on": "2026-11-21",
 "why": "no microbiome terms in the posting"
 },
 "https://www.jobs.ac.uk/job/DTP419/fse-phd-presidents-doctoral-scholarship-sensing-soil-health-linking-biological-indicators-and-human-perceptions": {
