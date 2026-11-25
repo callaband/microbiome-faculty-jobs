@@ -244,7 +244,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-24",
+"on": "2026-11-25",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -333,6 +333,10 @@
 },
 "https://jobrxiv.org/job/assistant-professor-in-hydrometallurgy/": {
 "on": "2026-11-05",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/assistant-professor-in-industrial-electrical-engineering-with-focus-in-renewable-electrification/": {
+"on": "2026-11-25",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/assistant-professor-in-music-theory/": {
@@ -4311,6 +4315,10 @@
 "on": "2026-11-20",
 "why": "no microbiome terms in the posting"
 },
+"https://www.timeshighereducation.com/unijobs/listing/417907/lecturer-in-clinical-skills-and-simulation": {
+"on": "2026-11-25",
+"why": "part-time"
+},
 "https://www.timeshighereducation.com/unijobs/listing/417907/lecturer-in-clinical-skills-and-simulation-murray-bridge-": {
 "on": "2026-11-24",
 "why": "part-time"
@@ -4353,6 +4361,46 @@
 },
 "https://www.timeshighereducation.com/unijobs/listing/418005/lecturer-b-senior-lecturer-in-animal-health-and-life-sciences": {
 "on": "2026-11-24",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418007/assistant-professor-english-language-teaching-and-learning-educational-technology": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418011/lecturer-in-formal-philosophy": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418015/-lecturer-senior-lecturer-in-diagnostic-imaging": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418017/tenure-track-professor-associate-professor-assistant-professor-in-non-communicable-diseases-": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418018/lecturer-in-veterinary-parasitology": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418019/tenure-track-professor-associate-professor-assistant-professor-in-global-health": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418020/lecturer-senior-lecturer-in-pharmacy-practice": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418021/tenure-track-professor-associate-professor-assistant-professor-in-the-division-of-health-economics": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418022/tenure-track-prof-assoc-professor-assistant-professor-in-the-division-of-behavioural-sciences": {
+"on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418028/senior-lecturer-in-clinical-education": {
+"on": "2026-11-25",
 "why": "no microbiome terms in the posting"
 }
 }

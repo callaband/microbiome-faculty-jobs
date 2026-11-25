@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-24T23:44:33+00:00",
- "today": "2026-11-24",
+ "generated_at": "2026-11-25T23:07:10+00:00",
+ "today": "2026-11-25",
  "repo": "callaband/microbiome-faculty-jobs",
  "site_url": "https://callaband.github.io/microbiome-faculty-jobs/",
  "counts": {
-  "open": 87,
+  "open": 89,
   "closed": 37,
-  "new_this_run": 0
+  "new_this_run": 2
  },
  "domains": {
   "human_health": {
@@ -59,57 +59,57 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 26,
-   "new_matches": 0,
+   "listed": 27,
+   "new_matches": 1,
    "error": null,
-   "pages_opened": 0,
+   "pages_opened": 13,
    "note": null,
-   "checked_at": "2026-11-24T23:07:33+00:00",
-   "seconds": 10.8,
+   "checked_at": "2026-11-25T22:37:33+00:00",
+   "seconds": 59.3,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 120,
-   "new_matches": 0,
+   "listed": 121,
+   "new_matches": 1,
    "error": null,
-   "pages_opened": 0,
+   "pages_opened": 38,
    "note": null,
-   "checked_at": "2026-11-24T23:07:44+00:00",
-   "seconds": 20.3,
+   "checked_at": "2026-11-25T22:38:32+00:00",
+   "seconds": 114.0,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
-   "listed": 94,
+   "listed": 98,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 1,
+   "pages_opened": 13,
    "note": null,
-   "checked_at": "2026-11-24T23:08:04+00:00",
-   "seconds": 18.5,
+   "checked_at": "2026-11-25T22:40:26+00:00",
+   "seconds": 36.5,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "the_unijobs",
    "name": "Times Higher Education Unijobs",
    "ok": true,
-   "listed": 691,
+   "listed": 699,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 5,
+   "pages_opened": 11,
    "note": null,
-   "checked_at": "2026-11-24T23:08:23+00:00",
-   "seconds": 89.0,
+   "checked_at": "2026-11-25T22:41:03+00:00",
+   "seconds": 98.0,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "jobs_ac_uk",
@@ -117,27 +117,27 @@
    "ok": false,
    "listed": 0,
    "new_matches": 0,
-   "error": "HTTP 500 for https://www.jobs.ac.uk/search/?keywords=microbiome&sortOrder=1&pageSize=100",
+   "error": "HTTP 503 for https://www.jobs.ac.uk/search/?keywords=microbiome&sortOrder=1&pageSize=100",
    "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-24T23:09:52+00:00",
-   "seconds": 240.5,
-   "fail_days": 1,
-   "last_try": "2026-11-24"
+   "checked_at": "2026-11-25T22:42:41+00:00",
+   "seconds": 1440.6,
+   "fail_days": 2,
+   "last_try": "2026-11-25"
   },
   {
    "id": "universitypositions",
    "name": "University Positions",
    "ok": true,
-   "listed": 23,
+   "listed": 24,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 2,
+   "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-24T23:13:52+00:00",
-   "seconds": 11.3,
+   "checked_at": "2026-11-25T23:06:41+00:00",
+   "seconds": 8.1,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "maxplanck",
@@ -148,10 +148,10 @@
    "error": null,
    "pages_opened": 0,
    "note": null,
-   "checked_at": "2026-11-24T23:14:04+00:00",
-   "seconds": 2.0,
+   "checked_at": "2026-11-25T23:06:49+00:00",
+   "seconds": 1.7,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "jrecin",
@@ -160,26 +160,26 @@
    "listed": 16,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 0,
+   "pages_opened": 3,
    "note": null,
-   "checked_at": "2026-11-24T23:14:06+00:00",
-   "seconds": 8.6,
+   "checked_at": "2026-11-25T23:06:51+00:00",
+   "seconds": 12.9,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "jobrxiv",
    "name": "jobRxiv",
    "ok": true,
-   "listed": 112,
+   "listed": 113,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 7,
+   "pages_opened": 1,
    "note": null,
-   "checked_at": "2026-11-24T23:14:14+00:00",
-   "seconds": 10.8,
+   "checked_at": "2026-11-25T23:07:04+00:00",
+   "seconds": 2.0,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "fems",
@@ -188,12 +188,12 @@
    "listed": 10,
    "new_matches": 0,
    "error": null,
-   "pages_opened": 0,
+   "pages_opened": 1,
    "note": null,
-   "checked_at": "2026-11-24T23:14:25+00:00",
-   "seconds": 1.0,
+   "checked_at": "2026-11-25T23:07:06+00:00",
+   "seconds": 2.5,
    "fail_days": 0,
-   "last_try": "2026-11-24"
+   "last_try": "2026-11-25"
   },
   {
    "id": "higheredjobs",
@@ -204,7 +204,7 @@
    "error": "stopped after 8 failed requests in a row (last: blocked by bot protection at www.higheredjobs.com)",
    "pages_opened": 14,
    "note": "refused on 5 days in a row; next try Nov 28",
-   "checked_at": "2026-11-24T23:14:26+00:00",
+   "checked_at": "2026-11-25T23:07:08+00:00",
    "seconds": 105.4,
    "fail_days": 5,
    "last_try": "2026-11-21"
@@ -212,16 +212,16 @@
   {
    "id": "euraxess",
    "name": "EURAXESS (European Commission)",
-   "ok": true,
-   "listed": 600,
+   "ok": false,
+   "listed": 0,
    "new_matches": 0,
-   "error": null,
-   "pages_opened": 159,
-   "note": "paused at its time limit; continues on the next run",
-   "checked_at": "2026-11-24T23:14:26+00:00",
-   "seconds": 1806.7,
-   "fail_days": 0,
-   "last_try": "2026-11-24"
+   "error": "robots.txt disallows https://euraxess.ec.europa.eu/jobs/search",
+   "pages_opened": 0,
+   "note": null,
+   "checked_at": "2026-11-25T23:07:08+00:00",
+   "seconds": 1.9,
+   "fail_days": 1,
+   "last_try": "2026-11-25"
   }
  ],
  "rejected_submissions": [],
@@ -250,7 +250,7 @@
   "bioinformatics": "Bioinformatics",
   "multi_omics": "Multi-omics"
  },
- "requests_made": 435,
+ "requests_made": 210,
  "geocode_lookups": 0,
  "translation": {
   "available": true,
