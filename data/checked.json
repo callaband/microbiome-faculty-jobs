@@ -199,6 +199,10 @@
 "on": "2026-11-24",
 "why": "no microbiome terms in the posting"
 },
+"https://careers.insidehighered.com/job/3580159/research-community-and-events-specialist/": {
+"on": "2026-11-26",
+"why": "title is not a faculty rank"
+},
 "https://fems-microbiology.org/opportunities/biological-scientist/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -244,7 +248,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-25",
+"on": "2026-11-26",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -377,6 +381,10 @@
 },
 "https://jobrxiv.org/job/assistant-professor-of-teaching-position-in-chemical-biomolecular-engineering/": {
 "on": "2026-11-10",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/assistant-professor-of-teaching-position-in-civil-environmental-engineering/": {
+"on": "2026-11-26",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/assistant-professor-of-teaching-position-in-electrical-and-computer-engineering/": {
@@ -617,6 +625,10 @@
 },
 "https://jobrxiv.org/job/new-york-university-arts-and-science-27778-assistant-professor-of-biology-computational-ai/": {
 "on": "2026-11-05",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/occupational-environmental-and-climate-medicine-academic-clinical-faculty/": {
+"on": "2026-11-26",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/open-rank-faculty-positions-in-computer-science-at-aarhus-university-denmark/": {
@@ -979,6 +991,10 @@
 "on": "2026-11-19",
 "why": "no microbiome terms in the posting"
 },
+"https://jobs.chronicle.com/job/38071529/bioinformatics-engineer/": {
+"on": "2026-11-26",
+"why": "title is not a faculty rank"
+},
 "https://jobs.sciencecareers.org/job/679610/tenure-track-faculty-position-in-plant-or-microbial-glycoscience-at-uga-ccrc/": {
 "on": "2026-10-27",
 "why": "no microbiome terms in the posting"
@@ -1173,6 +1189,10 @@
 },
 "https://universitypositions.eu/jobs/825091660-assistant-professor-in-interaction-technology": {
 "on": "2026-11-24",
+"why": "no microbiome terms in the posting"
+},
+"https://universitypositions.eu/jobs/830220745-assistant-professor-in-accounting": {
+"on": "2026-11-26",
 "why": "no microbiome terms in the posting"
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179547673": {
@@ -2115,9 +2135,1285 @@
 "on": "2026-11-21",
 "why": "no microbiome terms in the posting"
 },
+"https://www.jobs.ac.uk/job/DSS398/assistant-or-associate-professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DSU163/assistant-professor-in-international-development": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DSU165/assistant-professor-in-international-development-quantitative-social-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DSW776/assistant-professor-in-statistics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DSZ408/anne-t-and-robert-m-bass-professorship-of-developmental-and-stem-cell-biology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTC162/assistant-or-associate-professor-in-sociology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTC997/assistant-professor-associate-professor-professor-in-mathematics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTD002/lecturer-assistant-associate-professor-professor-of-english-learning-centre": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTD330/professor-associate-professor-assistant-professor-language-acquisition": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTE254/professor-associate-professor-assistant-professor-in-landscape-architecture": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTE632/professor-of-global-value-chains-for-green-technologies": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF126/lecturer-in-pure-mathematics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF441/faculty-in-robotics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF445/faculty-of-computer-science-ai-research": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF452/faculty-of-mechanical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF462/faculty-of-data-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF470/faculty-of-health-sciences-precision-medicine-and-health-tech": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF496/faculty-of-health-sciences-nursing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF852/professor-of-finance": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF890/senior-lecturer-liberal-arts-situated-enquiries-and-artistic-research": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF902/senior-lecturer-in-music-performance": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF914/george-pickering-professor-of-stroke-medicine": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTF918/senior-lecturer-photography-and-visual-culture-80": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTF937/senior-lecturer-liberal-arts-experiential-artistic-research": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG010/assistant-professor-in-modern-chinese-history": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG240/bhp-clinician-scientist": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG382/assistant-professor-or-lecturer-in-computational-political-communication": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG384/assistant-professor-or-lecturer-in-emerging-materials-and-energy-devices": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG428/senior-lecturer-teaching-and-learning-in-occupational-therapy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG633/associate-professor-in-chemical-and-bioprocess-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG722/tenure-track-professor-associate-professor-assistant-professor-in-pharmacology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTG833/sainsbury-institute-lecturer-in-the-history-of-japanese-art": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH199/assistant-associate-professor-of-accounting": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH202/assistant-associate-professor-of-finance": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH207/assistant-associate-professor-of-management-strategy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH246/assistant-associate-professor-of-marketing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH304/two-tenure-track-faculty-positions-in-psychology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH348/lecturer-senior-lecturer-in-materials-science-and-engineering-teaching-and": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH525/assistant-or-associate-professor-of-political-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH529/assistant-or-associate-professor-of-international-relations": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH682/professorship-of-theoretical-linguistics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTH823/nihr-clinical-lecturer-in-primary-care": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTI250/lecturer-scholarship-row153a": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTI291/faculty-position-in-information-systems-practice-track-open-rank": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTI296/professor-and-dean": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTI606/assistant-professor-in-civil-engineering-materials": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTI634/assistant-professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTI962/lecturer-in-biochemistry": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ020/assistant-professor-in-international-political-economy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ091/lecturer-in-virology-tr": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ541/lecturer-in-ancient-history-and-archaeology-ac2332": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ559/professor-and-head-of-department-of-social-and-psychological-sciences": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ726/faculty-position-in-statistics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ892/lecturer-in-public-sector-management": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTJ941/lecturer-assistant-professor-temporary": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK318/lecturer-above-the-bar-in-integrated-childrens-and-general-nursing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK319/lecturer-below-the-bar-in-music-composition-experimental-music-and-sound-art": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK327/lecturer-in-independent-and-supplementary-prescribing-cpd": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTK335/assistant-associate-professor-of-technology-management-digital-products-and-ai": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK547/lecturer-associate-professor-in-artificial-intelligence-for-biomolecular-design": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK555/assistant-professor-in-international-relations": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK695/lecturer-in-organisational-behaviour": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK773/assistant-professor-or-lecturer-in-person-centred-clinical-speech-language": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK775/lecturer-assistant-professor-in-economics-grade-8": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTK813/assistant-or-associate-professor-in-finance-research-and-teaching-track": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL232/senior-principal-lecturer-in-early-years": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL265/assistant-associate-professor-of-special-education-applied-behavior-analysis": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL269/tenure-track-assistant-associate-professor-in-biology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL272/assistant-professor-in-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL290/tenure-track-assistant-associate-professor-in-computer-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL293/learning-english-for-academic-purposes-leap-lecturer-in-esl-eap": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL302/lecturer-b-in-health-promotion": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL389/associate-lecturer-in-organic-chemistry-education-focused-aoac7905rx": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL547/senior-lecturer-in-human-model-system": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL614/assistant-professor-in-geotechnical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL642/associate-professor-or-professor-in-geotechnical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL660/lecturer-a-in-preventive-cardiology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL723/lecturer-in-numerical-analysis-and-data-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL838/lecturer-in-sustainable-supply-chain-management-maternity-cover": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL839/associate-lecturer-in-applied-mathematics-education-focused-aoac2873xx": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTL982/lecturer-in-oral-health": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTM099/teaching-professor-designated-principal-radiologist": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM110/professor-in-law-teaching-and-professional-practice": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM129/professor-and-director-east-asia-institute": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM152/lecturer-in-plant-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM199/faculty-health-and-safety-senior-adviser": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM434/two-associate-professorships-or-professorships-of-computer-science-with": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM609/assistant-professor-in-management": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM629/assistant-professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM745/lecturer-below-the-bar-in-medical-imaging-and-radiation-therapy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM750/lecturer-above-the-bar-in-paramedicine": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTM761/lecturer-across-the-bar-in-computer-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM771/lecturer-below-the-bar-in-social-care": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM778/lecturer-above-the-bar-social-policy-for-social-care-programme": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM806/lecturer-in-chemical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTM911/dobson-professorship-of-materials-science-and-metallurgy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN065/lecturer-senior-lecturer-in-pharmacy-practice": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN160/professor-associate-professor-in-sociology-social-stratification-and-inequality": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN205/assistant-professor-tenure-track-in-history-of-technology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN211/lecturer-teaching-in-international-relations": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN272/lecturer-in-digital-media": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN282/lecturer-in-media-and-cultural-studies": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN310/lecturer-in-artificial-intelligence-and-software-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN312/open-rank-positions-in-international-relations": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN339/clinical-lecturer-in-maternal-and-fetal-medicine-and-obstetrics-subspeciality": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN343/associate-professorship-in-iranian-history": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN358/clinical-skills-and-simulation-lecturer": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN489/lecturer-in-physiology-tooting": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN553/associate-professor-in-political-science-computational-methods": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN577/assistant-teaching-professor-and-course-director-mphil-in-cancer-biology-and": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN591/professor-of-circular-bioeconomy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN595/professor-of-cyber-physical-systems-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN600/professor-of-maritime-resources-and-innovation": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN605/professor-of-creative-and-cultural-industries": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN609/professor-of-photonics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN611/clinical-senior-lecturer-in-primary-care": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTN617/clinical-lecturer-in-primary-care": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTN638/clinical-associate-professor-in-medical-education-mb-bs-module-4d-lead": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTN703/associate-professor-teaching-focussed": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN728/lecturer-in-creative-technology-and-visual-culture": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN844/lecturer-in-cyber-security": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN852/professor-of-health-and-social-care-informatics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN855/lecturer-in-mental-health-nursing": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTN866/lecturer": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN893/lecturer-in-specialist-community-public-health-nursing-scphn-health-visitor": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTN896/regius-professor-of-chemistry-grade-10": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN932/assistant-associate-professor-grade-9-10-or-professor-grade-11-in-modern": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN950/lecturer-senior-lecturer-in-law-teaching-track": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN958/lecturer-assistant-professor-associate-professor-in-management-entrepreneurship": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN967/professor-of-clinical-speech-and-language-studies-1999": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN970/lecky-professor-of-medieval-history-1913": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN971/assistant-professor-associate-professor-position-in-archaeological-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTN973/assistant-professor-associate-professor-position-in-anatolian-archaeology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO024/assistant-professor-in-laser-based-manufacturing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO046/professor-of-anglo-american-law": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTO158/professor-associate-professor-in-economics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO295/lecturer-adult-nursing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO297/lecturer-in-nursing-district-nurse": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO300/lecturer-in-entrepreneurship": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO360/assistant-research-professor-fixed-term": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO379/assistant-professors-in-the-department-of-electrical-and-electronic-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO393/lecturer-in-academic-transitions": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO449/associate-professorship-of-philosophy-and-public-policy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO475/associate-professor-teaching-focussed": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO492/senior-lecturer-in-law": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO497/senior-lecturer-in-civil-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO525/lecturer-senior-lecturer-in-law-law-and-economics-or-empirical-legal-studies": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO527/lecturer-senior-lecturer-in-health-law": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO528/lecturer-in-civil-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO532/lecturer-in-forensic-psychology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO540/lecturer-senior-lecturer-in-law": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO541/lecturer-ba-hons-graphic-design": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTO547/senior-lecturer-in-endodontics": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTO563/lecturer-health-and-social-care-for-iicl": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO580/lecturer-in-veterinary-medicine-pathology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO863/associate-professorship-or-professorship-of-medieval-history-full-time": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO896/assistant-professor-in-law-investment-arbitration-international-commercial": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO898/lecturer-in-medical-science-education-focused-ao2074": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO901/dean-of-the-faculty-of-natural-sciences": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO917/assistant-associate-professor-in-medical-humanities": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO921/assistant-associate-professor-in-social-sciences-and-health": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO923/lecturer-senior-lecturer-in-medical-humanities": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO940/research-assistant-professor-department-of-applied-mathematics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO941/associate-professorship-of-early-modern-european-history": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO948/associate-professor-or-dtu-tenure-track-assistant-professor-in-high-voltage": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTO999/senior-lecturer-and-course-leader-ma-illustration": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP007/lecturer-in-disordered-systems": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP043/lecturer-assistant-professor-banking-and-finance": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP051/associate-lecturer-in-spanish-studies-education-focused-aoac1549xx": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP059/senior-lecturer-in-nuclear-reactor-physics-and-engineering-t-and-r": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP087/group-leader-in-multimodal-ai-for-cancer": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP104/faculty-position-in-ai-and-the-humanities-and-social-sciences-full-rank": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP274/lecturer-senior-lecturer-in-health-and-social-care": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTP287/lecturer-senior-lecturer-in-occupational-therapy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP308/reader-in-applied-health": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP320/lecturer-in-public-health-nutrition": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTP327/lecturer-in-psychology-clinical-and-health-t-and-s": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP344/senior-lecturer-lecturer-of-english-for-academic-purposes": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP352/assistant-professor-associate-professor-professor-in-anglophone-and-or": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP358/senior-lecturer-senior-clinical-lecturer-admissions-lead": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP411/lecturer-in-applied-mathematics-optimisation": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
 "https://www.jobs.ac.uk/job/DTP419/fse-phd-presidents-doctoral-scholarship-sensing-soil-health-linking-biological-indicators-and-human-perceptions": {
 "on": "2026-11-10",
 "why": "title is not a faculty rank"
+},
+"https://www.jobs.ac.uk/job/DTP424/lecturer-in-initial-teacher-education-history-fixed-term-for-6-months": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP653/professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP665/lecturer-in-aerospace-and-aircraft-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP684/associate-professorship-of-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP719/faculty-positions-in-information-systems": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP755/lecturer-in-global-politics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP766/assistant-professor-in-social-work": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP767/associate-professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP769/lecturer-in-the-history-of-conflict-and-diplomacy-e-and-r": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTP814/lecturer-in-commercial-music": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTP830/associate-lecturer-earth-s-resources-and-raw-materials": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTP991/hourly-paid-associate-lecturer-ma-narrative-environments": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ001/senior-lecturer-quantity-surveying": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ005/lecturer-in-engineering-he": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ038/lecturer-in-clinical-pharmacy": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ053/lecturer-net-zero-maritime-systems-engineering-862677": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ059/lecturer-a-in-children-s-studies-adolescent-health": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ062/lecturer-in-sport-and-exercise-psychology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ068/professor-of-mental-health-established-2019": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ071/lecturer-biology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ118/professor-in-x-ray-characterization-modelling-and-prediction-of-mechanical": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ126/dtu-tenure-track-assistant-professor-in-microgrids-and-converter-based-grid": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ153/dtu-tenure-track-assistant-professor-in-fisheries-technology-artificial": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ158/lecturer-in-psychology-language-and-literacy-t-and-r": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ208/faculty-position-in-pure-mathematics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ234/professor-of-health-and-life-sciences": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ235/professor-of-agri-food-and-bioeconomy-systems": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ255/associate-lecturer-teaching-in-latin-american-studies-0-2-fte": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ360/senior-lecturer-in-pharmacy": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ388/associate-professor-independent-prescribing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ395/senior-lecturer-in-independent-prescribing": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ442/nihr-academic-clinical-lecturer-in-general-dental-practice": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ463/donald-and-marilyn-keough-professor-of-irish-studies": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ466/lecturer-in-aquatic-animal-genetics-and-breeding": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ485/associate-professor-in-healthcare-management-teaching-focused": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ490/lecturer-in-social-work": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ495/lecturer-senior-lecturer-in-english": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ503/associate-professorship-of-kidney-stone-disease": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ518/lecturer-in-biomedical-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ520/lecturer-senior-lecturer-psychology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ547/senior-lecturer-in-marketing-management": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ556/lecturer-practitioner-in-nursing-apprenticeships": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ588/pro-vice-chancellor-faculty-of-engineering-and-physical-sciences": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ603/lecturer": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ905/lecturer-b-senior-lecturer-in-art-psychotherapy-x-2": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ915/clinical-skills-tutor-lecturer-education-and-scholarship": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ919/clinical-skills-tutor-lecturer-education-and-scholarship": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTQ922/lecturer-in-forensic-science-2-years-ftc": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ923/professor-in-maritime-energy-engineering-grade-10": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ944/lecturer-in-film-studies-aep-ftc": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTQ964/lecturer-teaching-and-scholarship-uod2470": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR001/associate-or-assistant-professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR007/assistant-professor-in-reproductive-biomedicine-research-and-teaching": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR015/lecturer-in-nursing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR017/lecturer-in-sport-rehabilitation-0-5-fte": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR028/lecturer-in-applied-artificial-intelligence-teaching-and-scholarship": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR057/assistant-professor-in-speech-and-language-therapy-0-6fte": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR068/lecturer-assistant-professor-in-sport-and-exercise-nutrition": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR070/lecturer-or-senior-lecturer-in-military-information-systems": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR073/lecturer-in-mechanical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR094/associate-professorship-or-professorship-of-modern-history": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR289/senior-lecturer-nursing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR312/associate-professorship-or-professorship-of-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR316/lecturer-teacher-computing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR350/lecturer-in-bioveterinary-sciences": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR364/lecturer-environmental-studies": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR365/lecturer-politics-and-international-relations": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR381/lecturer-in-law": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR407/senior-lecturer-practitioner-in-pharmacy": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR457/lecturer-assistant-professor-in-general-practice": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR476/lecturer-in-sports-therapy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR519/lecturer-in-motorsport-and-automotive-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR531/lecturer-associate-professor-in-systems-and-networks": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR536/lecturer-or-associate-professor-in-us-history": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR539/professor-and-hod-culture-language-and-communication": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR540/professor-and-hod-media-technology-and-arts": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR560/the-ella-mcgregor-senior-lecturer-lecturer-in-equine-sport-medicine": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR636/departmental-lecturer-in-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR681/tenured-tenure-track-position-in-humanities": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR697/assistant-professor-in-applied-mathematics-statistics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR741/lecturer-in-aerospace-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR751/lecturer-in-clinical-psychology-research-and-teaching": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR752/lecturer-in-veterinary-clinical-practice": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR776/lecturer-in-statistics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR783/lecturer-in-information-systems-and-cyber": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR788/grantham-institute-assistant-professor": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR795/lecturer-in-diagnostic-radiography": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR797/assistant-professor-in-fluid-mechanics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR798/lecturer-foundation-learning": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR819/chair-of-council": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTR825/lecturer-scots-private-and-commercial-law-law094a": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR838/assistant-professor-in-digital-manufacturing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR853/lecturer-in-clinical-psychology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR869/faculty-position-in-history-of-art-and-design": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR872/faculty-position-in-transdisciplinary-design": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR888/faculty-administrative-assistant": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR902/lecturer-quantum-computing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTR918/associate-professorship-of-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS053/lecturer-senior-lecturer-in-mental-health-nursing": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS057/lecturer-in-theoretical-physics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS091/professor-in-cancer-nursing-permanent-1fte-joint-appointment-with-saolta": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS097/lecturer-assistant-professor-above-the-bar-in-sustainable-hrm-employment": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS109/faculty-business-services-officer-2x-posts": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS136/associate-lecturer-lecturer-teaching-in-career-development": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS149/senior-lecturer-in-respiratory-and-sleep-physiology": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS162/lecturer-in-school-of-computer-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS166/lecturer-in-cyber-security": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS201/lecturer-senior-lecturer-in-project-management": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS203/professor-associate-professor-assistant-professor-of-computational-social": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS219/lecturer-in-occupational-therapy": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS229/lecturer-in-occupational-therapy": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS236/tenure-track-open-rank-faculty-position-in-applied-social-psychology-or-social": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS243/hourly-paid-lecturer-business": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS248/hourly-paid-lecturer-health-and-social-care": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS275/associate-clinical-professor-teaching-only": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS278/assistant-professorship-tenure-track-in-international-politics": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS333/associate-lecturer-exhibition-artificial-intelligence-and-digital-art-aida-0": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS451/lecturer-in-marketing-teaching-and-scholarship": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS481/associate-professor-professor-in-private-law": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS501/project-manager-erc-advanced-investigator-grant-mosaicsmove": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS511/lecturer-university-clinical-tutor-e-and-s": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS516/aib-assistant-professor-in-nature-and-creative-practice": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS533/associate-professorship-or-professorship-of-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS557/assistant-professor-in-computer-science": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS560/lecturer-in-education-early-childhood-studies": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS566/tenure-track-researcher-in-characterisation-and-modelling-of-interface-fracture": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS570/tenure-track-assistant-professor-in-building-performance-wellbeing-and-societal": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS578/clinical-lecturer-in-oncology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS579/lecturer-in-education": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS580/lecturer-in-law-x6": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS584/lecturer-in-electrical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS593/pa-to-faculty-directors": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS630/senior-lecturer-in-robotics-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS682/senior-lecturer-in-law": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS708/associate-lecturer-in-respiratory-and-sleep-physiology": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTS721/associate-lecturer-in-creative-digital-business": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.jobs.ac.uk/job/DTS722/lecturer-in-pharmacy-practice-maternity": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.jobs.ac.uk/job/DTT019/faculty-position-in-international-relations-and-international-political-economy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
 },
 "https://www.mpg.de/27038528/population-and-social-data-science-summer-incubator-program": {
 "on": "2026-11-04",
@@ -2201,6 +3497,22 @@
 },
 "https://www.mpg.de/27105705/scientific-employee-86": {
 "on": "2026-11-24",
+"why": "title is not a faculty rank"
+},
+"https://www.mpg.de/27112955/2026-11_laser-engineer": {
+"on": "2026-11-26",
+"why": "title is not a faculty rank"
+},
+"https://www.mpg.de/job-35e63a4ccb0c5d8e8f9cfe47ff6514d6": {
+"on": "2026-11-26",
+"why": "title is not a faculty rank"
+},
+"https://www.mpg.de/job-ad6f3d738f260755d16dae512797d32e": {
+"on": "2026-11-26",
+"why": "title is not a faculty rank"
+},
+"https://www.mpg.de/job-f76a72955affb8ad8080b05ad5ea8e79": {
+"on": "2026-11-26",
 "why": "title is not a faculty rank"
 },
 "https://www.timeshighereducation.com/unijobs/listing/391499/lecturer-solar-and-stellar-physics": {
@@ -4401,6 +5713,50 @@
 },
 "https://www.timeshighereducation.com/unijobs/listing/418028/senior-lecturer-in-clinical-education": {
 "on": "2026-11-25",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418038/senior-lecturer-in-strategic-management-and-innovation-t-and-r-": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418039/lecturer-in-religion-and-philosophy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418040/lecturer-senior-lecturer-in-digital-business-ef-targeted-": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418041/senior-lecturer-sustainability-and-social-responsibility-targeted": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418042/associate-professor-assistant-professor-in-philosophy-of-artificial-intelligence-or-religion": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418043/professor-of-practice-in-strategy-innovation-and-technology": {
+"on": "2026-11-26",
+"why": "part-time"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418046/lecturer-senior-lecturer-in-mechanical-engineering": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418047/faculty-positions-in-japanese-language-teaching": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418049/senior-lecturer-pharmacy": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418053/associate-lecturer-lecturer-in-small-animal-veterinary-practice": {
+"on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418063/chair-prof-prof-associate-prof-assistant-prof-in-department-of-applied-mathematics": {
+"on": "2026-11-26",
 "why": "no microbiome terms in the posting"
 }
 }

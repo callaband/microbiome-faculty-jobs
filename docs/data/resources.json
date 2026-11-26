@@ -5,6 +5,11 @@
    "note": "Many European professorships are advertised only on the university's own career page, so also check the departments you're interested in directly.",
    "items": [
     {
+     "name": "EURAXESS",
+     "url": "https://euraxess.ec.europa.eu/jobs/search",
+     "note": "The European Commission's research jobs portal, with thousands of posts across Europe. Its rules don't allow automated reading of job pages; filter by \"Researcher profile\" R3 or R4 for faculty-level posts."
+    },
+    {
      "name": "Nature Careers",
      "url": "https://www.nature.com/naturecareers/jobs",
      "note": "Worldwide. Its rules don't allow automated reading of the job feeds."
