@@ -35,6 +35,7 @@ class Entry:
     location_text: str = ""
     date_posted: date | None = None
     expired: bool = False    # the feed itself shows the listing has ended
+    search_terms: list[str] = field(default_factory=list)  # board's full-text search matched these
 
 
 @dataclass
@@ -197,41 +198,108 @@ class MadgexSource:
 
 # ----------------------------------------------------------------------------- HigherEdJobs
 class HigherEdJobsSource:
+    """HigherEdJobs.
+
+    Its job pages block automated reading from the servers this runs on, so by default
+    (open_pages: false) the job pages are not opened. Instead the site's keyword search, which
+    searches the full text of every posting, is read for each microbiome keyword: a posting found
+    that way mentions the microbiome, and its title, employer and location come from the results.
+    The category RSS feeds (allowed and still readable) supply the date each job was posted.
+    Dates, tenure wording and other details from the job page are then not available.
+    """
+
+    SEARCH = "/search/advanced_action.cfm?OnlyTitle=0&Keyword={kw}&SortBy=1&NumJobs=100&Page={page}"
+
     def __init__(self, cfg: dict, settings: dict, keywords: list[str], client: PoliteClient):
         self.id, self.name, self.base = cfg["id"], cfg["name"], cfg["base"].rstrip("/")
         self.categories = cfg.get("categories") or {}
+        self.keywords = cfg.get("keywords") or keywords
+        self.open_pages = bool(cfg.get("open_pages", False))
+        self.max_pages = int(cfg.get("search_pages", 3))
+        self.require_faculty_title = True  # results include postdocs, staff, ...
         self.client = client
 
-    def list_entries(self) -> list[Entry]:
-        seen: dict[str, Entry] = {}
-        errors = []
+    def _code(self, href: str) -> str | None:
+        m = re.search(r"JobCode=(\d+)", href or "")
+        return m.group(1) if m else None
+
+    def _feed_dates(self) -> dict[str, tuple]:
+        """JobCode -> (posted, employer, location, title) from the faculty category feeds."""
+        out: dict[str, tuple] = {}
         for cat_id in self.categories:
-            url = f"{self.base}/rss/categoryFeed.cfm?catID={cat_id}"
             try:
-                items = _rss_items(self.client.get(url, accept="application/rss+xml, text/xml").text)
+                items = _rss_items(self.client.get(f"{self.base}/rss/categoryFeed.cfm?catID={cat_id}",
+                                                   accept="application/rss+xml, text/xml").text)
             except FetchError as exc:
-                errors.append(str(exc))
-                if len(errors) >= 3 and not seen:
-                    raise  # the whole site is refusing us; stop early
+                log.info("HigherEdJobs feed %s: %s", cat_id, exc)
                 continue
             for it in items:
-                m = re.search(r"JobCode=(\d+)", it["link"] or it["guid"])
-                if not m:
-                    continue
-                link = f"{self.base}/details.cfm?JobCode={m.group(1)}"
-                if link in seen:
-                    continue
-                desc = clean(it["description"])
-                employer, loc = desc, ""
-                mm = re.match(r"^(.*)\(([^()]*)\)\s*$", desc)
-                if mm:
-                    employer, loc = mm.group(1).strip(), mm.group(2).strip()
-                seen[link] = Entry(self.id, link, clean(it["title"]), employer, loc, parse_any(it["pubDate"]))
-        if errors and not seen:
+                code = self._code(it["link"] or it["guid"])
+                if code and code not in out:
+                    desc = clean(it["description"])
+                    mm = re.match(r"^(.*)\(([^()]*)\)\s*$", desc)
+                    employer, loc = (mm.group(1).strip(), mm.group(2).strip()) if mm else (desc, "")
+                    out[code] = (parse_any(it["pubDate"]), employer, loc, clean(it["title"]))
+        return out
+
+    def _search(self) -> dict[str, Entry]:
+        found: dict[str, Entry] = {}
+        errors: list[str] = []
+        for kw in self.keywords:
+            for page in range(1, self.max_pages + 1):
+                url = self.base + self.SEARCH.format(kw=quote_plus(kw), page=page)
+                try:
+                    soup = BeautifulSoup(self.client.get(url).text, "html.parser")
+                except FetchError as exc:
+                    errors.append(str(exc))
+                    if len(errors) >= 2 and not found:
+                        raise  # the site is refusing us; stop early
+                    break
+                cards = soup.select(".job-card-body")
+                for card in cards:
+                    a = card.select_one(".job-card-title a[href]")
+                    code = self._code(a["href"]) if a else None
+                    if not code:
+                        continue
+                    link = f"{self.base}/details.cfm?JobCode={code}"
+                    if link in found:
+                        if kw not in found[link].search_terms:
+                            found[link].search_terms.append(kw)
+                        continue
+                    inst = card.select_one(".job-card-inst")
+                    loc = card.select_one(".job-card-meta")
+                    found[link] = Entry(self.id, link, clean(a.get_text(" ")),
+                                        clean(inst.get_text(" ")) if inst else "",
+                                        clean(loc.get_text(" ")) if loc else "", search_terms=[kw])
+                if len(cards) < 100:
+                    break
+        if errors and not found:
             raise FetchError(errors[0])
-        return list(seen.values())
+        return found
+
+    def list_entries(self) -> list[Entry]:
+        if self.open_pages:
+            # Original mode: every faculty job in the category feeds; pages are opened to read them.
+            feed = self._feed_dates()
+            if self.categories and not feed:
+                raise FetchError("no HigherEdJobs category feed could be read")
+            return [Entry(self.id, f"{self.base}/details.cfm?JobCode={code}", title, employer, loc, posted)
+                    for code, (posted, employer, loc, title) in feed.items()]
+        found = self._search()
+        dates = self._feed_dates() if found and self.categories else {}
+        for e in found.values():
+            posted, employer, loc, _ = dates.get(self._code(e.url), (None, "", "", ""))
+            e.date_posted = e.date_posted or posted
+            e.employer = e.employer or employer
+            e.location_text = e.location_text or loc
+        return list(found.values())
 
     def fetch_detail(self, entry: Entry) -> Detail:
+        if not self.open_pages:
+            return _detail_from_entry(entry, "HigherEdJobs doesn't allow this tracker to open its job pages")
+        return self._detail_from_page(entry)
+
+    def _detail_from_page(self, entry: Entry) -> Detail:
         soup = BeautifulSoup(self.client.get(entry.url).text, "html.parser")
         d = Detail(title=entry.title, employer=entry.employer, date_posted=entry.date_posted)
         jp = _jsonld_jobposting(soup)
@@ -315,6 +383,16 @@ def _posting_text(soup: BeautifulSoup) -> str:
         if el and len(el.get_text(" ", strip=True)) > 200:
             return html_to_text(str(el))
     return html_to_text(str(soup.body)) if soup.body else ""
+
+
+def _detail_from_entry(entry: Entry, why: str) -> Detail:
+    """A posting known only from search results (its page can't be opened)."""
+    d = Detail(title=entry.title, employer=entry.employer, date_posted=entry.date_posted)
+    if entry.location_text:
+        place = parse_place(entry.location_text)
+        d.city, d.region, d.country_code = place["city"], place["region"], place["country_code"]
+    d.extra["details_unavailable"] = why
+    return d
 
 
 def detail_from_page(html: str, entry: Entry, deadline_from_valid_through: bool = False) -> Detail:
@@ -411,6 +489,54 @@ class ListingSource:
                     break
         if errors and not seen:
             raise FetchError(errors[0])
+        return list(seen.values())
+
+    def fetch_detail(self, entry: Entry) -> Detail:
+        return detail_from_page(self.client.get(entry.url).text, entry, self.deadline_vt)
+
+
+class SitemapSource:
+    """A board's sitemap.xml, which lists every live job page (jobs.ac.uk: its new search only
+    matches job titles, so postings that mention the microbiome only in the text were missed).
+
+    The title is read from each job address ("/job/DTM143/lecturer-in-zoology-or-animal-science");
+    only faculty-looking titles are opened, once, and checked for microbiome terms. A job that
+    leaves the sitemap has ended.
+
+    config: sitemap (path or URL), link_pattern (regex for job addresses), deadline_from_valid_through
+    """
+
+    def __init__(self, cfg: dict, settings: dict, keywords: list[str], client: PoliteClient):
+        self.id, self.name, self.base = cfg["id"], cfg["name"], cfg["base"].rstrip("/")
+        self.sitemap = cfg.get("sitemap", "/sitemap.xml")
+        self.link_rx = re.compile(cfg["link_pattern"])
+        self.deadline_vt = bool(cfg.get("deadline_from_valid_through", False))
+        self.require_faculty_title = True
+        self.client = client
+
+    def _locs(self, url: str, depth: int = 0) -> list[str]:
+        xml = self.client.get(url, accept="application/xml, text/xml").text
+        locs = re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", xml)
+        if "<sitemapindex" in xml[:2000] and depth == 0:
+            out: list[str] = []
+            for child in locs:
+                out += self._locs(child, 1)
+            return out
+        return locs
+
+    @staticmethod
+    def _title_from_slug(url: str) -> str:
+        slug = urlsplit(url).path.rstrip("/").rsplit("/", 1)[-1]
+        return clean(slug.replace("-", " ")).capitalize()
+
+    def list_entries(self) -> list[Entry]:
+        url = self.sitemap if self.sitemap.startswith("http") else self.base + self.sitemap
+        seen: dict[str, Entry] = {}
+        for loc in self._locs(url):
+            path = urlsplit(loc).path
+            if self.link_rx.fullmatch(path) or self.link_rx.match(path):
+                u = _strip_query(loc)
+                seen.setdefault(u, Entry(self.id, u, self._title_from_slug(u)))
         return list(seen.values())
 
     def fetch_detail(self, entry: Entry) -> Detail:
@@ -691,7 +817,7 @@ class SubmittedSource:
 def build_sources(cfg: dict, client: PoliteClient, submitted: list[str]):
     settings, keywords = cfg.get("settings", {}), cfg.get("keywords", [])
     kinds = {"madgex": MadgexSource, "hej_category": HigherEdJobsSource, "listing": ListingSource,
-             "rss": RssSource, "euraxess": EuraxessSource, "jrecin": JrecinSource}
+             "rss": RssSource, "euraxess": EuraxessSource, "jrecin": JrecinSource, "sitemap": SitemapSource}
     out = []
     for s in cfg.get("sources", []):
         if not s.get("enabled", True):

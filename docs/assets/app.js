@@ -225,14 +225,13 @@
     const tags = [
       `<span class="tag">${esc(j.rank_label)}</span>`,
       `<span class="tag ${/tenure-track|tenured|permanent/i.test(j.tenure_label) ? "tt" : ""}">${esc(j.tenure_label)}</span>`,
-      j.translated ? `<span class="tag tr" title="Machine-translated by ${esc(j.translated.by)}. Original title: ${esc(j.original_title)}"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5h9M8.5 3v2M6 5c.8 3.5 3.2 6.2 6 7.5M11 5c-.6 3.2-2.8 6.3-6.5 8"/><path d="M12.5 21l4-9 4 9M14 18h5"/></svg>Translated from ${esc(j.translated.language)}</span>`
-        : (j.language && j.language !== "en" && j.original_title ? `<span class="tag tr" title="This posting is not in English">In ${esc(({ja:"Japanese",zh:"Chinese",zt:"Chinese",ko:"Korean",de:"German",fr:"French",es:"Spanish",pt:"Portuguese",it:"Italian",nl:"Dutch",sv:"Swedish",da:"Danish",nb:"Norwegian",fi:"Finnish",pl:"Polish",cs:"Czech"})[j.language] || j.language)}</span>` : ""),
       ...(j.methods || []).map(m => {
         const sug = (j.method_basis || {})[m] === "suggested";
         return `<span class="tag meth${sug ? " sug" : ""}" title="${sug ? "Suggested by the posting" : "Stated in the posting"}: ${esc((j.method_evidence || {})[m] || "")}">${esc(METHOD_LABELS[m] || m)}</span>`;
       }),
       j.inst_type_label ? `<span class="tag inst" title="${esc(j.carnegie || "")}">${esc(j.inst_type_label)}</span>` : "",
-      j.effort_label ? `<span class="tag eff">${esc(j.effort_label)}</span>`
+      j.details_unavailable ? `<span class="tag muted" title="${esc(j.details_unavailable)}; found through the board's search for: ${esc((j.search_terms || []).join(", "))}">Details on original posting</span>`
+        : j.effort_label ? `<span class="tag eff">${esc(j.effort_label)}</span>`
         : `<span class="tag muted">Effort % not stated</span>`,
       j.teaching_load ? `<span class="tag eff">Teaching load ${esc(j.teaching_load)}</span>` : "",
       ...(j.domains || []).map(d => `<span class="tag dom" style="--c:${domainColor(meta, d)}"><i></i>${esc(domainLabel(meta, d))}</span>`),
@@ -242,11 +241,20 @@
       j.deadline ? `Deadline <b>${fmt(j.deadline)}</b>` : (j.until_filled ? "Open until filled" : ""),
       `<span title="First seen ${fmt(j.first_seen)}"${oldAd(j) && j.date_posted ? ' class="old-date"' : ""}>Posted ${fmt(j.date_posted || j.first_seen)}</span>`,
     ].filter(Boolean).join("<br>");
-    const cls = ["job", j.priority === "low" ? "is-low" : "", j.status === "closed" ? "is-closed" : ""].join(" ");
+    // Translation: a flag at the top left of the tile, and the original-language title under the employer.
+    const GLOBE = `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5h9M8.5 3v2M6 5c.8 3.5 3.2 6.2 6 7.5M11 5c-.6 3.2-2.8 6.3-6.5 8"/><path d="M12.5 21l4-9 4 9M14 18h5"/></svg>`;
+    const langName = code => ({ja:"Japanese",zh:"Chinese",zt:"Chinese",ko:"Korean",de:"German",fr:"French",es:"Spanish",pt:"Portuguese",it:"Italian",nl:"Dutch",sv:"Swedish",da:"Danish",nb:"Norwegian",fi:"Finnish",pl:"Polish",cs:"Czech"})[code] || code;
+    const trFlag = j.translated
+      ? `<div class="tr-flag" title="Title and summary machine-translated by ${esc(j.translated.by)}; may contain mistakes. The original posting is the official version.">${GLOBE}Translated from ${esc(j.translated.language)}</div>`
+      : (j.language && j.language !== "en" && j.original_title
+        ? `<div class="tr-flag plain" title="This posting is not in English and wasn't translated">${GLOBE}In ${esc(langName(j.language))} · not translated</div>` : "");
+    const origTitle = j.translated && j.original_title && j.original_title !== j.title
+      ? `<div class="job-orig" lang="${esc(j.language || "")}">Original: ${esc(j.original_title)}</div>` : "";
+    const cls = ["job", j.priority === "low" ? "is-low" : "", j.status === "closed" ? "is-closed" : "", j.translated ? "is-tr" : ""].join(" ");
     return `<article class="${cls}" style="--c:${domainColor(meta, (j.domains || [])[0])}">
       <div>
-        <h3 class="job-title">${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}${oldAdBadge(j)}<a href="job.html?id=${j.id}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
-        <div class="job-where">${esc(j.institution)} · ${esc(place(j))}</div>
+        ${trFlag}<h3 class="job-title">${isNew(j) && j.status !== "closed" ? `<span class="badge new">New</span>` : ""}${priorityBadge(j)}${oldAdBadge(j)}<a href="job.html?id=${j.id}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
+        <div class="job-where">${esc(j.institution)} · ${esc(place(j))}</div>${origTitle}
       </div>
       <div class="job-dates">${dates}</div>
       <div class="job-tags">${tags}</div>

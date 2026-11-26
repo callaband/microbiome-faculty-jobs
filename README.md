@@ -25,10 +25,10 @@ Everything runs free on GitHub: a GitHub Action collects postings once a day and
 | Science Careers (AAAS) | worldwide | keyword RSS search + the schema.org data on each job page |
 | The Chronicle of Higher Education Jobs | worldwide | same |
 | Inside Higher Ed Careers | mostly US | same |
-| HigherEdJobs | US | official category RSS feeds (biology, animal & plant & soil science, veterinary medicine, public health, oceanography, …); each faculty-titled posting is opened once to read its description |
+| HigherEdJobs | US | the site's full-text keyword search (one search per keyword); faculty titles are kept. Its job pages block automated reading, so they aren't opened: title, employer and location come from the search results, posting dates from its category RSS feeds, and dates, tenure and effort split must be read on the original posting |
 | Times Higher Education Unijobs | worldwide | life-science and health category pages, plus Hong Kong, Singapore, China, Australia and New Zealand region pages (its robots.txt disallows job feeds and keyword searches) |
-| EURAXESS (European Commission) | Europe and worldwide | new job pages by job number, ~250 a day, plus a month of older ones read gradually; only faculty-level profiles (R3/R4) or faculty titles are kept. Its robots.txt asks robots not to run searches, so none are run |
-| jobs.ac.uk | UK and Europe | keyword search pages + schema.org data |
+| EURAXESS (European Commission) | Europe and worldwide | **off** since Nov 2026: its robots.txt now disallows job searches and job pages (`Disallow: /jobs/*`). Listed under "Where else to look" |
+| jobs.ac.uk | UK and Europe | its sitemap of all live jobs (its search matches titles only since the Nov 2026 relaunch); faculty-titled job pages are opened once and their schema.org data checked for microbiome terms |
 | Academic Positions | Europe | **off** — refuses requests from GitHub's servers; linked under Where else to look |
 | University Positions | Europe | category pages (its RSS feed is disallowed in robots.txt) |
 | Max Planck Society | Germany | official job RSS feed |
@@ -42,7 +42,7 @@ Boards that can't be read automatically (Academics.com, AcademicTransfer, nation
 
 Boards are searched for *microbiome, microbiota, metagenomics, microbial ecology, host-microbe, holobiont, rhizosphere, phytobiome*. A posting is kept only if its title looks like a faculty rank (not postdoc, technician, adjunct, …) and its text mentions a microbiome term. Titles and terms in German, Dutch, French, Nordic and Southern European languages are recognised too (e.g. *W2/W3-Professur, Juniorprofessur, universitair (hoofd)docent, hoogleraar, maître de conférences, universitetslektor; Mikrobiom, microbiote, microbioom*). All of these rules are plain lists in [`config/taxonomy.yaml`](config/taxonomy.yaml) and [`config/sources.yaml`](config/sources.yaml) — edit them to tune the tracker, no programming needed.
 
-The collector is deliberately polite: it identifies itself, obeys `robots.txt` (including `*` and `$` wildcard rules), waits between requests, uses each board's own RSS feeds, opens a posting page only once (then re-checks active ones weekly), and **does not try to get around bot protection**. If a board blocks the GitHub servers, that board is skipped and shown as failed in the footer; the rest still update.
+The collector is deliberately polite: it identifies itself, obeys `robots.txt` (including `*` and `$` wildcard rules; if a site's robots.txt can't be read because the server is failing or not answering, nothing is fetched from that site, as RFC 9309 requires), stops asking a site after 3 server errors in a row, waits between requests, uses each board's own RSS feeds, opens a posting page only once (then re-checks active ones weekly), and **does not try to get around bot protection**. If a board blocks the GitHub servers, that board is skipped and shown as failed in the footer; the rest still update.
 
 The institution directory (IPEDS "HD" file, public domain, from nces.ed.gov) is downloaded on the first run and refreshed about once a year; it also supplies campus coordinates for the map.
 

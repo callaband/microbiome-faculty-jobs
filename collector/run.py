@@ -69,6 +69,9 @@ def localize(d: Detail, entry: Entry) -> dict | None:
 def relevance_for(d: Detail, entry: Entry, loc: dict | None):
     title = d.title or entry.title
     text = d.description
+    if entry.search_terms:
+        # The board's full-text search matched these terms (its pages can't be opened).
+        text = f"{text}\n{' '.join(entry.search_terms)}"
     if loc and loc.get("title_en"):
         title, text = f"{loc['title_en']} / {title}", f"{d.description}\n\n{loc['desc_en']}"
     return relevance(title, text, d.job_type, d.employment)
@@ -170,6 +173,8 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
         "salary": d.salary,
         "board_job_type": d.job_type,
         "summary": excerpt(summary_text),
+        "details_unavailable": d.extra.get("details_unavailable", ""),
+        "search_terms": entry.search_terms,
         "language": loc["lang"] if loc else "en",
         "original_title": original_title if loc else "",
         "translated": translated,
@@ -463,7 +468,8 @@ def run(argv: list[str] | None = None) -> int:
                     job = jobs[known_id]
                     job["last_seen"] = today.isoformat()
                     stale = (today - _d(job["last_checked"])).days >= refresh_days or job.get("methods_version") != METHODS_VERSION
-                    if stale and job.get("status") != "closed" and details_opened < max_details:
+                    can_open = getattr(src, "open_pages", True)
+                    if stale and can_open and job.get("status") != "closed" and details_opened < max_details:
                         details_opened += 1
                         opened(*refresh_job(src, job, e, today))
                     continue

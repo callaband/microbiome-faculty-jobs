@@ -36,28 +36,49 @@ class PoliteClient:
         self._last_hit: dict[str, float] = {}
         self.host_delay: dict[str, float] = {}  # per-site delay overrides (config: delay_seconds)
         self._robots: dict[str, Robots | None] = {}
+        self._robots_problem: dict[str, str] = {}
+        # Consecutive server failures (5xx, timeouts) per site: after a few, stop asking it this run.
+        self._down: dict[str, int] = {}
+        self._down_reason: dict[str, str] = {}
+        self.max_server_failures = 3
         self.requests_made = 0
         self._speeds: dict[str, list[float]] = {}
         self._slow_warned: set[str] = set()
 
     # -- robots.txt -----------------------------------------------------------
     def allowed(self, url: str) -> bool:
+        return self.robots_verdict(url)[0]
+
+    def robots_verdict(self, url: str) -> tuple[bool, str]:
+        """(allowed, why not). Follows RFC 9309: a robots.txt that exists is obeyed; a missing one
+        (HTTP 404 and other 4xx) allows everything; one that can't be read because the server is
+        failing (5xx), refusing (401/403/429) or not answering means nothing may be fetched."""
         parts = urlsplit(url)
         host = f"{parts.scheme}://{parts.netloc}"
         if host not in self._robots:
             rules: Robots | None = None
+            problem = ""
             try:
                 resp = self.session.get(host + "/robots.txt", timeout=self.timeout)
+                self.requests_made += 1
                 if resp.status_code < 400:
                     rules = Robots(resp.text)
                 elif resp.status_code in (401, 403):
-                    rules = Robots("User-agent: *\nDisallow: /")  # access refused: stay out
+                    problem = f"robots.txt refused (HTTP {resp.status_code})"
+                elif resp.status_code == 429 or resp.status_code >= 500:
+                    problem = f"robots.txt unavailable (HTTP {resp.status_code})"
                 # 404 and other client errors: no robots.txt, everything allowed
-            except requests.RequestException:
-                rules = None
+            except requests.RequestException as exc:
+                problem = f"robots.txt unreachable ({type(exc).__name__})"
+            if problem:
+                rules = Robots("User-agent: *\nDisallow: /")
+                log.warning("%s at %s: not fetching anything from that site this run", problem, parts.netloc)
             self._robots[host] = rules
+            self._robots_problem[host] = problem
         rules = self._robots[host]
-        return True if rules is None else rules.can_fetch(self.session.headers["User-Agent"], url)
+        if rules is None or rules.can_fetch(self.session.headers["User-Agent"], url):
+            return True, ""
+        return False, self._robots_problem.get(host) or f"robots.txt disallows {url}"
 
     def _note_speed(self, url: str, seconds: float) -> None:
         """Log once per site when it answers slowly, to make slow runs easy to explain."""
@@ -82,8 +103,12 @@ class PoliteClient:
 
     def get(self, url: str, *, accept: str | None = None, retries: int = 2) -> requests.Response:
         """GET a URL. Raises FetchError when the site refuses or keeps failing."""
-        if not self.allowed(url):
-            raise FetchError(f"robots.txt disallows {url}")
+        ok, why = self.robots_verdict(url)
+        if not ok:
+            raise FetchError(why)
+        host = urlsplit(url).netloc
+        if self._down.get(host, 0) >= self.max_server_failures:
+            raise FetchError(f"{host} kept failing ({self._down_reason[host]}); skipped for the rest of this run")
         headers = {"Accept": accept} if accept else {}
         last_exc: Exception | None = None
         for attempt in range(retries + 1):
@@ -102,18 +127,23 @@ class PoliteClient:
             self._note_speed(url, time.monotonic() - started)
             if resp.status_code in (429, 500, 502, 503, 504):
                 last_exc = FetchError(f"HTTP {resp.status_code} for {url}")
+                if attempt >= 1 and resp.status_code != 429:
+                    break  # a failing server: one retry is enough
                 wait = 5 * (attempt + 1)
                 ra = resp.headers.get("Retry-After", "")
                 if ra.isdigit():
                     wait = min(int(ra), 60)  # the site asked us to slow down
                 time.sleep(wait)
                 continue
+            self._down.pop(host, None)  # the server answered
             if resp.status_code >= 400:
                 raise FetchError(f"HTTP {resp.status_code} for {url}")
             if _looks_blocked(resp):
                 # Bot-protection page. We do not try to get around these.
                 raise FetchError(f"blocked by bot protection at {urlsplit(url).netloc}")
             return resp
+        self._down[host] = self._down.get(host, 0) + 1
+        self._down_reason[host] = str(last_exc).split(" for ")[0] if last_exc else "no answer"
         raise FetchError(str(last_exc) if last_exc else f"failed to fetch {url}")
 
 

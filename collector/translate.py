@@ -20,6 +20,7 @@ import json
 import logging
 import os
 import re
+import unicodedata
 import zipfile
 from datetime import date
 from pathlib import Path
@@ -179,7 +180,7 @@ class Argos:
         translator, spm, prefix = loaded
         out = []
         for text in texts:
-            pieces = [spm.encode(c, out_type=str) for c in _chunks(text)]
+            pieces = [spm.encode(c, out_type=str) for c in _chunks(prepare(text))]
             if not pieces:
                 out.append("")
                 continue
@@ -191,8 +192,25 @@ class Argos:
                 if prefix and toks and toks[0] == prefix:
                     toks = toks[1:]
                 sents.append(spm.decode(toks))
-            out.append(" ".join(s.strip() for s in sents if s.strip()))
+            out.append(tidy(" ".join(s.strip() for s in sents if s.strip())))
         return out
+
+
+# Characters the offline models don't know come out as "⁇" (e.g. "【構造生物化学】" became
+# "[S ⁇ ctural Biological ⁇ ]"). Full-width letters and CJK brackets are mapped to plain ones first.
+_BRACKETS = str.maketrans({"【": "[", "】": "] ", "〔": "(", "〕": ")", "「": '"', "」": '"', "『": '"', "』": '"',
+                           "《": "<", "》": ">", "〈": "<", "〉": ">", "・": "/", "〜": "~", "～": "~", "※": "* "})
+
+
+def prepare(text: str) -> str:
+    return unicodedata.normalize("NFKC", text).translate(_BRACKETS)
+
+
+def tidy(text: str) -> str:
+    """Drop the model's unknown-word marks and the spaces around them."""
+    text = re.sub(r"\s*(?:⁇|<unk>)\s*", " ", text)
+    text = re.sub(r"\s+([\]\),.;:])", r"\1", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
 
 
 # ---------------------------------------------------------------- front door
@@ -226,7 +244,8 @@ class Translator:
         if src == "en" or not texts:
             return None
         keys = [hashlib.sha1(f"{src}|{t}".encode("utf-8")).hexdigest()[:16] for t in texts]
-        if all(k in self.cache for k in keys):
+        # Older cached translations with unknown-word marks are done again.
+        if all(k in self.cache and "⁇" not in self.cache[k]["en"] for k in keys):
             for k in keys:
                 self.cache[k]["used"] = date.today().isoformat()
             return [self.cache[k]["en"] for k in keys], self.cache[keys[0]]["by"]

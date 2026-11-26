@@ -19,6 +19,9 @@
   let callout = "";
   const old = j.status !== "closed" && oldAd(j);
   const oldNote = old ? `<div class="callout old"><b>${old.label}.</b> ${old.byReview ? "Review of applications began" : "This ad was first posted"} ${fmt(old.date)}. The search may already be over, or this may be a standing call that is reposted and still open. Check the original posting, or ask the department, before preparing an application.</div>` : "";
+  const noDetails = j.details_unavailable
+    ? `<div class="callout old"><b>Details not available here.</b> ${esc(j.details_unavailable)}, so this position was found through the board's own search for <i>${(j.search_terms || []).map(esc).join(", ")}</i>. Rank comes from the title only; review date, deadline, tenure and teaching/research split are on the <a href="${esc(j.url)}" target="_blank" rel="noopener">original posting</a>.</div>`
+    : "";
   const trNote = j.translated
     ? `<div class="callout tr"><b>Translated from ${esc(j.translated.language)}.</b> The title and summary on this page were machine-translated by ${esc(j.translated.by)} and may contain mistakes. The original title is shown under the heading; the original posting is the official version.</div>`
     : "";
@@ -50,7 +53,7 @@
       <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open original posting ↗</a>
       ${report ? `<a class="btn" href="${report}" target="_blank" rel="noopener">Report a problem</a>` : ""}
     </div>
-    ${trNote}${callout}${oldNote}
+    ${trNote}${callout}${oldNote}${noDetails}
     <div class="detail-grid">
       <dl class="panel facts">
         ${fact("Rank", esc(j.rank_label))}
@@ -89,12 +92,12 @@
         </div></div>
       </div>
     </div>
-    <section class="panel summary">
+    ${j.details_unavailable ? "" : `<section class="panel summary">
       <h2>From the posting</h2>
       <p>${esc(j.summary)}</p>
       <div class="terms">${(j.microbiome_terms || []).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
       <p class="note">Opening lines only, with the microbiome terms that matched. Read the full description, eligibility and application instructions on the <a href="${esc(j.url)}" target="_blank" rel="noopener">original posting</a>.</p>
-    </section>`;
+    </section>`}`;
 
   const mapEl = document.getElementById("jobmap");
   if (window.L && j.location.lat != null) {

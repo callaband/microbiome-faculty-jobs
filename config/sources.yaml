@@ -108,10 +108,12 @@ sources:
   # ---------------------------------------------------------------- Europe
   - id: jobs_ac_uk
     name: jobs.ac.uk (UK and Europe)
-    type: listing
+    # Since its relaunch (Nov 2026) the site's keyword search only matches job titles, so the
+    # sitemap (allowed by robots.txt; ~2,000 live jobs) is read instead. Faculty-looking job
+    # addresses are opened once each and checked for microbiome terms.
+    type: sitemap
     base: https://www.jobs.ac.uk
-    urls:
-      - "/search/?keywords={keyword}&sortOrder=1&pageSize=100"
+    sitemap: /sitemap.xml
     link_pattern: '/job/[A-Z0-9]{5,}/[a-z0-9\-]+'
     deadline_from_valid_through: true
     enabled: true
@@ -240,7 +242,12 @@ sources:
     # Slower than the default: its bot protection reacts to quick runs of requests.
     delay_seconds: 3
     enabled: true
-    # Faculty category feeds (catID -> category name on HigherEdJobs).
+    # Its job pages block automated reading (since Nov 2026), so they aren't opened. The site's
+    # full-text keyword search is read instead (one search per keyword above, up to search_pages
+    # pages of 100); title, employer and location come from the results.
+    open_pages: false
+    search_pages: 3
+    # Faculty category feeds (catID -> category name on HigherEdJobs), read for posting dates.
     categories:
       51: Animal Science
       52: Entomology
@@ -283,4 +290,6 @@ sources:
     # One page every 5 seconds (about 350 per run): it refused faster reading.
     delay_seconds: 5
     backfill_ids: 7500
-    enabled: true
+    # Off: since Nov 2026 its robots.txt ends with "Disallow: /jobs/*", which asks automated
+    # tools to stay away from job searches and job pages. Listed under "Where else to look".
+    enabled: false

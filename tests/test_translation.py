@@ -126,3 +126,30 @@ def test_refusing_source_backs_off_to_weekly(env, monkeypatch):  # noqa: F811
     assert "next try Nov 13" in meta["euraxess"]["note"]
     run.run(["--sources", str(cfg), "--today", "2026-11-13"])            # a week later: tried again
     assert any("euraxess" in u for u in Client.opened)
+
+
+def test_unknown_word_marks_are_avoided_and_removed():
+    from collector.translate import prepare, tidy
+    assert prepare("【構造生物化学】ＡＢＣ　大学") == "[構造生物化学] ABC 大学"
+    assert tidy("[S ⁇ ctural Biological ⁇ ] Keio University") == "[S ctural Biological] Keio University"
+
+
+def test_cached_translation_with_unknown_marks_is_redone(tmp_path, monkeypatch):
+    import collector.translate as tr
+    monkeypatch.setattr(tr, "CACHE_FILE", tmp_path / "t.json")
+    t = tr.Translator()
+    calls = []
+
+    class P:
+        name = "Fake"
+
+        def translate(self, texts, src):
+            calls.append(texts)
+            return ["Structural Biochemistry"]
+
+    t.providers = [P()]
+    import hashlib
+    key = hashlib.sha1("ja|【構造生物化学】".encode("utf-8")).hexdigest()[:16]
+    t.cache[key] = {"en": "[S ⁇ ctural Biological ⁇ ]", "by": "Argos", "used": "2026-11-01"}
+    assert t.translate(["【構造生物化学】"], "ja") == (["Structural Biochemistry"], "Fake")
+    assert len(calls) == 1

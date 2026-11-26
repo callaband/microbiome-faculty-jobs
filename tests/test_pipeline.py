@@ -56,7 +56,7 @@ settings: {delay_seconds: 0, max_pages: 1}
 keywords: [microbiome]
 sources:
   - {id: board, name: Example Board, type: madgex, base: https://board.example}
-  - {id: higheredjobs, name: HigherEdJobs, type: hej_category, base: https://www.higheredjobs.com, categories: {51: Animal Science}}
+  - {id: higheredjobs, name: HigherEdJobs, type: hej_category, base: https://www.higheredjobs.com, open_pages: true, categories: {51: Animal Science}}
 """)
     assert run.run(["--sources", str(cfg), "--today", "2026-10-22"]) == 0
     jobs = {j["title"]: j for j in json.loads((site / "jobs.json").read_text())}
