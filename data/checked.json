@@ -191,12 +191,28 @@
 "on": "2026-11-20",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3577932/assistant-associate-project-scientist-plant-biochemistry-and-cell-biology/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3578004/assistant-laboratory-supervisor/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3578804/lecturer/": {
 "on": "2026-11-21",
 "why": "part-time"
 },
 "https://careers.insidehighered.com/job/3579438/assistant-professor-of-wetland-ecology-and-management/": {
 "on": "2026-11-24",
+"why": "no microbiome terms in the posting"
+},
+"https://careers.insidehighered.com/job/3579595/financial-analyst/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3579975/full-time-faculty-school-of-medicine/": {
+"on": "2026-11-27",
 "why": "no microbiome terms in the posting"
 },
 "https://careers.insidehighered.com/job/3580159/research-community-and-events-specialist/": {
@@ -248,7 +264,7 @@
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158449": {
-"on": "2026-11-26",
+"on": "2026-11-27",
 "why": "removed by hand (data/removed_urls.txt)"
 },
 "https://jobrxiv.org/?post_type=job_listing&p=158496": {
@@ -321,6 +337,10 @@
 },
 "https://jobrxiv.org/job/assistant-professor-in-cern-related-physics-and-detector-development/": {
 "on": "2026-11-05",
+"why": "no microbiome terms in the posting"
+},
+"https://jobrxiv.org/job/assistant-professor-in-dementia-epidemiology-and-data-science/": {
+"on": "2026-11-27",
 "why": "no microbiome terms in the posting"
 },
 "https://jobrxiv.org/job/assistant-professor-in-drosophila-transposon-regulation/": {
@@ -803,6 +823,10 @@
 "on": "2026-11-05",
 "why": "no microbiome terms in the posting"
 },
+"https://jobrxiv.org/job/ulla-and-ingemar-dahlbergs-professorship-in-vision-science/": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
+},
 "https://jobrxiv.org/job/university-lecturer-in-bioinformatics/": {
 "on": "2026-11-20",
 "why": "no microbiome terms in the posting"
@@ -1098,6 +1122,10 @@
 "https://jobs.sciencecareers.org/job/681335/senior-mems-development-engineer-scientist-pathogen/": {
 "on": "2026-11-20",
 "why": "title is not a faculty rank"
+},
+"https://universitypositions.eu/jobs/311070060-professur-w2-mit-tenure-track-w3-": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
 },
 "https://universitypositions.eu/jobs/563429451-hourly-paid-lecturer-in-computer-science": {
 "on": "2026-11-04",
@@ -5757,6 +5785,30 @@
 },
 "https://www.timeshighereducation.com/unijobs/listing/418063/chair-prof-prof-associate-prof-assistant-prof-in-department-of-applied-mathematics": {
 "on": "2026-11-26",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418072/lecturer-senior-lecturer-anatomy": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418080/tenure-track-professor-associate-professor-assistant-professor-in-the-centre-of-cancer-medicine": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418082/tenure-track-professoriate-positions-in-chemistry": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418085/tenure-track-clinical-professor-in-the-centre-of-cancer-medicine-school-of-clinical-medicine": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418087/research-assistant-professor-department-of-cultural-studies": {
+"on": "2026-11-27",
+"why": "no microbiome terms in the posting"
+},
+"https://www.timeshighereducation.com/unijobs/listing/418094/associate-professor-assistant-professor-department-of-marketing": {
+"on": "2026-11-27",
 "why": "no microbiome terms in the posting"
 }
 }
